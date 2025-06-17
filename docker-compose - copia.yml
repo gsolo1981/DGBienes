@@ -1,0 +1,35 @@
+version: "3.8"
+
+services:
+  dgbienes-default:
+    build: .
+    container_name: dgbienes_default
+    env_file:
+      - .env.default
+    environment:
+      - APP_ENV=default
+    volumes:
+      - ./output/default:/app/output
+    command: python main.py
+
+  dgbienes-sigaf:
+    build: .
+    container_name: dgbienes_sigaf
+    env_file:
+      - .env.sigaf
+    environment:
+      - APP_ENV=sigaf
+    volumes:
+      - ./output/sigaf:/app/output
+    command: python main.py
+
+  dgbienes-sigaf-devengado:
+    build: .
+    container_name: dgbienes_sigaf_devengado
+    env_file:
+      - .env.sigaf_devengado
+    environment:
+      - APP_ENV=sigaf_devengado
+    volumes:
+      - ./output/sigaf_devengado:/app/output
+    command: python main.py
