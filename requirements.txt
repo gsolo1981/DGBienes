@@ -1,5 +1,15 @@
+
+# Dependencias Oracle existentes
 oracledb
 python-dotenv
 pandas
 openpyxl
 SQLAlchemy
+
+# Dependencias SQL Server
+pyodbc
+pymssql
+
+# Dependencias adicionales para logging y utilidades
+argparse
+logging
