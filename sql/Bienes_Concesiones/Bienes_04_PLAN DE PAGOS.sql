@@ -13,7 +13,7 @@ bienes.unidadfuncional.nrounidad,
 bienes.tipo_contrato.descripcion tipo_contrato,
 bienes.tipo_calculo.descripcion tipo_calculo,
 bienes.responsable_servicio.apellido_nombre resp_adjudicatatio,
-bienes.responsable_servicio.documento,
+bienes.responsable_servicio.documento as documento1,
 bienes.solicitud.fecha_creacion,
 bienes.solicitud.nro_expediente,
 bienes.solicitud.exp_observaciones observaciones,
@@ -43,4 +43,4 @@ join bienes.carterainmobiliaria on bienes.carterainmobiliaria.id = bienes.carter
 join bienes.responsable_servicio on bienes.responsable_servicio.id = bienes.solicitud.id_responsable_servicio
 join bienes.responsable_policia on bienes.responsable_policia.id = bienes.solicitud.id_responsable_policia
 left join bienes.bui on bienes.bui.id_solicitud = bienes.solicitud.id
-order by bienes.carpetacredito.id, bienes.bui.vencimiento
+order by bienes.carpetacredito.id, bienes.bui.vencimiento;

@@ -1,87 +1,44 @@
 import os
+from adapters.db_adapter import SessionLocal
 import pandas as pd
-import logging
 from config.settings import settings
+
+# Directorios del proyecto
+this_dir = os.path.dirname(__file__)
+BASE_DIR = os.path.abspath(os.path.join(this_dir, '..'))
+SQL_DIR = os.path.join(BASE_DIR, settings.PATH_SQL)
+OUTPUT_DIR = os.path.join(BASE_DIR, 'output')
 
 class QueryService:
     def __init__(self):
-        self.logger = logging.getLogger(__name__)
-        self.oracle_session = None
-        
-    def _get_oracle_session(self):
-        """Obtiene sesión Oracle de forma lazy"""
-        if self.oracle_session is None:
-            from adapters.db_adapter import get_oracle_session, is_oracle_available
-            
-            if not is_oracle_available():
-                raise Exception("Oracle no está disponible. Verifica tu configuración.")
-            
-            self.oracle_session = get_oracle_session()
-        
-        return self.oracle_session
-    
+        # Asegura carpeta de salida
+        os.makedirs(OUTPUT_DIR, exist_ok=True)
+        self.session = SessionLocal()
+
     def run_queries(self):
-        """Ejecuta todas las consultas SQL y genera archivos Excel"""
-        self.logger.info("=== Iniciando generación de archivos Excel ===")
-        
-        try:
-            # Verificar Oracle disponible
-            session = self._get_oracle_session()
-            
-            # Resto de tu lógica existente...
-            sql_dir = os.path.join(os.path.dirname(__file__), '..', settings.PATH_SQL)
-            output_dir = os.path.join(os.path.dirname(__file__), '..', settings.FILE_XLSX)
-            
-            # Crear directorio de salida si no existe
-            os.makedirs(output_dir, exist_ok=True)
-            
-            total_files = 0
-            
-            # Recorrer archivos SQL
-            for root, dirs, files in os.walk(sql_dir):
-                for file in files:
-                    if not file.lower().endswith('.sql'):
-                        continue
-                    
-                    try:
-                        file_path = os.path.join(root, file)
-                        self._process_sql_file(file_path, output_dir, session)
-                        total_files += 1
-                        
-                    except Exception as e:
-                        self.logger.error(f"Error procesando {file}: {e}")
-            
-            self.logger.info(f"✅ Proceso completado: {total_files} archivos generados")
-            
-        except Exception as e:
-            self.logger.error(f"❌ Error en run_queries: {e}")
-            raise
-        finally:
-            if self.oracle_session:
-                self.oracle_session.close()
-    
-    def _process_sql_file(self, sql_file_path, output_dir, session):
-        """Procesa un archivo SQL individual"""
-        file_name = os.path.basename(sql_file_path)
-        excel_name = file_name.replace('.sql', '.xlsx')
-        
-        self.logger.info(f"Procesando: {file_name}")
-        
-        # Leer archivo SQL
-        with open(sql_file_path, 'r', encoding='utf-8') as f:
-            sql_content = f.read().strip()
-            if sql_content.endswith(';'):
-                sql_content = sql_content[:-1]
-        
-        # Ejecutar consulta
-        df = pd.read_sql_query(sql_content, session.bind)
-        
-        if df.empty:
-            self.logger.warning(f"Sin datos para {file_name}")
-            return
-        
-        # Guardar Excel
-        excel_path = os.path.join(output_dir, excel_name)
-        df.to_excel(excel_path, index=False, engine='openpyxl')
-        
-        self.logger.info(f"✅ {excel_name}: {len(df)} registros exportados")
+        # Nombre y ruta del archivo de Excel
+        file_name = settings.FILE_XLSX
+        if not file_name.lower().endswith('.xlsx'):
+            file_name += '.xlsx'
+        output_path = os.path.join(OUTPUT_DIR, file_name)
+
+        # Escribe el Excel
+        with pd.ExcelWriter(output_path, engine='openpyxl') as writer:
+            for file in os.listdir(SQL_DIR):
+                if not file.lower().endswith('.sql'):
+                    continue
+
+                path = os.path.join(SQL_DIR, file)
+                with open(path, 'r', encoding='utf-8') as f:
+                    sql = f.read().strip()
+                    if sql.endswith(';'):
+                        sql = sql[:-1]
+
+                sheet_name = os.path.splitext(file)[0][:31]
+                df = pd.read_sql_query(sql, self.session.bind)
+                df.to_excel(writer, sheet_name=sheet_name, index=False)
+                print(f"→ Hoja '{sheet_name}' generada ({len(df)} filas)")
+
+        # Cierra sesión y muestra ruta final
+        self.session.close()
+        print(f"✅ Excel generado en: {output_path}")

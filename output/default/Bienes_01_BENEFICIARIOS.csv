@@ -1,0 +1,227 @@
+﻿documento_tipo;documento;nombre;email;emailadicional;tipo_persona;fechanacimiento;sexo;telefono;activo;tipo_domicilio;calle;piso;dpto;localidad;codigo_postal
+DNI;11275819;Cabrera, Lidia Victoria;liclaugallo@gmail.com;;Física;2024-01-01 00:00:00;F;1146316950;S;Vivienda;Yerbal 2217/21/23/25/91;PB;86;CABA;1406
+DNI;12276325;RICARDO VENTURELLI;alberto260156@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;RIVERA, PEDRO I., Dr. 4217;2;7;CABA;1430
+DNI;13464200;Contreras, María Haydee;belmontepablo46@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Palpa 3630/32/34;PB;1;CABA;1427
+DNI;13464885;Margarita Mansilla;gaston10000@hotmail.com;;Física;2024-01-01 00:00:00;F;1143612112;S;Vivienda;Perú 864/66/68/70;1°;UV 7;CABA;1068
+DNI;13477909;Harlap, Ana María;anaharlap@hotmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Yerbal 2217/21/23/25/91;2;82;CABA;1406
+DNI;1654807;Nieves Rojas;strella29@hotmail.com;;Física;2024-01-01 00:00:00;F;1146441627;S;Vivienda;Madrid 6956/6960 ;PB;3;CABA;1408
+DNI;18286865;Formica, María Fernanda;ferfor333@hotmail.com;;Física;2024-01-01 00:00:00;F;1154678940;S;Vivienda;Av. Córdoba 5522/26;PB;3;CABA;1414
+DNI;18431859;Heisecke, María Alejandra;alejandra2heisecke@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Lacroze, Federico Av. 3601/07/11/15;2;C;CABA;1427
+DNI;18498749;Pérez, Gerardo Ariel;hajarnieveal@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Newbery, Jorge 3546/48/50;1;1;CABA;1427
+CUIT;20045231845;Gutierrez, Roberto;andreafabianagalarraga@gmail.com;robertogutierrez1945@gmail.com;Física;2024-01-01 00:00:00;M;;S;Vivienda;San José de Calasanz 974/76/78;PB;UV A;CABA;1406
+CUIT;20045273297;Tassistro Orlando Ruben;gracielaojeda1950@gmail.com;norma-tassistro@hotmail.com;Física;2024-01-01 00:00:00;M;;S;Vivienda;Terrada 5869;;;CABA;1419
+CUIT;20076169420;Royo, Jose Norberto;lorenaq@klockmetal.com;dorinaj@klockmetal.com;Física;2024-01-01 00:00:00;M;;S;Comercial;Don Pedro de Mendoza 2239;;;CABA;1169
+CUIT;20076194727;Nescone, José Horacio;fernascone@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Yerbal 2217/21/23/25/91;PB;45;CABA;1406
+CUIT;20084740129;Marote, Juan Domingo;marcelomartin2016@yahoo.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Av. Perón, Eva 1190;;PA;CABA;1406
+CUIT;20085867521;JUAN CARLOS SASTRE;locutoriocys@yahoo.com.ar;;Física;2024-01-01 00:00:00;M;1145849247;S;Vivienda;Diaz César, Gral. 2979/2985;3;D;CABA;1416
+CUIT;20102661401;Raimondi, Raúl Alberto;nicolasraimondi@gmail.com;nicolasraimondi@icloud.com;Física;2024-01-01 00:00:00;M;;S;Vivienda;Cachimayo 988;;;CABA;1406
+CUIT;20104232869;Gustavo Fernández Gafferry;info@justlike.com.ar;;Física;2024-01-01 00:00:00;M;1146714771;S;Vivienda;Oliveri 96/98;PB;1;CABA;1407
+CUIT;20107399462;Murua, Gustavo Marcelo;gmurua062@gmail.com;;Física;2024-01-01 00:00:00;M;1145555497;S;Vivienda;Lacroze, Federico Av. 3601/07/11/15;4;A;CABA;1427
+CUIT;20108393646;Juan Antonio Urquiza;juanaurquiza65@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Rivera Indarte 196;PB;A;CABA;1406
+CUIT;20109231976;Dalessadro, Horacio - Pulvirenti, Elisa;elisapul@hotmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;De los Constituyentes Av. 4990/5000;;;CABA;1431
+CUIT;20113607646;Franco Santiago Tuccio;deborahtuccio@hotmail.com;;Física;2024-01-01 00:00:00;M;1139654801;S;Vivienda;Yerbal 4629;4°;9;CABA;1407
+CUIT;20119557446;Scelza, Juan Antonio;juan_scelza@hotmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Av. Mitre, Emilio 802/04/06;;;CABA;1406
+CUIT;20124250502;Gomez, Mario ;mmgomez56@hotmail.com;;Física;2024-01-01 00:00:00;M;1149188586;S;Vivienda;Chilavert 3336;PB;4;CABA;1437
+CUIT;20128460196;Galarza, Anastacio;claurodriguez0404@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Colpayo 145/47/49;;UV 4;CABA;1405
+CUIT;20132371394;Julio Alberto Galarza;drjuliogalarza@gmail.com;jgalarza@buenosaires.gob.ar;Física;2024-01-01 00:00:00;M;1143075476;S;Vivienda;Chacabuco 1248/1252 ;9°;D;CABA;1069
+CUIT;20132658405;Ricardo Oscar Odella;car3426@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Diaz César, Gral. 2979/2985;3;B;CABA;1416
+CUIT;20132851507;Vicente Eduardo Violi;ferchukenzo@gmail.com;;Física;2024-01-01 00:00:00;M;1159677355;S;Vivienda;Ramón L. Falcón 4736/4738/4742;PB;A;CABA;1407
+CUIT;20133854747;Guillermo Romero;romeroguille41@gmail.com;guille.romero@live.com.ar;Física;2024-01-01 00:00:00;M;1120549993;S;Vivienda;Ramón L. Falcón 4736/4738/4742;PA;C;CABA;1407
+CUIT;20143696309;Guevara, Fernando;noranoemi_rios@hotmail.com;soniaaldanaguevara@hotmail.com;Física;2024-01-01 00:00:00;M;;S;Vivienda;Lezica 4423/27;;UV 3;CABA;1202
+CUIT;20149640658;Jose Campos;josemanuelcampos2345@gmail.com;;Física;2024-01-01 00:00:00;M;1127418539;S;Vivienda;Carlos Calvo 1253;;UV 2;CABA;1102
+CUIT;20162955013;Cerrudo, Rubén Mario;rociocerrudo.27@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Colonia Av. 216;;;CABA;1437
+CUIT;20164968120;Eduardo Domingo Sisca;esisca@buenosaires.gob.ar;s.sarago@gmail.com;Física;2024-01-01 00:00:00;M;1121287137;S;Vivienda;Tapalqué 4845/4849 ;PA;;CABA;1407
+CUIT;20174702730;Ramos, Marcelino;mar_ce.1964@hotmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Baigorri 165;;UV 7;CABA;1282
+CUIT;20176482800;Ferro, Roberto Juan;tatianaff21@gmail.com;robertoferro539@gmail.com;Física;2024-01-01 00:00:00;M;;S;Vivienda;Alberdi, Juan B. Av. 2636;8;D;CABA;1406
+CUIT;20177619273;Marando, Gerardo;gerardomarando98@gmail.com;;Física;2024-01-01 00:00:00;M;1139007899;S;Vivienda;Diaz César, Gral. 2979/2985;1;A;CABA;1416
+CUIT;20182855015;Bustamante, Javier Horacio;alanjb93@gmail.com;jat.sa@hotmail.com;Física;2024-01-01 00:00:00;M;;S;Otro;De los Constituyentes Av. 4796/98;;;CABA;1431
+CUIT;20188312447;KIAN GHORBANI;kian9299@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Diaz César, Gral. 2979/2985;7;A;CABA;1416
+CUIT;20206978075;Domingo Alberto Aguilar;monicacomisso@hotmail.com;;Física;2024-01-01 00:00:00;M;1146710843;S;Vivienda;Ramón L. Falcón 4736/4738/4742;PB;B;CABA;1407
+CUIT;20215404928;Cuenca, Juan Rodolfo;mica.montenegro.12@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Colpayo 145/47/49;;UV 1;CABA;1405
+CUIT;20216596162;Vega, Pedro Pablo;pvega432@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Suarez 432;;;CABA;1162
+CUIT;20216826273;Fernando Lopez;flopezsabatini@hotmail.com;;Física;2024-01-01 00:00:00;M;1132111950;S;Vivienda;Chacabuco 1248/1252 ;9°;C;CABA;1069
+CUIT;20222267804;HECTOR ANDRES PICOS;hapicos42@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;HUMBOLDT 2382/2384;PB;1;CABA;1425
+CUIT;20228794474;Alexis Martin Vega;lbzapa81@gmail.com;;Física;2024-01-01 00:00:00;M;1133909086;S;Vivienda;Av. Juan de Garay 579/581;PB;;CABA;1153
+CUIT;20238451680;Ledezma, Marcelo;ledezmamarceloh@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Santa Magdalena 829;;UV 2;CABA;1277
+CUIT;20244257950;Martín Guariglia;martoguari@gmail.com;martoguari@hotmail.com;Física;2024-01-01 00:00:00;M;1120633455;S;Vivienda;Ramón L. Falcón 4736/4738/4742;PB;Vvda y Taller;CABA;1407
+CUIT;20253581108;Romano, Pablo Aureliano;bncalderon17@gmail.com;na.gonzalez@buenosaires.gob.ar;Física;2024-01-01 00:00:00;M;1149010733;S;Vivienda;Araoz Alfaro, Gregorio, Dr. 262/64/66;;PA;CABA;1405
+CUIT;20265529691;ERNESTO ARIEL DELGADO;angeles14313@hotmail.com;;Física;2024-01-01 00:00:00;M;1145845541;S;Vivienda;Condarco 1633;2;C;CABA;1416
+CUIT;20269667488;Nanni, Fernando;nannifernando@hotmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Alberdi, Juan B. Av. 2705;;;CABA;1406
+CUIT;20271441569;De Luis, Martin;mdlgw162@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Lezica 4423/27;;UV 4;CABA;1202
+CUIT;20277128609;Trombino, Mauro;maurotrombino@hotmail.com;;Física;2024-01-01 00:00:00;M;;S;Comercial;Zuviría 302;;;CABA;1424
+CUIT;20288104116;Nestor Ramon Díaz;nestordiaz3108@gmail.com;;Física;2024-01-01 00:00:00;M;1134636266;N;Vivienda;Barragán 341 ;PB;UV 1;CABA;1408
+CUIT;20299494161;Marcelo Monzon;beba1948@outlook.com;lulaclau88@gmail.com;Física;2024-01-01 00:00:00;M;;S;Vivienda;Baigorri 165;;UV 6;CABA;1282
+CUIT;20314225059;Sbrascini, Fabricio;fabriciosbra@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;De los Constituyentes Av. 5099 ;;;CABA;1431
+CUIT;20315412065;Fernando Ariel Heredia;fernandoheredia625@hotmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Zamudio 5981;;;CABA;1419
+CUIT;20329516750;Diaz Villalonga, Rodrigo;tvillalonga@hotmail.com;redv59@hotmail.com;Física;2024-01-01 00:00:00;M;;S;Vivienda;Yatay 102;7;B;CABA;1184
+CUIT;20331846393;Quiroga, Fermín;ferquiroga_5@hotmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Yatay 102;4;B;CABA;1184
+CUIT;20337746536;Romero, Facundo Leonardo;romero_facundo@hotmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Suarez 228;;UV 2;CABA;1162
+CUIT;20370388335;Ojeda, Mauro Damián;mauroojeda990@gmail.com;mauro_damian.92@hotmail.com;Física;2024-01-01 00:00:00;M;;S;Vivienda;Chilavert 3352;PB;2;CABA;1437
+CUIT;20371247832;Gustavo David, Mendoza;gustavodmendoza92@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;DE LOS CONSTITUYENTES, Av. 4956;;;CABA;1431
+DNI;20372902;Lopez, Norberto Ariel;teresamena7@outlook.com;;Física;2024-01-01 00:00:00;M;1160552654;S;Vivienda;Fitz Roy 1271;;;CABA;1414
+CUIT;2044062097;Mazza, Osvaldo;osvaldo.mazza1943@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Yatay 102;1;A;CABA;1184
+CUIT;2044094586;Marcotrigiano, Miguel Angel;maximarco12@gmail.com;g.alvarez@buenosaires.gob.ar;Física;2024-01-01 00:00:00;M;;S;Vivienda;Gascón 927;8;33;CABA;1181
+DNI;20521626;Lopez Junis, Reina;ardatayregina@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Jufré 980;1;A;CABA;1414
+CUIT;20923066854;Julio Cesar Franchini;franchini.julioc@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Perú 864/66/68/70;2°;UV 10;CABA;1068
+CUIT;20926531140;Raúl Gonzalez;leonardogonzalez24@hotmail.com.ar;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Bolaños 203;PB;UV 1;CABA;1407
+CUIT;20940792134;Luz Sanchez Mora;kevin3mora@hotmail.com;kevintm13@gmail.com;Física;2024-01-01 00:00:00;F;1138959596;S;Vivienda;Cajaravilla 4674;;;CABA;1407
+CUIT;20953299756;Gustavo Franchini;telmo.copy@gmail.com;franchini.julioc@gmail.com;Física;2024-01-01 00:00:00;M;1134143801;S;Vivienda;Perú 864/66/68/70;1°;UV 5;CABA;1068
+DNI;21083288;Carina Laura Scaglione;centroodin@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Av. Escalada 958;PB;UV 1;CABA;1407
+DNI;21495750;Vincent, María Carolina;carolavincent@rocketmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Av. Córdoba 6100;2;D;CABA;1427
+CUIT;22164734930;Marta Veronica Barletta;mvero115@gmail.com;;Física;2024-01-01 00:00:00;F;1143619450;S;Vivienda;Perú 864/66/68/70;2°;UV 11 ;CABA;1068
+CUIT;23009034404;Ferreiro, Alicia;maurino.monica63@gmail.com;;Física;2024-01-01 00:00:00;F;1145539916;S;Vivienda;Avalos 450;;Fondo;CABA;1427
+CUIT;23035978984;MARTHA SUSANA ROMANELLI;marthaucar@hotmail.com;;Física;2024-01-01 00:00:00;F;1153347566;S;Vivienda;Diaz César, Gral. 2979/2985;2;B;CABA;1416
+CUIT;23047418364;Ponce, Erlinda Isolina / Oreja, Mirta Graciela;belenkleiber@gmail.com;belenkleiberutn@gmail.com;Física;2024-01-01 00:00:00;F;;S;Vivienda;Yerbal 765;;UV 2;CABA;1405
+CUIT;23052545404;Valdez, Elba Inés;adriquina@hotmail.com;matias_romero_2005@hotmail.com;Física;2024-01-01 00:00:00;F;;S;Vivienda;Baigorri 165;;UV 5;CABA;1282
+CUIT;23054355289;EDGARDO H. QUINTANA;edgardoqh@hotmail.com;martinleonardovazquez@buenosaires.gob.ar;Física;2024-01-01 00:00:00;M;;S;Vivienda;Diaz César, Gral. 2979/2985;5;A;CABA;1416
+CUIT;23060675724;Tomassi, Susana Mercedes;susanamercedest@gmail.com;;Física;2000-01-01 00:00:00;F;;S;Vivienda;Chacabuco 1248;2;A;CABA;1069
+CUIT;23108248009;Soto, Daniel;danielsoto3103@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Yatay 102;PB;B;CABA;1184
+CUIT;23111757739;Antonio Angel Gonzalez;taekwontoni@hotmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Diaz César, Gral. 2979/2985;6;D;CABA;1416
+CUIT;23129466154;Braier, Marcia;mabraier@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Cazadores 2460;;;CABA;1428
+CUIT;23137742144;Figueroa, Mirta;figueroamirtabeatriz@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Alberdi, Juan B. Av. 2345/47;1;12;CABA;1406
+CUIT;23138012344;Adriana Brahin;adricb@hotmail.com;;Física;2024-01-01 00:00:00;F;1161206071;S;Vivienda;Yerbal 4651/4653/4657;1°;3;CABA;1407
+CUIT;23164121844;Luna, Zulema;lunazulema761@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Yatay 102;1;B;CABA;1184
+CUIT;23185518914;Prieto, Elizabeth;prietoelizabethalicia@hotmail.com;elizabeth.prieto@bue.edu.ar;Física;2024-01-01 00:00:00;F;;S;Vivienda;Rivera Indarte 196;3;G;CABA;1406
+CUIT;23272152934;Maria Salome Montenegro;sanlorenzo0220@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Liniers Virrey 1312;PB;A;CABA;1241
+CUIT;23298014084;Consoli, Marisa Gisela;marisa20consoli@yahoo.com.ar;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Del Barco Centenera 199/201;5;10;CABA;1424
+CUIT;23299413004;Lorna Samantha Acuña;samanthalorna@hotmail.com;katylujack@gmail.com;Física;2024-01-01 00:00:00;F;1149706443;S;Vivienda;Av. Corrientes 1647/1665;3°;F;CABA;1042
+CUIT;23318245029;German Antonio Urquiza;germanu658@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Rivera Indarte 196;1;C;CABA;1406
+CUIT;2337733534;Gorosito, Ramona;ramogor@hotmail.com;;Física;2000-01-01 00:00:00;F;;S;Vivienda;Janer Ana María 3545;;;CABA;1437
+DNI;23540660;Carbone, Gabriela;j.jeanetbrunet@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Villarino 2367;;;CABA;1273
+DNI;23593618;Orellano, Waldo Adrián;adrianorellano2013@gmail.com;;Física;2024-01-01 00:00:00;M;1122519732;S;Vivienda;Av. Córdoba 5522/26;1;5;CABA;1414
+DNI;24315235;Macalu, Luís Juan Ramón;luisjuanmaca@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Av. Córdoba 6100;4;C;CABA;1427
+DNI;24824195;Rodríguez, Karina Anahí;micorreo.kar@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Lacroze, Federico Av. 3601/07/11/15;3;A;CABA;1427
+DNI;25626671;Vivares, Alejandro Amilcar;ummasu16@hotmail.com;;Física;2024-01-01 00:00:00;M;1130545072;S;Vivienda;Thames 1054/56;;UF 3;CABA;1414
+DNI;26147421;Rodríguez, Margarita;MARGARITA.R.RODRIGUEZ@GMAIL.COM;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Yatay 102;4;A;CABA;1184
+DNI;26263878;Bustos Javier;bustosjavieralberto@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Santa Magdalena 829;;UV 4;CABA;1277
+CUIT;27023180699;VISCONTI BLANCA NIEVES;marielaluz@hotmail.com;marielaluz1211@gmail.com;Física;2024-01-01 00:00:00;F;;S;Vivienda;Yerbal 2217/21/23/25/91;0;24;CABA;1406
+CUIT;27023180699;VISCONTI BLANCA NIEVES;marielaluz@hotmail.com;marielaluz1211@gmail.com;Física;2024-01-01 00:00:00;F;;S;Vivienda;Yerbal 2217/21/23/25/91;3;24;CABA;1406
+CUIT;27026386980;MAZZUCCONI ANGELA ANTONIA;pinturaangela@gmail.com;;Física;2024-01-01 00:00:00;F;1149311135;S;Vivienda;24 de Noviembre 111/17;7;27;CABA;1170
+CUIT;27044032134;Pérez, Marta Mabel;horaciopinasco@hotmail.com;hpinasco@dnrec.jus.gov.ar;Física;2024-01-01 00:00:00;F;;S;Vivienda;Yerbal 2217/21/23/25/91;2;83;CABA;1406
+CUIT;27045393068;Petrona Carranza;laurandr@hotmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Condarco 2655;;A;CABA;1417
+CUIT;27056444292;Toloza, Mirta Margarita;martinezgabrielamarisa@gmail.com;;Física;2024-01-01 00:00:00;F;1149026257;S;Vivienda;Araoz Alfaro, Gregorio, Dr. 262/64/66;;PB;CABA;1405
+CUIT;27058788207;Cuello, Selva Brigida;ricardoggomez@hotmail.com;;Física;2000-01-01 00:00:00;F;1147783640;S;Vivienda;Humboldt 1242;;;CABA;1414
+CUIT;27058877463;Alicia Muñoz;lbzapa81@gmail.com;;Física;2024-01-01 00:00:00;F;1134149136;S;Vivienda;Av. Juan de Garay 579/581;PA;;CABA;1153
+CUIT;27060771052;Olinda Sixta Castiñeira;ayelengamboa445@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Alberdi, Juan B. Av. 2345/47;6;52;CABA;1406
+CUIT;27063892659;Ponce, Mirta B.;julieta.motozuni@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Yerbal 765;;UV 1;CABA;1405
+CUIT;27065332707;Barrios, Nora;noraisabel.barrios@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Alberdi, Juan B. Av. 2345/47;7;61;CABA;1406
+DNI;27090359;Niz, Cristian Jésus;nizc057@gmail.com;;Física;2024-01-01 00:00:00;M;1162349540;S;Vivienda;Av. Córdoba 5502/08;;;CABA;1414
+CUIT;27101301856;Di Tomaso, Liliana;lndtomaso@hotmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Yatay 102;3;A;CABA;1184
+CUIT;27102651028;STELLA MARIS ALBERTO;gielacabrera@gmail.com;;Física;2024-01-01 00:00:00;F;1175466931;S;Vivienda;Concordia 3197;;;CABA;1416
+CUIT;27107084431;Aldana ,Rosa Antonia;lucianasantucho.159@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;José Marmol 1124/1128;;;CABA;1255
+CUIT;27109621701;Arias, Elsa Josefina;amistadelu1980@gmail.com;;Física;2020-01-01 00:00:00;F;43004678;S;Vivienda;Chacabuco 1248;6;D;CABA;1069
+CUIT;27111757009;Casco, Sara;paocarpezat@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Baigorri 165;;UV 1, 2, 3 y 4;CABA;1282
+CUIT;27111810449;Argañaraz, Blanca del Valle;beba1948@outlook.com;lulaclau88@gmail.com;Física;2024-01-01 00:00:00;F;;S;Vivienda;Baigorri 165;;UV 9 y 10;CABA;1282
+CUIT;27112556937;Ottogalli, Nidia;nidiaottogalli@yahoo.com.ar;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Yerbal 2217/21/23/25/91;2;21;CABA;1406
+CUIT;27114221452;Marta Guaraz;karina.villagra05@gmail.com;cmillan@buenosaires.gob.ar;Física;2024-01-01 00:00:00;F;1143041722;S;Vivienda;Carlos Calvo 1253;;UV 4 y 5;CABA;1102
+CUIT;27114368364;Bianchi, Liliana Antonia;andresmpb@hotmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Terrero 127/29/31;;;CABA;1424
+CUIT;27120450978;Menéndez, Miriam Noemí;mirimen@hotmail.com;;Física;2024-01-01 00:00:00;F;;S;Comercial;Av. Mitre, Emilio 802;;;CABA;1406
+CUIT;27122170441;Rímolo, Hilda Inés;hildainesrimolo@gmail.com;;Física;2024-01-01 00:00:00;F;1145530330;S;Vivienda;Lacroze, Federico Av. 3601/07/11/15;4;C;CABA;1427
+CUIT;27124340271;MIRIAM MABEL MEDINA;madredelamor@yahoo.com.ar;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Diaz César, Gral. 2979/2985;5;C;CABA;1416
+CUIT;27124737260;Pérez, Graciela;gracielaestherperez@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Urquiza, Gral. 1377/1379;3;28;CABA;1243
+CUIT;27124857908;Villarreal, Selva Natividad;federicogalarzafco@gmail.com;;Física;2024-01-01 00:00:00;F;1120581124;S;Vivienda;Colpayo 145/47/49;;UV 5;CABA;1405
+CUIT;27129327028;Silva, Blanca Esther;mauroojeda990@gmail.com;mauro_damian.92@hotmail.com;Física;2024-01-01 00:00:00;F;;S;Vivienda;Chilavert 3352;PB;1;CABA;1437
+CUIT;27130553090;Gómez, Marisa;marisa.gomezbanfi@gmail.com;;Física;2000-01-01 00:00:00;F;43009339;S;Vivienda;Chacabuco 1248;5;CD;CABA;1069
+CUIT;27131576353;Gladis Georgina Molina;camilafernanda18041993@gmail.com;;Física;2024-01-01 00:00:00;F;1143043125;S;Vivienda;Carlos Calvo 1253;;UV 7;CABA;1102
+CUIT;27132082222;Ramona Franco;francogracielaramona@hotmail.com;flor_21_m@hotmail.com;Física;2024-01-01 00:00:00;F;1124571389;S;Vivienda;Carlos Calvo 1253;;UV 1;CABA;1102
+CUIT;27135290306;Rey, Gladys;jimenalbrugier@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;24 de Noviembre 111/17;6;24;CABA;1170
+CUIT;27137673407;Patricia Amalia Falcón;rudyjavier0712@gmail.com;aalma3002@gmail.com;Física;2024-01-01 00:00:00;F;1158519777;S;Vivienda;Perú 864/66/68/70;1°;UV 6;CABA;1068
+CUIT;27137997598;Aramburu, Berta Lucía;mansilla.veronica@hotmail.com;;Física;2024-01-01 00:00:00;F;1155072742;S;Vivienda;Chilavert 3336;PB;5;CABA;1437
+CUIT;27138586877;Bazán, Celia Susana;rossi2574m@gmail.com;;Física;2024-01-01 00:00:00;F;1146130123;S;Vivienda;Culpina 1072;;;CABA;1406
+CUIT;27138627387;Teresita Villaverde;stefaniaoliver1989@gmail.com;;Física;2024-01-01 00:00:00;F;1133229727;S;Vivienda;Alberdi, Juan B. Av. 2181/83/85;PB;;CABA;1406
+CUIT;27138951095;Myriam Argañaraz;mauro.diazz85@gmail.com;;Física;2024-01-01 00:00:00;F;1143615678;S;Vivienda;Perú 864/66/68/70;2°;UV 9;CABA;1068
+CUIT;27140019041;María Esther Niveiro;blasrecalde7@gmail.com;;Física;2024-01-01 00:00:00;F;1133505639;S;Vivienda;José Enrique Rodó 4480/4482;;;CABA;1407
+CUIT;27140989660;Paz de Velóz, Olga;ggonzalez79@hotmail.com.ar;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Humboldt 1220;;1;CABA;1414
+CUIT;27141068382;San, Stella Maris;sanstella@hotmail.com.ar;;Física;2024-01-01 00:00:00;F;1150489152;N;Vivienda;Av. Corrientes 6001/23;10;24;CABA;1414
+CUIT;27143673621;Coronel, María Angélica;angelica52.mac@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Yatay 102;8;B;CABA;1184
+CUIT;27144988332;Vargas, Marta;zairateperino@hotmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Av. San Pedrito 1024/26;PB;1;CABA;1406
+DNI;27150471;Musante, Patricia Milva;patriciamilvamusante@hotmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Lacroze, Federico Av. 3601/07/11/15;3;B;CABA;1427
+CUIT;27160373143;Perez Portillo, María Fernanda;fernandaperezportillo@yahoo.com.ar;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Yatay 102;6;A;CABA;1184
+CUIT;27165595888;NANCY GRACIELA RUIZ DIAZ;nancyruizdiaz@yahoo.com.ar;;Física;2024-01-01 00:00:00;F;1145859346;S;Vivienda;Condarco 1633;3;A;CABA;1416
+CUIT;27167742055;Marta Haydee Costa;polito.63@hotmail.com;;Física;2024-01-01 00:00:00;F;1146398696;S;Vivienda;Cesar Díaz 4752;;;CABA;1407
+CUIT;27171983709;Caris, Liliana;guillefeno@yahoo.com.ar;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Yatay 102;7;A;CABA;1184
+CUIT;27178738289;María Alejandra González;jjdebgonzalez@hotmail.com;;Física;2024-01-01 00:00:00;F;1146745209;S;Vivienda;Ramón L. Falcón 4736/4738/4742;PA;D;CABA;1407
+CUIT;27179623736;Olarán, María de los Angeles;flaviapalacio@hotmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Chilavert 3352;PB;3;CABA;1437
+CUIT;27179794018;Romero Duarte, Inés Dyrce;santomil48@hotmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Yerbal 2217/21/23/25/91;3;84;CABA;1406
+CUIT;27180935075;Alicia Noemí Rubio;arubiio1966@gmail.com;;Física;2024-01-01 00:00:00;F;1137506121;S;Vivienda;Perú 864/66/68/70;1°;UV 8;CABA;1068
+CUIT;27184044930;Aguirre, Fabiana Andrea;micaelanovi@gmail.com;aguirrefaby@yahoo.com.ar;Física;2024-01-01 00:00:00;F;;S;Vivienda;Riglos 969/71;1;3;CABA;1406
+CUIT;27186223969;Sotomayor, Aníbal José;anibal-1967@hotmail.com.ar;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Colpayo 145/47/49;;UV 3;CABA;1405
+CUIT;27188523493;Lezica Duarte, Natalia Karen;nalezic@hotmail.com;;Física;2024-01-01 00:00:00;F;1146329773;S;Vivienda;Yerbal 2217/21/23/25/91;3;22;CABA;1406
+CUIT;27188770644;Pizarro, Narda;narditaisabel@hotmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Yatay 102;2;B;CABA;1184
+CUIT;2719473266;Garzón, Bernabella Dora;mmgomez56@hotmail.com;;Física;2024-01-01 00:00:00;F;1149188586;S;Vivienda;Chilavert 3336;PB;3;CABA;1437
+CUIT;27201357077;Elizabeth María del Carmen Allende;reyesalumine@gmail.com;reyesinti978@gmail.com;Física;2024-01-01 00:00:00;F;1134221984;S;Vivienda;Guardia Nacional 2108 / Monte 4996;PB;UV 2;CABA;1407
+CUIT;27202940345;Carolina Cadena;carolinacadena078@gmail.com;carocine@gmail.com;Física;2024-01-01 00:00:00;F;1158113083;S;Vivienda;Av. Corrientes 1647/1665;4°;B;CABA;1042
+CUIT;27203510301;Gauna, Rosa;gaunarosa88@yahoo.com.ar;;Física;2024-01-01 00:00:00;F;1141560415;S;Vivienda;Brandsen 1474/76;1;2;CABA;1287
+CUIT;27210045401;Andrea Fabiana Galarraga;andreafabianagalarraga@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;San José de Calasanz 974/76/78;;UV C;CABA;1406
+CUIT;27225026217;Campos, Alejandra;aecampos@buenosaires.gob.ar;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Rivera Indarte 196;3;H;CABA;1406
+CUIT;27225099370;MARIA JIMENA LOPEZ;lopezjimena698@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Condarco 1633;1;A;CABA;1416
+CUIT;27225814509;Di Tulio, Mariana;marianaditulio@yahoo.com.ar;;Física;2024-01-01 00:00:00;F;1145530492;S;Vivienda;Loreto, Virrey 3742;7;A;CABA;1427
+CUIT;27227517811;Barrientos, Verónica del Valle;sebassgodoy97@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Zuviría 166/68;;UF 2;CABA;1424
+CUIT;27228467753;María Mercedes Neira;marmerneir@gmail.com;;Física;2024-01-01 00:00:00;F;1143619197;S;Vivienda;Chacabuco 1248/1252 ;4°;A;CABA;1069
+CUIT;27235152199;María Lorena Barthelemi;eleterojo@hotmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Tapalqué 4845/4849 ;PB;A;CABA;1407
+CUIT;27252734657;Viviana Ramirez;wywyramirez@gmail.com;;Física;2024-01-01 00:00:00;F;1143005329;S;Vivienda;Av. San Juan 848 ;PB;G;CABA;1070
+CUIT;27253046312;ROSA LORENA BOGADO;rouss0212@hotmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Diaz César, Gral. 2979/2985;5;B;CABA;1416
+CUIT;27256472304;Patricia Di Pangrazio;patriciadipangrazio@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Moldes 1080;;;CABA;1428
+CUIT;27256535438;Nelida Yolanda, Ceballos;neluceballos77@gmail.com;nelidaceballos00@gmail.com;Física;2024-01-01 00:00:00;F;;S;Vivienda;Chilavert 3352;PB;4;CABA;1437
+CUIT;27256820086;Escobar, Laura Beatriz;laurabescobar_1976@hotmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Suarez 228;;UV 1;CABA;1162
+CUIT;27266320788;Luciana Matera;luciana.matera@outlook.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Tapalqué 4845/4849 ;PB;B;CABA;1407
+CUIT;27275735324;CARLA MARIANA ODELLA RESTIVO;car3426@gmail.com;martinleonardovazquez@buenosaires.gob.ar;Física;2024-01-01 00:00:00;F;;S;Vivienda;Diaz César, Gral. 2979/2985;3;A;CABA;1416
+CUIT;27278609125;Susana Beatriz Pacheco;fernandotraverso7@gmail.com;;Física;2024-01-01 00:00:00;F;1151776539;S;Vivienda;Av. Escalada 960 ;PB;UV 2;CABA;1407
+CUIT;27279280836;Agüero, Claudia del Valle;beba1948@outlook.com;lulaclau88@gmail.com;Física;2024-01-01 00:00:00;F;;S;Vivienda;Baigorri 165;;UV 8;CABA;1282
+CUIT;27286741032;Gabriela Pintos;ggabrielapintos@gmail.com;pintosgabriela@hotmail.es;Física;2024-01-01 00:00:00;F;;S;Vivienda;Av. San Juan 848 ;PB;H;CABA;1070
+CUIT;27291500183;Gace, Carolina Elizabeth;carolina_elizabeth_g@hotmail.com;CAROLINAGASE@GMAIL.COM;Física;1990-01-01 00:00:00;F;;S;Vivienda;Suarez 228;;3;CABA;1162
+CUIL;27291576465;Valeria Maldonado;valerianoemimaldonado81@gmail.com;maldonado-florencia@hotmail.com;Física;1981-01-01 00:00:00;F;;S;Vivienda;Barragán 341 PB;;2;Capital Federal;1408
+CUIT;27307954341;Adriana Segato;adrianasilvinasegato@gmail.com;segatoadri@gmail.com;Física;2024-01-01 00:00:00;F;1167195422;S;Vivienda;Av. Escalada 1764;PB;;CABA;1407
+CUIT;27316052148;Florencia Gomez;flor_21_m@hotmail.com;;Física;2024-01-01 00:00:00;F;1143045249;S;Vivienda;Carlos Calvo 1253;;UV 3;CABA;1102
+CUIT;27324715040;Longarela, Cecilia Estela;ceciliaelongarela86@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Lezica 4423/27;;UV 1;CABA;1202
+CUIT;27368464134;Carla Kaganovicz;lopezmarinapaola@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Liniers Virrey 1314;;UF 3;CABA;1241
+CUIT;2751631434;Avila, Esther;landorolo@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Bocayuva Quintino 1235;1;1;CABA;1257
+CUIT;2757310311;Tomasa, Vilca;marievilca@hotmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Yatay 102;PB;A;CABA;1184
+CUIT;2762900614;Brahim, María del Carmen;monicazotta@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Chilavert 3306;;;CABA;1437
+CUIT;2763636881;Palomino, Ascención del Valle;flaviapalacioyluna@gmail.com;flaviapalacio@hotmail.com;Física;2024-01-01 00:00:00;M;;S;Vivienda;Chilavert 3352;PB;5;CABA;1437
+CUIT;2766914570;Ruiz, Liliana Inés;lilianainesruiz@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Yatay 102;3;B;CABA;1184
+CUIT;2768471480;Cortez, Lelia Arcenia;marcelopereyrapoint@hotmail.com;marcelopereyrapoint39@gmail.com;Física;2024-01-01 00:00:00;F;;S;Vivienda;Lezica 4423/27;;UV 2;CABA;1202
+DNI;27726299;Catalina Orquera;ninfacaty@hotmail.com;catalinaorquera2015@gmail.com;Física;2000-01-01 00:00:00;F;;S;Vivienda;Serrano 1079 1085;;;Capital Federal;1414
+CUIT;27929833878;Carmen Isabel Figueredo Susloaga ;susloagacarmen@gmail.com;;Física;2024-01-01 00:00:00;F;1135340466;S;Vivienda;Carlos Calvo 1253;;UV 6;CABA;1102
+CUIT;27930546076;Faustina Rojas;samantaanabel619@gmail.com;;Física;2024-01-01 00:00:00;F;1166088835;S;Vivienda;Av. San Juan 1558/1560;5°;C;CABA;1103
+CUIT;27942318982;Oviedo, Jorgelina;oviedosancez@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Diaz César, Gral. 2979/2985;1;E;CABA;1416
+CUIT;27942677648;Chamorro, Elena;chamorroelena367@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Pergamino 3009;;;CABA;1437
+CUIT;27947513147;Chavez Medina, Julio Francisco;mariaelsa0811@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Colpayo 145/47/49;;UV 9;CABA;1405
+CUIT;27954853506;Serruche Alvarez, Javier;javialvarez889a@gmail.com;shirleyquirozsoto@gmail.com;Física;2024-01-01 00:00:00;M;;S;Vivienda;Colpayo 145/47/49;;UV 7;CABA;1405
+DNI;28074217;Gutierrez, Luís Ricardo;luismorolola@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Av. Córdoba 5522/26;PB;1;CABA;1414
+DNI;28281065;De Sosa, César Usbaldo;cesardesosa358@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Jufré 346/50;;1;CABA;1414
+DNI;28388555;Pedrozo, Irene;irene00.p12@gmail.com;;Física;2024-01-01 00:00:00;F;1169807850;S;Vivienda;Bonpland 1239/41/43;;UV 1;CABA;1414
+DNI;28724021;Gerez, Laura;maxirodrigo1986_@hotmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Santa Magdalena 829;;UV 3;CABA;1277
+DNI;28769748;Duarte, Verónica;marciu02@hotmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Liniers Virrey 1375;PA;;CABA;1241
+DNI;29152145;Alberto Longo y Valeria Bazzano;alberto_longo@me.com;;Física;2024-01-01 00:00:00;M;1146331115;S;Vivienda;Alberdi, Juan B. Av. 2181/83/85;1º y 2º;;CABA;1406
+DNI;29250499;Sanchez, Cecilia Elizabeth;valdezcristian363@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Estomba 1140;;UV1;CABA;1427
+DNI;29353550;Diego Perez;dlcperez@hotmail.com.ar;;Física;2024-01-01 00:00:00;M;1143008332;S;Vivienda;Perú 864/66/68/70;2°;UV 12;CABA;1068
+CUIT;30525403099;COOPERATIVA ARGENTINA DE FLORICULTORES LTDA.;pagos@floricultores.com.ar;;Jurídica;;;;S;Comercial;Magaldi, Agustin 1100;;;CABA;1281
+CUIT;30527233794;Asociación Odontologica Argentina;andres.zalazar@aoa.org.ar;;Jurídica;;;;S;Comercial;Junín 963/965;;;CABA;1113
+CUIT;30568205339;Turbodisel S.A.;coordinacioncontable@tbdlsa.net;contaduria@turbodisel.net;Jurídica;;;;S;Comercial;Cruz, Osvaldo 1874/1878/1880/1882;;;CABA;1293
+CUIT;30574095847;San Juan Tennis;gerencia@sanjuantennisclub.com;;Jurídica;;;;S;Comercial;Av. San Juan 601/607/611/613;;;CABA;1070
+DNI;30614131;Miranda Parra, Lucía Grisel;luciagmirandap@hotmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Giribone 1752/56;;UF 1;CABA;1427
+CUIT;30614455094;OSPECON;aybane@uocra.org;;Jurídica;;;;S;Comercial;Mario Bravo 143;;;CABA;1117
+DNI;30670056;Vidaurre, Cintia Marisel;cvidaurre884@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Av. Córdoba 5522/26;1;4;CABA;1414
+CUIT;30713985801;Debox S.A.;cgarzon@debox.com.ar;;Jurídica;;;;S;Comercial;Valle, J.J., Gral. Div. 2950 / Tilcara Av. 2961;;;CABA;1437
+CUIT;30716249731;Fideicomiso Financiero Privado Inmobiliario y de Administracion Buenos Aires Landmark;malvarez@pfiduciaria.com.ar;lmenchaca@pfiduciaria.com.ar;Jurídica;;;;S;Comercial;Sin Nombre Oficial (NC C: 16 S: 27 M: entre 146K y 146L);;;CABA;1428
+DNI;31346157;Cantero, Pablo;pablocantero85@gmail.com;;Física;2024-01-01 00:00:00;M;1168755646;S;Vivienda;Giribone 620;1;D;CABA;1427
+DNI;3234819;Agüero, Irene;mritapia@anses.gov.ar;charo-tapia@hotmail.com;Física;2024-01-01 00:00:00;F;;S;Vivienda;Medrano 794 ;5;K;CABA;1179
+DNI;33085663;Iglesias, Bárbara Elizabeth;barbyiglesias2008@gmail.com;;Física;2024-01-01 00:00:00;F;1145542284;S;Vivienda;Avalos 448;;Frente;CABA;1427
+DNI;33362084;Monteverde, Paula;pipi_monteverde@hotmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Av. Córdoba 6100;4;A;CABA;1427
+DNI;35976732;Gordillo, Paula Alejandra;paula.a.gordillo@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Humahuaca 3595/99 esq. Billinghurst 609/11;5;A;CABA;1191
+DNI;36767678;Buitrón, Joan Emanuel;joan_279@hotmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Av. Córdoba 6100;7;A;CABA;1427
+DNI;41487933;Cordero Pardo, Ignacio Alejandro;icorderopardo@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Jufré 346/50;;4;CABA;1414
+DNI;42147968;Rojas, Emiliano;e.rojas@buenosaires.gob.ar;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Loreto, Virrey 3742;5;A;CABA;1427
+DNI;4532451;Vázquez Cubilla, Julio Ramón;karinavazquezcubilla@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Loreto, Virrey 3742;3;B;CABA;1427
+DNI;4707867;Luís Carlos Pérez;marianacenturion34@gmail.com;saralapasionaria@hotmail.com;Física;2024-01-01 00:00:00;M;1134143801;S;Vivienda;Perú 864/66/68/70;PB;Fondo;CABA;1068
+DNI;4885299;Peralta, Elsa Beatriz;caraballo.nadia@hotmail.com;peraltaelsa@gmail.com;Física;2024-01-01 00:00:00;F;;S;Vivienda;Bonpland 1239/41/43;;UV 3;CABA;1414
+DNI;5160089;Ruido, Liliana del Carmen;ruidodaniel73@gmail.com;danielruido73@gmail.com;Física;2024-01-01 00:00:00;F;;S;Vivienda;Newbery, Jorge 3558/60/62;1;G;CABA;1427
+DNI;5863805;Lucero, Edith Ester;juancarlos.ruggieri@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;De los Constituyentes Av. 5088;;;CABA;1431
+DNI;826353;Matía, Marta;paulette77@gmail.com;;Física;2000-01-01 00:00:00;F;43619085;S;Vivienda;Chacabuco 1248;3;A;CABA;1069
+DNI;92307003;Romero Pattenden, Teresa;teresa.pattenden@gmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Arenal, Concepción 3532/36;;;CABA;1414
+DNI;92467182;Fernández González, María Victoria;mvflorien@hotmail.com;;Física;2024-01-01 00:00:00;F;1147792480;S;Vivienda;Av. Córdoba 6100;7;B;CABA;1427
+DNI;93065630;Carlos Choque;anagonzalez011@gmail.com;;Física;2024-01-01 00:00:00;M;1143002854;S;Vivienda;Perú 864/66/68/70;PB;Frente;CABA;1068
+DNI;93375257;Hortal Rivero, Ovidio;hansenandrea1979@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Comercial;Av. Perón, Eva 3099 esq. Av. San Pedrito 1094/96;;;CABA;1406
+DNI;93687179;Mejía Tolentino, Madeley Zenaida;madeleymejia@hotmail.com;;Física;2024-01-01 00:00:00;F;;S;Vivienda;Billinghurst 672;2;B;CABA;1191
+DNI;95810897;Montesinos, Maximiliano;kellypimentelortega@gmail.com;;Física;2024-01-01 00:00:00;M;;S;Vivienda;Jufré 346/50;;2;CABA;1414
