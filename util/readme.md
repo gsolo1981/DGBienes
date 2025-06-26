@@ -1,0 +1,1 @@
+Output contiene la migracion inicial a produccion 25/06/2025

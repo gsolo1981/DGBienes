@@ -1,0 +1,10 @@
+PS C:\Desarrollo\DGBienes> python main.py
+→ Hoja '01_RELACION_BAC_SIGAF' generada (132 filas)
+→ Hoja '02_SPR_RENGLONES' generada (66540 filas)
+→ Hoja '03_SPR_IMPUTACIONES' generada (4917 filas)
+→ Hoja '04_RPR_SPR_PRD' generada (10910 filas)
+→ Hoja '05_RPR_RENGLONES' generada (37458 filas)
+→ Hoja '06_RPR_IMPUTACIONES' generada (12806 filas)
+→ Hoja '07_PRD_RENGLONES' generada (529937 filas)
+→ Hoja '08_PRD_IMPUTACIONES' generada (9829 filas)
+→ Hoja '09_PRD_FACTURAS' generada (66626 filas)

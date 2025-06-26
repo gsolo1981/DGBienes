@@ -1,0 +1,230 @@
+﻿barrio;ley;identificacion;circunscripcion;seccion;manzana;parcela;division;tipo_unidad;nrounidad;piso;depto;telefono;partidaunidad;digitoverificador;tipoplano;valuacionfiscal;nueva;mtstotales;mtscubiertos;habilitado
+CABA;6593;24 de Noviembre 111/17;9;28;32;1;24 de Noviembre 111/17;Vivienda;24;6;24;;;;;;N;;;S
+CABA;6593;24 de Noviembre 111/17;9;28;32;1;24 de Noviembre 111/17;Vivienda;27;7;27;;;;;;N;;;S
+CABA;6593;Alberdi, Juan B. Av. 2181/83/85;5;48;134;16;Alberdi, Juan B. Av. 2181/83/85;Vivienda;1;PB;;;;;;;N;;;S
+CABA;6593;Alberdi, Juan B. Av. 2181/83/85;5;48;134;16;Alberdi, Juan B. Av. 2181/83/85;Vivienda;2;1 y 2;;;;;;;N;;;S
+CABA;6593;Alberdi, Juan B. Av. 2345/47;5;48;118;28;Alberdi, Juan B. Av. 2345/47;Vivienda;12;;;;;;;;N;;;S
+CABA;6593;Alberdi, Juan B. Av. 2345/47;5;48;118;28;Alberdi, Juan B. Av. 2345/47;Vivienda;52;;;;;;;;N;;;S
+CABA;6593;Alberdi, Juan B. Av. 2345/47;5;48;118;28;Alberdi, Juan B. Av. 2345/47;Vivienda;61;;;;;;;;N;;;S
+CABA;6593;Alberdi, Juan B. Av. 2636;5;48;81;4;Alberdi, Juan B. Av. 2636;Vivienda;92;;;;;;;;N;;;S
+CABA;6593;Alberdi, Juan B. Av. 2705;5;48;64;30;Alberdi, Juan B. Av. 2705;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Araoz Alfaro, Gregorio, Dr. 262/64/66;7;45;103;8;Araoz Alfaro, Gregorio, Dr. 262/64/66;Vivienda;1;PB;;;;;;;N;;;S
+CABA;6593;Araoz Alfaro, Gregorio, Dr. 262/64/66;7;45;103;8;Araoz Alfaro, Gregorio, Dr. 262/64/66;Vivienda;2;PA;;;;;;;N;;;S
+CABA;6593;Arenal, Concepción 3532/36;17;33;60;18;Arenal, Concepción 3532/36;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Av. Corrientes 1647/65;14;5;13;28;Av. Corrientes 1647/65;Vivienda;12;;;;;;;;N;;;S
+CABA;6593;Av. Corrientes 1647/65;14;5;13;28;Av. Corrientes 1647/65;Vivienda;16;;;;;;;;N;;;S
+CABA;6593;Av. Corrientes 6001/23;17;33;2;15;Av. Corrientes 6001/23;Vivienda;1;10;24;;;;;;N;;;S
+CABA;6593;Av. Córdoba 5502/08;17;33;55;25;Av. Córdoba 5502/08;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Av. Córdoba 5522/26;17;33;55;27;Av. Córdoba 5522/26;Vivienda;1;PB;1;;;;;;N;;;S
+CABA;6593;Av. Córdoba 5522/26;17;33;55;27;Av. Córdoba 5522/26;Vivienda;3;PB;3;;;;;;N;;;S
+CABA;6593;Av. Córdoba 5522/26;17;33;55;27;Av. Córdoba 5522/26;Vivienda;6;1;4;;;;;;N;;;S
+CABA;6593;Av. Córdoba 5522/26;17;33;55;27;Av. Córdoba 5522/26;Vivienda;7;1;5;;;;;;N;;;S
+CABA;6593;Av. Córdoba 6100;17;33;60;16;Av. Córdoba 6100;Vivienda;10;2;D;;;;;;N;;;S
+CABA;6593;Av. Córdoba 6100;17;33;60;16;Av. Córdoba 6100;Vivienda;17;4;A;;;;;;N;;;S
+CABA;6593;Av. Córdoba 6100;17;33;60;16;Av. Córdoba 6100;Vivienda;19;4;C;;;;;;N;;;S
+CABA;6593;Av. Córdoba 6100;17;33;60;16;Av. Córdoba 6100;Vivienda;32;7;A;;;;;;N;;;S
+CABA;6593;Av. Córdoba 6100;17;33;60;16;Av. Córdoba 6100;Vivienda;34;7;B;;;;;;N;;;S
+CABA;6593;Av. Escalada 1764;1;62;145;7;Av. Escalada 1764;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Av. Escalada 958;1;62;153;16;Av. Escalada 958;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Av. Escalada 960;;;;;Av. Escalada 960;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Av. Juan de Garay 579/581;12;4;19;25;Av. Juan de Garay 579/581;Vivienda;1;PB;Planta Baja;;;;;;N;;;S
+CABA;6593;Av. Juan de Garay 579/581;12;4;19;25;Av. Juan de Garay 579/581;Vivienda;2;PA;Planta Alta;;;;;;N;;;S
+CABA;6593;Av. Mitre, Emilio 802;6;40;5;14;Av. Mitre, Emilio 802;Comercial;1;;;;;;;;N;;;S
+CABA;6593;Av. Perón, Eva 1190;;;;;Av. Perón, Eva 1190;Vivienda;1;PA;PA;;;;;;N;;;S
+CABA;6593;Av. Perón, Eva 1190 / Av. Mitre, Emilio 802/04/06;;;;;Av. Perón, Eva 1190 / Av. Mitre, Emilio 802/04/06;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Av. Perón, Eva 3099 esq. Av. San Pedrito 1094/96;5;48;40;24;Av. Perón, Eva 3099 esq. Av. San Pedrito 1094/96;Comercial;1;;;;;;;;N;;;S
+CABA;6593;Av. San Juan 1585/1560;12;14;21;6;Av. San Juan 1585/1560;Vivienda;18;;;;;;;;N;;;S
+CABA;6593;Av. San Juan 601/607/611/613;12;14;15;32;Av. San Juan 601/607/611/613;Comercial;1;;;;;;;;N;;;S
+CABA;6593;Av. San Juan 848;12;4;2;6;Av. San Juan 848;Vivienda;7;PB;G;;;;;;N;;;S
+CABA;6593;Av. San Juan 848;12;4;2;6;Av. San Juan 848;Vivienda;8;PB;H;;;;;;N;;;S
+CABA;6593;Av. San Pedrito 1024/26;5;48;40;14;Av. San Pedrito 1024/26;Vivienda;1;PB;;;;;;;N;;;S
+CABA;6593;Avalos 448;15;49;16;1;Avalos 448;Vivienda;1;;Frente;;;;;;N;;;S
+CABA;6593;Avalos 450;;;;;Avalos 450;Vivienda;1;;Fondo;;;;;;N;;;S
+CABA;6593;Baigorri 165;3;16;25;37;Baigorri 165;Vivienda;4;;1, 2, 3 y 4;;;;;;N;;;S
+CABA;6593;Baigorri 165;3;16;25;37;Baigorri 165;Vivienda;5;;;;;;;;N;;;S
+CABA;6593;Baigorri 165;3;16;25;37;Baigorri 165;Vivienda;6;;;;;;;;N;;;S
+CABA;6593;Baigorri 165;3;16;25;37;Baigorri 165;Vivienda;7;;;;;;;;N;;;S
+CABA;6593;Baigorri 165;3;16;25;37;Baigorri 165;Vivienda;8;;;;;;;;N;;;S
+CABA;6593;Baigorri 165;3;16;25;37;Baigorri 165;Vivienda;10;;9 y 10;;;;;;N;;;S
+CABA;6593;Barragán 341;1;95;24;17;Barragán 341;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Barragán 341;1;95;24;17;Barragán 341;Vivienda;2;;;;;;;;S;;;S
+CABA;6593;Billinghurst 672;9;13;19;27;Billinghurst 672;Vivienda;7;2;B;;;;;;N;;;S
+CABA;6593;Bocayuva Quintino 1235;6;36;50;39;Bocayuva Quintino 1235;Vivienda;1;1;1;;;;;;N;;;S
+CABA;6593;Bolaños 203;1;54;93;2;Bolaños 203;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Bonpland 1239/41/43;17;33;56;3;Bonpland 1239/41/43;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Bonpland 1239/41/43;17;33;56;3;Bonpland 1239/41/43;Vivienda;3;;;;;;;;N;;;S
+CABA;6593;Brandsen 1474/76;4;10;36;9;Brandsen 1474/76;Vivienda;2;1;2;;;;;;N;;;S
+CABA;6593;Cachimayo 988;6;40;10;11;Cachimayo 988;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Cajaravilla 4674;1;54;26;10;Cajaravilla 4674;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Carlos Calvo 1253;12;14;49;22;Carlos Calvo 1253;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Carlos Calvo 1253;12;14;49;22;Carlos Calvo 1253;Vivienda;2;;;;;;;;N;;;S
+CABA;6593;Carlos Calvo 1253;12;14;49;22;Carlos Calvo 1253;Vivienda;3;;;;;;;;N;;;S
+CABA;6593;Carlos Calvo 1253;12;14;49;22;Carlos Calvo 1253;Vivienda;5;4 y 5;;;;;;;N;;;S
+CABA;6593;Carlos Calvo 1253;12;14;49;22;Carlos Calvo 1253;Vivienda;6;;;;;;;;N;;;S
+CABA;6593;Carlos Calvo 1253;12;14;49;22;Carlos Calvo 1253;Vivienda;7;;;;;;;;N;;;S
+CABA;6593;Cazadores 2460;16;25;94;12;Cazadores 2460;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Cesar Díaz 4752;15;85;79;23;Cesar Díaz 4752;Otro;1;;;;;;;;N;;;S
+CABA;6593;Chacabuco 1248/1252;12;4;14;13;Chacabuco 1248/1252;Cochera;1;;;;;;;;S;;;S
+CABA;6593;Chacabuco 1248/1252;12;4;14;13;Chacabuco 1248/1252;Cochera;4;;;;;;;;S;;;S
+CABA;6593;Chacabuco 1248/1252;12;4;14;13;Chacabuco 1248/1252;Cochera;5;;;;;;;;S;;;S
+CABA;6593;Chacabuco 1248/1252;12;4;14;13;Chacabuco 1248/1252;Cochera;6;;;;;;;;S;;;S
+CABA;6593;Chacabuco 1248/1252;12;4;14;13;Chacabuco 1248/1252;Vivienda;16;;;;;;;;S;;;S
+CABA;6593;Chacabuco 1248/1252;12;4;14;13;Chacabuco 1248/1252;Vivienda;27;;;;;;;;N;;;S
+CABA;6593;Chacabuco 1248/1252;12;4;14;13;Chacabuco 1248/1252;Vivienda;46;;;;;;;;N;;;S
+CABA;6593;Chacabuco 1248/1252;12;4;14;13;Chacabuco 1248/1252;Vivienda;47;;;;;;;;N;;;S
+CABA;6593;Chilavert 3306;1;52;10;1;Chilavert 3306;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Chilavert 3336;1;52;10;3;Chilavert 3336;Vivienda;3;PB;3;;;;;;N;;;S
+CABA;6593;Chilavert 3336;1;52;10;3;Chilavert 3336;Vivienda;4;PB;4;;;;;;N;;;S
+CABA;6593;Chilavert 3336;1;52;10;3;Chilavert 3336;Vivienda;5;PB;5;;;;;;N;;;S
+CABA;6593;Chilavert 3352;1;52;10;4;Chilavert 3352;Vivienda;1;PB;1;;;;;;N;;;S
+CABA;6593;Chilavert 3352;1;52;10;4;Chilavert 3352;Vivienda;2;PB;2;;;;;;N;;;S
+CABA;6593;Chilavert 3352;1;52;10;4;Chilavert 3352;Vivienda;3;PB;3;;;;;;N;;;S
+CABA;6593;Chilavert 3352;1;52;10;4;Chilavert 3352;Vivienda;4;PB;4;;;;;;N;;;S
+CABA;6593;Chilavert 3352;1;52;10;4;Chilavert 3352;Vivienda;5;PB;5;;;;;;N;;;S
+CABA;6593;Colonia Av. 216;2;24;61;16;Colonia Av. 216;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Colpayo 145/47/49;7;45;42;5;Colpayo 145/47/49;Vivienda;1;;UV1;;;;;;N;;;S
+CABA;6593;Colpayo 145/47/49;7;45;42;5;Colpayo 145/47/49;Vivienda;3;;UV3;;;;;;N;;;S
+CABA;6593;Colpayo 145/47/49;7;45;42;5;Colpayo 145/47/49;Vivienda;4;;UV4;;;;;;N;;;S
+CABA;6593;Colpayo 145/47/49;7;45;42;5;Colpayo 145/47/49;Vivienda;5;;UV5;;;;;;N;;;S
+CABA;6593;Colpayo 145/47/49;7;45;42;5;Colpayo 145/47/49;Vivienda;7;;UV7;;;;;;N;;;S
+CABA;6593;Colpayo 145/47/49;7;45;42;5;Colpayo 145/47/49;Vivienda;9;;UV9;;;;;;N;;;S
+CABA;6593;Concordia 3197;15;81;141;4;Concordia 3197;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Condarco 1633;15;67;67;21;Condarco 1633;Vivienda;1;1;A;;;;;;N;;;S
+CABA;6593;Condarco 1633;15;67;67;21;Condarco 1633;Vivienda;2;2;C;;;;;;N;;;S
+CABA;6593;Condarco 1633;15;67;67;21;Condarco 1633;Vivienda;3;3;B;;;;;;N;;;S
+CABA;6593;Condarco 2655;15;69;44;21;Condarco 2655;Vivienda;1;;A;;;;;;N;;;S
+CABA;6593;Cruz, Osvaldo 1874/1878/1880/1882;3;18;128;1;Cruz, Osvaldo 1874/1878/1880/1882;Comercial;1;;;;;;;;N;;;S
+CABA;6593;Culpina 1072;5;48;72;14;Culpina 1072;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;"DE LOS CONSTITUYENTES, Av. 4956; VIAS DEL FERROCARRIL SN";16;75;108;1;"DE LOS CONSTITUYENTES, Av. 4956; VIAS DEL FERROCARRIL SN";Vivienda;1;;;;;;;;N;;;S
+CABA;6593;De los Constituyentes Av. 4796/98 Lopéz, C. Antonio 2106;16;73;87;1;De los Constituyentes Av. 4796/98 Lopéz, C. Antonio 2106;Otro;1;;;;;;;;N;;;S
+CABA;6593;De los Constituyentes Av. 4990/5000 esq. Ladines S/N;16;75;108;4;De los Constituyentes Av. 4990/5000 esq. Ladines S/N;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;De los Constituyentes Av. 5088;16;75;109;35;De los Constituyentes Av. 5088;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;De los Constituyentes Av. 5099 ;16;63;2;4;De los Constituyentes Av. 5099 ;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Del Barco Centenera 199/201;6;40;23;46;Del Barco Centenera 199/201;Vivienda;10;;;;;;;;N;;;S
+CABA;6593;Diaz César, Gral. 2979/2985;15;67;32;15;Diaz César, Gral. 2979/2985;Vivienda;1;1;A;;;;;;N;;;S
+CABA;6593;Diaz César, Gral. 2979/2985;15;67;32;15;Diaz César, Gral. 2979/2985;Cochera;1;PB;1;;;;;;N;;;S
+CABA;6593;Diaz César, Gral. 2979/2985;15;67;32;15;Diaz César, Gral. 2979/2985;Cochera;2;PB;2;;;;;;N;;;S
+CABA;6593;Diaz César, Gral. 2979/2985;15;67;32;15;Diaz César, Gral. 2979/2985;Cochera;3;PB;3;;;;;;N;;;S
+CABA;6593;Diaz César, Gral. 2979/2985;15;67;32;15;Diaz César, Gral. 2979/2985;Cochera;4;PB;4;;;;;;N;;;S
+CABA;6593;Diaz César, Gral. 2979/2985;15;67;32;15;Diaz César, Gral. 2979/2985;Cochera;5;PB;5;;;;;;N;;;S
+CABA;6593;Diaz César, Gral. 2979/2985;15;67;32;15;Diaz César, Gral. 2979/2985;Cochera;6;PB;6;;;;;;N;;;S
+CABA;6593;Diaz César, Gral. 2979/2985;15;67;32;15;Diaz César, Gral. 2979/2985;Vivienda;6;2;B;;;;;;N;;;S
+CABA;6593;Diaz César, Gral. 2979/2985;15;67;32;15;Diaz César, Gral. 2979/2985;Cochera;7;PB;7;;;;;;N;;;S
+CABA;6593;Diaz César, Gral. 2979/2985;15;67;32;15;Diaz César, Gral. 2979/2985;Cochera;8;PB;8;;;;;;N;;;S
+CABA;6593;Diaz César, Gral. 2979/2985;15;67;32;15;Diaz César, Gral. 2979/2985;Vivienda;12;3;D;;;;;;N;;;S
+CABA;6593;Diaz César, Gral. 2979/2985;15;67;32;15;Diaz César, Gral. 2979/2985;Vivienda;17;5;A;;;;;;N;;;S
+CABA;6593;Diaz César, Gral. 2979/2985;15;67;32;15;Diaz César, Gral. 2979/2985;Vivienda;18;5;B;;;;;;N;;;S
+CABA;6593;Diaz César, Gral. 2979/2985;15;67;32;15;Diaz César, Gral. 2979/2985;Vivienda;19;5;C;;;;;;N;;;S
+CABA;6593;Don Pedro de Mendoza 2239;4;10;124;24;Don Pedro de Mendoza 2239;Comercial;1;;;;;;;;N;;;S
+CABA;6593;Estomba 1140;15;49;105;25;Estomba 1140;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Fitz Roy 1271;17;33;55;2;Fitz Roy 1271;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Gascón 927;7;17;73;17;Gascón 927;Vivienda;1;8;33;;;;;;N;;;S
+CABA;6593;Giribone 1752/56;15;49;90;6;Giribone 1752/56;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Giribone 620;17;37;9;23;Giribone 620;Vivienda;4;1;D;;;;;;N;;;S
+CABA;6593;Guardia Nacional 2108 / Monte 4996;1;62;126;16;Guardia Nacional 2108 / Monte 4996;Vivienda;2;;;;;;;;N;;;S
+CABA;6593;HUMBOLDT 2382/2384;17;35;112;42;HUMBOLDT 2382/2384;Vivienda;1;PB;1;;;;;;N;;;S
+CABA;6593;Humahuaca 3595/99 esq. Billinghurst 609/11;9;13;30;17;Humahuaca 3595/99 esq. Billinghurst 609/11;Vivienda;1;5;A;;;;;;N;;;S
+CABA;6593;Humboldt 1220;17;33;55;17;Humboldt 1220;Vivienda;1;;1;;;;;;N;;;S
+CABA;6593;Humboldt 1242;17;33;55;20;Humboldt 1242;Vivienda;1;;;;;;;;S;;;S
+CABA;6593;Janer Ana María 3545;1;56;106;1;Janer Ana María 3545;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;José Enrique Rodó 4480/4482;1;54;41;2;José Enrique Rodó 4480/4482;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;José Marmol 1124/1128;6;36;35;11;José Marmol 1124/1128;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Jufré 346/50;18;31;63;4;Jufré 346/50;Vivienda;1;PB;1;;;;;;N;;;S
+CABA;6593;Jufré 346/50;18;31;63;4;Jufré 346/50;Vivienda;2;PB;2;;;;;;N;;;S
+CABA;6593;Jufré 346/50;18;31;63;4;Jufré 346/50;Vivienda;4;2;4;;;;;;N;;;S
+CABA;6593;Jufré 980;18;31;69;7;Jufré 980;Vivienda;7;1;A;;;;;;N;;;S
+CABA;6593;Junín 963/965;19;11;53;1;Junín 963/965;Otro;1;;;;;;;;N;;;S
+CABA;6593;Lacroze, Federico Av. 3601/07/11/15;17;37;9;22;Lacroze, Federico Av. 3601/07/11/15;Vivienda;9;2;C;;;;;;N;;;S
+CABA;6593;Lacroze, Federico Av. 3601/07/11/15;17;37;9;22;Lacroze, Federico Av. 3601/07/11/15;Vivienda;14;3;B;;;;;;N;;;S
+CABA;6593;Lacroze, Federico Av. 3601/07/11/15;17;37;9;22;Lacroze, Federico Av. 3601/07/11/15;Vivienda;15;3;A;;;;;;N;;;S
+CABA;6593;Lacroze, Federico Av. 3601/07/11/15;17;37;9;22;Lacroze, Federico Av. 3601/07/11/15;Vivienda;17;4;C;;;;;;N;;;S
+CABA;6593;Lacroze, Federico Av. 3601/07/11/15;17;37;9;22;Lacroze, Federico Av. 3601/07/11/15;Vivienda;19;4;A;;;;;;N;;;S
+CABA;6593;Lezica 4423/27;7;17;2;18;Lezica 4423/27;Vivienda;1;;UV 1;;;;;;N;;;S
+CABA;6593;Lezica 4423/27;7;17;2;18;Lezica 4423/27;Vivienda;2;;UV 2;;;;;;N;;;S
+CABA;6593;Lezica 4423/27;7;17;2;18;Lezica 4423/27;Vivienda;3;;UV 3;;;;;;N;;;S
+CABA;6593;Lezica 4423/27;7;17;2;18;Lezica 4423/27;Vivienda;4;;UV 4;;;;;;N;;;S
+CABA;6593;Liniers Virrey 1312;8;30;24;14;Liniers Virrey 1312;Vivienda;1;PB;A;;;;;;N;;;S
+CABA;6593;Liniers Virrey 1314;;;;;Liniers Virrey 1314;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Liniers Virrey 1375;8;30;14;33;Liniers Virrey 1375;Vivienda;1;PA;Planta Alta;;;;;;N;;;S
+CABA;6593;Loreto, Virrey 3742;15;49;164;3;Loreto, Virrey 3742;Vivienda;7;3;B;;;;;;N;;;S
+CABA;6593;Loreto, Virrey 3742;15;49;164;3;Loreto, Virrey 3742;Vivienda;12;5;A;;;;;;N;;;S
+CABA;6593;Loreto, Virrey 3742;15;49;164;3;Loreto, Virrey 3742;Vivienda;14;7;A;;;;;;N;;;S
+CABA;6593;Madrid 6956/6960;15;93;1;3;Madrid 6956/6960;Vivienda;3;PB;3;;;;;;N;;;S
+CABA;6593;Magaldi, Agustin 1100;2;26;26;1;Magaldi, Agustin 1100;Comercial;1;;;;;;;;N;;;S
+CABA;6593;Mario Bravo 143;9;13;13;4;Mario Bravo 143;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Medrano 794 ;7;17;82;1;Medrano 794 ;Vivienda;1;5;K;;;;;;N;;;S
+CABA;6593;Moldes 1080;17;37;115;3;Moldes 1080;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Newbery, Jorge 3546/48/50 ;17;33;62;15;Newbery, Jorge 3546/48/50 ;Vivienda;1;1;1;;;;;;N;;;S
+CABA;6593;Newbery, Jorge 3558/60/62 ;17;33;62;16;Newbery, Jorge 3558/60/62 ;Vivienda;9;1;G;;;;;;N;;;S
+CABA;6593;Oliveri 96/98;;;;;Oliveri 96/98;Vivienda;1;PB;1;;;;;;N;;;S
+CABA;6593;Palpa 3630/32/34;17;37;10;14;Palpa 3630/32/34;Vivienda;1;PB;1;;;;;;N;;;S
+CABA;6593;Pergamino 3009;1;52;10;35;Pergamino 3009;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Perú 864/66/68/70;12;4;24;16;Perú 864/66/68/70;Vivienda;1;Frente;;;;;;;N;;;S
+CABA;6593;Perú 864/66/68/70;12;4;24;16;Perú 864/66/68/70;Vivienda;2;Fondo;;;;;;;N;;;S
+CABA;6593;Perú 864/66/68/70;12;4;24;16;Perú 864/66/68/70;Vivienda;5;;;;;;;;N;;;S
+CABA;6593;Perú 864/66/68/70;12;4;24;16;Perú 864/66/68/70;Vivienda;6;;;;;;;;N;;;S
+CABA;6593;Perú 864/66/68/70;12;4;24;16;Perú 864/66/68/70;Vivienda;7;;;;;;;;N;;;S
+CABA;6593;Perú 864/66/68/70;12;4;24;16;Perú 864/66/68/70;Vivienda;8;;;;;;;;N;;;S
+CABA;6593;Perú 864/66/68/70;12;4;24;16;Perú 864/66/68/70;Vivienda;9;;;;;;;;N;;;S
+CABA;6593;Perú 864/66/68/70;12;4;24;16;Perú 864/66/68/70;Vivienda;10;;;;;;;;N;;;S
+CABA;6593;Perú 864/66/68/70;12;4;24;16;Perú 864/66/68/70;Vivienda;11;;;;;;;;N;;;S
+CABA;6593;Perú 864/66/68/70;12;4;24;16;Perú 864/66/68/70;Vivienda;12;;;;;;;;N;;;S
+CABA;6593;RIVERA, PEDRO I., Dr. 4217;16;53;91;20;RIVERA, PEDRO I., Dr. 4217;Vivienda;1;2;7;;;;;;N;;;S
+CABA;6593;Ramón L. Falcón 4736/4738/4742;1;60;139;17;Ramón L. Falcón 4736/4738/4742;Vivienda;1;PB;A FRENTE;;;;;;N;;;S
+CABA;6593;Ramón L. Falcón 4736/4738/4742;1;60;139;17;Ramón L. Falcón 4736/4738/4742;Vivienda;2;PB;B CONTRAFRENTE;;;;;;N;;;S
+CABA;6593;Ramón L. Falcón 4736/4738/4742;1;60;139;17;Ramón L. Falcón 4736/4738/4742;Vivienda;3;PA;C FRENTE;;;;;;N;;;S
+CABA;6593;Ramón L. Falcón 4736/4738/4742;1;60;139;17;Ramón L. Falcón 4736/4738/4742;Vivienda;4;PA;D CONTRAFRENTE;;;;;;N;;;S
+CABA;6593;Ramón L. Falcón 4736/4738/4742;1;60;139;17;Ramón L. Falcón 4736/4738/4742;Vivienda;5;PB;PB FONDO;;;;;;N;;;S
+CABA;6593;Riglos 969/71;6;40;46;38;Riglos 969/71;Vivienda;3;;;;;;;;N;;;S
+CABA;6593;Rivera Indarte 196;5;48;118;21;Rivera Indarte 196;Vivienda;2;PB;A;;;;;;N;;;S
+CABA;6593;Rivera Indarte 196;5;48;118;21;Rivera Indarte 196;Vivienda;4;1;C;;;;;;N;;;S
+CABA;6593;Rivera Indarte 196;5;48;118;21;Rivera Indarte 196;Vivienda;7;3;H;;;;;;N;;;S
+CABA;6593;Rivera Indarte 196;5;48;118;21;Rivera Indarte 196;Vivienda;8;3;G;;;;;;N;;;S
+CABA;6593;San José de Calasanz 974/76/78;6;40;46;22;San José de Calasanz 974/76/78;Vivienda;1;;A;;;;;;N;;;S
+CABA;6593;San José de Calasanz 974/76/78;6;40;46;22;San José de Calasanz 974/76/78;Vivienda;3;;C;;;;;;N;;;S
+CABA;6593;Santa Magdalena 829;3;18;62;12;Santa Magdalena 829;Vivienda;2;;;;;;;;N;;;S
+CABA;6593;Santa Magdalena 829;3;18;62;12;Santa Magdalena 829;Vivienda;3;;;;;;;;N;;;S
+CABA;6593;Santa Magdalena 829;3;18;62;12;Santa Magdalena 829;Vivienda;4;;;;;;;;N;;;S
+CABA;6593;Serrano 1079/85;18;31;67;3;Serrano 1079/85;Vivienda;1;;;;;;;;S;;;S
+CABA;6593;Sin Nombre Oficial (NC C: 16 S: 27 M: entre 146K y 146L);16;27;146;146;Sin Nombre Oficial (NC C: 16 S: 27 M: entre 146K y 146L);Comercial;1;;;;;;;;N;;;S
+CABA;6593;Suarez 228;4;6;52;2;Suarez 228;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Suarez 228;4;6;52;2;Suarez 228;Vivienda;2;;;;;;;;N;;;S
+CABA;6593;Suarez 228;4;6;52;2;Suarez 228;Vivienda;3;;;;;;;;S;;;S
+CABA;6593;Suarez 432;4;6;27;7;Suarez 432;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Tapalqué 4845/49;1;62;153;28;Tapalqué 4845/49;Vivienda;1;PB;A;;;;;;N;;;S
+CABA;6593;Tapalqué 4845/49;1;62;153;28;Tapalqué 4845/49;Vivienda;2;PB;B;;;;;;N;;;S
+CABA;6593;Tapalqué 4845/49;1;62;153;28;Tapalqué 4845/49;Vivienda;3;PA;;;;;;;N;;;S
+CABA;6593;Terrada 5869;16;75;52;17;Terrada 5869;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Terrero 127/29/31;5;57;16;1;Terrero 127/29/31;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Thames 1054/56;18;31;69;26;Thames 1054/56;Vivienda;3;;;;;;;;N;;;S
+CABA;6593;Urquiza, Gral. 1377/1379;8;30;46;16;Urquiza, Gral. 1377/1379;Vivienda;28;3;28;;;;;;N;;;S
+CABA;6593;Valle, J.J., Gral. Div. 2950 / Tilcara Av. 2961;1;38;55;2;Valle, J.J., Gral. Div. 2950 / Tilcara Av. 2961;Comercial;1;;;;;;;;N;;;S
+CABA;6593;Villarino 2367;3;18;59;31;Villarino 2367;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Yatay 102;7;17;2;21;Yatay 102;Vivienda;1;PB;A;;;;;;N;;;S
+CABA;6593;Yatay 102;7;17;2;21;Yatay 102;Vivienda;2;PB;B;;;;;;N;;;S
+CABA;6593;Yatay 102;7;17;2;21;Yatay 102;Vivienda;3;1;A;;;;;;N;;;S
+CABA;6593;Yatay 102;7;17;2;21;Yatay 102;Vivienda;4;1;B;;;;;;N;;;S
+CABA;6593;Yatay 102;7;17;2;21;Yatay 102;Vivienda;6;2;B;;;;;;N;;;S
+CABA;6593;Yatay 102;7;17;2;21;Yatay 102;Vivienda;7;3;A;;;;;;N;;;S
+CABA;6593;Yatay 102;7;17;2;21;Yatay 102;Vivienda;8;3;B;;;;;;N;;;S
+CABA;6593;Yatay 102;7;17;2;21;Yatay 102;Vivienda;9;4;A;;;;;;N;;;S
+CABA;6593;Yatay 102;7;17;2;21;Yatay 102;Vivienda;10;4;B;;;;;;N;;;S
+CABA;6593;Yatay 102;7;17;2;21;Yatay 102;Vivienda;12;6;A;;;;;;N;;;S
+CABA;6593;Yatay 102;7;17;2;21;Yatay 102;Vivienda;14;7;A;;;;;;N;;;S
+CABA;6593;Yatay 102;7;17;2;21;Yatay 102;Vivienda;15;7;B;;;;;;N;;;S
+CABA;6593;Yatay 102;7;17;2;21;Yatay 102;Vivienda;17;8;B;;;;;;N;;;S
+CABA;6593;Yerbal 2217/21/23/25/91;5;65;100;1;Yerbal 2217/21/23/25/91;Vivienda;3;PB;86;;;;;;N;;;S
+CABA;6593;Yerbal 2217/21/23/25/91;5;65;100;1;Yerbal 2217/21/23/25/91;Vivienda;15;PB;45;;;;;;N;;;S
+CABA;6593;Yerbal 2217/21/23/25/91;5;65;100;1;Yerbal 2217/21/23/25/91;Vivienda;23;3;24;;;;;;N;;;S
+CABA;6593;Yerbal 2217/21/23/25/91;5;65;100;1;Yerbal 2217/21/23/25/91;Vivienda;51;2;82;;;;;;N;;;S
+CABA;6593;Yerbal 2217/21/23/25/91;5;65;100;1;Yerbal 2217/21/23/25/91;Vivienda;52;2;83;;;;;;N;;;S
+CABA;6593;Yerbal 2217/21/23/25/91;5;65;100;1;Yerbal 2217/21/23/25/91;Vivienda;68;2;21;;;;;;N;;;S
+CABA;6593;Yerbal 2217/21/23/25/91;5;65;100;1;Yerbal 2217/21/23/25/91;Vivienda;74;3;84;;;;;;N;;;S
+CABA;6593;Yerbal 2217/21/23/25/91;5;65;100;1;Yerbal 2217/21/23/25/91;Vivienda;92;3;22;;;;;;N;;;S
+CABA;6593;Yerbal 4629;1;77;35;1;Yerbal 4629;Vivienda;1;4;9;;;;;;N;;;S
+CABA;6593;Yerbal 4651/4653/4657;;;;;Yerbal 4651/4653/4657;Vivienda;3;1;3;;;;;;N;;;S
+CABA;6593;Yerbal 765;7;45;29;11;Yerbal 765;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Yerbal 765;7;45;29;11;Yerbal 765;Vivienda;2;;;;;;;;N;;;S
+CABA;6593;Zamudio 5981;16;75;106;5;Zamudio 5981;Vivienda;1;;;;;;;;N;;;S
+CABA;6593;Zuviría 166/68;6;40;123;9;Zuviría 166/68;Vivienda;2;;;;;;;;N;;;S
+CABA;6593;Zuviría 302;6;40;93;1;Zuviría 302;Comercial;1;;;;;;;;N;;;S

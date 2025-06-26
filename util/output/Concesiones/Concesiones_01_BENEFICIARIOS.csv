@@ -1,0 +1,379 @@
+﻿documento_tipo;documento;nombre;email;emailadicional;tipo_persona;fechanacimiento;sexo;telefono;activo;tipo_domicilio;calle;piso;dpto;localidad;codigo_postal
+DNI;04403955;ERNESTO NICOLAS ORELLANO;elrosarino.er@gmail.com;;Física;8/01/1979;M;;S;Legal;Juramento N°2527;;;CABA;1111
+DNI;11812444;Gerardo Oscar Iribecampos;03alemiranda@gmail.com;;Física;2/06/1955;M;;S;Comercial;SUBTE E - ESTACIÓN PUEYRREDON LOCAL N° 17;;;capital federal;1046
+DNI;12347783;José Antonio Ávalos;jhonesjony@gmail.com;;Jurídica;;;;S;Comercial;Estación Carlos Gardel Linea B- Local 3;;;CABA;1193
+DNI;12714985;HUGO DANIEL SUAREZ;suarezhugodaniel@gmail.com;;Física;3/08/1958;M;;S;Comercial;Estación  Retiro Linea E- Local 1;;;CABA;1054
+DNI;13181486;JULIO CESAR CAPORALE;caporalito24@gmail.com;;Jurídica;;;;S;Legal;Mario Bravo 51;0;4;CABA;1111
+DNI;13481485;Marta Noemi Quiroz;marta20211213@gmail.com;;Jurídica;;;;S;Comercial;Gral Fructuoso Rivera  1999;;;CABA;1437
+DNI;13530917;CARLOS RICARDO GRANZOTTO;carlosgranzotto59@gmail.com;;Física;9/02/1960;M;;S;Legal;Juramento N°2527;;;CABA;1111
+DNI;13656153;Borzone Daniel Armando;borzonedaniel@gmail.com;;Física;6/10/1959;M;;S;Vivienda;Pasaje Angaco N° 4225;;;CABA;1257
+DNI;13720828;Monica Viviana Martos;monicamartos59@gmail.com;;Física;28/08/1957;F;;S;Legal;Carlos Calvo N°1917 1°C;;;CABA;1102
+DNI;13915106;Carlos Alberto Tentoni;ctentoni@gmail.com;;Jurídica;;;;S;Legal;Av. Belgrano 1828;;;CABA;1094
+DNI;13990375;HORACIO RUBEN OJEDA;Horacio1960ojeda@gmail.com;;Física;30/09/1960;M;;S;Comercial;Estación Pasaje Lima Linea A- Local 3;;;CABA;1073
+DNI;14858928;ALEJANDRA NOEMI LA TORRES;aletorre777@msn.com;;Física;7/02/1962;F;;S;Comercial;Estación Carlos Gardel Linea B- Local 6;;;CABA;1171
+DNI;16071628;Gabriel Cristian Edery;cristiaamar@gmail.com;;Física;23/10/1962;M;;S;Legal;Nuñez N° 346 PB;;;CABA;1429
+DNI;16495699;SONIA VIVIAN STEIN;taeicaasa@yahoo.com.ar;;Física;6/04/1963;F;;S;Comercial;Estación Florida Linea B- Local 3;;;CABA;1054
+DNI;17083701;Dativo Carlos Marcelo;mdativo@yahoo.com.ar;;Física;5/02/1980;F;;S;Legal;Tucumán 941;;;CABA;1111
+DNI;17365087;ANDREA SUSANA MONTES;andreasusana.m@gmail.com;;Física;24/06/1964;F;;S;Comercial;Estación Plaza Miserere Linea A - Local 7/8;;;CABA;1203
+DNI;17636258;Viviana Mónica Laguzzi;viviguzzi@icloud.com;;Física;3/03/1989;F;;S;Legal;Asunción 2284;;;CABA;1111
+DNI;17879521;Marcelo Canciani;mcanciani66@hotmail.com;;Jurídica;;;;S;Comercial;Estación Pasteur Linea B- Local 2/3;;;CABA;1425
+DNI;18044459;Lucía Mabel Duarte;duartelucia10@gmail.com;;Jurídica;;;;S;Legal;Av Belgrano 2653;;;CABA;1111
+DNI;18580879;ROXANA VINCELLI;roxanavincelli@gmail.com;;Física;3/03/1990;F;;S;Legal;Asunción 2284;;;CABA;1111
+CUIL;20041625199;HECTOR CARLOS RODRIGUEZ;adriana.ro@fibertel.com.ar;;Física;1/01/2000;M;;S;Legal;Calle 1000;;;CABA;1084
+CUIL;20048615342;ALFREDO LANGUILLA;giselrojas_@hotmail.com;;Física;1/01/2000;M;;S;Legal;Calle 1000;;;CABA;1084
+CUIL;20048914056;MARIANO EDUARDO ZUCCONI;marianozucconi@hotmail.com;;Física;1/01/2000;M;;S;Legal;Suipacha 268 ;9;B;CABA;1084
+CUIL;20049917601;RAMON ENRIQUE ALLEGRANZA;rallegranza@fibertel.com.ar;;Física;1/01/2000;M;;S;Legal;VALENTIN GOMEZ 3099;6;A;CABA;1084
+CUIL;20062915030;JOSE FRANCISCO CARDOZO;canon2000@buenosaires.gob.ar;;Física;1/01/2000;M;;S;Legal;Predio 622;;A;CABA;1084
+CUIL;20066059341;CIPRIANO LUCERO;facundo.lucero@outlook.es;;Física;1/01/2000;M;;S;Legal;PASTEUR 154 ;5;B;CABA;1084
+CUIL;20067075456;ALCIRO MALDONADO;maldonadogermanalciro@gmail.com;;Física;1/01/2000;M;;S;Legal;ANDRES LAMAS 1236 ;2;;CABA;1084
+CUIL;20075073411;GOMEZ JUAN RAMON;juanchorgomez76@gmail.com;;Física;1/01/2000;M;;S;Legal;SARANDI 66;6;C;CABA;1084
+CUIL;20077885936;JOSE PABLO SOTO;enriquesmoreno@yahoo.com.ar;;Física;1/01/2000;M;;S;Legal;Lavalle 1675;4;10;CABA;1084
+CUIL;20078216159;OMAR GALDINO CARMINATTI;omarcarmi@hotmail.com;;Física;1/01/2000;M;;S;Legal;FIGUEROA ALCORTA 7510;;;CABA;1084
+CUIL;20083628791;VICTOR RAUL FERREYRA;vero.ferreyra@hotmail.com;;Física;1/01/2000;M;;S;Legal;ANCHORENA 424;;;CABA;1170
+CUIL;20084376206;ERNESTO WENCESLAO SOSA;valeria.s.sosa@gmail.com;;Física;1/01/2000;M;;S;Legal;COMPLEJO EMILIO MITRE LOCAL N° 18;;18;CABA;1084
+DNI;20093487;Gabriela Ester Portillo;gep_68@hotmail.com;;Física;28/04/1968;F;;S;Legal;Curapaligue N°825 PB;;;CABA;1406
+CUIL;20108331896;PABLO ALBERTO CHIEFARI;obras.wallpac@gmail.com;;Física;1/01/2000;M;;S;Legal;FORTIN MELINCUE 3028 ;;F;CABA;1084
+CUIL;20108451409;DOMINGO LATELA;fadec@fadeciegos.com;;Física;1/01/2000;M;;S;Legal;BULNES 2752;7;B;CABA;1084
+CUIT;20115766488;PERFIL PERIODICOS SA;administracion@perfil.com;;Jurídica;;;;S;Legal;CALIFORNIA 2715;;;CABA;1084
+CUIL;20119538379;GABRIEL JOSE GRIRO;grirogabriel@yahoo.com.ar;;Física;1/01/2000;M;;S;Legal;INDEPENDENCIA 3256;1;D;CABA;1225
+CUIT;20119598355;ATAPUERCA RICARDO;juliamonastra21@yahoo.com.ar;;Jurídica;;;;S;Legal;Pedro Ribera N°5379;;;CABA;1431
+CUIL;20129123088;HECTOR EDUARDO AVILA;ceciliaifiorentino@gmail.com;;Física;1/01/2000;M;;S;Legal;CAMPOS SALLES 2375;8;B;CABA;1084
+CUIL;20131646551;JUAN RAMON BRITO;Martaquiroz2015@hotmail.com;;Física;1/01/2000;M;;S;Legal;GRAL RIVERA FRUCTUOSO 1999 (ENTRE MATANZA E ITAQUI);;;CABA;1084
+CUIL;20135482022;MIGUEL ORLANDO RODRIGUEZ;lic.mardonesojeda@gmail.com;;Física;1/01/2000;M;;S;Legal;CASTRO BARROS 166;;;CABA;1084
+CUIT;20140333094;EDGARDO EMILIO YARROUGE;eeyarrouge@gmail.com;;Jurídica;;;;S;Legal;JURAMENTO 2527;;;CABA;1428
+CUIL;20143092462;JULIO ABEL RAMIREZ;paolakarinainezmendez@gmail.com;;Física;1/01/2000;M;;S;Legal;GASCON 1026;2;5;CABA;1084
+CUIL;20166732329;MARCELO FABIAN INNOCENTI;marcelo.innocenti.63@gmail.com;;Física;1/01/2000;M;;S;Legal;SANTANDER 1963;;;CABA;1084
+CUIL;20176365847;MARCELO JAUREGUI;jaureguimarcelo835@gmail.com;;Física;1/01/2000;M;;S;Legal;TANDIL 4639;;;CABA;1084
+CUIL;20181227169;FABIO AMADO CANALE;info@ciudadpaintball.com.ar;;Física;1/01/2000;M;;S;Legal;BAZURCO 3561;;;CABA;1084
+CUIL;20182529789;JAVIER GONZALO GONZALEZ;david28071990@hotmail.com;;Física;1/01/2000;M;;S;Legal;JUAN MANUEL bLANES 149;6;6;CABA;1084
+CUIL;20188186077;JORGE RICARDO MOSQUERA;fmosquera77@gmail.com;;Física;1/01/2000;M;;S;Legal;AV MONROE 4050;6;A;CABA;1084
+CUIL;20200037399;GABRIEL DARIO ABT;las.luces@hotmail.com.ar;;Física;1/01/2000;M;;S;Legal;ALSINA 1476;20;;CABA;1084
+CUIL;20208493532;MIGUEL ALEJANDRO MANCUSO;xx1100687@hotmail.com;;Física;1/01/2000;M;;S;Legal;RIVERA INDARTE 472;;;CABA;1084
+CUIL;20215091199;Hernan Grosso;horule@hotmail.com;;Física;1/01/2000;M;;S;Legal;AV JUAN B JUSTO 3604;4;B;CABA;1084
+CUIL;20215663176;RUBEN DARIO EBERLE;dariopatricio9@gmail.com;;Física;1/01/2000;M;;S;Legal;CERVIÑO 3356;;;CABA;1425
+CUIT;20217199191;ORLANDO JAVIER ORELLANO;marianopereyra08@gmail.com;;Física;6/03/1991;F;;S;Comercial;Juramento 2527;;;CABA;1111
+CUIT;20223026789;HORACIO JAVIER BENTACOURT;javier334benta@gmail.com;;Física;6/02/1990;M;;S;Legal;PINTO 431;;;FLORIDA;1111
+CUIL;20236445675;DIEGO ALEJANDRO VITURRO;dviturro@yahoo.com;;Física;1/01/2000;M;;S;Legal;LAVALLEJA 1078 ;;A;CABA;1084
+CUIL;20237036612;Leandro Miguel Planas;lplanas5@hotmail.com;;Física;1/01/2000;M;;S;Legal;AV. JUAN BAUTISTA ALBERDI 860 ;3;;CABA;1084
+CUIL;20241329861;CARLOS MARIA SCHWICK;pancho_df_95@hotmail.com;;Física;1/01/2000;M;;S;Legal;CONDARCO 430;;L;CABA;1406
+CUIT;20245493046;LEANDRO JOSE CRISTINO;PAULA@LACHINACOCINA.COM;;Física;1/01/1989;M;;S;Legal;RUSSEL 5044;;;CABA;1111
+CUIL;20269206684;DAMIAN EZEQUIEL LAMBOGLIA;germanflo2014@gmail.com;;Física;1/01/2000;M;;S;Legal;DEAN FUNES 1155;;;CABA;1084
+CUIT;20299492088;HECTOR HIDALGO;hector.hidalgo.vino@gmail.com;;Jurídica;;;;S;Vivienda;PUMACAHUA 1028;;;CABA;1406
+CUIL;20301840927;HERNAN DAVID SIGNORI;cristina_signori@yahoo.com.ar;;Física;1/01/2000;M;;S;Legal;Calle 1000;;;CABA;1084
+CUIL;20316499377;FEDERICO VECCHIARELLI;fede.vec.1985@hotmail.com;;Física;1/01/2000;M;;S;Legal;CHIVILCOY 1871;PB;;CABA;1084
+CUIL;20322670355;DAVID EZEQUIEL CANOP MAZAR;canopezequiel@gmail.com;;Física;1/01/2000;M;;S;Legal;Plaza 3580;4;B;CABA;1084
+CUIT;20349249902;NICOLAS GIMENEZ;nicolasgimenez90@gmail.com;;Jurídica;;;;S;Legal;Melo N°4035;;;CABA;1602
+CUIL;20353220285;LAHET BUEZAS IGNACIO AGUSTIN;claudiolahet@yahoo.com.ar;;Física;1/01/2000;M;;S;Legal;VICTOR MARTINEZ 1350;PB;;CABA;1084
+CUIT;20715885790;ESPACIO GARCIA S.R.L.;malenasivak@hotmail.com;;Jurídica;;;;S;Legal;Manuela Pedraza 3122;;;CABA;1111
+CUIL;20922838454;ANTONIO MIGUEL MACAZAGA MARABOTTO;leomacazaga7@gmail.com;;Física;1/01/2000;M;;S;Legal;ESPINOZA 28;4;C;CABA;1084
+CUIT;20928514375;NESTOR HEBER GIMENEZ SOLIS;nestorhebergimenez@gmail.com;;Jurídica;;;;S;Legal;Melo N°4035;;;CABA;1602
+CUIT;20932198275;JUAN BAUTISTA PASCARELLI;j.pascarelli@borner.com.ar;;Jurídica;;;;S;Legal;Aguirre N° 508;;;CABA;1414
+CUIL;20939009370;JOSE ANTONIO TOHALINO ARICA;tonytoalino71@gmail.com;;Física;1/01/2000;M;;S;Legal;TUCUMAN 1638;2;20;CABA;1084
+CUIT;20947399153;MATHIAS ROBERTO MENEZES;ROBERTINHOFOOD@GMAIL.COM;;Física;6/02/1990;M;;S;Legal;AV CALLAO 433;1;B;CABA;1111
+DNI;21055916;JORGE LUIS GONZALEZ;yiyo.rojo.02@gmail.com;;Jurídica;;;;S;Legal;Av Alvarez Jonte 2765;;;CABA;1111
+DNI;21587390;DIEGO MANUEL RIO;diegomanuelrioconcesiones@gmail.com;;Jurídica;;;;S;Comercial;SARMIENTO 1537;;;CABA;1135
+DNI;22238249;Ángel Marcelo Sánchez;ams7214@gmail.com;;Jurídica;;;;S;Comercial;Estación Florida Linea B- Local 2;;;CABA;1005
+DNI;22425029;Diego Lenger;diego@clubdeldisco.com;;Física;6/02/1990;M;;S;Legal;Av Indenepdencia 2014;0;A;CABA;1111
+DNI;22724438;GABRIELA GLADYS ELIZALDE;miguelelizalde92@hotmail.com;;Física;19/06/1984;F;;S;Legal;Juramento N°2527;;;CABA;1111
+DNI;22825742;Maximiliano Alejandro Damian Oks;madoks@madoks.com.ar;;Jurídica;;;;S;Legal;Luis Pasteur 321 A;;;CABA;1111
+CUIL;23044098199;JORGE FRANCISCO RAMOS;jrlordalirc@gmail.com;;Física;1/01/2000;M;;S;Legal;TEODORO GARCIA 3056;;;CABA;1084
+CUIL;23115174169;JOSE LUIS BOGARIN;adriana_monje@yahoo.com.ar;;Física;1/01/2000;M;;S;Legal;AV CORDOBA 6090;2;E;CABA;1084
+CUIL;23128618999;JORGE COSTAS;jorgedcostas@hotmail.com;;Física;1/01/2000;M;;S;Legal;RODRIGO TRIANA 3116;;;CABA;1084
+CUIL;23216633814;ROSA NELIDA RIOS;nellyslan@yahoo.com.ar;;Física;1/01/2000;F;;S;Legal;EMILIO MITRE 994;3;B;CABA;1084
+CUIT;23220831779;ALEJANDRO AGUILERA;sergio.aguilera.eltrebol@gmail.com;;Física;8/02/1994;M;;S;Legal;JORGE NEWBERY 748;;;SAN ISIDRO;1111
+CUIT;23327667599;ALVAREZ TOMAS AGUSTIN;casapolti@casapolti.com.ar;;Jurídica;;;;S;Legal;JURAMENTO 2455;;;CABA;1428
+DNI;23329725;Gabriela Samanta Cuello;samcu2869@gmail.com;;Física;2/06/1973;F;;S;Legal;Riobamba 460;;;CABA;1025
+DNI;23472066;YAEL DENISE MAPELMAN;uniformesmilly@gmail.com;;Física;25/10/1988;F;;S;Legal;Juramento N°2527;;;CABA;1111
+DNI;23507614;Alejandro Pabluk;alejandropk3004@gmail.com;;Física;16/08/1973;F;;S;Legal;Cayasta N°3281;;;CABA;1290
+DNI;23887015;ROBERTA LAURA DOS SANTOS;lauradossantosyanez@gmail.com;bethel.tower402@gmail.com;Jurídica;;;;S;Legal;Regimiento de los Patricios 1052;;;CABA;1111
+CUIL;23925865524;Barbara Fernandez Caroca;barbaritafernandez099@gmail.com;;Física;1/01/2000;F;;S;Legal;MEXICO 1969;;;CABA;1084
+CUIL;23927157314;DIANA ALONSO SAN MARTIN;malaraadm3@gmail.com;;Física;1/01/2000;F;;S;Legal;JEAN JAURES 67;2;D;CABA;1084
+CUIT;23938509689;ONO TAKEHIRO;azk.atelier@gmail.com;;Jurídica;;;;S;Legal;Udaondo N°3085;;;CABA;1416
+DNI;23995264;Lucila Segura;lucilaseguraindumentaria@gmail.com;;Física;3/03/1990;F;;S;Legal;Lezica 4028;1;19;CABA;1111
+DNI;24146620;Mariano Eloy Bolla;nomuylejano@gmail.com;;Física;20/11/1974;M;;S;Legal;Mexico N°2416 Piso 1 dpto A;;;CABA;1431
+DNI;24203290;Eduardo Ariel Rooseleer Colussi;educolussi@hotmail.com;;Jurídica;;;;S;Legal;Av Rivadavia 6436;1;A;CABA;1111
+DNI;24270813;JORGELINA FLORES;jojaflores74@gmail.com;;Jurídica;;;;S;Comercial;Terrada 1844;2;A;CABA;1406
+DNI;24366689;HORACIO GERMAN DE BELLO;horagiu07@gmail.com;;Jurídica;;;;S;Legal;Mariano Moreno 1993;2;A;caba;1111
+DNI;24459989;MARIA TERESA LUJAN;moshmoshshoes@gmail.com;;Física;3/03/1990;F;;S;Legal;Vera 132;;10;CABA;1111
+DNI;24843627;CRISTIAN JAVIER LOPEZ;elprincipedelamor3110@gmail.com;;Física;31/10/1975;M;;S;Comercial;Estación Pasaje Lima A- Local 6;;;CABA;1085
+DNI;24881126;MARTIN HORACIO CETRANGOLO;martincetrangolo@gmail.com;;Física;12/07/1995;M;;S;Legal;Juramento N°2527;;;CABA;1111
+DNI;24979049;MONICA CUPINI;ALECUP_75@HOTMAIL.COM;;Física;6/02/1990;F;;S;Legal;GUARDIA NACIONAL 1651;9;A;CABA;1111
+DNI;25197460;Sonia Del Carmen Guerra;guerra.sonia76@yahoo.com.ar;;Física;3/04/1976;F;;S;Legal;Av. Don Pedro de Mendoza N°3651;;;CABA;1294
+DNI;26821662;Sergio Leonardo Agostino;agostinosergio50@yahoo.com.ar;;Física;11/08/1978;F;;S;Legal;Donato Alvarez N°206 dpto 2E;;;CABA;1416
+CUIL;27042267355;ERMELINDA MEDINA;canon2000@buenosaires.gob.ar;;Física;1/01/2000;F;;S;Legal;NECOCHEA 790 PISO;1;2;CABA;1084
+CUIL;27046789968;MARIA ELENA ALFONSO;ernale1970@hotmail.com;;Física;1/01/2000;F;;S;Legal;FAMATINA 3620 ;;A;CABA;1437
+CUIL;27053006154;NORA ELIDA ALFONSO;soledad_iu@hotmail.com;;Física;1/01/2000;F;;S;Legal;AV ESCALADA 2899 T.8 ;4;B;CABA;1084
+CUIL;27057265944;BASILIA RAFAELA BARTOLOMEO;monibartolomeo@gmail.com;;Física;1/01/2000;F;;S;Legal;RIVADAVIA 6335;5;E;CABA;1084
+CUIL;27062803490;MARIA LUISA D AQUINO;elidabuenavida@gmail.com;;Física;1/01/2000;F;;S;Legal;INDEPENDENCIA 658;PB;3;CABA;1084
+CUIL;27104655748;DELIA MUSTACATO;carlos.abalo@gmail.com;;Física;1/01/2000;F;;S;Legal;VENEZUELA 4356;4;B;CABA;1084
+CUIL;27106251121;ANA ESTER CACOPARDO;ana.e.cacopardo@gmail.com;;Física;1/01/2000;F;;S;Legal;VICTOR MARTINEZ 320;;;CABA;1084
+CUIL;27114009348;SUSANA MABEL PILLA;leandroollo@yahoo.com.ar;;Física;1/01/2000;F;;S;Legal;ECUADOR 339;;1;CABA;1084
+CUIL;27118928887;EVA MADRID FUENTES;sole_loreley_1990@hotmail.com;;Física;1/01/2000;F;;S;Legal;"DONIZETTI 41 TORRE ""C"" ";24;D;CABA;1084
+CUIL;27126824683;NIEVES GRACIELA LAZO;canon2000@buenosaires.gob.ar;;Física;1/01/2000;F;;S;Legal;GARZON 3750;;1;CABA;1084
+CUIT;27132950526;ANA LIA MACCHI;macchiant@gmail.com;;Jurídica;;;;S;Legal;Jose Hernandez N°2097;5;B;CABA;1426
+CUIT;27133013984;ANA MARIA CARDOZO;annies.1516@gmail.com;;Jurídica;;;;S;Legal;Moldes N°2450;2;9;CABA;1428
+CUIL;27141950326;LUCIA RONCHI;enriquesmoreno@yahoo.com.ar;;Física;1/01/2000;F;;S;Legal;OLAVARRIA 627;1;4;CABA;1084
+CUIL;27147679144;MONICA ADRIANA GOMEZ;monigomez2307@gmail.com;;Física;1/01/2000;F;;S;Legal;Quintino Bocayuva N°567;PB;B;CABA;1084
+DNI;27152918;SUSANA GRAY;susana.gray1979@gmail.com;susana.garay1979@gmail.com;Física;5/02/1980;F;;S;Legal;Brandsen 1620;;;CABA;1111
+CUIL;27160897452;CATALINA EDITH LEDESMA;catalina.e.ledesma@gmail.com;;Física;1/01/2000;F;;S;Legal;AV BELGRANO 2935;;D;CABA;1209
+CUIT;27163228284;MARIA VIVIANA GUIDO;viviguido@gmail.com;;Jurídica;;;;S;Legal;Av. Lidoro Quinteros N°1484;;;CABA;1428
+CUIT;27167854767;ANA MARIA VITO;monyvito@hotmail.com;;Física;11/10/1670;F;;S;Comercial;JURAMENTO 2527;;;CABA;1428
+CUIL;27168913694;LILIANA BEATRIZ DOTI;rosadoti59@gmail.com;;Física;1/01/2000;F;;S;Legal;GREGORIO DE LA FERRERE 4880;;2;CABA;1084
+CUIL;27175911907;ANA MARIA RAGO;anamariarago@yahoo.com.ar;;Física;1/01/2000;F;;S;Legal;ZUVIRIA 822;;;CABA;1084
+CUIL;27176523587;NORMA CLAUDIA BIDEGAIN;gutierrezcarli@gmail.com;;Física;1/01/2000;F;;S;Legal;SANTANDER 1963;;;CABA;1084
+CUIT;27180692911;CLAUDIA PATRICIA CLIMENT;climentclaudia8@gmail.com;;Jurídica;;;;S;Legal;JOSE MARIA GUTIERREZ 2971;;;CABA;1417
+CUIT;27226559995;MONICA CARMEN TERZO;MONICATERZO90@GMAIL.COM;;Física;6/03/1991;F;;S;Comercial;Juramento 2527;;;CABA;1111
+CUIT;27250717518;ANDREA VALERIA SORRENTINO;andrea_valeria_sorrentino@hotmail.com;lplanas5@hotmail.com;Física;6/02/1990;F;;S;Legal;Av Juan Bautista Alberdi 860;3;;CABA;1111
+CUIT;27252168783;BARBARA DALILA OSTROVSKY;barbydostrovsky@gmail.com;;Jurídica;;;;S;Legal;Ciudad de la Paz N°550;;;CABA;1426
+CUIL;27258354716;ANDREA ESTELA CANO VERGARA;acanovergara@gmail.com;;Física;1/01/2000;F;;S;Legal;CACHIMAYO 1063;;;CABA;1084
+CUIT;27262581948;Emilia Colacelli;emiliacolacelli@gmail.com;;Jurídica;;;;S;Comercial;Av Cordoba 5950 PB;;1;CABA;1414
+CUIT;27291504723;LUDMILA NATALIA OLIVER;LUDMILAOLIVER.10@GMAIL.COM;ludmilaoliver@hotmail.com;Física;2/01/1989;F;;S;Legal;Juramento 2527;;;CABA;1111
+DNI;27577942;ALEJANDRA BEATRIZ GOROSITO;alejandragoro888@gmail.com;;Física;17/08/1979;F;;S;Comercial;Estación Leandro N. Alem Linea B- Local 6B;;;CABA;1043
+CUIT;27939818885;TEODOLINA BRITEZ;teodolinabrites5@gmail.com;;Física;6/03/1991;F;;S;Legal;MANZANA 11 CASA 65;;;BARRIO PADRE MUJICA;1111
+DNI;28950344;Damian Alberto Caffarella;damiancaffarella@hotmail.com;concesionesyp@gmail.com;Física;12/07/1981;M;1145744666;S;Comercial;Emilio Mitre 955;;;CABA;1424
+DNI;29881098;RUBEN OMAR CENTURION;milagroszanzi@hotmail.com;;Física;22/12/1982;M;;S;Comercial;Estación Retiro Linea E-  Local 3;;;CABA;1013
+DNI;29909149;Leandro Gómez;bailarines@fabioshoes.com.ar;;Física;3/03/1990;M;;S;Legal;Riobamba;10;A;CABA;1111
+DNI;29949208;HECTOR HIDALGO;hector.hidalgo.vino@gmail.com;;Física;6/02/1990;M;;N;Legal;Pumacahua 1028;;;CABA;1111
+DNI;30413095;Maria Celeste Anzuategui;celesteanzuategui@gmail.com;;Física;8/09/1982;F;;S;Legal;Del Barco Centenera N°1950 pb dpto D;;;CABA;1102
+CUIT;30502590630;ATACAMA SOCIEDAD ANONIMA DE PUBLICIDAD;gustavobrizuela@atacamapublicidad.com.ar;administracion@atacamapublicidad.com.ar;Jurídica;;;;S;Legal;José Antonio Cabrera 3288;;;CABA;1111
+CUIT;30505454436;CRIBA S.A.;elizabeth.viceconte@criba.com.ar;;Jurídica;;;;S;Legal;CERRITO 740;14;;CABA;1084
+CUIT;30506875877;SILOS ARENEROS SA;javiermartin@silosareneros.com.ar;;Jurídica;;;;S;Legal;Av. Pedro de Mendoza 750;PB;;CABA;1084
+CUIT;30517537620;BRD S.A.I.C.F.I.;direccion@brd.com.ar;;Jurídica;;;;S;Legal;CALIFORNIA 1937/45;;;CABA;1084
+CUIT;30518917125;RIVA S.A.;fgarcia@rivacons.com.ar;;Jurídica;;;;S;Legal;Suipacha 1067;;;CABA;1084
+CUIT;30519882767;BREWDA CONSTRUCCIONES S.A.C.I.F.;contaduria@dakota.com.ar;;Jurídica;;;;S;Legal;HIPOLITO IRIGOYEN 1628;11;;CABA;1084
+CUIT;30535981929;DAKOTA S.A.;contaduria@dakota.com.ar;;Jurídica;;;;S;Legal;HIPOLITO YRIGOYEN 1628;11;;CABA;1084
+CUIT;30536455848;Farmacia De La Estrella S.R.L.;admfarmaciadelaestrella@hotmail.com;;Jurídica;;;;S;Legal;CASTELLI 376;6;A;CABA;1084
+CUIT;30540414803;TRANSPORTE SPACAPAN SACIFIA;proveedores@spacapan.com.ar;;Jurídica;;;;S;Legal;GENERAL LUCIO MANSILLA 3050;9;B;CABA;1084
+CUIT;30542042814;CAMARA ARGENTINA DE INDUSTRIALES PROVEEDORES DE LA INDUSTRIA DEL CALZADO;g.eventos2025@gmail.com;;Jurídica;;;;S;Legal;AV RAFAEL OBLIGADO 1221;;;CABA;1111
+CUIT;30543217936;OSP S.A.;mgrone@sarmiento.net;woviedo@sarmiento.net;Jurídica;;;;S;Legal;CARLOS PELLEGRINI 1427;6;;CABA;1084
+CUIT;30546128403;CEMIC;srey@cemic.edu.ar;;Jurídica;;;;S;Legal;AV LAS HERAS 2939;;;CABA;1084
+CUIT;30546225751;Los Constituyentes SAT;msebastianelli@losconstituyentes.com;;Jurídica;;;;S;Legal;Jorge Newbery 4582;;;CABA;1084
+CUIT;30546969874;TRANSPORTADORA DE CAUDALES JUNCADELLA S.A.;Diego.Nicosia@prosegur.com;;Jurídica;;;;S;Legal;TRES ARROYOS 2835;;;CABA;1084
+CUIT;30547110427;SGS S.A.;ar.tesoreria@sgs.com;;Jurídica;;;;S;Legal;TRONADOR 4890;3;;CABA;1084
+CUIT;30570313017;PLAYAS SUBTERRANEAS S.A.;acaramp@playas-subterraneas.com.ar;;Jurídica;;;;S;Legal;AV DE MAYO 1437;5;J;CABA;1084
+CUIT;30570945285;HAPPENING S.A.;gr@gardiner.com.ar;;Jurídica;;;;S;Legal;CRISOLOGO LARRALDE 1935;6;A;CABA;1084
+CUIT;30573384713;LAGOS DE PALERMO S.A.;loslagosdepalermo@hotmail.com;;Jurídica;;;;S;Legal;Av. Santa Fe 4505;8;K;CABA;1084
+CUIT;30573652084;MULTICANAL SA;nrodrigu@teco.com.ar;;Jurídica;;;;S;Legal;ALICIA M. DE JUSTO 50;;;CABA;1084
+CUIT;30574140478;CLUB DEPORTIVO FERROCARRIL GENERAL MITRE;ferdallasta@gmail.com;;Jurídica;;;;S;Legal;Hipólito Irigoyen N°1938;;;CABA;1084
+CUIT;30576455115;Cooperadora de Accion Social COAS;canon2000@buenosaires.gob.ar;;Jurídica;;;;S;Legal;Essmeralda 1320;3;B;CABA;1084
+CUIT;30589583139;LA MANTOVANA S.A.;contacto.info.lmsa@gmail.com;;Jurídica;;;;S;Comercial;Luis Saenz Peña 1255;;;CABA;1135
+CUIT;30591126594;TRANSPORTE AUTOMOTOR PLAZA SA;ncarrizo@grupoplaza.com.ar;;Jurídica;;;;S;Legal;AV MONTES DE OCA 1950;;;CABA;1084
+CUIT;30594723356;DEL BARCO SRL;luisncuneo@yahoo.com.ar;;Jurídica;;;;S;Legal;BOGOTA 2745;;;CABA;1084
+CUIT;30594807673;GAME TENIS CLUB S.A.;horaciouema@hotmail.com;;Jurídica;;;;S;Legal;Tucuman 881;1;11;CABA;1084
+CUIT;30608260737;MASBOR S.R.L.;alquileres.gib@gmail.com;;Jurídica;;;;S;Legal;Suipacha 211;14;D;CABA;1084
+CUIT;30611338844;Derudder Hermanos SRL (FLECHABUS);ivanalasagna@empresasanjose.com.ar;;Jurídica;;;;S;Legal;ESMERALDA 320;4;;CABA;1084
+CUIT;30612862059;Club de Amigos;clubdeamigos@clubdeamigos.org.ar;;Jurídica;;;;S;Legal;AV FIGUEROA ALCORTA 3885;;;CABA;1084
+CUIT;30620324635;TELEMETRIX S.A.;jabelleira@emaco-sa.com.ar;;Jurídica;;;;S;Legal;FLORIDA 15° ;9;;CABA;1084
+CUIT;30624188566;FUNDACION MUSEO PARTICIPATIVO DE CIENCIAS;gnoceti@mpc.org.ar;;Jurídica;;;11111111;S;Legal;Fray Justo Santamaria 2960;3;b;CABA;1111
+CUIT;30626219043;FUNDACION HTAL. DE PEDIATRIA DR. GARRAHAN;abenitez@fhg.org.ar;;Jurídica;;;;S;Legal;COMBATE DE LOS POZOS 1881;2;;CABA;1084
+CUIT;30627467555;ASOCIACION CIVIL GOLF CLUB JOSE JURADO;golfjurado@ciudad.com.ar;;Jurídica;;;;S;Legal;AV CORONEL ROCA 5025;;;CABA;1084
+CUIT;30628804822;ASOCIACION CATALINAS SUR;asociacioncatsur@hotmail.com;;Jurídica;;;;S;Legal;PI Y MARGALL N° 671;;;CABA;1084
+CUIT;30629642672;SUPERMERCADOS MAYORISTAS YAGUAR  S.A.;legales@yaguar.com.ar;;Jurídica;;;;S;Legal;VIAMONTE 1841;4;B;CABA;1084
+CUIT;30629788642;LAVALLE 735 S.A.;sandra@elpalaciodelapapafrita.com;;Jurídica;;;;S;Legal;Lavalle 735;;;CABA;1084
+CUIT;30631847508;ASOC. DE EX ALUMNOS DEL COLEGIO NACIONAL BUENOS AIRES;aexcnba@aexcnba.com.ar;;Jurídica;;;;S;Legal;MANZANARES 1725;;;CABA;1084
+CUIT;30634566623;FOOD CO S.A.;gr@gardiner.com.ar;;Jurídica;;;;S;Legal;SUIPACHA 414;4;;CABA;1084
+CUIT;30636529164;TELEVISION FEDERAL S.A.;tadeo.martin@vimnmix.com;;Jurídica;;;;S;Comercial;Matheu 1558;;;CABA;1627
+CUIT;30636989254;ARTE RADIOTELEVISIVO ARGENTINO S A;aldana_escobar@artear.com;nwasilewski@artear.com;Jurídica;;;;S;Legal;Lima 1261;;;CABA;1084
+CUIT;30637147559;PUNTA CARRASCO S.A.;tesoreria@puntacarrasco.com.ar;;Jurídica;;;;S;Legal;AV RAFAEL OBLIGADO S/N Y AV SARMIENTO;;;CABA;1084
+CUIT;30639453738;TELECOM ARGENTINA SA;notificaciones-gcba@teco.com.ar;;Jurídica;;;;S;Legal;ALICIA M. DE JUSTO 50;;;CABA;1084
+CUIT;30640599908;BRUC & BRUC  S.A.;gr@gardiner.com.ar;concesionesyp@gmail.com;Jurídica;;;;S;Legal;SUIPACHA 414;4;;CABA;1008
+CUIT;30640897267;TELECENTRO S.A.;lluna@telecentro.net.ar;;Jurídica;;;;S;Legal;BERNARDO DE IRIGOYEN 330;;;CABA;1084
+CUIT;30642529931;JARDIN ZOOLOGICO DE LA CIUDAD DE BUENOS AIRES S.A.;pablo.tasso@zoobuenosaires.com.ar;;Jurídica;;;;S;Legal;Sarmiento 1574;3;;CABA;1084
+CUIT;30643542621;PASCO TENIS PADDLE S.A.;gabriel@pascotenis.com.ar;;Jurídica;;;;S;Legal;PEÑA 2920;6;;CABA;1084
+CUIT;30646594118;FUNDACION UNIVERSIDAD TORCUATO DI TELLA;pagos@utdt.edu;;Jurídica;;;;S;Legal;AV DE MAYO 651;;;CABA;1084
+CUIT;30646763602;Hoyo uno de Palermo SA;hoyounodepalermosa@gmail.com;;Jurídica;;;;S;Legal;Av. de Mayo 749;3;;CABA;1084
+CUIT;30648550487;Tele Red Imagen S.A.;cuentasapagar@tycsports.com.ar;;Jurídica;;;;S;Legal;SAN JUAN 1132;;;CABA;1084
+CUIT;30649023936;Mercado de Liniers SA;mlford@mercadodeliniers.com.ar;;Jurídica;;;;S;Legal;Lisandro de la Torre 2406;;;CABA;1084
+DNI;30651901;SAMANTA GISELLE SOSA;gst_1978@yahoo.com.ar;;Jurídica;;;;S;Legal;Zañartu 1190;;;CABA;1111
+CUIT;30652830809;AIRSEC SA;ehirst@arsec.com.ar;;Jurídica;;;;S;Legal;Av Forest 1353;;;CABA;1084
+CUIT;30653051537;MAILLOL SA;cuentasapagarrodizio@gmail.com;;Jurídica;;;;S;Legal;25 de Mayo 293 ;9;;CABA;1084
+CUIT;30654954565;CANTEN S.A.;clauberterreix@hotmail.com;;Jurídica;;;;S;Legal;Pumacahua 1055;;;CABA;1084
+CUIT;30655719160;EL MIRASOL DE LA RECOVA S.A.;canon2000@buenosaires.gob.ar;;Jurídica;;;;S;Legal;Posadas 1032;;;CABA;1084
+CUIT;30655942382;Plaza Logística SRL;eg@plazalogistica.com.ar;;Jurídica;;;;S;Comercial;Maza 1346;;;CABA;1240
+CUIT;30661440127;SOLIS CANO SA;soliscano@fibertel.com.ar;;Jurídica;;;;S;Comercial;Solis 1252;;;CABA;1134
+CUIT;30661440127;SOLIS CANO SA;soliscano@fibertel.com.ar;;Jurídica;;;;S;Legal;VIDAL 1886;2;G;CABA;1084
+CUIT;30661544267;CENTRO COSTA SALGUERO SA;INFO@CCS.COM.AR;;Jurídica;;;;S;Legal;TUCUMAN 1438;;;CABA;1111
+CUIT;30663386979;EXPOTRADE;g.eventos2025@gmail.com;;Jurídica;;;;S;Legal;GUATEMALA 5885;;;CABA;1111
+CUIT;30677830839;PC PUBLICIDAD SA;foruffo@pcviapublica.com.ar;;Jurídica;;;;S;Legal;RAMOS MEJIA 1430 ;2;;CABA;1084
+CUIT;30681495416;MBG & EVENTS;JOSE.GALLO@MBGEVENTS.COM.AR;;Jurídica;;;;S;Legal;AV DE MAYO 605;4;;CABA;1111
+CUIT;30682033483;UTHGRA;vgarcia@uthgracaba.com;;Jurídica;;;;S;Comercial;Boedo 1159;;;CABA;1206
+CUIT;30682823298;FUNDACION CATEDRAL DE LA FE;administracion@catedraldelafe.org;;Jurídica;;;;S;Legal;Avenida Eva Peron 1036;;;CABA;1406
+CUIT;30685200070;VTV Norte SA;nbenitez@vtvnorte.com.ar;;Jurídica;;;;S;Legal;AV CORRIENTES 330;6;612;CABA;1084
+CUIT;30685200143;Applus Iteuve Argentina SA;diego.romero@applus.com;;Jurídica;;;;S;Legal;RECONQUISTA 661;;;CABA;1084
+CUIT;30686263610;GANA COMPLEJO DEPORTIVO S.A.;claudiolahet@yahoo.com.ar;;Jurídica;;;;S;Legal;CORRIENTES 1450;3;A;CABA;1084
+CUIT;30686322927;BUENOS AIRES ENTRETENIMIENTOS;oficina.phillips@gmail.com;;Jurídica;;;;S;Legal;AV LEANDRO N ALEM 424;5;503;CABA;1084
+CUIT;30686421879;DOBRI SA;matias_marano@hotmail.com;;Jurídica;;;;S;Comercial;Luis Saenz Peña 1244;;;CABA;1135
+CUIT;30687104133;BORDER´S PARKING SRL;contaduria@nrauditores.com.ar;;Jurídica;;;;S;Comercial;Rafael Obligado 1221;;;CABA;1425
+CUIT;30687280438;LOGINTER S.A;mgodino@loginter.com.ar;;Jurídica;;;;S;Legal;AV. RAMON S. CASTILLO S/N ENTRE CALLE 8 Y 9;;;CABA;1084
+CUIT;30690169920;RADIO RPO PRODUCCIONES SA ;radio@conceptoam.com.ar;;Jurídica;;;;S;Legal;MAIPU 267;7;;CABA;1084
+CUIT;30690175688;TERCER TIEMPO SA;doblastenis@hotmail.com;;Jurídica;;;;S;Legal;DOBLAS 1043;;;CABA;1084
+CUIT;30695538002;ERTACH S.A.;alquileres@claro.com.ar;;Jurídica;;;;S;Legal;AV DE MAYO 878;;;CABA;1084
+CUIT;30699333499;Emprendimientos Comunitarios S.A.;as@estudiocontablesr.com.ar;;Jurídica;;;;S;Legal;PAROISSIEM 2506;;;CABA;1084
+CUIT;30699655534;ALGAM S.A.;algam.sa@hotmail.com;;Jurídica;;;;S;Legal;ROMULO S. NAON 2881;;;CABA;1084
+CUIT;30699655534;ALGAM S.A.;algam.sa@hotmail.com;;Jurídica;;;;S;Comercial;Solis 1252 CABA;;;CABA;1662
+CUIT;30699714220;DIQUESUR S.A.;marinakovac@gmail.com;;Jurídica;;;;S;Legal;MANZANARES 2355;7;A;CABA;1084
+CUIT;30701553854;IN KUESTO MEDIA;woviedo@sarmiento.net;;Jurídica;;;;S;Legal;Carlos Pellegrini 1427;;;CABA;1111
+CUIT;30701958353;POINTER ARGENTINA S.A.;Infoproveedores@pointer.com.ar;;Jurídica;;;;S;Legal;OLAZABAL 1515;6;;CABA;1084
+CUIT;30702258118;INTERSERVICE SERVICIOS EMPRESARIOS SA;standarfoodsa@gmail.com;rblanco@bmontajes.com.ar;Jurídica;;;;S;Legal;PIEDRAS 1477 10° / Para La Alemeda: Suipacha 414;4;;CABA;1084
+CUIT;30705641583;EL POLESO S.R.L.;ivanc@ocen.com.ar;;Jurídica;;;;S;Comercial;Bernardo de Irigoyen 190;6;40;CABA;1072
+CUIT;30706240213;EVENTOS PRODUCCIONES SA;dscigliano@laborcorporativa.com.ar;lluna@telecentro.net.ar;Jurídica;;;;S;Comercial;Av Fernandez de la Cruz 4000;;;CABA;1439
+CUIT;30707059830;RADIO PANDA S.R.L.;aldostorino@fibertel.com.ar;gustavot@lacornisa.tv;Jurídica;;;;S;Legal;JUNCAL 971;;PB;CABA;1084
+CUIT;30707537155;LAS DELICIAS DE ANDREA Y MARCELO SH;andreavpellegrini7@gmail.com;;Jurídica;;;;S;Legal;JURAMENTO 2527;;;CABA;1428
+CUIT;30707756620;CORDASCO MOTORHAUS SA;ADM@CORDASCOMOTOHAUS.COM.AR;facturacion@cordascomotohaus.com.ar;Jurídica;;;;S;Legal;AV RAFAEL OBLIGADO 1221;;;CABA;1111
+CUIT;30707962654;MEJORAMIENTO HOSPITALARIO S.A. - ALDIYAIV S.A. U.T.E.;javiergalvan@fibertel.com.ar;;Jurídica;;;;S;Legal;Calle 1000;;;CABA;1084
+CUIT;30708366737;EXPLOTACIONES COLONIALES SRL;colonialessrl@gmail.com;concesionesyp@gmail.com;Jurídica;;;;S;Comercial;Av Sarmiento 2720;;;CABA;1111
+CUIT;30708476133;SUTEC SA;claudia.velandia@sutec.biz;;Jurídica;;;;S;Legal;CASTRO 1260;;;CABA;1084
+CUIT;30708537132;CLUB ARGENTINO DE KARTING ASOCIACION CIVIL;wngauthier@hotmail.com;;Jurídica;;;;S;Legal;AV GRAL PAZ 17400 (ENTRE AVDA. CNEL. ROCA Y 27 DE FEBRERO);;;CABA;1084
+CUIT;30709477311;LJM S.R.L. ;vgalvez@construnort.com.ar;;Jurídica;;;;S;Legal;MEXICO 871;4;;CABA;1084
+CUIT;30709568805;UNION DE PROPIETARIOS DE TAXIS DE LA REPUBLICA ARGENTINA;upymra@fibertel.com.ar;Stephanie.wojcik@upymra.org.ar;Jurídica;;;;S;Legal;AVELLANEDA 117;;;CABA;1084
+CUIT;30709748900;GASTRO EVENTOS SA;marielamendez@bycgastronomia.com;;Jurídica;;;;S;Legal;Av Cramer 1719;12;A;CABA;1111
+CUIT;30709821365;SALGUERO EVENTOS SA;ADMINISTRACION@PUERTOSALGUERO.COM.AR;;Jurídica;;;;S;Legal;AV RAFAEL OBLIGADO 1221;;;CABA;1111
+CUIT;30710079486;BLUE CATERING S.A.;comercial.blue@grupolargentina.com;silvina.delgrande@grupolargentina.com;Jurídica;;;;S;Legal;VUELTA DE OBLIGADO 2845;;;CABA;1429
+CUIT;30710100345;FORAIN SA;comercial.forain@grupolargentina.com;silvana.gimenez@grupolargentina.com.ar;Jurídica;;;;S;Legal;SAN MARTIN 66;4;409;CABA;1111
+CUIT;30710555814;SEPEYCO S.R.L. - BETON VIAL S.A. U.T.E.;francisco@pavimentosurbanos.com.ar;;Jurídica;;;;S;Legal;CALLAO 420;7;C;CABA;1084
+CUIT;30710629923;Los Inmuebles SRL;losinmueblessrl@gmail.com;concesionesyp@gmail.com;Jurídica;;;;S;Legal;Av. Donato Álvarez N° 175;;;CABA;1084
+CUIT;30710664567;Comunicaciones 360° S.A.;info@mica360.com.ar;;Jurídica;;;;S;Legal;Moreno 502;3;327;CABA;1111
+CUIT;30710713843;GEA 8 SA;canon2000@buenosaires.gob.ar;;Jurídica;;;;S;Legal;Carlos Pellegrini 27;;;CABA;1084
+CUIT;30710782187;PORT FREIGHT SRL;jjs@spacapan.com.ar;;Jurídica;;;;S;Legal;Gral Lucio Mansilla 3050;;;CABA;1111
+CUIT;30710847343;LEPI SRL;LEPIBOULANGERIE@GMAIL.COM;;Jurídica;;;;S;Legal;ROSETI 1769;;;CABA;1111
+CUIT;30710913141;GRUPO AL SUR UTE;alejandro@grupoalsur.com.ar;;Jurídica;;;;S;Legal;AV LIBERTADOR N° 6550;11;;CABA;1084
+CUIT;30710925468;Parque Tematico Tierra Santa SA;gc@balamnet.com;;Jurídica;;;;S;Legal;FLORIDA 537;15;;CABA;1084
+CUIT;30710987099;AGA Group SRL;billy.gotelli@gmail.com;natalia.aga72@gmail.com;Jurídica;;;;S;Comercial;Perete y Calle 10;;;CABA;1865
+CUIT;30711039518;DEL PLATA DEPORTES SRL;MAURO.M.P@COPATODOFUTBOL.COM;;Jurídica;;;;S;Legal;AV RAFAEL OBLIGADO 1221;;;CABA;1111
+CUIT;30711089760;MAXPETRO S.A. ;alquileres.gib@gmail.com;;Jurídica;;;;S;Legal;Alicia Moreau de Justo 350;;;CABA;1084
+CUIT;30711134359;DRYCO SA;info@drycosa.net;;Jurídica;;;;S;Legal;Av Entre Rios 1243;7;A;CABA;1111
+CUIT;30711241333;Emprendimientos Rio S.A.;emelinsky@hotmail.com;;Jurídica;;;;S;Legal;CABELLO 3627;;;CABA;1425
+CUIT;30711308977;RADIO JAI;miguel@radiojai.com.ar;;Jurídica;;;;S;Legal;VALENTIN GOMEZ 2950;3;;CABA;1084
+CUIT;30711354081;APM DEPORTES SRL;panchomaciel@gmail.com;;Jurídica;;;;S;Comercial;"""SARMIENTO EX KDT RENGLON 4 Av. Sarmiento S/Nº, Av. Costanera Rafael Obligado S/Nº, Av. Jerónimo Sal";0;0;CABA;1425
+CUIT;30711354081;APM DEPORTES SRL;panchomaciel@gmail.com;;Jurídica;;;;S;Comercial;"""SARMIENTO EX KDT RENGLON 3 Av. Sarmiento S/Nº, Av. Costanera Rafael Obligado S/Nº, Av. Jerónimo Sal";0;0;CABA;1425
+CUIT;30711354081;APM DEPORTES SRL;panchomaciel@gmail.com;;Jurídica;;;;S;Comercial;"""SARMIENTO EX KDT Av. Sarmiento S/Nº, Av. Costanera Rafael Obligado S/Nº, Av. Jerónimo Salguero S/Nº";0;0;CABA;1425
+CUIT;30711358826;DELL PRODUCCIONES S.A.;andrea@pachabuenosaires.com;;Jurídica;;;;S;Legal;URUGUAY 265 ;3;B;CABA;1084
+CUIT;30711629439;TOP TENIS TEAM SRL;florsalvadores@hotmail.com;;Jurídica;;;;S;Legal;Sanchez de Bustamante 1208;;;CABA;1084
+CUIT;30711719489;EL ENGUINDADO SRL;enguindado12@gmail.com;;Jurídica;;;;S;Legal;HUMBOLDT 2250;;;CABA;1111
+CUIT;30712142835;Los Hijos De S.R.L.;administracion@enerocostanera.com;;Jurídica;;;;S;Legal;Av. Ricardo Balbín Nº 2419;2;A;CABA;1084
+CUIT;30712205489;Sabor Frances SRL;administracion@croquemadame.com.ar;;Jurídica;;;;S;Legal;AV DEL LIBERTADOR 1902;;;CABA;1084
+CUIT;30712295259;DEI LUCRI SRL;abogadoconcesiones@gmail.com;;Jurídica;;;;S;Legal;Bernardo de Irigoyen 190;6;40 41 42;CABA;1111
+CUIT;30712314741;White Shark S.A.;faleixo@belushi.com.ar;;Jurídica;;;;S;Legal;CERRITO 512;6;6;CABA;1084
+CUIT;30712359710;ASOCIACION CICLISMO DE BUENOS AIRES;ezebmx@hotmail.com;;Jurídica;;;;S;Legal;PICO 1952;10;B;CABA;1084
+CUIT;30712372954;Mechp S.R.L.;miguel.martinezdehoz@portogroup.com.ar;;Jurídica;;;;S;Legal;French 2655;;;CABA;1084
+CUIT;30712394621;FUTBOL MESIAS SA;MAURO.M.P@COPATODOFUTBOL.COM;;Jurídica;;;;S;Legal;AV RAFAEL OBLIGADO 1221;;;CABA;1111
+CUIT;30712398341;Admise SRL;admisesrl@gmail.com;;Jurídica;;;;S;Legal;Av. Corrientes 1438;11;D;CABA;1084
+CUIT;30713272708;DEJESUS CONSTRUCTORA SRL;administracion@dejesusconstructora.com.ar;;Jurídica;;;;S;Comercial;"""SARMIENTO EX KDT Av. Sarmiento S/Nº, Av. Costanera Rafael Obligado S/Nº, Av. Jerónimo Salguero S/Nº";0;0;CABA;1425
+CUIT;30713301805;PAVIMENTOS URBANOS S.R.L.;administracion@pavimentosurbanos.com.ar;;Jurídica;;;;S;Legal;Av. Callao 420;7;C;CABA;1084
+CUIT;30714111228;ANALOS S.A.;losplatitos57@hotmail.com;;Jurídica;;;;S;Legal;AV RAFAEL OBLIGADO 7350;;;CABA;1084
+CUIT;30714112844;LOOK MEDIA S.A.;facundo@lookmedia.media;;Jurídica;;;;S;Legal;Sinclair 3220;2;;CABA;1111
+CUIT;30714160598;GET FIT SA;administracion@onfit.com.ar;;Jurídica;;;;S;Comercial;JOSE MARIA MORENO 939T 945T;;;CABA;1424
+CUIT;30714213004;CONFIT SA ;admconfit@gmail.com;;Jurídica;;;;S;Legal;LA PAMPA 1517;8;B;CABA;1084
+CUIT;30714272671;CONSORCIO CMI;proveedores@ccmi.com.ar;;Jurídica;;;;S;Legal;CERRITO 1070;3;65;CABA;1084
+CUIT;30714307157;Hoboken SRL;moreira.matias@gmail.com;;Jurídica;;;;S;Legal;LAVALLE 482;11;A;CABA;1084
+CUIT;30714349585;Mercado de los Carruajes;administracion@mercadodeloscarruajes.com;BVILLAFANE@CSGCONSULTORES.COM.AR;Jurídica;;;;S;Legal;Juramento 1475;7;8;CABA;1084
+CUIT;30714418978;Villamat S.A.;contacto@bnncostanera.com.ar;;Jurídica;;;;S;Legal;CERRITO 822;5;B;CABA;1084
+CUIT;30714459410;Paulo Barberis y Mauro Miguel Coringrato SH;canon2000@buenosaires.gob.ar;;Jurídica;;;;S;Legal;Honduras 5999;;;CABA;1414
+CUIT;30714574759;QUATERMIX S.A.;sebastian@cateringluviam.com.ar;;Jurídica;;;;S;Legal;TUCUMAN 834;5;51;CABA;1084
+CUIT;30714627496;Brandyclub SRL;loli.arrighi@hotmail.com;;Jurídica;;;;S;Legal;UGARTECHE 2823;2;B;CABA;1084
+CUIT;30714667315;COOPERATIVA DE TRABAJO SERVICOM - KALIDAD LIMITADA;servikoncalidad@gmail.com;;Jurídica;;;;S;Legal;Condor 2529;;;CABA;1111
+CUIT;30714775053;DISTRIBRANDS S.A.;administracion@import.com.ar;;Jurídica;;;;S;Legal;Av. Alicia Moreau de Justo N°1150;;;CABA;1414
+CUIT;30714858080;Mundo Futbol SA;mundofutbolsa@gmail.com;;Jurídica;;;;S;Legal;Bernardo de Irigoyen 190;2;13;CABA;1114
+CUIT;30714867349;VTV Sud SA;mreina@neusscapital.com;;Jurídica;;;;S;Legal;Av. del Libertador 602;23;B;CABA;1084
+CUIT;30714867772;Parking de las Artes S.R.L.;administracion@parkingdelasartes.com.ar;;Jurídica;;;;S;Legal;Leg 1168 Pedro de Mendoza 611 \ Leg. 1215 y 1221 Av. M. de Oca 630;3;B;CABA;1084
+CUIT;30714918962;EMPRENDIMIENTOS COSTANERA;JUANMOIX@HOTMAIL.COM;;Jurídica;;;;S;Legal;AV RAFAEL OBLIGADO 1221;;;CABA;1111
+CUIT;30714940259;STANDARFOOD S.A.;standarfoodsa@gmail.com;;Jurídica;;;;S;Comercial;Av Costanera Tristán Achával Rodríguez 1431;;;CABA;1135
+CUIT;30715037897;MOBY DICK COSTANERA SA;ncarugo@mobydickpub.com.ar;concesionesyp@gmail.com;Jurídica;;;;S;Legal;DEFENSA 1731;;;CABA;1084
+CUIT;30715186949;Xiom SA;info@xiomsa.com;;Jurídica;;;;S;Legal;JOSE PASCUAL TAMBORINI 5130;3;C;CABA;1084
+CUIT;30715189859;COMPLEJO BELAUSTEGUI SA;julia@complejobelaustegui.com.ar;;Jurídica;;;;S;Comercial;Belaustegui 543;;;CABA;1416
+CUIT;30715287966;Patricios 42 S.A.;damiancaffarella@hotmail.com;;Jurídica;;;;S;Legal;AV IRIARTE 2284;;;CABA;1084
+CUIT;30715337025;LJM PARKING SRL;pablovargasconcesiones@gmail.com;;Jurídica;;;;S;Comercial;Avenida Lafuente 1000;;;CABA;1406
+CUIT;30715371592;Parking Siolvija SRL;parkingsiolvija@gmail.com;;Jurídica;;;;S;Legal;MEXICO 840;;;CABA;1084
+CUIT;30715456873;Asoc. Civil Instituto Deportivo Educativo y Social (IDES);sb5futbol@gmail.com;;Jurídica;;;;S;Legal;Jaramillo 1655;3;B;CABA;1084
+CUIT;30715469746;Lamp Investment;administracion@paseohoussay.com;;Jurídica;;;;S;Legal;Virrey Loreto 2865 ;;;CABA;1084
+CUIT;30715506374;UM IDEAS S.A.;gferrari@estudio-ferrari.com;;Jurídica;;;;S;Legal;CERRITO 1136;4;;CABA;1084
+CUIT;30715526286;Amalta S.A.;playabonorinovarela@gmail.com;;Jurídica;;;;S;Legal;Av. del Libertador 6810;7;B;CABA;1084
+CUIT;30715550543;Administradora de playas SA;jmm@jphlions.com;;Jurídica;;;;S;Legal;AV. DEL LIBERTADOR 6810;7;B;CABA;1084
+CUIT;30715559214;COOPERATIVA DE TRABAJO ALTAS CIMAS LIMITADA;administracion@altascimas.com.ar;;Jurídica;;;11311115687;S;Comercial;LIMA  JUAN DE GARAY Y AV BRASIL;0;0;CABA;1138
+CUIT;30715592912;ENTRENAMIENTOS INTREGRALES SRL;INFO@OCAMPOCLUB.COM.AR;;Jurídica;;;;S;Legal;AV RAFAEL OBLIGADO 1221;;;CABA;1111
+CUIT;30715598295;ARTIDELI S.R.L.;PERRET.EDUARDO@GMAIL.COM;;Jurídica;;;;S;Legal;Honduras 3993;;;CABA;1180
+CUIT;30715635093;Buenos Aires Arena S.A.;nmouhape@gmail.com;;Jurídica;;;;S;Legal;MANUEL OBARRIO 2986;2;;CABA;1084
+CUIT;30715657445;TRES CERDITOS SRL;misfacilidades2@gmail.com;;Jurídica;;;;S;Comercial;La Pampa 2875;;;CABA;1428
+CUIT;30715709003;TRIXIE GROUP SA;ADMINISTRACION@TRIXIEDINER.COM;;Jurídica;;;;S;Legal;AV RAFAEL OBLIGADO 1221;;;CABA;1111
+CUIT;30715768123;Barracas Urbano SRL;pablokiper@hotmail.com;;Jurídica;;;;S;Legal;Cerviño 4417 ;6;A;CABA;1084
+CUIT;30715907069;DAWAXPROJECT S.R.L.;ALONSOFRAN1986@GMAIL.COM;;Jurídica;;;;S;Legal;Castillo 1366;;;CABA;1414
+CUIT;30715946870;LOCURA DEPORTIVA S.A.;sb5futbol@gmail.com;;Jurídica;;;;S;Legal;Jaramillo 1655;3;B;CABA;1111
+CUIT;30715996320;KHO S.A.S.;vanesaeliana10@hotmail.com;;Jurídica;;;;S;Legal;Juramento 2527;;;CABA;1111
+CUIT;30716039346;CONCASSE DEL PILAR S.A.;noresj@gmail.com;;Jurídica;;;;S;Legal;Bernardo de Irigoyen 190;1;;CABA;1072
+CUIT;30716045222;AGROTEXTIL SAS;111111111@GMAIL.COM;;Jurídica;;;;S;Comercial;Bonorino 890 / Recuero 2145;;;CABA;1406
+CUIT;30716094894;FRESCOLLI Y BATATA SRL;tomate.estacion@gmail.com;;Jurídica;;;;S;Comercial;Av Infanta Isabel 555;;;CABA;1268
+CUIT;30716238292;GRAN GANESH S.A.;fernandollanes1973@gmail.com;;Jurídica;;;;S;Legal;HEREDIA 924;2;C;CABA;1111
+CUIT;30716240319;Federacion Ecuestre Argentina - Steaks & Horses S.A. - UTE;drlepera@hotmail.com;concesionesyp@gmail.com;Jurídica;;;;S;Comercial;Av. Pte. Figueroa Alcorta 5225;;;CABA;1428
+CUIT;30716276348;AJO SAS;ajosas2019@gmail.com;;Jurídica;;;;S;Legal;Uruguay N° 520;5;9;CABA;1084
+CUIT;30716294478;CESPEDES LIBROS SAS;cecilia@cespedeslibros.com.ar;;Jurídica;;;11311115687;S;Legal;ALVAREZ THOMAS 853;;;CABA;1427
+CUIT;30716311283;Ecoparque de Buenos Aires SA;lvilla@fenix.com.ar;concesionesyp@gmail.com;Jurídica;;;;S;Legal;Av Alvarez Thomas 114;3;J y K;CABA;1427
+CUIT;30716316005;Hatzlaja SA;javistolo2003@yahoo.com.ar;;Jurídica;;;;S;Comercial;Junin 1801;;;CABA;1113
+CUIT;30716357429;MARETERRA S.R.L.;sergiodicroce@hotmail.com;pinucciobelgrano2020@gmail.com;Jurídica;;;;S;Legal;Ciudad de la Paz N°2110;;;CABA;1416
+CUIT;30716364743;WIZARD HARRY S.A.S.;vanesaeliana10@hotmail.com;;Jurídica;;;;S;Legal;CIUDAD DE LA PAZ 2130;;;CABA;1111
+CUIT;30716372347;MADERO EVENTOS SA;administracion@origamieventos.com.ar;;Jurídica;;;;S;Comercial;Libertad 844;9;E;CABA;1012
+CUIT;30716382415;SUNNY WINES SA;clorindo.ba@gmail.com;clorindoadm@gmail.com;Jurídica;;;1125254477;S;Comercial;Talcahuano 1261 y La Pampa 2215;;;CABA;1014
+CUIT;30716446707;IMANA SRL;cristian_lopez9@hotmail.com;;Jurídica;;;;S;Legal;Cuba 1735;10;A;CABA;1428
+CUIT;30716506173;Concesiones Sustentables SA;concesionessustentables@gmail.com;;Jurídica;;;;S;Comercial;Republica de la India 2900;;;CABA;1425
+CUIT;30716534029;BEERCHEBONCHE S.A.;gerencia@drpapa.com.ar;;Jurídica;;;11311115687;S;Legal;Jose Antonio Cabrera 4948;;;CABA;1414
+CUIT;30716575957;Drinkalot SA;jmm@jphlions.com;;Jurídica;;;;S;Comercial;Rafael Obligado 1221;;;CABA;1425
+CUIT;30716677393;LA ATARDECIDAS S.R.L.;eric@lapayuca.com;;Jurídica;;;;S;Comercial;Av Corrientes 1530;;;CABA;1135
+CUIT;30716760738;CAPATABO S.A.S;diecano@gmail.com;;Jurídica;;;;S;Legal;LA FERRERE GREGORIO D 1192;;;CABA;1406
+CUIT;30716799111;BAR AND CO S.A.S.;paulobarberis@gmail.com;;Jurídica;;;11311115687;S;Comercial;Benito Perez Galdós 49/51/55 esq P de Mendoza 501/539 esq A. Caffarena Nª 49/51/53/55;0;0;CABA;1155
+CUIT;30716924676;GASTRONÓMICA DEL SUR S.A.;awmimpuestos@gmail.com;;Jurídica;;;;S;Comercial;Andres Bello 5950;;;CABA;1135
+CUIT;30717043428;BAJO PARQUE S.A.;FERDALLASTA@GMAIL.COM;;Jurídica;;;;S;Legal;Cerrito 1070;3;71;CABA;1010
+CUIT;30717083799;RAGNARV SRL;legales.ragnarvsrl@gmail.com;;Jurídica;;;4521855;S;Comercial;Hipolito Irigiyen 1628;11;;CABA;1090
+CUIT;30717083799;RAGNARV SRL;legales.ragnarvsrl@gmail.com;;Jurídica;;;4521855;S;Comercial;HIPOLITO YRIGOYEN Y SAENZ PEÑA;;;CABA;3500
+CUIT;30717109461;DON GALDINO SRL;omarcarmi@hotmail.com;;Jurídica;;;;S;Legal;Av Figueroa Alcorta 7510;;;CABA;1111
+CUIT;30717191354;TEMPLERMO S.A.;joaquinsosa92@yahoo.com.ar;;Jurídica;;;;S;Legal;AV BELGRANO 687;9;38;CABA;1111
+CUIT;30717221210;FIDEICOMISO DORREGO Y LIBERTADOR Y BSD GRUPO ASESOR SA UNIÓN TRANSITORIA;info@bsdinvestments.com;;Jurídica;;;;S;Comercial;Av. Dorrego, Crnel. M.E. Freyre, del Libertador y vías del Ferrocarril Gral. B. Mitre;;;CABA;1425
+CUIT;30717287262;AMORES TINTOS SRL;AMORESTINTOS@GMAIL.COM;;Jurídica;;;;S;Legal;GORRITI 4202;;;CABA;1111
+CUIT;30717294463;02 DESARROLLOS SA;o2desarrollos@gmail.com;;Jurídica;;;;S;Legal;Posadas 1564;2;C;CABA;1111
+CUIT;30717456307;COOPERATIVA DE TRABAJO CUIDADORES DE LA TIERRA LIMITADA;martinmorelli@hotmail.com;;Jurídica;;;;S;Legal;Au 9 de Julio entre Lima y Berbardo Irigoyen;;;CABA;1111
+CUIT;30717668606;OZZYCYCLING S.A.;ozzcycling@gmail.com;;Jurídica;;;;S;Legal;Av del Libertador 2984;;;CABA;1111
+CUIT;30717782603;EARLY BIRD S.A.;earlybirdsaconcesiones@gmail.com;;Jurídica;;;;S;Legal;Bernardo de Irigoyen 190;6;40;CABA;1072
+CUIT;30717800296;GERENCIADORA DE DISTRITOS SA;gerenciadoradedistritos@gmail.com;concesionesyp@gmail.com;Jurídica;;;;S;Comercial;PICHINCHA 1348 T 1354 T;;;CABA;1249
+CUIT;30717910997;Gerenciadora de Eventos SA;gerenciadoradeeventos@gmail.com;;Jurídica;;;;S;Comercial;Av. Costanera Dr. Tristán Achával Rodríguez 1353t;;;CABA;1107
+CUIT;30717985989;DOBLE PIVOTE S.A.;doblepivotesa@gmail.com;;Jurídica;;;;S;Legal;Av de Mayo 605;;;CABA;1111
+CUIT;30718157141;OP EMPRENDIMIENTOS SRL;opemprendimientos0@gmail.com;;Jurídica;;;;S;Legal;BURELA 3194;;;CABA;1111
+CUIT;30718305191;T&G FRATELLI CLUB Y ASOCIADOS S.R.L.;constructoracolangelo@hotmail.com;;Jurídica;;;;S;Legal;Avenida Directorio 1214;1;C;CABA;1111
+CUIT;30718531922;CRISAR S.A.;SACRISAR@GMAIL.COM;;Jurídica;;;;S;Legal;BONPLAND 1140;;;CABA;1111
+CUIT;30718551281;VUELVAN LOS LENTOS SRL;slacolla@gmail.com;;Jurídica;;;;S;Legal;Amenabar 30;7;707;CABA;1111
+CUIT;30718651057;GLOBAL FEEDING SRL;adriandearza66@gmail.com;;Jurídica;;;;S;Legal;SARMIENTO 3627;1;A;CABA;1111
+CUIT;30721314741;WHITE SHARK S.A.;faleixo@belushi.com.ar;;Jurídica;;;;S;Legal;CERRITO 512;6;6;CABA;1084
+DNI;30896089;MARIA DE LOS ANGELES AVILA;enriquesmoreno@yahoo.com.ar;;Física;5/07/1982;F;;S;Comercial;Lavalle 1675;4;10;CABA;1048
+DNI;32010258;Gastón Nicolás Bruffau;gnbruffau@gmail.com;;Física;3/03/1990;M;;S;Legal;Don Bosco 3522;;;CABA;1111
+DNI;33118780;Laura Soledad Torres;identita@gmail.com;;Física;27/05/1987;F;;S;Legal;Moreno N°1244 Piso 3;;;CABA;1424
+DNI;33284348;NICOLAS SANTIAGO GRANZOTTO;nicogranzotto@hotmail.com;;Física;6/02/1990;M;;S;Legal;Juramento N°2527;;;CABA;1111
+DNI;33330397;Sandra Belén Romero;br8840607@gmail.com;;Jurídica;;;;S;Comercial;Estación José Hernandez  Linea D- Local 3;;;CABA;1246
+CUIT;33526833169;ASOCIACIÓN CÁMARA DE LA INDUSTRIA DEL CALZADO;g.eventos2025@gmail.com;;Jurídica;;;;S;Legal;AV RIVADAVIA 4323;;;CABA;1111
+CUIT;33568397539;MARLE CONSTRUCCIONES S.A.;info@marlesa.com.ar;;Jurídica;;;;S;Comercial;TENIENTE GENERAL JUAN DOMINGO PERON 315;3;14;CABA;1038
+CUIT;33592381449;APANOVI;irene@apanovi.org.ar;;Jurídica;;;;S;Legal;AV BOEDO 1174;;;CABA;1084
+CUIT;33647661519;PLAZA INTENDENTE ALVEAR S.A.;larecova@fibertel.com.ar;;Jurídica;;;;S;Legal;POSADAS 1069;;;CABA;1011
+CUIT;33653085899;Commercial Carpets S.R.L.;valbulacio@gmail.com;parksport2021@gmail.com;Jurídica;;;;S;Comercial;AV LA PLATA 1150;;;CABA;1184
+CUIT;33663231109;ESTACIONAMIENTO RAMON FALCON S.A.;pazosdani@hotmail.com;contactotermal@gmail.com;Jurídica;;;;S;Legal;LACARRA 329/331;;;CABA;1084
+CUIT;33690178589;EMECON S.A.;facturas@dakota.com.ar;;Jurídica;;;;S;Legal;Viamonte 1133;9;;CABA;1084
+CUIT;33707083099;ASOC. MUTUAL UNIVERSITARIA MANUEL UGARTE;diego.mora1983@gmail.com;;Jurídica;;;;S;Legal;ZELARRAYAN 967;;;CABA;1084
+CUIT;33708034229;OCEAN EXPORT S.A.;hmoraviera@coloniaexpress.com;;Jurídica;;;;S;Legal;Av Pedro de Mendoza 90;;;CABA;1156
+CUIT;33708046359;COOPERATIVA DE TRABAJO ;cooperativaartesanosargentina@gmail.com;;Jurídica;;;;S;Legal;DEFENSA 1244;;;CABA;1084
+CUIT;33709752109;SARAH S.A.;pablo.loiacono@smempresarial.com;;Jurídica;;;;S;Comercial;Uruguay 911;3;;CABA;1015
+CUIT;33712826709;JM.SPORT SRL;juanpablo.guzian@jmcgroup.com.ar;;Jurídica;;;;S;Legal;Virrey del Pino 3224;;;CABA;1426
+CUIT;33715682449;BARBELL SRL;juanpablo@bibular.com;;Jurídica;;;;S;Comercial;Manuel Ugarte 2069;5;A;CABA;1428
+CUIT;33716182709;EL PIBE DORREGO SA;noresj@gmail.com;tesorering20@gmail.com;Jurídica;;;;S;Comercial;BERNARDO DE IRIGOYEN 190;1;;CABA;1072
+CUIT;33716397519;ARAM SERVICIOS GASTRONOMICOS S.R.L.;gfmestudio@gmail.com;;Jurídica;;;;S;Comercial;PEPIRI 185;;;CABA;1437
+CUIT;33716397519;ARAM SERVICIOS GASTRONOMICOS S.R.L.;gfmestudio@gmail.com;;Jurídica;;;;S;Comercial;Lavalle 1710;7;14;CABA;1048
+CUIT;33716772409;Blue Night SRL;rrhh@jet.com.ar;;Jurídica;;;;S;Comercial;Espacio N 8 Distrito Joven;;;CABA;1802
+CUIT;33716773783;Distrito Costanera SRL;rrhh@jet.com.ar;;Jurídica;;;;S;Comercial;Espacio N 9 Distrito Joven;;;CABA;1802
+DNI;34553201;LILIANA NOELIA CAPDEVILA;lilianacapde@outlook.es;;Física;20/01/1989;F;;S;Comercial;Estación Catalinas Linea E- Local 1;;;CABA;1001
+DNI;35355346;Pilar Villagra;pilarvillagra90@gmail.com;;Física;24/09/1990;F;;S;Legal;Hipolito Yrigoyen N° 1994 Piso 5 dpto 4;;;CABA;1089
+DNI;36160701;SERGIO VICTOR SOTO;enriquesmoreno@yahoo.com.ar;;Física;25/10/1988;F;;S;Comercial;Lavalle 1675;4;10;CABA;1048
+DNI;38255433;Nicole Zahira Bisquert Olivito;nicole.bisquert@outlook.com;;Física;8/08/1994;F;;S;Legal;Goleta Santa Cruz S/N 9E (Edificio 18A);;;CABA;1439
+DNI;40074402;Lucas Pedro Gomez;97lucasgomez@gmail.com;;Física;6/05/1996;M;;S;Legal;Av Directorio 1837;1;B;CABA;1837
+DNI;45146321;Tomie Aliyah Ugarte Vazquez;gavazquez123@gmail.com;;Física;4/09/2003;F;;S;Legal;Billinghurst N°672 dpto 4B;;;CABA;1174
+DNI;8287312;JULIO EDGARDO FRACCAROLI;herreriamoreno89@gmail.com;;Física;10/05/1950;M;;S;Comercial;Estación Correo Central Linea E- Local 2;;;CABA;1043
+DNI;92594234;Hugo Cleber Mundo Rojas;mundohugo4@gmail.com;;Física;27/10/1961;M;;S;Legal;Gualeguay N°378 PB;;;CABA;1157
+DNI;93049744;ERASMO RAMIREZ MARTINEZ;erasmoramirezmartinez06@gmail.com;;Física;8/08/1973;F;;S;Comercial;LOCAL 2 DE LA ESTACION CATALINAS  LINEA E SUBTERRANEOS DE BUENOS AIRES;;;CABA;1003
+DNI;93678759;VILLANUEVA RAYME RICHARD;rv6816886@gmail.com;;Física;16/11/1969;M;;S;Legal;Francisco Fernandez de la Cruz N°5440 Edificio 3 PB L;;;CABA;1439
+DNI;93996385;Donatila Maritza Salazar Ramos;estilodevesirsalazar@gmail.com;estilodevestirsalazar@gmail.com;Física;7/03/1991;F;;S;Legal;Av Corrientes 3064;;;CABA;1111
+DNI;94068643;FABIAN CARLOS BARRETO GONZALEZ;fabiansan2006@yahoo.com.ar;;Física;5/01/1959;M;;S;Legal;Juramento N°2527;;;CABA;1111
+DNI;94700726;Jesus Eugenio Villanueva Torres;jovi_1212@hotmail.com;;Física;27/07/1966;M;;S;Legal;Defensa N°441 Piso 6 dpto H;;;CABA;1065
+DNI;95550836;LAURA GIOVANNETTI;lauragiovannettiurcia@gmail.com;;Física;11/10/1977;F;;S;Legal;ESTADOS UNIDOS 2524 PB;;1;CABA;1227

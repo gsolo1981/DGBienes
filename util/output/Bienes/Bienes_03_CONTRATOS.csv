@@ -1,0 +1,389 @@
+﻿nro;expediente;fechafirma;tipo_contrato;tipo_calculo;tipo_unidad;identificacion;descripcion;nrounidad;vigente;nombre;documento;desde;hasta;principal
+1;;1993-09-01 00:00:00;Canon;Canon Fijo;Vivienda;Avalos 450;Avalos 450;1;N;Ferreiro, Alicia;23009034404;1993-09-01 00:00:00;1994-03-01 00:00:00;S
+2;;1993-10-01 00:00:00;Canon;Canon Fijo;Vivienda;Bolaños 203;Bolaños 203;1;N;Raúl Gonzalez;20926531140;1993-10-01 00:00:00;1994-04-01 00:00:00;S
+3;;1994-05-01 00:00:00;Canon;Canon Fijo;Vivienda;Alberdi, Juan B. Av. 2345/47;Alberdi, Juan B. Av. 2345/47;12;N;Figueroa, Mirta;23137742144;1994-05-01 00:00:00;1994-11-01 00:00:00;S
+4;;2002-11-15 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Humboldt 1220;Humboldt 1220;1;N;Paz de Velóz, Olga;27140989660;2002-11-15 00:00:00;2003-02-08 00:00:00;S
+5;;2012-04-01 00:00:00;Canon;Canon Fijo;Vivienda;Gascón 927;Gascón 927;1;N;Marcotrigiano, Miguel Angel;2044094586;2012-04-01 00:00:00;2013-12-01 00:00:00;S
+6;;2015-01-01 00:00:00;Canon;Canon Fijo;Comercial;Cruz, Osvaldo 1874/1878/1880/1882;Cruz, Osvaldo 1874/1878/1880/1882;1;N;Turbodisel S.A.;30568205339;2015-01-01 00:00:00;2015-12-31 00:00:00;S
+7;;2015-05-01 00:00:00;Canon;Canon Fijo;Vivienda;Colpayo 145/47/49;Colpayo 145/47/49;1;N;Cuenca, Juan Rodolfo;20215404928;2015-05-01 00:00:00;2016-04-30 00:00:00;S
+8;;2015-05-01 00:00:00;Canon;Canon Fijo;Vivienda;Colpayo 145/47/49;Colpayo 145/47/49;3;N;Sotomayor, Aníbal José;27186223969;2015-05-01 00:00:00;2016-04-30 00:00:00;S
+9;;2015-05-01 00:00:00;Canon;Canon Fijo;Vivienda;Colpayo 145/47/49;Colpayo 145/47/49;4;N;Galarza, Anastacio;20128460196;2015-05-01 00:00:00;2016-04-30 00:00:00;S
+10;;2015-05-01 00:00:00;Canon;Canon Fijo;Vivienda;Colpayo 145/47/49;Colpayo 145/47/49;5;N;Villarreal, Selva Natividad;27124857908;2015-05-01 00:00:00;2016-04-30 00:00:00;S
+11;;2015-05-01 00:00:00;Canon;Canon Fijo;Vivienda;Colpayo 145/47/49;Colpayo 145/47/49;7;N;Serruche Alvarez, Javier;27954853506;2015-05-01 00:00:00;2016-04-30 00:00:00;S
+12;;2015-05-01 00:00:00;Canon;Canon Fijo;Vivienda;Colpayo 145/47/49;Colpayo 145/47/49;9;N;Chavez Medina, Julio Francisco;27947513147;2015-05-01 00:00:00;2016-04-30 00:00:00;S
+13;;2011-11-01 00:00:00;Canon;Canon Fijo;Otro;Junín 963/965;Junín 963/965;1;N;Asociación Odontologica Argentina;30527233794;2011-11-01 00:00:00;2016-10-31 00:00:00;S
+14;;2012-07-01 00:00:00;Canon;Canon Fijo;Comercial;Magaldi, Agustin 1100;Magaldi, Agustin 1100;1;N;COOPERATIVA ARGENTINA DE FLORICULTORES LTDA.;30525403099;2012-07-01 00:00:00;2017-06-30 00:00:00;S
+15;;2016-09-01 00:00:00;Canon;Canon Fijo;Vivienda;Condarco 1633;Condarco 1633;2;N;ERNESTO ARIEL DELGADO;20265529691;2016-09-01 00:00:00;2017-09-01 00:00:00;S
+16;;2012-09-29 00:00:00;Canon;Canon Fijo;Vivienda;Madrid 6956/6960;Madrid 6956/6960;3;N;Nieves Rojas;1654807;2012-09-29 00:00:00;2017-09-30 00:00:00;S
+17;;2016-10-01 00:00:00;Canon;Canon Fijo;Vivienda;Baigorri 165;Baigorri 165;4;N;Casco, Sara;27111757009;2016-10-01 00:00:00;2017-09-30 00:00:00;S
+18;;2016-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Baigorri 165;Baigorri 165;5;N;Valdez, Elba Inés;23052545404;2016-11-01 00:00:00;2017-10-31 00:00:00;S
+19;;2014-11-13 00:00:00;Canon;Canon Fijo;Vivienda;Ramón L. Falcón 4736/4738/4742;Ramón L. Falcón 4736/4738/4742;3;N;Guillermo Romero;20133854747;2014-11-13 00:00:00;2017-11-13 00:00:00;S
+20;;2016-12-01 00:00:00;Canon;Canon Fijo;Vivienda;Colonia Av. 216;Colonia Av. 216;1;N;Cerrudo, Rubén Mario;20162955013;2016-12-01 00:00:00;2017-11-30 00:00:00;S
+21;;2014-09-09 00:00:00;Canon;Canon Fijo;Otro;Cesar Díaz 4752;Cesar Díaz 4752;1;N;Marta Haydee Costa;27167742055;2014-09-09 00:00:00;2019-09-01 00:00:00;S
+22;;2014-10-31 00:00:00;Canon;Canon Fijo;Vivienda;Ramón L. Falcón 4736/4738/4742;Ramón L. Falcón 4736/4738/4742;4;N;María Alejandra González;27178738289;2014-10-31 00:00:00;2019-10-01 00:00:00;S
+23;;2014-10-28 00:00:00;Canon;Canon Fijo;Vivienda;Ramón L. Falcón 4736/4738/4742;Ramón L. Falcón 4736/4738/4742;5;N;Martín Guariglia;20244257950;2014-10-28 00:00:00;2019-10-01 00:00:00;S
+24;;2014-11-01 00:00:00;Canon;Canon Fijo;Comercial;Valle, J.J., Gral. Div. 2950 / Tilcara Av. 2961;Valle, J.J., Gral. Div. 2950 / Tilcara Av. 2961;1;N;Debox S.A.;30713985801;2014-11-01 00:00:00;2019-10-31 00:00:00;S
+25;;2014-11-07 00:00:00;Canon;Canon Fijo;Vivienda;Ramón L. Falcón 4736/4738/4742;Ramón L. Falcón 4736/4738/4742;1;N;Vicente Eduardo Violi;20132851507;2014-11-07 00:00:00;2019-11-01 00:00:00;S
+26;;2014-12-01 00:00:00;Canon;Canon Fijo;Comercial;Av. San Juan 601/607/611/613;Av. San Juan 601/607/611/613;1;N;San Juan Tennis;30574095847;2014-12-01 00:00:00;2019-11-30 00:00:00;S
+26;;2014-12-01 00:00:00;Canon;Canon Fijo;Comercial;Av. San Juan 601/607/611/613;Av. San Juan 601/607/611/613;1;S;San Juan Tennis;30574095847;2025-01-13 00:00:00;2025-12-31 00:00:00;S
+27;;2015-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Cazadores 2460;Cazadores 2460;1;N;Braier, Marcia;23129466154;2015-01-01 00:00:00;2019-12-31 00:00:00;S
+28;;2015-02-01 00:00:00;Canon;Canon Fijo;Vivienda;Alberdi, Juan B. Av. 2345/47;Alberdi, Juan B. Av. 2345/47;61;N;Barrios, Nora;27065332707;2015-02-01 00:00:00;2020-01-01 00:00:00;S
+29;;2015-05-01 00:00:00;Canon;Canon Fijo;Vivienda;Baigorri 165;Baigorri 165;7;N;Ramos, Marcelino;20174702730;2015-05-01 00:00:00;2020-04-30 00:00:00;S
+30;;2015-05-01 00:00:00;Canon;Canon Fijo;Vivienda;Baigorri 165;Baigorri 165;8;N;Agüero, Claudia del Valle;27279280836;2015-05-01 00:00:00;2020-04-30 00:00:00;S
+31;;2015-05-01 00:00:00;Canon;Canon Fijo;Vivienda;Baigorri 165;Baigorri 165;10;N;Argañaraz, Blanca del Valle;27111810449;2015-05-01 00:00:00;2020-04-30 00:00:00;S
+32;;2015-07-01 00:00:00;Canon;Canon Fijo;Vivienda;Ramón L. Falcón 4736/4738/4742;Ramón L. Falcón 4736/4738/4742;2;N;Domingo Alberto Aguilar;20206978075;2015-07-01 00:00:00;2020-07-01 00:00:00;S
+33;;2015-08-01 00:00:00;Canon;Canon Fijo;Vivienda;Suarez 432;Suarez 432;1;N;Vega, Pedro Pablo;20216596162;2015-08-01 00:00:00;2020-07-31 00:00:00;S
+34;;2015-08-01 00:00:00;Canon;Canon Fijo;Vivienda;Liniers Virrey 1375;Liniers Virrey 1375;1;N;Duarte, Verónica;28769748;2015-08-01 00:00:00;2020-07-31 00:00:00;S
+35;;2017-09-01 00:00:00;Canon;Canon Fijo;Vivienda;Diaz César, Gral. 2979/2985;Diaz César, Gral. 2979/2985;17;N;EDGARDO H. QUINTANA;23054355289;2017-09-01 00:00:00;2020-08-31 00:00:00;S
+36;;2017-09-01 00:00:00;Canon;Canon Fijo;Vivienda;Diaz César, Gral. 2979/2985;Diaz César, Gral. 2979/2985;19;N;MIRIAM MABEL MEDINA;27124340271;2017-09-01 00:00:00;2020-08-31 00:00:00;S
+37;;2016-03-01 00:00:00;Canon;Canon Fijo;Vivienda;De los Constituyentes Av. 4990/5000 esq. Ladines S/N;De los Constituyentes Av. 4990/5000 esq. Ladines S/N;1;N;Dalessadro, Horacio - Pulvirenti, Elisa;20109231976;2016-03-01 00:00:00;2021-02-28 00:00:00;S
+38;;2016-04-01 00:00:00;Canon;Canon Fijo;Otro;De los Constituyentes Av. 4796/98 Lopéz, C. Antonio 2106;De los Constituyentes Av. 4796/98 Lopéz, C. Antonio 2106;1;N;Bustamante, Javier Horacio;20182855015;2016-04-01 00:00:00;2021-04-01 00:00:00;S
+39;;2016-06-01 00:00:00;Canon;Canon Fijo;Vivienda;Av. Escalada 1764;Av. Escalada 1764;1;N;Adriana Segato;27307954341;2016-06-01 00:00:00;2021-05-01 00:00:00;S
+40;;2022-04-01 00:00:00;Canon;Canon Fijo;Vivienda;Av. San Pedrito 1024/26;Av. San Pedrito 1024/26;1;N;Vargas, Marta;27144988332;2022-04-01 00:00:00;2023-03-01 00:00:00;S
+41;;2022-04-01 00:00:00;Canon;Canon Fijo;Vivienda;José Enrique Rodó 4480/4482;José Enrique Rodó 4480/4482;1;N;María Esther Niveiro;27140019041;2022-04-01 00:00:00;2023-03-31 00:00:00;S
+42;;2025-01-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Liniers Virrey 1314;Liniers Virrey 1314;1;N;Carla Kaganovicz;27368464134;2022-04-01 00:00:00;2023-03-31 00:00:00;S
+42;;2025-01-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Liniers Virrey 1314;Liniers Virrey 1314;1;S;Carla Kaganovicz;27368464134;2025-01-20 00:00:00;2025-06-30 00:00:00;S
+43;;2022-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Av. Escalada 958;Av. Escalada 958;1;N;Carina Laura Scaglione;21083288;2022-11-01 00:00:00;2023-10-31 00:00:00;S
+43;;2022-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Av. Escalada 958;Av. Escalada 958;1;S;Carina Laura Scaglione;21083288;2025-06-12 00:00:00;2025-12-31 00:00:00;S
+44;;2022-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Suarez 228;Suarez 228;2;N;Romero, Facundo Leonardo;20337746536;2022-11-01 00:00:00;2023-10-31 00:00:00;S
+45;;2022-12-01 00:00:00;Canon;Canon Fijo;Vivienda;Concordia 3197;Concordia 3197;1;N;STELLA MARIS ALBERTO;27102651028;2022-12-01 00:00:00;2023-11-30 00:00:00;S
+46;;2022-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Av. Corrientes 6001/23;Av. Corrientes 6001/23;1;N;San, Stella Maris;27141068382;2022-01-01 00:00:00;2023-12-31 00:00:00;S
+47;;2023-03-01 00:00:00;Canon;Canon Fijo;Vivienda;Tapalqué 4845/49;Tapalqué 4845/49;3;N;Eduardo Domingo Sisca;20164968120;2023-03-01 00:00:00;2024-02-29 00:00:00;S
+48;;2023-06-01 00:00:00;Canon;Canon Fijo;Vivienda;Baigorri 165;Baigorri 165;6;N;Marcelo Monzon;20299494161;2023-06-01 00:00:00;2024-05-31 00:00:00;S
+49;;2023-06-01 00:00:00;Canon;Canon Fijo;Vivienda;Liniers Virrey 1312;Liniers Virrey 1312;1;N;Maria Salome Montenegro;23272152934;2023-06-01 00:00:00;2024-05-31 00:00:00;S
+50;;2022-08-01 00:00:00;Canon;Canon Fijo;Vivienda;Chacabuco 1248/1252;Chacabuco 1248/1252;46;N;Fernando Lopez;20216826273;2022-08-01 00:00:00;2024-07-31 00:00:00;S
+51;;2021-10-01 00:00:00;Canon;Canon Fijo;Vivienda;"DE LOS CONSTITUYENTES, Av. 4956; VIAS DEL FERROCARRIL SN";"DE LOS CONSTITUYENTES, Av. 4956; VIAS DEL FERROCARRIL SN";1;N;Gustavo David, Mendoza;20371247832;2021-10-01 00:00:00;2024-09-30 00:00:00;S
+52;;2021-10-01 00:00:00;Canon;Canon Fijo;Vivienda;De los Constituyentes Av. 5099 ;De los Constituyentes Av. 5099 ;1;N;Sbrascini, Fabricio;20314225059;2021-10-01 00:00:00;2024-09-30 00:00:00;S
+53;;2021-10-01 00:00:00;Canon;Canon Fijo;Vivienda;Perú 864/66/68/70;Perú 864/66/68/70;1;N;Carlos Choque;93065630;2021-10-01 00:00:00;2024-09-30 00:00:00;S
+54;;2021-10-01 00:00:00;Canon;Canon Fijo;Vivienda;Perú 864/66/68/70;Perú 864/66/68/70;2;N;Luís Carlos Pérez;4707867;2021-10-01 00:00:00;2024-09-30 00:00:00;S
+55;;2021-10-01 00:00:00;Canon;Canon Fijo;Vivienda;Perú 864/66/68/70;Perú 864/66/68/70;7;N;Margarita Mansilla;13464885;2021-10-01 00:00:00;2024-09-30 00:00:00;S
+56;;2021-10-01 00:00:00;Canon;Canon Fijo;Vivienda;Perú 864/66/68/70;Perú 864/66/68/70;8;N;Alicia Noemí Rubio;27180935075;2021-10-01 00:00:00;2024-09-30 00:00:00;S
+57;;2021-10-01 00:00:00;Canon;Canon Fijo;Vivienda;Perú 864/66/68/70;Perú 864/66/68/70;12;N;Diego Perez;29353550;2021-10-01 00:00:00;2024-09-30 00:00:00;S
+58;;2021-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Rivera Indarte 196;Rivera Indarte 196;7;N;Campos, Alejandra;27225026217;2021-11-01 00:00:00;2024-10-31 00:00:00;S
+59;;2021-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Yerbal 2217/21/23/25/91;Yerbal 2217/21/23/25/91;3;N;Cabrera, Lidia Victoria;11275819;2021-11-01 00:00:00;2024-10-31 00:00:00;S
+60;;2021-11-01 00:00:00;Canon;Canon Fijo;Cochera;Diaz César, Gral. 2979/2985;Diaz César, Gral. 2979/2985;1;N;CARLA MARIANA ODELLA RESTIVO;27275735324;2021-11-01 00:00:00;2024-10-31 00:00:00;S
+61;;2021-11-01 00:00:00;Canon;Canon Fijo;Cochera;Diaz César, Gral. 2979/2985;Diaz César, Gral. 2979/2985;2;N;ROSA LORENA BOGADO;27253046312;2021-11-01 00:00:00;2024-10-31 00:00:00;S
+62;;2021-11-01 00:00:00;Canon;Canon Fijo;Cochera;Diaz César, Gral. 2979/2985;Diaz César, Gral. 2979/2985;5;N;EDGARDO H. QUINTANA;23054355289;2021-11-01 00:00:00;2024-10-31 00:00:00;S
+63;;2021-11-01 00:00:00;Canon;Canon Fijo;Cochera;Diaz César, Gral. 2979/2985;Diaz César, Gral. 2979/2985;7;N;Ricardo Oscar Odella;20132658405;2021-11-01 00:00:00;2024-10-31 00:00:00;S
+64;;2021-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Diaz César, Gral. 2979/2985;Diaz César, Gral. 2979/2985;18;N;ROSA LORENA BOGADO;27253046312;2021-11-01 00:00:00;2024-10-31 00:00:00;S
+65;;2022-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Carlos Calvo 1253;Carlos Calvo 1253;1;N;Ramona Franco;27132082222;2022-11-01 00:00:00;2024-10-31 00:00:00;S
+66;;2022-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Carlos Calvo 1253;Carlos Calvo 1253;3;N;Florencia Gomez;27316052148;2022-11-01 00:00:00;2024-10-31 00:00:00;S
+67;;2022-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Carlos Calvo 1253;Carlos Calvo 1253;5;N;Marta Guaraz;27114221452;2022-11-01 00:00:00;2024-10-31 00:00:00;S
+68;;2022-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Carlos Calvo 1253;Carlos Calvo 1253;6;N;Carmen Isabel Figueredo Susloaga ;27929833878;2022-11-01 00:00:00;2024-10-31 00:00:00;S
+69;;2022-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Carlos Calvo 1253;Carlos Calvo 1253;7;N;Gladis Georgina Molina;27131576353;2022-11-01 00:00:00;2024-10-31 00:00:00;S
+70;;2021-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Perú 864/66/68/70;Perú 864/66/68/70;5;N;Gustavo Franchini;20953299756;2021-11-01 00:00:00;2024-10-31 00:00:00;S
+71;;2021-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Perú 864/66/68/70;Perú 864/66/68/70;6;N;Patricia Amalia Falcón;27137673407;2021-11-01 00:00:00;2024-10-31 00:00:00;S
+72;;2021-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Av. San Juan 1585/1560;Av. San Juan 1585/1560;18;N;Faustina Rojas;27930546076;2021-11-01 00:00:00;2024-10-31 00:00:00;S
+73;;2021-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Lezica 4423/27;Lezica 4423/27;3;N;Guevara, Fernando;20143696309;2021-11-01 00:00:00;2024-10-31 00:00:00;S
+74;;2021-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Yatay 102;Yatay 102;1;N;Tomasa, Vilca;2757310311;2021-11-01 00:00:00;2024-10-31 00:00:00;S
+75;;2021-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Yatay 102;Yatay 102;3;N;Mazza, Osvaldo;2044062097;2021-11-01 00:00:00;2024-10-31 00:00:00;S
+76;;2021-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Yatay 102;Yatay 102;6;N;Pizarro, Narda;27188770644;2021-11-01 00:00:00;2024-10-31 00:00:00;S
+77;;2021-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Yatay 102;Yatay 102;8;N;Ruiz, Liliana Inés;2766914570;2021-11-01 00:00:00;2024-10-31 00:00:00;S
+78;;2021-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Yatay 102;Yatay 102;10;N;Quiroga, Fermín;20331846393;2021-11-01 00:00:00;2024-10-31 00:00:00;S
+79;;2021-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Yatay 102;Yatay 102;12;N;Perez Portillo, María Fernanda;27160373143;2021-11-01 00:00:00;2024-10-31 00:00:00;S
+80;;2021-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Yatay 102;Yatay 102;14;N;Caris, Liliana;27171983709;2021-11-01 00:00:00;2024-10-31 00:00:00;S
+81;;2021-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Yatay 102;Yatay 102;15;N;Diaz Villalonga, Rodrigo;20329516750;2021-11-01 00:00:00;2024-10-31 00:00:00;S
+82;;2021-12-01 00:00:00;Canon;Canon Fijo;Comercial;Av. Mitre, Emilio 802;Av. Mitre, Emilio 802;1;N;Menéndez, Miriam Noemí;27120450978;2021-12-01 00:00:00;2024-11-30 00:00:00;S
+83;;2021-12-01 00:00:00;Canon;Canon Fijo;Vivienda;Rivera Indarte 196;Rivera Indarte 196;8;N;Prieto, Elizabeth;23185518914;2021-12-01 00:00:00;2024-11-30 00:00:00;S
+84;;2021-12-01 00:00:00;Canon;Canon Fijo;Vivienda;San José de Calasanz 974/76/78;San José de Calasanz 974/76/78;3;N;Andrea Fabiana Galarraga;27210045401;2021-12-01 00:00:00;2024-11-30 00:00:00;S
+85;;2021-12-01 00:00:00;Canon;Canon Fijo;Vivienda;Yerbal 2217/21/23/25/91;Yerbal 2217/21/23/25/91;68;N;Ottogalli, Nidia;27112556937;2021-12-01 00:00:00;2024-11-30 00:00:00;S
+86;;2021-12-01 00:00:00;Canon;Canon Fijo;Vivienda;Yerbal 2217/21/23/25/91;Yerbal 2217/21/23/25/91;51;N;Harlap, Ana María;13477909;2021-12-01 00:00:00;2024-11-30 00:00:00;S
+87;;2021-12-01 00:00:00;Canon;Canon Fijo;Vivienda;Yerbal 2217/21/23/25/91;Yerbal 2217/21/23/25/91;52;N;Pérez, Marta Mabel;27044032134;2021-12-01 00:00:00;2024-11-30 00:00:00;S
+88;;2021-12-01 00:00:00;Canon;Canon Fijo;Vivienda;Yerbal 2217/21/23/25/91;Yerbal 2217/21/23/25/91;74;N;Romero Duarte, Inés Dyrce;27179794018;2021-12-01 00:00:00;2024-11-30 00:00:00;S
+89;;2021-12-01 00:00:00;Canon;Canon Fijo;Vivienda;Yerbal 2217/21/23/25/91;Yerbal 2217/21/23/25/91;92;N;Lezica Duarte, Natalia Karen;27188523493;2021-12-01 00:00:00;2024-11-30 00:00:00;S
+90;;2021-12-01 00:00:00;Canon;Canon Fijo;Vivienda;Yerbal 2217/21/23/25/91;Yerbal 2217/21/23/25/91;23;N;VISCONTI BLANCA NIEVES;27023180699;2021-12-01 00:00:00;2024-11-30 00:00:00;S
+91;;2021-12-01 00:00:00;Canon;Canon Fijo;Vivienda;Yerbal 2217/21/23/25/91;Yerbal 2217/21/23/25/91;15;N;Nescone, José Horacio;20076194727;2021-12-01 00:00:00;2024-11-30 00:00:00;S
+92;;2021-12-01 00:00:00;Canon;Canon Fijo;Vivienda;De los Constituyentes Av. 5088;De los Constituyentes Av. 5088;1;N;Lucero, Edith Ester;5863805;2021-12-01 00:00:00;2024-11-30 00:00:00;S
+93;;2022-12-01 00:00:00;Canon;Canon Fijo;Vivienda;Carlos Calvo 1253;Carlos Calvo 1253;2;S;Jose Campos;20149640658;2022-12-01 00:00:00;2025-11-30 00:00:00;S
+94;;2021-12-01 00:00:00;Canon;Canon Fijo;Vivienda;Chacabuco 1248/1252;Chacabuco 1248/1252;27;N;María Mercedes Neira;27228467753;2021-12-01 00:00:00;2024-11-30 00:00:00;S
+95;;2021-12-01 00:00:00;Canon;Canon Fijo;Vivienda;Lezica 4423/27;Lezica 4423/27;2;N;Cortez, Lelia Arcenia;2768471480;2021-12-01 00:00:00;2024-11-30 00:00:00;S
+96;;2021-12-01 00:00:00;Canon;Canon Fijo;Vivienda;Yatay 102;Yatay 102;7;N;Di Tomaso, Liliana;27101301856;2021-12-01 00:00:00;2024-11-30 00:00:00;S
+97;;2021-12-01 00:00:00;Canon;Canon Fijo;Vivienda;Yatay 102;Yatay 102;17;N;Coronel, María Angélica;27143673621;2021-12-01 00:00:00;2024-11-30 00:00:00;S
+98;;2021-12-01 00:00:00;Canon;Canon Fijo;Vivienda;Alberdi, Juan B. Av. 2345/47;Alberdi, Juan B. Av. 2345/47;52;N;Olinda Sixta Castiñeira;27060771052;2021-12-01 00:00:00;2024-11-30 00:00:00;S
+99;;2022-02-01 00:00:00;Canon;Canon Fijo;Vivienda;Chilavert 3352;Chilavert 3352;3;N;Olarán, María de los Angeles;27179623736;2022-01-01 00:00:00;2024-12-31 00:00:00;S
+100;;2022-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Av. Perón, Eva 1190 / Av. Mitre, Emilio 802/04/06;Av. Perón, Eva 1190 / Av. Mitre, Emilio 802/04/06;1;N;Scelza, Juan Antonio;20119557446;2022-01-01 00:00:00;2024-12-31 00:00:00;S
+101;;2022-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Av. Perón, Eva 1190;Av. Perón, Eva 1190;1;N;Marote, Juan Domingo;20084740129;2022-01-01 00:00:00;2024-12-31 00:00:00;S
+102;;2022-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Chilavert 3352;Chilavert 3352;5;N;Palomino, Ascención del Valle;2763636881;2022-01-01 00:00:00;2024-12-31 00:00:00;S
+103;;2022-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Alberdi, Juan B. Av. 2181/83/85;Alberdi, Juan B. Av. 2181/83/85;2;N;Alberto Longo y Valeria Bazzano;29152145;2022-01-01 00:00:00;2024-12-31 00:00:00;S
+104;;2022-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Diaz César, Gral. 2979/2985;Diaz César, Gral. 2979/2985;1;N;Marando, Gerardo;20177619273;2022-01-01 00:00:00;2024-12-31 00:00:00;S
+105;;2022-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Diaz César, Gral. 2979/2985;Diaz César, Gral. 2979/2985;6;N;MARTHA SUSANA ROMANELLI;23035978984;2022-01-01 00:00:00;2024-12-31 00:00:00;S
+106;;2022-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Diaz César, Gral. 2979/2985;Diaz César, Gral. 2979/2985;12;N;JUAN CARLOS SASTRE;20085867521;2022-01-01 00:00:00;2024-12-31 00:00:00;S
+107;;2022-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Chacabuco 1248/1252;Chacabuco 1248/1252;47;N;Julio Alberto Galarza;20132371394;2022-01-01 00:00:00;2024-12-31 00:00:00;S
+108;;2022-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Perú 864/66/68/70;Perú 864/66/68/70;9;N;Myriam Argañaraz;27138951095;2022-01-01 00:00:00;2024-12-31 00:00:00;S
+109;;2022-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Av. Corrientes 1647/65;Av. Corrientes 1647/65;12;N;Lorna Samantha Acuña;23299413004;2022-01-01 00:00:00;2024-12-31 00:00:00;S
+110;;2022-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Av. Corrientes 1647/65;Av. Corrientes 1647/65;16;N;Carolina Cadena;27202940345;2022-01-01 00:00:00;2024-12-31 00:00:00;S
+111;;2022-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Av. Juan de Garay 579/581;Av. Juan de Garay 579/581;2;N;Alicia Muñoz;27058877463;2022-01-01 00:00:00;2024-12-31 00:00:00;S
+112;;2022-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Av. Juan de Garay 579/581;Av. Juan de Garay 579/581;1;N;Alexis Martin Vega;20228794474;2022-01-01 00:00:00;2024-12-31 00:00:00;S
+113;;2022-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Yerbal 4651/4653/4657;Yerbal 4651/4653/4657;3;N;Adriana Brahin;23138012344;2022-01-01 00:00:00;2024-12-31 00:00:00;S
+114;;2022-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Brandsen 1474/76;Brandsen 1474/76;2;N;Gauna, Rosa;27203510301;2022-01-01 00:00:00;2024-12-31 00:00:00;S
+115;;2022-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Santa Magdalena 829;Santa Magdalena 829;2;N;Ledezma, Marcelo;20238451680;2022-01-01 00:00:00;2024-12-31 00:00:00;S
+116;;2022-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Santa Magdalena 829;Santa Magdalena 829;3;N;Gerez, Laura;28724021;2022-01-01 00:00:00;2024-12-31 00:00:00;S
+117;;2022-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Santa Magdalena 829;Santa Magdalena 829;4;N;Bustos Javier;26263878;2022-01-01 00:00:00;2024-12-31 00:00:00;S
+118;;2022-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Yatay 102;Yatay 102;9;N;Rodríguez, Margarita;26147421;2022-01-01 00:00:00;2024-12-31 00:00:00;S
+119;;2022-03-01 00:00:00;Canon;Canon Fijo;Vivienda;San José de Calasanz 974/76/78;San José de Calasanz 974/76/78;1;N;Gutierrez, Roberto;20045231845;2022-03-01 00:00:00;2025-02-28 00:00:00;S
+120;;2022-03-01 00:00:00;Canon;Canon Fijo;Vivienda;Chilavert 3352;Chilavert 3352;1;N;Silva, Blanca Esther;27129327028;2022-03-01 00:00:00;2025-02-28 00:00:00;S
+121;;2022-03-01 00:00:00;Canon;Canon Fijo;Vivienda;Chilavert 3352;Chilavert 3352;2;N;Ojeda, Mauro Damián;20370388335;2022-03-01 00:00:00;2025-02-28 00:00:00;S
+122;;2022-03-01 00:00:00;Canon;Canon Fijo;Vivienda;Oliveri 96/98;Oliveri 96/98;1;N;Gustavo Fernández Gafferry;20104232869;2022-03-01 00:00:00;2025-02-28 00:00:00;S
+123;;2022-03-01 00:00:00;Canon;Canon Fijo;Vivienda;Villarino 2367;Villarino 2367;1;N;Carbone, Gabriela;23540660;2022-03-01 00:00:00;2025-02-28 00:00:00;S
+124;;2022-04-01 00:00:00;Canon;Canon Fijo;Vivienda;Alberdi, Juan B. Av. 2181/83/85;Alberdi, Juan B. Av. 2181/83/85;1;N;Teresita Villaverde;27138627387;2022-04-01 00:00:00;2025-03-31 00:00:00;S
+125;;2022-04-01 00:00:00;Canon;Canon Fijo;Vivienda;Culpina 1072;Culpina 1072;1;N;Bazán, Celia Susana;27138586877;2022-04-01 00:00:00;2025-03-31 00:00:00;S
+126;;2022-04-01 00:00:00;Canon;Canon Fijo;Vivienda;Terrada 5869;Terrada 5869;1;N;Tassistro Orlando Ruben;20045273297;2022-04-01 00:00:00;2025-03-31 00:00:00;S
+127;;2022-04-01 00:00:00;Canon;Canon Fijo;Vivienda;Mario Bravo 143;Mario Bravo 143;1;N;OSPECON;30614455094;2022-04-01 00:00:00;2025-03-31 00:00:00;S
+128;;2022-06-01 00:00:00;Canon;Canon Fijo;Vivienda;Chilavert 3306;Chilavert 3306;1;N;Brahim, María del Carmen;2762900614;2022-06-01 00:00:00;2025-05-31 00:00:00;S
+129;;2022-06-01 00:00:00;Canon;Canon Fijo;Vivienda;Condarco 2655;Condarco 2655;1;N;Petrona Carranza;27045393068;2022-06-01 00:00:00;2025-05-31 00:00:00;S
+130;;2022-06-01 00:00:00;Canon;Canon Fijo;Vivienda;Yerbal 765;Yerbal 765;1;N;Ponce, Mirta B.;27063892659;2022-06-01 00:00:00;2025-05-31 00:00:00;S
+131;;2022-07-01 00:00:00;Canon;Canon Fijo;Cochera;Diaz César, Gral. 2979/2985;Diaz César, Gral. 2979/2985;3;S;ROSA LORENA BOGADO;27253046312;2022-07-01 00:00:00;2025-06-30 00:00:00;S
+132;;2022-09-01 00:00:00;Canon;Canon Fijo;Vivienda;Yerbal 765;Yerbal 765;2;S;Ponce, Erlinda Isolina / Oreja, Mirta Graciela;23047418364;2022-09-01 00:00:00;2025-08-31 00:00:00;S
+133;;2022-09-01 00:00:00;Canon;Canon Fijo;Vivienda;Rivera Indarte 196;Rivera Indarte 196;2;S;Juan Antonio Urquiza;20108393646;2022-09-01 00:00:00;2025-08-31 00:00:00;S
+134;;2022-09-01 00:00:00;Canon;Canon Fijo;Vivienda;Rivera Indarte 196;Rivera Indarte 196;4;S;German Antonio Urquiza;23318245029;2022-09-01 00:00:00;2025-08-31 00:00:00;S
+135;;2022-09-01 00:00:00;Canon;Canon Fijo;Vivienda;Chilavert 3336;Chilavert 3336;3;S;Garzón, Bernabella Dora;2719473266;2022-09-01 00:00:00;2025-08-31 00:00:00;S
+136;;2022-09-01 00:00:00;Canon;Canon Fijo;Vivienda;Chilavert 3336;Chilavert 3336;4;S;Gomez, Mario ;20124250502;2022-09-01 00:00:00;2025-08-31 00:00:00;S
+137;;2022-09-01 00:00:00;Canon;Canon Fijo;Cochera;Diaz César, Gral. 2979/2985;Diaz César, Gral. 2979/2985;8;S;Antonio Angel Gonzalez;23111757739;2022-09-01 00:00:00;2025-08-31 00:00:00;S
+138;;2022-09-01 00:00:00;Canon;Canon Fijo;Vivienda;Yerbal 4629;Yerbal 4629;1;S;Franco Santiago Tuccio;20113607646;2022-09-01 00:00:00;2025-08-31 00:00:00;S
+139;;2022-10-01 00:00:00;Canon;Canon Fijo;Comercial;Av. Perón, Eva 3099 esq. Av. San Pedrito 1094/96;Av. Perón, Eva 3099 esq. Av. San Pedrito 1094/96;1;S;Hortal Rivero, Ovidio;93375257;2022-10-01 00:00:00;2025-09-30 00:00:00;S
+140;;2022-10-01 00:00:00;Canon;Canon Fijo;Comercial;Zuviría 302;Zuviría 302;1;S;Trombino, Mauro;20277128609;2022-10-01 00:00:00;2025-09-30 00:00:00;S
+141;;2022-09-01 00:00:00;Canon;Canon Fijo;Vivienda;Chilavert 3336;Chilavert 3336;5;S;Aramburu, Berta Lucía;27137997598;2022-09-01 00:00:00;2025-09-30 00:00:00;S
+142;;2022-10-01 00:00:00;Canon;Canon Fijo;Vivienda;RIVERA, PEDRO I., Dr. 4217;RIVERA, PEDRO I., Dr. 4217;1;S;RICARDO VENTURELLI;12276325;2022-10-01 00:00:00;2025-09-30 00:00:00;S
+143;;2022-10-01 00:00:00;Canon;Canon Fijo;Vivienda;HUMBOLDT 2382/2384;HUMBOLDT 2382/2384;1;S;HECTOR ANDRES PICOS;20222267804;2022-10-01 00:00:00;2025-09-30 00:00:00;S
+144;;2022-10-01 00:00:00;Canon;Canon Fijo;Vivienda;Bocayuva Quintino 1235;Bocayuva Quintino 1235;1;S;Avila, Esther;2751631434;2022-10-01 00:00:00;2025-09-30 00:00:00;S
+145;;2022-10-01 00:00:00;Canon;Canon Fijo;Vivienda;José Marmol 1124/1128;José Marmol 1124/1128;1;S;Aldana ,Rosa Antonia;27107084431;2022-10-01 00:00:00;2025-09-30 00:00:00;S
+146;;2022-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Zuviría 166/68;Zuviría 166/68;2;S;Barrientos, Verónica del Valle;27227517811;2022-11-01 00:00:00;2025-10-31 00:00:00;S
+147;;2022-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Araoz Alfaro, Gregorio, Dr. 262/64/66;Araoz Alfaro, Gregorio, Dr. 262/64/66;2;S;Romano, Pablo Aureliano;20253581108;2022-11-01 00:00:00;2025-10-31 00:00:00;S
+148;;2022-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Araoz Alfaro, Gregorio, Dr. 262/64/66;Araoz Alfaro, Gregorio, Dr. 262/64/66;1;S;Toloza, Mirta Margarita;27056444292;2022-11-01 00:00:00;2025-10-31 00:00:00;S
+149;;2022-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Del Barco Centenera 199/201;Del Barco Centenera 199/201;10;S;Consoli, Marisa Gisela;23298014084;2022-11-01 00:00:00;2025-10-31 00:00:00;S
+150;;2023-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Moldes 1080;Moldes 1080;1;S;Patricia Di Pangrazio;27256472304;2023-01-01 00:00:00;2025-10-31 00:00:00;S
+151;;2022-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Alberdi, Juan B. Av. 2636;Alberdi, Juan B. Av. 2636;92;S;Ferro, Roberto Juan;20176482800;2022-11-01 00:00:00;2025-10-31 00:00:00;S
+152;;2022-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Alberdi, Juan B. Av. 2705;Alberdi, Juan B. Av. 2705;1;S;Nanni, Fernando;20269667488;2022-11-01 00:00:00;2025-10-31 00:00:00;S
+153;;2022-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Avalos 448;Avalos 448;1;S;Iglesias, Bárbara Elizabeth;33085663;2022-11-01 00:00:00;2025-10-31 00:00:00;S
+154;;2022-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Giribone 1752/56;Giribone 1752/56;1;S;Miranda Parra, Lucía Grisel;30614131;2022-11-01 00:00:00;2025-10-31 00:00:00;S
+155;;2022-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Lacroze, Federico Av. 3601/07/11/15;Lacroze, Federico Av. 3601/07/11/15;9;S;Heisecke, María Alejandra;18431859;2022-11-01 00:00:00;2025-10-31 00:00:00;S
+156;;2022-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Loreto, Virrey 3742;Loreto, Virrey 3742;7;S;Vázquez Cubilla, Julio Ramón;4532451;2022-11-01 00:00:00;2025-10-31 00:00:00;S
+157;;2022-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Av. Escalada 960;Av. Escalada 960;1;S;Susana Beatriz Pacheco;27278609125;2022-11-01 00:00:00;2025-10-31 00:00:00;S
+158;;2022-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Tapalqué 4845/49;Tapalqué 4845/49;2;S;Luciana Matera;27266320788;2022-11-01 00:00:00;2025-10-31 00:00:00;S
+159;;2022-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Tapalqué 4845/49;Tapalqué 4845/49;1;S;María Lorena Barthelemi;27235152199;2022-11-01 00:00:00;2025-10-31 00:00:00;S
+160;;2022-11-01 00:00:00;Canon;Canon Fijo;Vivienda;24 de Noviembre 111/17;24 de Noviembre 111/17;24;S;Rey, Gladys;27135290306;2022-11-01 00:00:00;2025-10-31 00:00:00;S
+161;;2022-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Suarez 228;Suarez 228;1;S;Escobar, Laura Beatriz;27256820086;2022-11-01 00:00:00;2025-10-31 00:00:00;S
+162;;2022-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Lezica 4423/27;Lezica 4423/27;4;S;De Luis, Martin;20271441569;2022-11-01 00:00:00;2025-10-31 00:00:00;S
+163;;2022-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Cachimayo 988;Cachimayo 988;1;S;Raimondi, Raúl Alberto;20102661401;2022-11-01 00:00:00;2025-10-31 00:00:00;S
+164;;2022-12-01 00:00:00;Canon;Canon Fijo;Vivienda;Condarco 1633;Condarco 1633;1;S;MARIA JIMENA LOPEZ;27225099370;2022-12-01 00:00:00;2025-11-30 00:00:00;S
+165;;2022-12-01 00:00:00;Canon;Canon Fijo;Vivienda;Condarco 1633;Condarco 1633;3;S;NANCY GRACIELA RUIZ DIAZ;27165595888;2022-12-01 00:00:00;2025-11-30 00:00:00;S
+166;;2022-12-01 00:00:00;Canon;Canon Fijo;Vivienda;Jufré 346/50;Jufré 346/50;2;S;Montesinos, Maximiliano;95810897;2022-12-01 00:00:00;2025-11-30 00:00:00;S
+167;;2022-12-01 00:00:00;Canon;Canon Fijo;Vivienda;Perú 864/66/68/70;Perú 864/66/68/70;10;S;Julio Cesar Franchini;20923066854;2022-12-01 00:00:00;2025-11-30 00:00:00;S
+168;;2022-12-01 00:00:00;Canon;Canon Fijo;Vivienda;Av. San Juan 848;Av. San Juan 848;7;S;Viviana Ramirez;27252734657;2022-12-01 00:00:00;2025-11-30 00:00:00;S
+169;;2022-12-01 00:00:00;Canon;Canon Fijo;Vivienda;24 de Noviembre 111/17;24 de Noviembre 111/17;27;S;MAZZUCCONI ANGELA ANTONIA;27026386980;2022-12-01 00:00:00;2025-11-30 00:00:00;S
+170;;2022-12-01 00:00:00;Canon;Canon Fijo;Vivienda;Yatay 102;Yatay 102;4;S;Luna, Zulema;23164121844;2022-12-01 00:00:00;2025-11-30 00:00:00;S
+171;;2023-01-01 00:00:00;Canon;Canon Fijo;Cochera;Diaz César, Gral. 2979/2985;Diaz César, Gral. 2979/2985;4;S;Oviedo, Jorgelina;27942318982;2023-01-01 00:00:00;2025-12-31 00:00:00;S
+172;;2023-01-01 00:00:00;Canon;Canon Fijo;Cochera;Diaz César, Gral. 2979/2985;Diaz César, Gral. 2979/2985;6;S;KIAN GHORBANI;20188312447;2023-01-01 00:00:00;2025-12-31 00:00:00;S
+173;;2023-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Av. Córdoba 5522/26;Av. Córdoba 5522/26;6;S;Vidaurre, Cintia Marisel;30670056;2023-01-01 00:00:00;2025-12-31 00:00:00;S
+174;;2023-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Giribone 620;Giribone 620;4;S;Cantero, Pablo;31346157;2023-01-01 00:00:00;2025-12-31 00:00:00;S
+175;;2023-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Palpa 3630/32/34;Palpa 3630/32/34;1;S;Contreras, María Haydee;13464200;2023-01-01 00:00:00;2025-12-31 00:00:00;S
+176;;2023-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Lacroze, Federico Av. 3601/07/11/15;Lacroze, Federico Av. 3601/07/11/15;14;S;Musante, Patricia Milva;27150471;2023-01-01 00:00:00;2025-12-31 00:00:00;S
+177;;2023-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Lacroze, Federico Av. 3601/07/11/15;Lacroze, Federico Av. 3601/07/11/15;19;S;Murua, Gustavo Marcelo;20107399462;2023-01-01 00:00:00;2025-12-31 00:00:00;S
+178;;2023-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Urquiza, Gral. 1377/1379;Urquiza, Gral. 1377/1379;28;S;Pérez, Graciela;27124737260;2023-01-01 00:00:00;2025-12-31 00:00:00;S
+179;;2023-02-01 00:00:00;Canon;Canon Fijo;Vivienda;Jufré 346/50;Jufré 346/50;1;S;De Sosa, César Usbaldo;28281065;2023-02-01 00:00:00;2026-01-31 00:00:00;S
+180;;2023-02-01 00:00:00;Canon;Canon Fijo;Vivienda;Av. Córdoba 6100;Av. Córdoba 6100;32;S;Buitrón, Joan Emanuel;36767678;2023-02-01 00:00:00;2026-01-31 00:00:00;S
+181;;2023-02-01 00:00:00;Canon;Canon Fijo;Vivienda;Humahuaca 3595/99 esq. Billinghurst 609/11;Humahuaca 3595/99 esq. Billinghurst 609/11;1;S;Gordillo, Paula Alejandra;35976732;2023-02-01 00:00:00;2026-01-31 00:00:00;S
+182;;2023-03-01 00:00:00;Canon;Canon Fijo;Vivienda;Arenal, Concepción 3532/36;Arenal, Concepción 3532/36;1;S;Romero Pattenden, Teresa;92307003;2023-03-01 00:00:00;2026-02-28 00:00:00;S
+183;;2023-04-01 00:00:00;Canon;Canon Fijo;Vivienda;Av. Córdoba 5522/26;Av. Córdoba 5522/26;1;S;Gutierrez, Luís Ricardo;28074217;2023-04-01 00:00:00;2026-03-31 00:00:00;S
+184;;2023-04-01 00:00:00;Canon;Canon Fijo;Vivienda;Lacroze, Federico Av. 3601/07/11/15;Lacroze, Federico Av. 3601/07/11/15;15;S;Rodríguez, Karina Anahí;24824195;2023-04-01 00:00:00;2026-03-31 00:00:00;S
+185;;2023-04-01 00:00:00;Canon;Canon Fijo;Vivienda;Av. Córdoba 6100;Av. Córdoba 6100;10;S;Vincent, María Carolina;21495750;2023-04-01 00:00:00;2026-03-31 00:00:00;S
+186;;2023-04-01 00:00:00;Canon;Canon Fijo;Vivienda;Av. Córdoba 6100;Av. Córdoba 6100;17;S;Monteverde, Paula;33362084;2023-04-01 00:00:00;2026-03-31 00:00:00;S
+187;;2023-04-01 00:00:00;Canon;Canon Fijo;Vivienda;Av. Córdoba 6100;Av. Córdoba 6100;19;S;Macalu, Luís Juan Ramón;24315235;2023-04-01 00:00:00;2026-03-31 00:00:00;S
+188;;2023-04-01 00:00:00;Canon;Canon Fijo;Vivienda;Barragán 341;Barragán 341;1;S;Nestor Ramon Díaz;20288104116;2023-04-01 00:00:00;2026-03-31 00:00:00;S
+189;;2023-04-01 00:00:00;Canon;Canon Fijo;Vivienda;Medrano 794 ;Medrano 794 ;1;S;Agüero, Irene;3234819;2023-04-01 00:00:00;2026-03-31 00:00:00;S
+190;;2023-05-01 00:00:00;Canon;Canon Fijo;Vivienda;Chilavert 3352;Chilavert 3352;4;S;Nelida Yolanda, Ceballos;27256535438;2023-05-01 00:00:00;2026-04-30 00:00:00;S
+191;;2021-05-01 00:00:00;Canon;Canon Fijo;Vivienda;Riglos 969/71;Riglos 969/71;3;S;Aguirre, Fabiana Andrea;27184044930;2021-05-01 00:00:00;2026-04-30 00:00:00;S
+192;;2023-05-01 00:00:00;Canon;Canon Fijo;Vivienda;Av. Córdoba 5522/26;Av. Córdoba 5522/26;3;S;Formica, María Fernanda;18286865;2023-05-01 00:00:00;2026-04-30 00:00:00;S
+193;;2023-05-01 00:00:00;Canon;Canon Fijo;Vivienda;Jufré 346/50;Jufré 346/50;4;S;Cordero Pardo, Ignacio Alejandro;41487933;2023-05-01 00:00:00;2026-04-30 00:00:00;S
+194;;2022-05-01 00:00:00;Canon;Canon Fijo;Vivienda;Perú 864/66/68/70;Perú 864/66/68/70;11;S;Marta Veronica Barletta;22164734930;2022-05-01 00:00:00;2026-04-30 00:00:00;S
+195;;2023-06-01 00:00:00;Canon;Canon Fijo;Vivienda;Av. Córdoba 5522/26;Av. Córdoba 5522/26;7;S;Orellano, Waldo Adrián;23593618;2023-06-01 00:00:00;2026-05-31 00:00:00;S
+196;;2023-06-01 00:00:00;Canon;Canon Fijo;Vivienda;Newbery, Jorge 3546/48/50 ;Newbery, Jorge 3546/48/50 ;1;S;Pérez, Gerardo Ariel;18498749;2023-06-01 00:00:00;2026-05-31 00:00:00;S
+197;;2023-06-01 00:00:00;Canon;Canon Fijo;Vivienda;Av. San Juan 848;Av. San Juan 848;8;S;Gabriela Pintos;27286741032;2023-06-01 00:00:00;2026-05-31 00:00:00;S
+198;;2023-06-01 00:00:00;Canon;Canon Fijo;Vivienda;Yatay 102;Yatay 102;2;S;Soto, Daniel;23108248009;2023-06-01 00:00:00;2026-05-31 00:00:00;S
+199;;2023-07-01 00:00:00;Canon;Canon Fijo;Vivienda;Loreto, Virrey 3742;Loreto, Virrey 3742;12;S;Rojas, Emiliano;42147968;2023-07-01 00:00:00;2026-06-30 00:00:00;S
+200;;2023-07-01 00:00:00;Canon;Canon Fijo;Vivienda;Av. Córdoba 6100;Av. Córdoba 6100;34;S;Fernández González, María Victoria;92467182;2023-07-01 00:00:00;2026-06-30 00:00:00;S
+201;;2023-08-01 00:00:00;Canon;Canon Fijo;Vivienda;Terrero 127/29/31;Terrero 127/29/31;1;S;Bianchi, Liliana Antonia;27114368364;2023-08-01 00:00:00;2026-07-31 00:00:00;S
+202;;2023-08-01 00:00:00;Canon;Canon Fijo;Vivienda;Pergamino 3009;Pergamino 3009;1;S;Chamorro, Elena;27942677648;2023-08-01 00:00:00;2026-07-31 00:00:00;S
+203;;2023-08-01 00:00:00;Canon;Canon Fijo;Vivienda;Zamudio 5981;Zamudio 5981;1;S;Fernando Ariel Heredia;20315412065;2023-08-01 00:00:00;2026-07-31 00:00:00;S
+204;;2023-08-01 00:00:00;Canon;Canon Fijo;Vivienda;Estomba 1140;Estomba 1140;1;S;Sanchez, Cecilia Elizabeth;29250499;2023-08-01 00:00:00;2026-07-31 00:00:00;S
+205;;2023-08-01 00:00:00;Canon;Canon Fijo;Vivienda;Jufré 980;Jufré 980;7;S;Lopez Junis, Reina;20521626;2023-08-01 00:00:00;2026-07-31 00:00:00;S
+206;;2023-08-01 00:00:00;Canon;Canon Fijo;Vivienda;Newbery, Jorge 3558/60/62 ;Newbery, Jorge 3558/60/62 ;9;S;Ruido, Liliana del Carmen;5160089;2023-08-01 00:00:00;2026-07-31 00:00:00;S
+207;;2023-08-01 00:00:00;Canon;Canon Fijo;Vivienda;Guardia Nacional 2108 / Monte 4996;Guardia Nacional 2108 / Monte 4996;2;S;Elizabeth María del Carmen Allende;27201357077;2023-08-01 00:00:00;2026-07-31 00:00:00;S
+208;;2023-08-01 00:00:00;Canon;Canon Fijo;Vivienda;Billinghurst 672;Billinghurst 672;7;S;Mejía Tolentino, Madeley Zenaida;93687179;2023-08-01 00:00:00;2026-07-31 00:00:00;S
+209;;2023-09-01 00:00:00;Canon;Canon Fijo;Vivienda;Cajaravilla 4674;Cajaravilla 4674;1;S;Luz Sanchez Mora;20940792134;2023-09-01 00:00:00;2026-08-31 00:00:00;S
+210;;2023-10-01 00:00:00;Canon;Canon Fijo;Vivienda;Bonpland 1239/41/43;Bonpland 1239/41/43;3;S;Peralta, Elsa Beatriz;4885299;2023-10-01 00:00:00;2026-09-30 00:00:00;S
+211;;2023-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Av. Córdoba 5502/08;Av. Córdoba 5502/08;1;S;Niz, Cristian Jésus;27090359;2023-11-01 00:00:00;2026-10-31 00:00:00;S
+212;;2023-12-01 00:00:00;Canon;Canon Fijo;Vivienda;Fitz Roy 1271;Fitz Roy 1271;1;S;Lopez, Norberto Ariel;20372902;2023-12-01 00:00:00;2026-11-30 00:00:00;S
+213;;2023-12-01 00:00:00;Canon;Canon Fijo;Vivienda;Thames 1054/56;Thames 1054/56;3;S;Vivares, Alejandro Amilcar;25626671;2023-12-01 00:00:00;2026-11-30 00:00:00;S
+214;;2023-12-01 00:00:00;Canon;Canon Fijo;Vivienda;Bonpland 1239/41/43;Bonpland 1239/41/43;1;S;Pedrozo, Irene;28388555;2023-12-01 00:00:00;2026-11-30 00:00:00;S
+215;;2023-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Lacroze, Federico Av. 3601/07/11/15;Lacroze, Federico Av. 3601/07/11/15;17;S;Rímolo, Hilda Inés;27122170441;2023-01-01 00:00:00;2026-12-31 00:00:00;S
+216;;2022-03-01 00:00:00;Canon;Canon Fijo;Vivienda;Lezica 4423/27;Lezica 4423/27;1;S;Longarela, Cecilia Estela;27324715040;2022-03-01 00:00:00;2027-02-28 00:00:00;S
+217;;2022-05-01 00:00:00;Canon;Canon Fijo;Comercial;Don Pedro de Mendoza 2239;Don Pedro de Mendoza 2239;1;S;Royo, Jose Norberto;20076169420;2022-05-01 00:00:00;2027-04-30 00:00:00;S
+218;;2023-01-01 00:00:00;Canon;Canon Fijo;Comercial;Sin Nombre Oficial (NC C: 16 S: 27 M: entre 146K y 146L);Sin Nombre Oficial (NC C: 16 S: 27 M: entre 146K y 146L);1;S;Fideicomiso Financiero Privado Inmobiliario y de Administracion Buenos Aires Landmark;30716249731;2023-01-01 00:00:00;2027-12-31 00:00:00;S
+219;;2023-07-01 00:00:00;Canon;Canon Fijo;Vivienda;Loreto, Virrey 3742;Loreto, Virrey 3742;14;S;Di Tulio, Mariana;27225814509;2023-07-01 00:00:00;2028-06-30 00:00:00;S
+220;;1993-09-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Avalos 450;Avalos 450;1;N;Ferreiro, Alicia;23009034404;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+221;;1993-10-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Bolaños 203;Bolaños 203;1;N;Raúl Gonzalez;20926531140;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+222;;1994-05-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Alberdi, Juan B. Av. 2345/47;Alberdi, Juan B. Av. 2345/47;12;N;Figueroa, Mirta;23137742144;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+223;;2002-11-15 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Humboldt 1220;Humboldt 1220;1;N;Paz de Velóz, Olga;27140989660;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+224;;2012-04-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Gascón 927;Gascón 927;1;N;Marcotrigiano, Miguel Angel;2044094586;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+225;;2015-01-01 00:00:00;Canon Provisorio;Canon Fijo;Comercial;Cruz, Osvaldo 1874/1878/1880/1882;Cruz, Osvaldo 1874/1878/1880/1882;1;N;Turbodisel S.A.;30568205339;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+226;;2015-05-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Colpayo 145/47/49;Colpayo 145/47/49;1;N;Cuenca, Juan Rodolfo;20215404928;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+227;;2015-05-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Colpayo 145/47/49;Colpayo 145/47/49;3;N;Sotomayor, Aníbal José;27186223969;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+228;;2015-05-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Colpayo 145/47/49;Colpayo 145/47/49;4;N;Galarza, Anastacio;20128460196;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+229;;2015-05-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Colpayo 145/47/49;Colpayo 145/47/49;5;N;Villarreal, Selva Natividad;27124857908;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+230;;2015-05-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Colpayo 145/47/49;Colpayo 145/47/49;7;N;Serruche Alvarez, Javier;27954853506;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+231;;2015-05-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Colpayo 145/47/49;Colpayo 145/47/49;9;N;Chavez Medina, Julio Francisco;27947513147;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+232;;2011-11-01 00:00:00;Canon Provisorio;Canon Fijo;Otro;Junín 963/965;Junín 963/965;1;N;Asociación Odontologica Argentina;30527233794;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+233;;2012-07-01 00:00:00;Canon Provisorio;Canon Fijo;Comercial;Magaldi, Agustin 1100;Magaldi, Agustin 1100;1;N;COOPERATIVA ARGENTINA DE FLORICULTORES LTDA.;30525403099;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+234;;2016-09-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Condarco 1633;Condarco 1633;2;N;ERNESTO ARIEL DELGADO;20265529691;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+235;;2012-09-29 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Madrid 6956/6960;Madrid 6956/6960;3;N;Nieves Rojas;1654807;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+236;;2016-10-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Baigorri 165;Baigorri 165;4;N;Casco, Sara;27111757009;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+237;;2016-11-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Baigorri 165;Baigorri 165;5;N;Valdez, Elba Inés;23052545404;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+238;;2014-11-13 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Ramón L. Falcón 4736/4738/4742;Ramón L. Falcón 4736/4738/4742;3;N;Guillermo Romero;20133854747;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+239;;2016-12-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Colonia Av. 216;Colonia Av. 216;1;N;Cerrudo, Rubén Mario;20162955013;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+240;;2014-09-09 00:00:00;Canon Provisorio;Canon Fijo;Otro;Cesar Díaz 4752;Cesar Díaz 4752;1;N;Marta Haydee Costa;27167742055;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+241;;2014-10-31 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Ramón L. Falcón 4736/4738/4742;Ramón L. Falcón 4736/4738/4742;4;N;María Alejandra González;27178738289;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+242;;2014-10-28 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Ramón L. Falcón 4736/4738/4742;Ramón L. Falcón 4736/4738/4742;5;N;Martín Guariglia;20244257950;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+243;;2014-11-01 00:00:00;Canon Provisorio;Canon Fijo;Comercial;Valle, J.J., Gral. Div. 2950 / Tilcara Av. 2961;Valle, J.J., Gral. Div. 2950 / Tilcara Av. 2961;1;N;Debox S.A.;30713985801;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+244;;2014-11-07 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Ramón L. Falcón 4736/4738/4742;Ramón L. Falcón 4736/4738/4742;1;N;Vicente Eduardo Violi;20132851507;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+245;;2014-12-01 00:00:00;Canon Provisorio;Canon Fijo;Comercial;Av. San Juan 601/607/611/613;Av. San Juan 601/607/611/613;1;N;San Juan Tennis;30574095847;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+246;;2015-01-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Cazadores 2460;Cazadores 2460;1;N;Braier, Marcia;23129466154;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+247;;2015-02-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Alberdi, Juan B. Av. 2345/47;Alberdi, Juan B. Av. 2345/47;61;N;Barrios, Nora;27065332707;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+248;;2015-05-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Baigorri 165;Baigorri 165;7;N;Ramos, Marcelino;20174702730;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+249;;2015-05-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Baigorri 165;Baigorri 165;8;N;Agüero, Claudia del Valle;27279280836;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+250;;2015-05-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Baigorri 165;Baigorri 165;10;N;Argañaraz, Blanca del Valle;27111810449;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+251;;2015-07-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Ramón L. Falcón 4736/4738/4742;Ramón L. Falcón 4736/4738/4742;2;N;Domingo Alberto Aguilar;20206978075;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+252;;2015-08-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Suarez 432;Suarez 432;1;N;Vega, Pedro Pablo;20216596162;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+253;;2015-08-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Liniers Virrey 1375;Liniers Virrey 1375;1;N;Duarte, Verónica;28769748;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+254;;2017-09-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Diaz César, Gral. 2979/2985;Diaz César, Gral. 2979/2985;17;N;EDGARDO H. QUINTANA;23054355289;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+255;;2017-09-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Diaz César, Gral. 2979/2985;Diaz César, Gral. 2979/2985;19;N;MIRIAM MABEL MEDINA;27124340271;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+256;;2016-03-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;De los Constituyentes Av. 4990/5000 esq. Ladines S/N;De los Constituyentes Av. 4990/5000 esq. Ladines S/N;1;N;Dalessadro, Horacio - Pulvirenti, Elisa;20109231976;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+257;;2016-04-01 00:00:00;Canon Provisorio;Canon Fijo;Otro;De los Constituyentes Av. 4796/98 Lopéz, C. Antonio 2106;De los Constituyentes Av. 4796/98 Lopéz, C. Antonio 2106;1;N;Bustamante, Javier Horacio;20182855015;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+258;;2016-06-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Av. Escalada 1764;Av. Escalada 1764;1;N;Adriana Segato;27307954341;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+259;;2022-04-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Av. San Pedrito 1024/26;Av. San Pedrito 1024/26;1;N;Vargas, Marta;27144988332;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+260;;2022-04-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;José Enrique Rodó 4480/4482;José Enrique Rodó 4480/4482;1;N;María Esther Niveiro;27140019041;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+261;;2022-04-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Liniers Virrey 1314;Liniers Virrey 1314;1;N;Carla Kaganovicz;27368464134;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+262;;2022-11-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Av. Escalada 958;Av. Escalada 958;1;N;Carina Laura Scaglione;21083288;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+263;;2022-11-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Suarez 228;Suarez 228;2;N;Romero, Facundo Leonardo;20337746536;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+264;;2022-12-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Concordia 3197;Concordia 3197;1;N;STELLA MARIS ALBERTO;27102651028;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+265;;2022-01-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Av. Corrientes 6001/23;Av. Corrientes 6001/23;1;N;San, Stella Maris;27141068382;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+266;;2023-03-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Tapalqué 4845/49;Tapalqué 4845/49;3;N;Eduardo Domingo Sisca;20164968120;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+267;;2023-06-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Baigorri 165;Baigorri 165;6;N;Marcelo Monzon;20299494161;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+268;;2023-06-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Liniers Virrey 1312;Liniers Virrey 1312;1;N;Maria Salome Montenegro;23272152934;2024-06-01 00:00:00;2024-12-31 00:00:00;S
+269;;1990-01-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Janer Ana María 3545;Janer Ana María 3545;1;N;Gorosito, Ramona;2337733534;2024-06-27 00:00:00;2024-12-27 00:00:00;S
+270;;2024-07-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Chacabuco 1248/1252;Chacabuco 1248/1252;16;N;Tomassi, Susana Mercedes;23060675724;2024-07-01 00:00:00;2025-01-01 00:00:00;S
+271;;2024-07-01 00:00:00;Canon;Canon Fijo;Cochera;Chacabuco 1248/1252;Chacabuco 1248/1252;1;N;Matía, Marta;826353;2024-07-01 00:00:00;2024-10-01 00:00:00;S
+272;;2024-07-01 00:00:00;Canon;Canon Fijo;Cochera;Chacabuco 1248/1252;Chacabuco 1248/1252;4;N;Arias, Elsa Josefina;27109621701;2024-07-01 00:00:00;2024-10-01 00:00:00;S
+273;;2024-07-01 00:00:00;Canon;Canon Fijo;Cochera;Chacabuco 1248/1252;Chacabuco 1248/1252;5;N;María Mercedes Neira;27228467753;2024-07-01 00:00:00;2024-10-01 00:00:00;S
+274;;2024-07-01 00:00:00;Canon;Canon Fijo;Cochera;Chacabuco 1248/1252;Chacabuco 1248/1252;6;N;Gómez, Marisa;27130553090;2024-07-01 00:00:00;2024-10-01 00:00:00;S
+275;;2000-01-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Humboldt 1242;Humboldt 1242;1;N;Cuello, Selva Brigida;27058788207;2024-07-03 00:00:00;2025-01-03 00:00:00;S
+276;;2023-06-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Serrano 1079/85;Serrano 1079/85;1;S;Catalina Orquera;27726299;2024-07-08 00:00:00;2026-05-08 00:00:00;S
+277;;2024-07-01 00:00:00;Canon;Canon Fijo;Vivienda;Barragán 341;Barragán 341;2;N;Valeria Maldonado;27291576465;2024-07-29 00:00:00;2024-12-29 00:00:00;S
+278;;2024-09-30 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Perú 864/66/68/70;Perú 864/66/68/70;1;N;Carlos Choque;93065630;2024-09-30 00:00:00;2024-12-31 00:00:00;S
+279;;2024-09-30 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Perú 864/66/68/70;Perú 864/66/68/70;7;N;Margarita Mansilla;13464885;2024-09-30 00:00:00;2024-12-31 00:00:00;S
+280;;2024-09-30 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;De los Constituyentes Av. 5099 ;De los Constituyentes Av. 5099 ;1;N;Sbrascini, Fabricio;20314225059;2024-09-30 00:00:00;2024-12-31 00:00:00;S
+281;;2024-09-30 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Perú 864/66/68/70;Perú 864/66/68/70;2;N;Luís Carlos Pérez;4707867;2024-09-30 00:00:00;2024-12-31 00:00:00;S
+282;;2024-10-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Perú 864/66/68/70;Perú 864/66/68/70;8;S;Alicia Noemí Rubio;27180935075;2024-10-15 00:00:00;2025-12-31 00:00:00;S
+283;;2024-11-05 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Diaz César, Gral. 2979/2985;Diaz César, Gral. 2979/2985;18;S;ROSA LORENA BOGADO;27253046312;2024-11-05 00:00:00;2025-06-30 00:00:00;S
+284;;2024-11-01 00:00:00;Canon;Canon Fijo;Vivienda;Carlos Calvo 1253;Carlos Calvo 1253;6;S;Carmen Isabel Figueredo Susloaga ;27929833878;2024-11-19 00:00:00;2025-10-31 00:00:00;S
+285;;2024-12-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Lezica 4423/27;Lezica 4423/27;2;S;Cortez, Lelia Arcenia;2768471480;2024-12-09 00:00:00;2025-06-30 00:00:00;S
+286;;2024-12-01 00:00:00;Canon Provisorio;Canon Fijo;Cochera;Diaz César, Gral. 2979/2985;Diaz César, Gral. 2979/2985;2;S;ROSA LORENA BOGADO;27253046312;2024-12-12 00:00:00;2025-06-30 00:00:00;S
+287;;2024-12-12 00:00:00;Canon Provisorio;Canon Fijo;Cochera;Diaz César, Gral. 2979/2985;Diaz César, Gral. 2979/2985;1;S;CARLA MARIANA ODELLA RESTIVO;27275735324;2024-12-12 00:00:00;2025-06-30 00:00:00;S
+288;;2024-12-12 00:00:00;Canon Provisorio;Canon Fijo;Cochera;Diaz César, Gral. 2979/2985;Diaz César, Gral. 2979/2985;7;S;Ricardo Oscar Odella;20132658405;2024-12-12 00:00:00;2025-06-30 00:00:00;S
+289;;2024-11-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Lezica 4423/27;Lezica 4423/27;3;S;Guevara, Fernando;20143696309;2024-12-26 00:00:00;2025-06-30 00:00:00;S
+290;;2024-12-01 00:00:00;Canon;Canon Fijo;Vivienda;Carlos Calvo 1253;Carlos Calvo 1253;7;S;Gladis Georgina Molina;27131576353;2024-12-30 00:00:00;2025-10-31 00:00:00;S
+291;;2025-01-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Baigorri 165;Baigorri 165;8;S;Agüero, Claudia del Valle;27279280836;2025-01-02 00:00:00;2025-12-31 00:00:00;S
+292;;2025-01-01 00:00:00;Canon Provisorio;Canon Fijo;Comercial;Cruz, Osvaldo 1874/1878/1880/1882;Cruz, Osvaldo 1874/1878/1880/1882;1;S;Turbodisel S.A.;30568205339;2025-01-13 00:00:00;2025-12-31 00:00:00;S
+293;;2025-01-01 00:00:00;Canon Provisorio;Canon Fijo;Comercial;Magaldi, Agustin 1100;Magaldi, Agustin 1100;1;S;COOPERATIVA ARGENTINA DE FLORICULTORES LTDA.;30525403099;2025-01-13 00:00:00;2025-12-31 00:00:00;S
+294;;2025-01-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Santa Magdalena 829;Santa Magdalena 829;2;S;Ledezma, Marcelo;20238451680;2025-01-13 00:00:00;2025-12-31 00:00:00;S
+295;;2025-01-01 00:00:00;Canon Provisorio;Canon Fijo;Comercial;Valle, J.J., Gral. Div. 2950 / Tilcara Av. 2961;Valle, J.J., Gral. Div. 2950 / Tilcara Av. 2961;1;S;Debox S.A.;30713985801;2025-01-13 00:00:00;2025-12-31 00:00:00;S
+296;;2025-01-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Brandsen 1474/76;Brandsen 1474/76;2;S;Gauna, Rosa;27203510301;2025-01-14 00:00:00;2025-06-30 00:00:00;S
+297;;2025-01-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Perú 864/66/68/70;Perú 864/66/68/70;2;S;Luís Carlos Pérez;4707867;2025-01-14 00:00:00;2025-06-30 00:00:00;S
+298;;2025-01-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Diaz César, Gral. 2979/2985;Diaz César, Gral. 2979/2985;1;S;Marando, Gerardo;20177619273;2025-01-16 00:00:00;2025-06-30 00:00:00;S
+299;;2025-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Chacabuco 1248/1252;Chacabuco 1248/1252;16;S;Tomassi, Susana Mercedes;23060675724;2025-01-16 00:00:00;2025-06-30 00:00:00;S
+300;;2025-01-01 00:00:00;Canon;Canon Fijo;Vivienda;San José de Calasanz 974/76/78;San José de Calasanz 974/76/78;3;S;Andrea Fabiana Galarraga;27210045401;2025-01-16 00:00:00;2025-06-30 00:00:00;S
+301;;2025-01-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Baigorri 165;Baigorri 165;5;S;Valdez, Elba Inés;23052545404;2025-01-16 00:00:00;2025-06-30 00:00:00;S
+302;;2025-01-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Suarez 228;Suarez 228;2;S;Romero, Facundo Leonardo;20337746536;2025-01-16 00:00:00;2025-06-30 00:00:00;S
+303;;2025-01-01 00:00:00;Canon Provisorio;Canon Fijo;Otro;Junín 963/965;Junín 963/965;1;S;Asociación Odontologica Argentina;30527233794;2025-01-21 00:00:00;2025-06-30 00:00:00;S
+304;;2025-01-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Diaz César, Gral. 2979/2985;Diaz César, Gral. 2979/2985;12;S;JUAN CARLOS SASTRE;20085867521;2025-01-21 00:00:00;2025-06-30 00:00:00;S
+305;;2025-01-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Carlos Calvo 1253;Carlos Calvo 1253;3;S;Florencia Gomez;27316052148;2025-01-22 00:00:00;2025-10-31 00:00:00;S
+306;;2025-01-01 00:00:00;Canon;Canon Fijo;Vivienda;Av. Corrientes 1647/65;Av. Corrientes 1647/65;12;S;Lorna Samantha Acuña;23299413004;2025-01-31 00:00:00;2025-06-30 00:00:00;S
+307;;2025-02-06 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Colpayo 145/47/49;Colpayo 145/47/49;9;S;Chavez Medina, Julio Francisco;27947513147;2025-02-06 00:00:00;2025-06-30 00:00:00;S
+308;;2025-01-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Ramón L. Falcón 4736/4738/4742;Ramón L. Falcón 4736/4738/4742;4;S;Martín Guariglia;20244257950;2025-02-06 00:00:00;2025-06-30 00:00:00;S
+309;;2025-02-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Alberdi, Juan B. Av. 2345/47;Alberdi, Juan B. Av. 2345/47;52;S;Olinda Sixta Castiñeira;27060771052;2025-02-12 00:00:00;2025-06-30 00:00:00;S
+310;;2025-02-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Baigorri 165;Baigorri 165;6;S;Marcelo Monzon;20299494161;2025-02-12 00:00:00;2025-06-30 00:00:00;S
+311;;2025-02-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Baigorri 165;Baigorri 165;10;S;Argañaraz, Blanca del Valle;27111810449;2025-02-12 00:00:00;2025-06-30 00:00:00;S
+312;;2025-02-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Colonia Av. 216;Colonia Av. 216;1;S;Cerrudo, Rubén Mario;20162955013;2025-02-12 00:00:00;2025-06-30 00:00:00;S
+313;;2025-02-13 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Colpayo 145/47/49;Colpayo 145/47/49;3;S;Sotomayor, Aníbal José;27186223969;2025-02-13 00:00:00;2025-06-30 00:00:00;S
+314;;2025-02-13 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Colpayo 145/47/49;Colpayo 145/47/49;5;S;Villarreal, Selva Natividad;27124857908;2025-02-13 00:00:00;2025-06-30 00:00:00;S
+315;;2025-02-13 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Colpayo 145/47/49;Colpayo 145/47/49;7;S;Serruche Alvarez, Javier;27954853506;2025-02-13 00:00:00;2025-06-30 00:00:00;S
+316;;2025-02-13 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Av. San Pedrito 1024/26;Av. San Pedrito 1024/26;1;S;Vargas, Marta;27144988332;2025-02-13 00:00:00;2025-06-30 00:00:00;S
+317;;2025-02-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Perú 864/66/68/70;Perú 864/66/68/70;5;S;Gustavo Franchini;20953299756;2025-02-14 00:00:00;2025-06-30 00:00:00;S
+318;;2025-02-14 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Perú 864/66/68/70;Perú 864/66/68/70;7;S;Margarita Mansilla;13464885;2025-02-14 00:00:00;2025-06-30 00:00:00;S
+319;;2025-02-14 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Perú 864/66/68/70;Perú 864/66/68/70;9;S;Myriam Argañaraz;27138951095;2025-02-14 00:00:00;2025-06-30 00:00:00;S
+320;;2025-02-14 00:00:00;Canon;Canon Fijo;Vivienda;Suarez 228;Suarez 228;3;S;Gace, Carolina Elizabeth;27291500183;2025-02-14 00:00:00;2025-10-31 00:00:00;S
+321;;2025-02-14 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Barragán 341;Barragán 341;2;S;Valeria Maldonado;27291576465;2025-02-14 00:00:00;2025-06-30 00:00:00;S
+322;;2025-02-14 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Av. Escalada 1764;Av. Escalada 1764;1;S;Adriana Segato;27307954341;2025-02-14 00:00:00;2025-06-30 00:00:00;S
+323;;2025-02-14 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;"DE LOS CONSTITUYENTES, Av. 4956; VIAS DEL FERROCARRIL SN";"DE LOS CONSTITUYENTES, Av. 4956; VIAS DEL FERROCARRIL SN";1;S;Gustavo David, Mendoza;20371247832;2025-02-15 00:00:00;2025-06-30 00:00:00;S
+324;;2025-02-14 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;De los Constituyentes Av. 5088;De los Constituyentes Av. 5088;1;S;Lucero, Edith Ester;5863805;2025-02-15 00:00:00;2025-06-30 00:00:00;S
+325;;2025-02-14 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;De los Constituyentes Av. 5099 ;De los Constituyentes Av. 5099 ;1;S;Sbrascini, Fabricio;20314225059;2025-02-15 00:00:00;2025-06-30 00:00:00;S
+326;;2025-02-14 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Colpayo 145/47/49;Colpayo 145/47/49;4;S;Galarza, Anastacio;20128460196;2025-02-15 00:00:00;2025-06-30 00:00:00;S
+327;;2025-02-14 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Yerbal 2217/21/23/25/91;Yerbal 2217/21/23/25/91;3;S;Cabrera, Lidia Victoria;11275819;2025-02-15 00:00:00;2025-06-30 00:00:00;S
+328;;2025-03-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Oliveri 96/98;Oliveri 96/98;1;S;Gustavo Fernández Gafferry;20104232869;2025-03-06 00:00:00;2025-06-30 00:00:00;S
+329;;2025-03-01 00:00:00;Canon;Canon Fijo;Vivienda;Villarino 2367;Villarino 2367;1;S;Carbone, Gabriela;23540660;2025-03-07 00:00:00;2025-12-31 00:00:00;S
+330;;2025-03-11 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Rivera Indarte 196;Rivera Indarte 196;7;S;Campos, Alejandra;27225026217;2025-03-11 00:00:00;2025-06-30 00:00:00;S
+331;;2025-03-11 00:00:00;Canon;Canon Fijo;Vivienda;Rivera Indarte 196;Rivera Indarte 196;8;S;Prieto, Elizabeth;23185518914;2025-03-11 00:00:00;2025-06-30 00:00:00;S
+332;;2025-03-11 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;San José de Calasanz 974/76/78;San José de Calasanz 974/76/78;1;S;Gutierrez, Roberto;20045231845;2025-03-11 00:00:00;2025-06-30 00:00:00;S
+333;;2025-01-02 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Perú 864/66/68/70;Perú 864/66/68/70;6;S;Patricia Amalia Falcón;27137673407;2025-03-12 00:00:00;2025-06-30 00:00:00;S
+334;;2025-03-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Gascón 927;Gascón 927;1;S;Marcotrigiano, Miguel Angel;2044094586;2025-03-13 00:00:00;2025-12-31 00:00:00;S
+335;;2025-03-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Yatay 102;Yatay 102;12;S;Perez Portillo, María Fernanda;27160373143;2025-03-13 00:00:00;2025-12-31 00:00:00;S
+336;;2025-03-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Yatay 102;Yatay 102;15;S;Diaz Villalonga, Rodrigo;20329516750;2025-03-13 00:00:00;2025-12-31 00:00:00;S
+337;;2025-03-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Chilavert 3352;Chilavert 3352;1;S;Silva, Blanca Esther;27129327028;2025-03-13 00:00:00;2025-12-31 00:00:00;S
+338;;2025-03-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Chilavert 3352;Chilavert 3352;2;S;Ojeda, Mauro Damián;20370388335;2025-03-13 00:00:00;2025-12-31 00:00:00;S
+339;;2025-01-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Chilavert 3352;Chilavert 3352;3;S;Olarán, María de los Angeles;27179623736;2025-03-13 00:00:00;2025-12-31 00:00:00;S
+340;;2025-01-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Chilavert 3352;Chilavert 3352;5;S;Palomino, Ascención del Valle;2763636881;2025-03-13 00:00:00;2025-12-31 00:00:00;S
+341;;2025-04-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Terrada 5869;Terrada 5869;1;S;Tassistro Orlando Ruben;20045273297;2025-04-07 00:00:00;2025-12-31 00:00:00;S
+342;;2025-04-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Alberdi, Juan B. Av. 2181/83/85;Alberdi, Juan B. Av. 2181/83/85;1;S;Teresita Villaverde;27138627387;2025-04-07 00:00:00;2025-12-31 00:00:00;S
+343;;2025-04-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Mario Bravo 143;Mario Bravo 143;1;S;OSPECON;30614455094;2025-04-07 00:00:00;2025-12-31 00:00:00;S
+344;;2025-04-11 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Alberdi, Juan B. Av. 2345/47;Alberdi, Juan B. Av. 2345/47;12;S;Figueroa, Mirta;23137742144;2025-04-11 00:00:00;2025-06-30 00:00:00;S
+345;;2025-04-01 00:00:00;Canon;Canon Fijo;Vivienda;Carlos Calvo 1253;Carlos Calvo 1253;1;S;Ramona Franco;27132082222;2025-04-14 00:00:00;2025-10-31 00:00:00;S
+346;;2025-05-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Yatay 102;Yatay 102;9;S;Rodríguez, Margarita;26147421;2025-05-13 00:00:00;2025-12-31 00:00:00;S
+347;;2025-05-01 00:00:00;Canon Provisorio;Canon Fijo;Otro;De los Constituyentes Av. 4796/98 Lopéz, C. Antonio 2106;De los Constituyentes Av. 4796/98 Lopéz, C. Antonio 2106;1;S;Bustamante, Javier Horacio;20182855015;2025-05-14 00:00:00;2025-12-31 00:00:00;S
+348;;2025-05-01 00:00:00;Canon;Canon Fijo;Vivienda;Humboldt 1220;Humboldt 1220;1;S;Paz de Velóz, Olga;27140989660;2025-05-14 00:00:00;2025-12-31 00:00:00;S
+349;;2025-06-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Chilavert 3306;Chilavert 3306;1;S;Brahim, María del Carmen;2762900614;2025-06-02 00:00:00;2025-12-31 00:00:00;S
+350;;2025-06-01 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Condarco 2655;Condarco 2655;1;S;Petrona Carranza;27045393068;2025-06-02 00:00:00;2025-12-31 00:00:00;S
+351;;2025-06-11 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Chacabuco 1248/1252;Chacabuco 1248/1252;27;S;María Mercedes Neira;27228467753;2025-06-11 00:00:00;2025-12-31 00:00:00;S
+352;;2025-06-11 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Chacabuco 1248/1252;Chacabuco 1248/1252;47;S;Julio Alberto Galarza;20132371394;2025-06-11 00:00:00;2025-12-31 00:00:00;S
+353;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Perú 864/66/68/70;Perú 864/66/68/70;1;S;Carlos Choque;93065630;2025-06-12 00:00:00;2025-12-31 00:00:00;S
+354;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Av. Corrientes 1647/65;Av. Corrientes 1647/65;16;S;Carolina Cadena;27202940345;2025-06-12 00:00:00;2025-12-31 00:00:00;S
+355;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Av. Juan de Garay 579/581;Av. Juan de Garay 579/581;2;S;Alicia Muñoz;27058877463;2025-06-12 00:00:00;2025-12-31 00:00:00;S
+356;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Av. Juan de Garay 579/581;Av. Juan de Garay 579/581;1;S;Alexis Martin Vega;20228794474;2025-06-12 00:00:00;2025-12-31 00:00:00;S
+357;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Av. San Juan 1585/1560;Av. San Juan 1585/1560;18;S;Faustina Rojas;27930546076;2025-06-12 00:00:00;2025-12-31 00:00:00;S
+358;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Baigorri 165;Baigorri 165;4;S;Casco, Sara;27111757009;2025-06-12 00:00:00;2025-12-31 00:00:00;S
+359;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Baigorri 165;Baigorri 165;7;S;Ramos, Marcelino;20174702730;2025-06-12 00:00:00;2025-12-31 00:00:00;S
+360;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Santa Magdalena 829;Santa Magdalena 829;3;S;Gerez, Laura;28724021;2025-06-12 00:00:00;2025-12-31 00:00:00;S
+361;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Santa Magdalena 829;Santa Magdalena 829;4;S;Bustos Javier;26263878;2025-06-12 00:00:00;2025-12-31 00:00:00;S
+362;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Suarez 432;Suarez 432;1;S;Vega, Pedro Pablo;20216596162;2025-06-12 00:00:00;2025-12-31 00:00:00;S
+363;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Liniers Virrey 1312;Liniers Virrey 1312;1;S;Maria Salome Montenegro;23272152934;2025-06-18 00:00:00;2025-12-31 00:00:00;S
+364;;2025-06-12 00:00:00;Concesion;Canon Fijo;Vivienda;Mario Bravo 143;Mario Bravo 143;1;S;OSPECON;30614455094;2025-06-18 00:00:00;2025-12-31 00:00:00;S
+365;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Yatay 102;Yatay 102;1;S;Tomasa, Vilca;2757310311;2025-06-18 00:00:00;2025-12-31 00:00:00;S
+366;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Yatay 102;Yatay 102;3;S;Mazza, Osvaldo;2044062097;2025-06-18 00:00:00;2025-12-31 00:00:00;S
+367;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Yatay 102;Yatay 102;6;S;Pizarro, Narda;27188770644;2025-06-18 00:00:00;2025-12-31 00:00:00;S
+368;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Yatay 102;Yatay 102;7;S;Di Tomaso, Liliana;27101301856;2025-06-18 00:00:00;2025-12-31 00:00:00;S
+369;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Yatay 102;Yatay 102;8;S;Ruiz, Liliana Inés;2766914570;2025-06-18 00:00:00;2025-12-31 00:00:00;S
+370;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Yatay 102;Yatay 102;10;S;Quiroga, Fermín;20331846393;2025-06-18 00:00:00;2025-12-31 00:00:00;S
+371;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Yatay 102;Yatay 102;14;S;Caris, Liliana;27171983709;2025-06-18 00:00:00;2025-12-31 00:00:00;S
+372;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Yatay 102;Yatay 102;17;S;Coronel, María Angélica;27143673621;2025-06-18 00:00:00;2025-12-31 00:00:00;S
+373;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Colpayo 145/47/49;Colpayo 145/47/49;1;S;Cuenca, Juan Rodolfo;20215404928;2025-06-19 00:00:00;2025-12-31 00:00:00;S
+374;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Yerbal 765;Yerbal 765;1;S;Ponce, Mirta B.;27063892659;2025-06-19 00:00:00;2025-12-31 00:00:00;S
+375;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Alberdi, Juan B. Av. 2181/83/85;Alberdi, Juan B. Av. 2181/83/85;2;S;Alberto Longo y Valeria Bazzano;29152145;2025-06-19 00:00:00;2025-12-31 00:00:00;S
+376;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Alberdi, Juan B. Av. 2345/47;Alberdi, Juan B. Av. 2345/47;61;S;Barrios, Nora;27065332707;2025-06-19 00:00:00;2025-12-31 00:00:00;S
+377;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Av. Perón, Eva 1190 / Av. Mitre, Emilio 802/04/06;Av. Perón, Eva 1190 / Av. Mitre, Emilio 802/04/06;1;S;Scelza, Juan Antonio;20119557446;2025-06-19 00:00:00;2025-12-31 00:00:00;S
+378;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Av. Perón, Eva 1190;Av. Perón, Eva 1190;1;S;Marote, Juan Domingo;20084740129;2025-06-19 00:00:00;2025-12-31 00:00:00;S
+379;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Yerbal 2217/21/23/25/91;Yerbal 2217/21/23/25/91;68;S;Ottogalli, Nidia;27112556937;2025-06-19 00:00:00;2025-12-31 00:00:00;S
+380;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Yerbal 2217/21/23/25/91;Yerbal 2217/21/23/25/91;51;S;Harlap, Ana María;13477909;2025-06-19 00:00:00;2025-12-31 00:00:00;S
+381;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Yerbal 2217/21/23/25/91;Yerbal 2217/21/23/25/91;52;S;Pérez, Marta Mabel;27044032134;2025-06-19 00:00:00;2025-12-31 00:00:00;S
+382;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Yerbal 2217/21/23/25/91;Yerbal 2217/21/23/25/91;74;S;Romero Duarte, Inés Dyrce;27179794018;2025-06-19 00:00:00;2025-12-31 00:00:00;S
+383;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Yerbal 2217/21/23/25/91;Yerbal 2217/21/23/25/91;92;S;Lezica Duarte, Natalia Karen;27188523493;2025-06-19 00:00:00;2025-12-31 00:00:00;S
+384;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Yerbal 2217/21/23/25/91;Yerbal 2217/21/23/25/91;23;S;VISCONTI BLANCA NIEVES;27023180699;2025-06-19 00:00:00;2025-12-31 00:00:00;S
+385;;2025-06-12 00:00:00;Canon Provisorio;Canon Fijo;Vivienda;Yerbal 2217/21/23/25/91;Yerbal 2217/21/23/25/91;15;S;Nescone, José Horacio;20076194727;2025-06-19 00:00:00;2025-12-31 00:00:00;S
