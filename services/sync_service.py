@@ -33,13 +33,16 @@ class SyncService:
         """Retorna la configuración de mapeo según el entorno activo"""
         app_env = settings.APP_ENV.lower()
         
-        if app_env == 'default':
+        if app_env == 'bienes':
             # Esquema Bienes_Concesiones
             return {
                 'Bienes_01_BENEFICIARIOS.sql': 'Bienes_01_BENEFICIARIOS',
                 'Bienes_02_CARTERAS.sql': 'Bienes_02_CARTERAS', 
                 'Bienes_03_CONTRATOS.sql': 'Bienes_03_CONTRATOS',
-                'Bienes_04_PLAN DE PAGOS.sql': 'Bienes_04_PLAN_DE_PAGOS',
+                'Bienes_04_PLAN DE PAGOS.sql': 'Bienes_04_PLAN_DE_PAGOS'
+            }
+        elif app_env == 'concesiones':
+                        return {
                 'Concesiones_01_BENEFICIARIOS.sql': 'Concesiones_01_BENEFICIARIOS',
                 'Concesiones_02_CARTERAS.sql': 'Concesiones_02_CARTERAS',
                 'Concesiones_03_CONTRATOS.sql': 'Concesiones_03_CONTRATOS',
@@ -87,14 +90,18 @@ class SyncService:
         """Retorna las columnas de fecha según el entorno activo"""
         app_env = settings.APP_ENV.lower()
         
-        if app_env == 'default':
+        if app_env == 'bienes':
             # Columnas de fecha para Bienes y Concesiones
             return {
                 'Bienes_03_CONTRATOS': 'fechafirma',
-                'Bienes_04_PLAN_DE_PAGOS': 'fecha_creacion',
+                'Bienes_04_PLAN_DE_PAGOS': 'fecha_creacion'
+            }
+        elif app_env == 'concesiones': 
+            return {
+
                 'Concesiones_03_CONTRATOS': 'fechafirma',
                 'Concesiones_04_PLAN_DE_PAGOS': 'fecha_creacion'
-            }
+            }                   
         elif app_env == 'sigaf':
             # Columnas de fecha para SIGAF
             return {

@@ -64,7 +64,7 @@ FILE_XLSX=NombreSalida
 También puedes exportar la variable `APP_ENV`:
 ```bash
 #Para SIGAF
-$Env:APP_ENV = 'sigaf' # Windows PowerShell
+$Env:APP_ENV = 'bienes' # Windows PowerShell
 #Para SIGAF Devengados
 $Env:APP_ENV = 'sigaf_devengado' # Windows PowerShell
 python main.py

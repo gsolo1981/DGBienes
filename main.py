@@ -20,7 +20,7 @@ def list_environments():
     """Lista todos los entornos disponibles"""
     envs = [
         {
-            'env': 'default',
+            'env': 'bienes',
             'name': 'Bienes y Concesiones',
             'description': 'Gestión de bienes inmuebles y concesiones',
             'schemas': ['bienes', 'fade2'],
@@ -97,7 +97,7 @@ def show_environment_info():
 def main():
     parser = argparse.ArgumentParser(description='DGBienes - Exportación y Sincronización Multi-Schema')
     parser.add_argument('--env', type=str, 
-                       choices=['default', 'sigaf', 'sigaf_devengado'],
+                       choices=['bienes', 'sigaf', 'sigaf_devengado'],
                        help='Perfil de entorno (se puede configurar via APP_ENV también)')
     parser.add_argument('--mode', type=str, choices=['excel', 'sqlserver', 'both'], 
                        default='both', help='Modo de operación')

@@ -15,12 +15,12 @@ class EnvironmentManager:
     def get_environment_info(self) -> Dict:
         """Retorna información del entorno actual"""
         env_configs = {
-            'default': {
+            'bienes': {
                 'name': 'Bienes y Concesiones',
                 'description': 'Sistema de gestión de bienes y concesiones',
-                'schemas': ['bienes', 'fade2'],
+                'schemas': ['bienes', 'fade'],
                 'main_tables': ['Bienes_01_BENEFICIARIOS', 'Concesiones_01_BENEFICIARIOS'],
-                'sql_path': 'sql/Bienes_Concesiones',
+                'sql_path': 'sql/Bienes',
                 'incremental_strategy': 'date_based',
                 'priority': 'high'
             },
@@ -145,7 +145,7 @@ Configuración de Sincronización:
     def get_recommended_sync_strategy(self) -> Dict:
         """Retorna la estrategia de sincronización recomendada por entorno"""
         strategies = {
-            'default': {
+            'bienes': {
                 'initial_load': 'full',
                 'daily_sync': 'incremental',
                 'batch_size': 1000,
@@ -196,7 +196,7 @@ Configuración de Sincronización:
         Retorna filtros específicos por entorno para optimizar consultas
         """
         filters = {
-            'default': {
+            'bienes': {
                 # Filtros para Bienes y Concesiones
                 'date_range_days': 365,  # Último año por defecto
                 'status_filters': ['activo = \'S\''],  # Solo registros activos
@@ -225,9 +225,9 @@ Configuración de Sincronización:
         """Lista todos los entornos disponibles"""
         return [
             {
-                'env': 'default',
-                'name': 'Bienes y Concesiones',
-                'description': 'Gestión de bienes inmuebles y concesiones',
+                'env': 'bienes',
+                'name': 'Bienes ',
+                'description': 'Gestión de bienes inmuebles',
                 'schemas': ['bienes', 'fade2'],
                 'active': True
             },
