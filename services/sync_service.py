@@ -58,9 +58,94 @@ class SyncService:
                 'Concesiones_01_BENEFICIARIOS': {
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 },
-                'Concesiones_02_CARTERAS': {  # ← NUEVA TABLA AGREGADA
+                'Concesiones_02_CARTERAS': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                'Concesiones_03_CONTRATOS': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                'Concesiones_04_PLAN_DE_PAGOS': { 
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 }
+            }
+        elif app_env == 'sigaf':
+            return {
+                '01_RELACION_BAC_SIGAF': {
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                '02_SPR_RENGLONES': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                '03_SPR_IMPUTACIONES': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                '04_RPR_SPR_PRD': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                '05_RPR_RENGLONES': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                '06_RPR_IMPUTACIONES': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                '07_PRD_RENGLONES': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                '08_PRD_IMPUTACIONES': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                '09_PRD_FACTURAS': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                '10_FACTURAS_OP_PAGOS': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                '11_RP': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                '12_DRP_RENGLONES': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                '13_DRP_IMPUTACIONES': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                '14_DRP_FACTURAS': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                '15_DRP_FACTURAS_PAGOS': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                '16_PRECIARIO': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                '17_PRECIARIO_IMPUTACIONES': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                '18_PRD_PRECIARIO': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                '19_PRD_PRECIARIO_RENGLONES': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                '20_PRD_PRECIARIO_IMPUTACIONES': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                '21_PRD_PRECIARIO_FACTURAS': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                '22_PAGOS_PRECIARIO': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                '23_UNIDADES_EJECUTORAS': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                '24_PERIODOS_FISCALES': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                '25_ENTES': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                }
+
             }
         else:
             return {}
@@ -125,37 +210,7 @@ class SyncService:
         """Retorna las columnas de fecha según el entorno activo"""
         app_env = settings.APP_ENV.lower()
         
-        if app_env == 'concesiones': 
-            return {
-                # Concesiones_02_CARTERAS ya no usa fecha, usa hash
-                'Concesiones_03_CONTRATOS': 'fechafirma',
-                'Concesiones_04_PLAN_DE_PAGOS': 'fecha_creacion'
-            }                   
-        elif app_env == 'sigaf':
-            return {
-                '[02_SPR_RENGLONES]': 'fh_alta',
-                '[03_SPR_IMPUTACIONES]': 'fh_estado',
-                '[04_RPR_SPR_PRD]': 'fh_alta',
-                '[05_RPR_RENGLONES]': 'fh_autorizacion',
-                '[06_RPR_IMPUTACIONES]': 'fh_autorizacion',
-                '[07_PRD_RENGLONES]': 'fh_alta',
-                '[08_PRD_IMPUTACIONES]': 'fh_autorizacion',
-                '[09_PRD_FACTURAS]': 'fhu_actualiz',
-                '[10_FACTURAS_OP_PAGOS]': 'f_emision',
-                '[11_RP]': 'fh_alta',
-                '[12_DRP_RENGLONES]': 'fh_alta',
-                '[13_DRP_IMPUTACIONES]': 'fh_alta',
-                '[14_DRP_FACTURAS]': 'fh_alta',
-                '[15_DRP_FACTURAS_PAGOS]': 'fh_alta',
-                '[16_PRECIARIO]': 'fh_alta',
-                '[17_PRECIARIO_IMPUTACIONES]': 'fh_estado',
-                '[18_PRD_PRECIARIO]': 'fh_alta',
-                '[19_PRD_PRECIARIO_RENGLONES]': 'fh_autorizacion',
-                '[20_PRD_PRECIARIO_IMPUTACIONES]': 'fh_autorizacion',
-                '[21_PRD_PRECIARIO_FACTURAS]': 'fhu_actualiz',
-                '[22_PAGOS_PRECIARIO]': 'f_emision'
-            }
-        elif app_env == 'sigaf_devengado':
+        if  app_env == 'sigaf_devengado':
             return {
                 '[01_DEVENGADO_v2]': 'fh_imputacion'
             }

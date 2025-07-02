@@ -69,7 +69,7 @@ $Env:APP_ENV = 'bienes' # Windows PowerShell
 $Env:APP_ENV = 'sigaf_devengado' # Windows PowerShell
 python main.py
 #Para SGSIR
-$Env:APP_ENV = 'default'
+$Env:APP_ENV = 'concesiones'
 python main.py
 ```
 
