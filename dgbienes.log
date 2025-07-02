@@ -76,3 +76,708 @@
 2025-07-01 19:42:15,567 - services.sync_service - INFO - Sincronización completada. Total registros: 455
 2025-07-01 19:42:15,568 - __main__ - ERROR - Error en sincronización SQL Server: cannot unpack non-iterable NoneType object
 2025-07-01 19:42:15,568 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-02 10:56:16,947 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-02 10:56:16,950 - __main__ - INFO - Entorno: BIENES
+2025-07-02 10:56:16,950 - __main__ - INFO - Modo: sqlserver
+2025-07-02 10:56:16,950 - __main__ - INFO - Sincronización: incremental
+2025-07-02 10:56:16,950 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno bienes...
+2025-07-02 10:56:16,978 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-02 10:56:16,979 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: incremental
+2025-07-02 10:56:16,979 - services.sync_service - INFO - 🔄 Procesando: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-02 10:56:17,135 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_01_BENEFICIARIOS
+2025-07-02 10:56:17,881 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-02 10:56:18,278 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-02 10:56:18,278 - adapters.db_adapter - INFO - DSN creado: 10.15.7.45:1521/vivp
+2025-07-02 10:56:18,776 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-02 10:56:19,008 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-02 10:56:19,013 - adapters.sqlserver_adapter - ERROR - Error ejecutando consulta: (pyodbc.Error) ('07002', '[07002] [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error (0) (SQLExecDirectW)')
+[SQL: 
+            SELECT COUNT(*) as count
+            FROM INFORMATION_SCHEMA.COLUMNS 
+            WHERE TABLE_NAME = ? AND COLUMN_NAME = 'row_hash'
+            ]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+2025-07-02 10:56:19,014 - adapters.sqlserver_adapter - ERROR - Query: 
+            SELECT COUNT(*) as count
+            FROM INFORMATION_SCHEMA.COLUMNS 
+            WHERE TABLE_NAME = ? AND COLUMN_NAME = 'row_hash'
+            
+2025-07-02 10:56:19,014 - services.sync_service - ERROR - ❌ Error creando columna hash en Bienes_01_BENEFICIARIOS: (pyodbc.Error) ('07002', '[07002] [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error (0) (SQLExecDirectW)')
+[SQL: 
+            SELECT COUNT(*) as count
+            FROM INFORMATION_SCHEMA.COLUMNS 
+            WHERE TABLE_NAME = ? AND COLUMN_NAME = 'row_hash'
+            ]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+2025-07-02 10:56:19,014 - services.sync_service - ERROR - Error sincronizando Bienes_01_BENEFICIARIOS.sql: (pyodbc.Error) ('07002', '[07002] [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error (0) (SQLExecDirectW)')
+[SQL: 
+            SELECT COUNT(*) as count
+            FROM INFORMATION_SCHEMA.COLUMNS 
+            WHERE TABLE_NAME = ? AND COLUMN_NAME = 'row_hash'
+            ]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+2025-07-02 10:56:19,014 - services.sync_service - INFO - 🔄 Procesando: Bienes_02_CARTERAS.sql -> Bienes_02_CARTERAS
+2025-07-02 10:56:19,030 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_02_CARTERAS
+2025-07-02 10:56:19,369 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Bienes_02_CARTERAS: 229 registros
+2025-07-02 10:56:19,370 - services.sync_service - INFO - ✅ Bienes_02_CARTERAS: 229 registros sincronizados
+2025-07-02 10:56:19,370 - services.sync_service - INFO - 🔄 Procesando: Bienes_03_CONTRATOS.sql -> Bienes_03_CONTRATOS
+2025-07-02 10:56:19,385 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_03_CONTRATOS
+2025-07-02 10:56:19,392 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fechafirma > TO_DATE('12/06/2025', 'DD/MM/YYYY')
+2025-07-02 10:56:19,432 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_03_CONTRATOS
+2025-07-02 10:56:19,433 - services.sync_service - INFO - 🔄 Procesando: Bienes_04_PLAN DE PAGOS.sql -> Bienes_04_PLAN_DE_PAGOS
+2025-07-02 10:56:19,453 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 10:56:19,470 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fecha_creacion > TO_DATE('01/07/2025', 'DD/MM/YYYY')
+2025-07-02 10:56:19,522 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 10:56:19,522 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 229
+        Tablas omitidas: 0
+        Errores: 1
+        ==========================================
+        
+2025-07-02 10:56:19,522 - services.sync_service - WARNING - ⚠️  Errores encontrados:
+2025-07-02 10:56:19,523 - services.sync_service - WARNING -   ❌ Error sincronizando Bienes_01_BENEFICIARIOS.sql: (pyodbc.Error) ('07002', '[07002] [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error (0) (SQLExecDirectW)')
+[SQL: 
+            SELECT COUNT(*) as count
+            FROM INFORMATION_SCHEMA.COLUMNS 
+            WHERE TABLE_NAME = ? AND COLUMN_NAME = 'row_hash'
+            ]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+2025-07-02 10:56:19,523 - __main__ - INFO - ✅ Sincronización completada: 229 registros
+2025-07-02 10:56:19,523 - __main__ - WARNING - ⚠️  Se encontraron 1 errores durante la sincronización
+2025-07-02 10:56:19,524 - __main__ - WARNING -   - Error sincronizando Bienes_01_BENEFICIARIOS.sql: (pyodbc.Error) ('07002', '[07002] [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error (0) (SQLExecDirectW)')
+[SQL: 
+            SELECT COUNT(*) as count
+            FROM INFORMATION_SCHEMA.COLUMNS 
+            WHERE TABLE_NAME = ? AND COLUMN_NAME = 'row_hash'
+            ]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+2025-07-02 10:56:19,527 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-02 12:34:21,262 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-02 12:34:21,265 - __main__ - INFO - Entorno: BIENES
+2025-07-02 12:34:21,266 - __main__ - INFO - Modo: sqlserver
+2025-07-02 12:34:21,266 - __main__ - INFO - Sincronización: incremental
+2025-07-02 12:34:21,266 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno bienes...
+2025-07-02 12:34:21,291 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-02 12:34:21,291 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: incremental
+2025-07-02 12:34:21,292 - services.sync_service - INFO - 🔄 Procesando: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-02 12:34:21,434 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_01_BENEFICIARIOS
+2025-07-02 12:34:22,113 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-02 12:34:22,548 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-02 12:34:22,548 - adapters.db_adapter - INFO - DSN creado: 10.15.7.45:1521/vivp
+2025-07-02 12:34:23,550 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-02 12:34:23,930 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-02 12:34:23,938 - adapters.sqlserver_adapter - ERROR - Error ejecutando consulta: (pyodbc.Error) ('07002', '[07002] [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error (0) (SQLExecDirectW)')
+[SQL: 
+            SELECT COUNT(*) as count
+            FROM INFORMATION_SCHEMA.COLUMNS 
+            WHERE TABLE_NAME = ? AND COLUMN_NAME = 'row_hash'
+            ]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+2025-07-02 12:34:23,939 - adapters.sqlserver_adapter - ERROR - Query: 
+            SELECT COUNT(*) as count
+            FROM INFORMATION_SCHEMA.COLUMNS 
+            WHERE TABLE_NAME = ? AND COLUMN_NAME = 'row_hash'
+            
+2025-07-02 12:34:23,939 - services.sync_service - ERROR - ❌ Error creando columna hash en Bienes_01_BENEFICIARIOS: (pyodbc.Error) ('07002', '[07002] [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error (0) (SQLExecDirectW)')
+[SQL: 
+            SELECT COUNT(*) as count
+            FROM INFORMATION_SCHEMA.COLUMNS 
+            WHERE TABLE_NAME = ? AND COLUMN_NAME = 'row_hash'
+            ]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+2025-07-02 12:34:23,939 - services.sync_service - ERROR - Error sincronizando Bienes_01_BENEFICIARIOS.sql: (pyodbc.Error) ('07002', '[07002] [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error (0) (SQLExecDirectW)')
+[SQL: 
+            SELECT COUNT(*) as count
+            FROM INFORMATION_SCHEMA.COLUMNS 
+            WHERE TABLE_NAME = ? AND COLUMN_NAME = 'row_hash'
+            ]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+2025-07-02 12:34:23,939 - services.sync_service - INFO - 🔄 Procesando: Bienes_02_CARTERAS.sql -> Bienes_02_CARTERAS
+2025-07-02 12:34:23,949 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_02_CARTERAS
+2025-07-02 12:34:24,520 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Bienes_02_CARTERAS: 229 registros
+2025-07-02 12:34:24,520 - services.sync_service - INFO - ✅ Bienes_02_CARTERAS: 229 registros sincronizados
+2025-07-02 12:34:24,521 - services.sync_service - INFO - 🔄 Procesando: Bienes_03_CONTRATOS.sql -> Bienes_03_CONTRATOS
+2025-07-02 12:34:24,528 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_03_CONTRATOS
+2025-07-02 12:34:24,535 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fechafirma > TO_DATE('12/06/2025', 'DD/MM/YYYY')
+2025-07-02 12:34:24,556 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_03_CONTRATOS
+2025-07-02 12:34:24,556 - services.sync_service - INFO - 🔄 Procesando: Bienes_04_PLAN DE PAGOS.sql -> Bienes_04_PLAN_DE_PAGOS
+2025-07-02 12:34:24,564 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 12:34:24,577 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fecha_creacion > TO_DATE('01/07/2025', 'DD/MM/YYYY')
+2025-07-02 12:34:24,638 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 12:34:24,638 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 229
+        Tablas omitidas: 0
+        Errores: 1
+        ==========================================
+        
+2025-07-02 12:34:24,639 - services.sync_service - WARNING - ⚠️  Errores encontrados:
+2025-07-02 12:34:24,640 - services.sync_service - WARNING -   ❌ Error sincronizando Bienes_01_BENEFICIARIOS.sql: (pyodbc.Error) ('07002', '[07002] [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error (0) (SQLExecDirectW)')
+[SQL: 
+            SELECT COUNT(*) as count
+            FROM INFORMATION_SCHEMA.COLUMNS 
+            WHERE TABLE_NAME = ? AND COLUMN_NAME = 'row_hash'
+            ]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+2025-07-02 12:34:24,640 - __main__ - INFO - ✅ Sincronización completada: 229 registros
+2025-07-02 12:34:24,640 - __main__ - WARNING - ⚠️  Se encontraron 1 errores durante la sincronización
+2025-07-02 12:34:24,640 - __main__ - WARNING -   - Error sincronizando Bienes_01_BENEFICIARIOS.sql: (pyodbc.Error) ('07002', '[07002] [Microsoft][ODBC Driver 17 for SQL Server]COUNT field incorrect or syntax error (0) (SQLExecDirectW)')
+[SQL: 
+            SELECT COUNT(*) as count
+            FROM INFORMATION_SCHEMA.COLUMNS 
+            WHERE TABLE_NAME = ? AND COLUMN_NAME = 'row_hash'
+            ]
+(Background on this error at: https://sqlalche.me/e/20/dbapi)
+2025-07-02 12:34:24,644 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-02 13:54:13,512 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-02 13:54:13,512 - __main__ - INFO - Entorno: BIENES
+2025-07-02 13:54:13,512 - __main__ - INFO - Modo: sqlserver
+2025-07-02 13:54:13,513 - __main__ - INFO - Sincronización: incremental
+2025-07-02 13:54:13,513 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno bienes...
+2025-07-02 13:54:13,536 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-02 13:54:13,537 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: incremental
+2025-07-02 13:54:13,537 - services.sync_service - ERROR - Error sincronizando Bienes_01_BENEFICIARIOS.sql: 'SyncService' object has no attribute '_get_target_table'
+2025-07-02 13:54:13,537 - services.sync_service - ERROR - Error sincronizando Bienes_02_CARTERAS.sql: 'SyncService' object has no attribute '_get_target_table'
+2025-07-02 13:54:13,537 - services.sync_service - ERROR - Error sincronizando Bienes_03_CONTRATOS.sql: 'SyncService' object has no attribute '_get_target_table'
+2025-07-02 13:54:13,538 - services.sync_service - ERROR - Error sincronizando Bienes_04_PLAN DE PAGOS.sql: 'SyncService' object has no attribute '_get_target_table'
+2025-07-02 13:54:13,538 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 0
+        Tablas omitidas: 0
+        Errores: 4
+        ==========================================
+        
+2025-07-02 13:54:13,538 - services.sync_service - WARNING - ⚠️  Errores encontrados:
+2025-07-02 13:54:13,538 - services.sync_service - WARNING -   ❌ Error sincronizando Bienes_01_BENEFICIARIOS.sql: 'SyncService' object has no attribute '_get_target_table'
+2025-07-02 13:54:13,538 - services.sync_service - WARNING -   ❌ Error sincronizando Bienes_02_CARTERAS.sql: 'SyncService' object has no attribute '_get_target_table'
+2025-07-02 13:54:13,538 - services.sync_service - WARNING -   ❌ Error sincronizando Bienes_03_CONTRATOS.sql: 'SyncService' object has no attribute '_get_target_table'
+2025-07-02 13:54:13,538 - services.sync_service - WARNING -   ❌ Error sincronizando Bienes_04_PLAN DE PAGOS.sql: 'SyncService' object has no attribute '_get_target_table'
+2025-07-02 13:54:13,538 - __main__ - INFO - ✅ Sincronización completada: 0 registros
+2025-07-02 13:54:13,539 - __main__ - WARNING - ⚠️  Se encontraron 4 errores durante la sincronización
+2025-07-02 13:54:13,539 - __main__ - WARNING -   - Error sincronizando Bienes_01_BENEFICIARIOS.sql: 'SyncService' object has no attribute '_get_target_table'
+2025-07-02 13:54:13,539 - __main__ - WARNING -   - Error sincronizando Bienes_02_CARTERAS.sql: 'SyncService' object has no attribute '_get_target_table'
+2025-07-02 13:54:13,539 - __main__ - WARNING -   - Error sincronizando Bienes_03_CONTRATOS.sql: 'SyncService' object has no attribute '_get_target_table'
+2025-07-02 13:54:13,539 - __main__ - WARNING -   - Error sincronizando Bienes_04_PLAN DE PAGOS.sql: 'SyncService' object has no attribute '_get_target_table'
+2025-07-02 13:54:13,539 - __main__ - ERROR - Error en sincronización SQL Server: 'SyncService' object has no attribute 'close'
+2025-07-02 13:54:13,539 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-02 14:00:26,390 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-02 14:00:26,391 - __main__ - INFO - Entorno: BIENES
+2025-07-02 14:00:26,391 - __main__ - INFO - Modo: sqlserver
+2025-07-02 14:00:26,391 - __main__ - INFO - Sincronización: incremental
+2025-07-02 14:00:26,391 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno bienes...
+2025-07-02 14:00:26,417 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-02 14:00:26,418 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: incremental
+2025-07-02 14:00:26,418 - services.sync_service - INFO - 🔄 Procesando: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-02 14:00:26,492 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_01_BENEFICIARIOS
+2025-07-02 14:00:26,604 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-02 14:00:26,619 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-02 14:00:26,620 - adapters.db_adapter - INFO - DSN creado: 10.15.7.45:1521/vivp
+2025-07-02 14:00:27,015 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-02 14:00:27,358 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-02 14:00:27,409 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_01_BENEFICIARIOS
+2025-07-02 14:00:27,454 - services.sync_service - INFO - 🔄 Actualizando hashes para 1356 registros existentes en Bienes_01_BENEFICIARIOS...
+2025-07-02 14:00:27,460 - services.sync_service - ERROR - ❌ Error actualizando hashes existentes en Bienes_01_BENEFICIARIOS: Not an executable object: "\n                    UPDATE [dbo].[Bienes_01_BENEFICIARIOS] \n                    SET row_hash = 'c3894e05090e08dca2aa4080e87d8c35' \n                    WHERE id = 2132\n                    "
+2025-07-02 14:00:27,461 - services.sync_service - ERROR - Error sincronizando Bienes_01_BENEFICIARIOS.sql: Not an executable object: "\n                    UPDATE [dbo].[Bienes_01_BENEFICIARIOS] \n                    SET row_hash = 'c3894e05090e08dca2aa4080e87d8c35' \n                    WHERE id = 2132\n                    "
+2025-07-02 14:00:27,462 - services.sync_service - INFO - 🔄 Procesando: Bienes_02_CARTERAS.sql -> Bienes_02_CARTERAS
+2025-07-02 14:00:27,468 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_02_CARTERAS
+2025-07-02 14:00:27,807 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Bienes_02_CARTERAS: 229 registros
+2025-07-02 14:00:27,807 - services.sync_service - INFO - ✅ Bienes_02_CARTERAS: 229 registros sincronizados
+2025-07-02 14:00:27,808 - services.sync_service - INFO - 🔄 Procesando: Bienes_03_CONTRATOS.sql -> Bienes_03_CONTRATOS
+2025-07-02 14:00:27,813 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_03_CONTRATOS
+2025-07-02 14:00:27,818 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fechafirma > TO_DATE('12/06/2025', 'DD/MM/YYYY')
+2025-07-02 14:00:27,892 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_03_CONTRATOS
+2025-07-02 14:00:27,894 - services.sync_service - INFO - 🔄 Procesando: Bienes_04_PLAN DE PAGOS.sql -> Bienes_04_PLAN_DE_PAGOS
+2025-07-02 14:00:27,908 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 14:00:27,929 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fecha_creacion > TO_DATE('01/07/2025', 'DD/MM/YYYY')
+2025-07-02 14:00:28,070 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 14:00:28,071 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 229
+        Tablas omitidas: 0
+        Errores: 1
+        ==========================================
+        
+2025-07-02 14:00:28,072 - services.sync_service - WARNING - ⚠️  Errores encontrados:
+2025-07-02 14:00:28,073 - services.sync_service - WARNING -   ❌ Error sincronizando Bienes_01_BENEFICIARIOS.sql: Not an executable object: "\n                    UPDATE [dbo].[Bienes_01_BENEFICIARIOS] \n                    SET row_hash = 'c3894e05090e08dca2aa4080e87d8c35' \n                    WHERE id = 2132\n                    "
+2025-07-02 14:00:28,073 - __main__ - INFO - ✅ Sincronización completada: 229 registros
+2025-07-02 14:00:28,074 - __main__ - WARNING - ⚠️  Se encontraron 1 errores durante la sincronización
+2025-07-02 14:00:28,075 - __main__ - WARNING -   - Error sincronizando Bienes_01_BENEFICIARIOS.sql: Not an executable object: "\n                    UPDATE [dbo].[Bienes_01_BENEFICIARIOS] \n                    SET row_hash = 'c3894e05090e08dca2aa4080e87d8c35' \n                    WHERE id = 2132\n                    "
+2025-07-02 14:00:28,081 - __main__ - ERROR - Error en sincronización SQL Server: name 'sql_file_path' is not defined
+2025-07-02 14:00:28,083 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-02 15:00:24,445 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-02 15:00:24,445 - __main__ - INFO - Entorno: BIENES
+2025-07-02 15:00:24,446 - __main__ - INFO - Modo: sqlserver
+2025-07-02 15:00:24,446 - __main__ - INFO - Sincronización: incremental
+2025-07-02 15:00:24,446 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno bienes...
+2025-07-02 15:00:24,475 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-02 15:00:24,476 - __main__ - ERROR - Error en sincronización SQL Server: 'SyncService' object has no attribute '_get_sync_config_by_environment'
+2025-07-02 15:00:24,476 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-02 15:01:39,968 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-02 15:01:39,968 - __main__ - INFO - Entorno: BIENES
+2025-07-02 15:01:39,968 - __main__ - INFO - Modo: sqlserver
+2025-07-02 15:01:39,969 - __main__ - INFO - Sincronización: incremental
+2025-07-02 15:01:39,969 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno bienes...
+2025-07-02 15:01:39,989 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-02 15:01:39,990 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: incremental
+2025-07-02 15:01:39,990 - services.sync_service - INFO - 🔄 Procesando: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-02 15:01:40,061 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_01_BENEFICIARIOS
+2025-07-02 15:01:40,158 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-02 15:01:40,173 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-02 15:01:40,173 - adapters.db_adapter - INFO - DSN creado: 10.15.7.45:1521/vivp
+2025-07-02 15:01:40,929 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-02 15:01:41,218 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-02 15:01:41,232 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_01_BENEFICIARIOS
+2025-07-02 15:01:41,259 - services.sync_service - INFO - 🔄 Actualizando hashes para 1356 registros existentes en Bienes_01_BENEFICIARIOS...
+2025-07-02 15:01:41,263 - services.sync_service - ERROR - ❌ Error actualizando hashes existentes en Bienes_01_BENEFICIARIOS: Not an executable object: "\n                    UPDATE [dbo].[Bienes_01_BENEFICIARIOS] \n                    SET row_hash = 'c3894e05090e08dca2aa4080e87d8c35' \n                    WHERE id = 2132\n                    "
+2025-07-02 15:01:41,263 - services.sync_service - ERROR - Error sincronizando Bienes_01_BENEFICIARIOS.sql: Not an executable object: "\n                    UPDATE [dbo].[Bienes_01_BENEFICIARIOS] \n                    SET row_hash = 'c3894e05090e08dca2aa4080e87d8c35' \n                    WHERE id = 2132\n                    "
+2025-07-02 15:01:41,264 - services.sync_service - INFO - 🔄 Procesando: Bienes_02_CARTERAS.sql -> Bienes_02_CARTERAS
+2025-07-02 15:01:41,268 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_02_CARTERAS
+2025-07-02 15:01:41,721 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Bienes_02_CARTERAS: 229 registros
+2025-07-02 15:01:41,722 - services.sync_service - INFO - ✅ Bienes_02_CARTERAS: 229 registros sincronizados
+2025-07-02 15:01:41,722 - services.sync_service - INFO - 🔄 Procesando: Bienes_03_CONTRATOS.sql -> Bienes_03_CONTRATOS
+2025-07-02 15:01:41,726 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_03_CONTRATOS
+2025-07-02 15:01:41,730 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fechafirma > TO_DATE('12/06/2025', 'DD/MM/YYYY')
+2025-07-02 15:01:41,803 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_03_CONTRATOS
+2025-07-02 15:01:41,804 - services.sync_service - INFO - 🔄 Procesando: Bienes_04_PLAN DE PAGOS.sql -> Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:01:41,816 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:01:41,823 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fecha_creacion > TO_DATE('01/07/2025', 'DD/MM/YYYY')
+2025-07-02 15:01:41,924 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:01:41,925 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 229
+        Tablas omitidas: 0
+        Errores: 1
+        ==========================================
+        
+2025-07-02 15:01:41,925 - services.sync_service - WARNING - ⚠️  Errores encontrados:
+2025-07-02 15:01:41,925 - services.sync_service - WARNING -   ❌ Error sincronizando Bienes_01_BENEFICIARIOS.sql: Not an executable object: "\n                    UPDATE [dbo].[Bienes_01_BENEFICIARIOS] \n                    SET row_hash = 'c3894e05090e08dca2aa4080e87d8c35' \n                    WHERE id = 2132\n                    "
+2025-07-02 15:01:41,927 - __main__ - INFO - ✅ Sincronización completada: 229 registros
+2025-07-02 15:01:41,927 - __main__ - WARNING - ⚠️  Se encontraron 1 errores durante la sincronización
+2025-07-02 15:01:41,928 - __main__ - WARNING -   - Error sincronizando Bienes_01_BENEFICIARIOS.sql: Not an executable object: "\n                    UPDATE [dbo].[Bienes_01_BENEFICIARIOS] \n                    SET row_hash = 'c3894e05090e08dca2aa4080e87d8c35' \n                    WHERE id = 2132\n                    "
+2025-07-02 15:01:41,934 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-02 15:05:50,676 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-02 15:05:50,677 - __main__ - INFO - Entorno: BIENES
+2025-07-02 15:05:50,677 - __main__ - INFO - Modo: sqlserver
+2025-07-02 15:05:50,677 - __main__ - INFO - Sincronización: incremental
+2025-07-02 15:05:50,677 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno bienes...
+2025-07-02 15:05:50,698 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-02 15:05:50,698 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: incremental
+2025-07-02 15:05:50,698 - services.sync_service - INFO - 🔄 Procesando: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-02 15:05:50,764 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_01_BENEFICIARIOS
+2025-07-02 15:05:50,874 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-02 15:05:50,890 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-02 15:05:50,890 - adapters.db_adapter - INFO - DSN creado: 10.15.7.45:1521/vivp
+2025-07-02 15:05:51,620 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-02 15:05:51,966 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_01_BENEFICIARIOS
+2025-07-02 15:05:51,982 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_01_BENEFICIARIOS
+2025-07-02 15:05:52,009 - services.sync_service - INFO - 🔄 Actualizando hashes para 1356 registros existentes en Bienes_01_BENEFICIARIOS...
+2025-07-02 15:05:52,273 - services.sync_service - INFO - 🔄 Procesados 100 registros...
+2025-07-02 15:05:52,516 - services.sync_service - INFO - 🔄 Procesados 200 registros...
+2025-07-02 15:05:52,749 - services.sync_service - INFO - 🔄 Procesados 300 registros...
+2025-07-02 15:05:53,003 - services.sync_service - INFO - 🔄 Procesados 400 registros...
+2025-07-02 15:05:53,233 - services.sync_service - INFO - 🔄 Procesados 500 registros...
+2025-07-02 15:05:53,471 - services.sync_service - INFO - 🔄 Procesados 600 registros...
+2025-07-02 15:05:53,703 - services.sync_service - INFO - 🔄 Procesados 700 registros...
+2025-07-02 15:05:53,934 - services.sync_service - INFO - 🔄 Procesados 800 registros...
+2025-07-02 15:05:54,174 - services.sync_service - INFO - 🔄 Procesados 900 registros...
+2025-07-02 15:05:54,416 - services.sync_service - INFO - 🔄 Procesados 1000 registros...
+2025-07-02 15:05:54,655 - services.sync_service - INFO - 🔄 Procesados 1100 registros...
+2025-07-02 15:05:54,892 - services.sync_service - INFO - 🔄 Procesados 1200 registros...
+2025-07-02 15:05:55,155 - services.sync_service - INFO - 🔄 Procesados 1300 registros...
+2025-07-02 15:05:55,298 - services.sync_service - INFO - ✅ Actualizados 1356 hashes existentes en Bienes_01_BENEFICIARIOS
+2025-07-02 15:05:55,319 - services.sync_service - INFO - 📊 Encontrados 227 hashes únicos existentes en Bienes_01_BENEFICIARIOS
+2025-07-02 15:05:55,359 - services.sync_service - INFO - 📊 Bienes_01_BENEFICIARIOS: No hay registros nuevos. 226 duplicados ignorados.
+2025-07-02 15:05:55,359 - services.sync_service - INFO - 🔄 Procesando: Bienes_02_CARTERAS.sql -> Bienes_02_CARTERAS
+2025-07-02 15:05:55,366 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_02_CARTERAS
+2025-07-02 15:05:55,753 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Bienes_02_CARTERAS: 229 registros
+2025-07-02 15:05:55,753 - services.sync_service - INFO - ✅ Bienes_02_CARTERAS: 229 registros sincronizados
+2025-07-02 15:05:55,754 - services.sync_service - INFO - 🔄 Procesando: Bienes_03_CONTRATOS.sql -> Bienes_03_CONTRATOS
+2025-07-02 15:05:55,759 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_03_CONTRATOS
+2025-07-02 15:05:55,763 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fechafirma > TO_DATE('12/06/2025', 'DD/MM/YYYY')
+2025-07-02 15:05:55,783 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_03_CONTRATOS
+2025-07-02 15:05:55,783 - services.sync_service - INFO - 🔄 Procesando: Bienes_04_PLAN DE PAGOS.sql -> Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:05:55,789 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:05:55,795 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fecha_creacion > TO_DATE('01/07/2025', 'DD/MM/YYYY')
+2025-07-02 15:05:55,918 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:05:55,919 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 229
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-02 15:05:55,920 - __main__ - INFO - ✅ Sincronización completada: 229 registros
+2025-07-02 15:05:55,927 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-02 15:06:43,269 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-02 15:06:43,269 - __main__ - INFO - Entorno: BIENES
+2025-07-02 15:06:43,270 - __main__ - INFO - Modo: sqlserver
+2025-07-02 15:06:43,270 - __main__ - INFO - Sincronización: incremental
+2025-07-02 15:06:43,270 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno bienes...
+2025-07-02 15:06:43,292 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-02 15:06:43,292 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: incremental
+2025-07-02 15:06:43,294 - services.sync_service - INFO - 🔄 Procesando: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-02 15:06:43,355 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_01_BENEFICIARIOS
+2025-07-02 15:06:43,458 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-02 15:06:43,471 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-02 15:06:43,472 - adapters.db_adapter - INFO - DSN creado: 10.15.7.45:1521/vivp
+2025-07-02 15:06:44,495 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-02 15:06:44,768 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_01_BENEFICIARIOS
+2025-07-02 15:06:44,776 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_01_BENEFICIARIOS
+2025-07-02 15:06:44,786 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_01_BENEFICIARIOS
+2025-07-02 15:06:44,794 - services.sync_service - INFO - 📊 Encontrados 227 hashes únicos existentes en Bienes_01_BENEFICIARIOS
+2025-07-02 15:06:44,828 - services.sync_service - INFO - 📊 Bienes_01_BENEFICIARIOS: No hay registros nuevos. 226 duplicados ignorados.
+2025-07-02 15:06:44,829 - services.sync_service - INFO - 🔄 Procesando: Bienes_02_CARTERAS.sql -> Bienes_02_CARTERAS
+2025-07-02 15:06:44,835 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_02_CARTERAS
+2025-07-02 15:06:45,171 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Bienes_02_CARTERAS: 229 registros
+2025-07-02 15:06:45,171 - services.sync_service - INFO - ✅ Bienes_02_CARTERAS: 229 registros sincronizados
+2025-07-02 15:06:45,172 - services.sync_service - INFO - 🔄 Procesando: Bienes_03_CONTRATOS.sql -> Bienes_03_CONTRATOS
+2025-07-02 15:06:45,176 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_03_CONTRATOS
+2025-07-02 15:06:45,180 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fechafirma > TO_DATE('12/06/2025', 'DD/MM/YYYY')
+2025-07-02 15:06:45,201 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_03_CONTRATOS
+2025-07-02 15:06:45,201 - services.sync_service - INFO - 🔄 Procesando: Bienes_04_PLAN DE PAGOS.sql -> Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:06:45,205 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:06:45,210 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fecha_creacion > TO_DATE('01/07/2025', 'DD/MM/YYYY')
+2025-07-02 15:06:45,270 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:06:45,270 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 229
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-02 15:06:45,270 - __main__ - INFO - ✅ Sincronización completada: 229 registros
+2025-07-02 15:06:45,275 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-02 15:08:07,263 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-02 15:08:07,264 - __main__ - INFO - Entorno: BIENES
+2025-07-02 15:08:07,265 - __main__ - INFO - Modo: sqlserver
+2025-07-02 15:08:07,265 - __main__ - INFO - Sincronización: incremental
+2025-07-02 15:08:07,265 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno bienes...
+2025-07-02 15:08:07,289 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-02 15:08:07,290 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: incremental
+2025-07-02 15:08:07,290 - services.sync_service - INFO - 🔄 Procesando: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-02 15:08:07,353 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_01_BENEFICIARIOS
+2025-07-02 15:08:07,459 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-02 15:08:07,475 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-02 15:08:07,475 - adapters.db_adapter - INFO - DSN creado: 10.15.7.45:1521/vivp
+2025-07-02 15:08:08,338 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-02 15:08:08,640 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_01_BENEFICIARIOS
+2025-07-02 15:08:08,656 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_01_BENEFICIARIOS
+2025-07-02 15:08:08,665 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_01_BENEFICIARIOS
+2025-07-02 15:08:08,672 - services.sync_service - INFO - 📊 Encontrados 227 hashes únicos existentes en Bienes_01_BENEFICIARIOS
+2025-07-02 15:08:08,707 - services.sync_service - INFO - 📊 Bienes_01_BENEFICIARIOS: No hay registros nuevos. 226 duplicados ignorados.
+2025-07-02 15:08:08,708 - services.sync_service - INFO - 🔄 Procesando: Bienes_02_CARTERAS.sql -> Bienes_02_CARTERAS
+2025-07-02 15:08:08,713 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_02_CARTERAS
+2025-07-02 15:08:09,054 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Bienes_02_CARTERAS: 229 registros
+2025-07-02 15:08:09,054 - services.sync_service - INFO - ✅ Bienes_02_CARTERAS: 229 registros sincronizados
+2025-07-02 15:08:09,054 - services.sync_service - INFO - 🔄 Procesando: Bienes_03_CONTRATOS.sql -> Bienes_03_CONTRATOS
+2025-07-02 15:08:09,060 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_03_CONTRATOS
+2025-07-02 15:08:09,064 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fechafirma > TO_DATE('12/06/2025', 'DD/MM/YYYY')
+2025-07-02 15:08:09,146 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_03_CONTRATOS
+2025-07-02 15:08:09,147 - services.sync_service - INFO - 🔄 Procesando: Bienes_04_PLAN DE PAGOS.sql -> Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:08:09,154 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:08:09,159 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fecha_creacion > TO_DATE('01/07/2025', 'DD/MM/YYYY')
+2025-07-02 15:08:09,266 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:08:09,267 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 229
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-02 15:08:09,267 - __main__ - INFO - ✅ Sincronización completada: 229 registros
+2025-07-02 15:08:09,274 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-02 15:08:41,160 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-02 15:08:41,160 - __main__ - INFO - Entorno: BIENES
+2025-07-02 15:08:41,160 - __main__ - INFO - Modo: sqlserver
+2025-07-02 15:08:41,160 - __main__ - INFO - Sincronización: incremental
+2025-07-02 15:08:41,161 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno bienes...
+2025-07-02 15:08:41,185 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-02 15:08:41,186 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: incremental
+2025-07-02 15:08:41,186 - services.sync_service - INFO - 🔄 Procesando: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-02 15:08:41,255 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_01_BENEFICIARIOS
+2025-07-02 15:08:41,362 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-02 15:08:41,377 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-02 15:08:41,377 - adapters.db_adapter - INFO - DSN creado: 10.15.7.45:1521/vivp
+2025-07-02 15:08:42,390 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-02 15:08:43,191 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_01_BENEFICIARIOS
+2025-07-02 15:08:43,207 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_01_BENEFICIARIOS
+2025-07-02 15:08:43,216 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_01_BENEFICIARIOS
+2025-07-02 15:08:43,224 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en Bienes_01_BENEFICIARIOS
+2025-07-02 15:08:43,395 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Bienes_01_BENEFICIARIOS: 226 registros
+2025-07-02 15:08:43,395 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - Bienes_01_BENEFICIARIOS
+            ==========================================
+            Registros fuente: 226
+            Registros insertados: 226
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-02 15:08:43,396 - services.sync_service - INFO - 🔄 Procesando: Bienes_02_CARTERAS.sql -> Bienes_02_CARTERAS
+2025-07-02 15:08:43,400 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_02_CARTERAS
+2025-07-02 15:08:44,032 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Bienes_02_CARTERAS: 229 registros
+2025-07-02 15:08:44,032 - services.sync_service - INFO - ✅ Bienes_02_CARTERAS: 229 registros sincronizados
+2025-07-02 15:08:44,033 - services.sync_service - INFO - 🔄 Procesando: Bienes_03_CONTRATOS.sql -> Bienes_03_CONTRATOS
+2025-07-02 15:08:44,038 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_03_CONTRATOS
+2025-07-02 15:08:44,041 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fechafirma > TO_DATE('12/06/2025', 'DD/MM/YYYY')
+2025-07-02 15:08:44,313 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_03_CONTRATOS
+2025-07-02 15:08:44,314 - services.sync_service - INFO - 🔄 Procesando: Bienes_04_PLAN DE PAGOS.sql -> Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:08:44,323 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:08:44,328 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fecha_creacion > TO_DATE('01/07/2025', 'DD/MM/YYYY')
+2025-07-02 15:08:44,505 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:08:44,506 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 455
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-02 15:08:44,507 - __main__ - INFO - ✅ Sincronización completada: 455 registros
+2025-07-02 15:08:44,513 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-02 15:09:06,860 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-02 15:09:06,861 - __main__ - INFO - Entorno: BIENES
+2025-07-02 15:09:06,861 - __main__ - INFO - Modo: sqlserver
+2025-07-02 15:09:06,861 - __main__ - INFO - Sincronización: incremental
+2025-07-02 15:09:06,861 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno bienes...
+2025-07-02 15:09:06,882 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-02 15:09:06,884 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: incremental
+2025-07-02 15:09:06,884 - services.sync_service - INFO - 🔄 Procesando: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-02 15:09:06,948 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_01_BENEFICIARIOS
+2025-07-02 15:09:07,051 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-02 15:09:07,068 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-02 15:09:07,068 - adapters.db_adapter - INFO - DSN creado: 10.15.7.45:1521/vivp
+2025-07-02 15:09:09,236 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-02 15:09:10,630 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_01_BENEFICIARIOS
+2025-07-02 15:09:10,647 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_01_BENEFICIARIOS
+2025-07-02 15:09:10,667 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_01_BENEFICIARIOS
+2025-07-02 15:09:10,675 - services.sync_service - INFO - 📊 Encontrados 226 hashes únicos existentes en Bienes_01_BENEFICIARIOS
+2025-07-02 15:09:10,712 - services.sync_service - INFO - 📊 Bienes_01_BENEFICIARIOS: No hay registros nuevos. 226 duplicados ignorados.
+2025-07-02 15:09:10,713 - services.sync_service - INFO - 🔄 Procesando: Bienes_02_CARTERAS.sql -> Bienes_02_CARTERAS
+2025-07-02 15:09:10,720 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_02_CARTERAS
+2025-07-02 15:09:11,342 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Bienes_02_CARTERAS: 229 registros
+2025-07-02 15:09:11,342 - services.sync_service - INFO - ✅ Bienes_02_CARTERAS: 229 registros sincronizados
+2025-07-02 15:09:11,343 - services.sync_service - INFO - 🔄 Procesando: Bienes_03_CONTRATOS.sql -> Bienes_03_CONTRATOS
+2025-07-02 15:09:11,348 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_03_CONTRATOS
+2025-07-02 15:09:11,352 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fechafirma > TO_DATE('12/06/2025', 'DD/MM/YYYY')
+2025-07-02 15:09:11,511 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_03_CONTRATOS
+2025-07-02 15:09:11,511 - services.sync_service - INFO - 🔄 Procesando: Bienes_04_PLAN DE PAGOS.sql -> Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:09:11,523 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:09:11,530 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fecha_creacion > TO_DATE('01/07/2025', 'DD/MM/YYYY')
+2025-07-02 15:09:11,671 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:09:11,672 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 229
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-02 15:09:11,672 - __main__ - INFO - ✅ Sincronización completada: 229 registros
+2025-07-02 15:09:11,676 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-02 15:13:23,687 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-02 15:13:23,688 - __main__ - INFO - Entorno: BIENES
+2025-07-02 15:13:23,688 - __main__ - INFO - Modo: sqlserver
+2025-07-02 15:13:23,688 - __main__ - INFO - Sincronización: incremental
+2025-07-02 15:13:23,688 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno bienes...
+2025-07-02 15:13:23,712 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-02 15:13:23,713 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: incremental
+2025-07-02 15:13:23,713 - services.sync_service - INFO - 🔄 Procesando: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-02 15:13:23,776 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_01_BENEFICIARIOS
+2025-07-02 15:13:23,879 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-02 15:13:23,893 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-02 15:13:23,894 - adapters.db_adapter - INFO - DSN creado: 10.15.7.45:1521/vivp
+2025-07-02 15:13:24,572 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-02 15:13:25,030 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_01_BENEFICIARIOS
+2025-07-02 15:13:25,049 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_01_BENEFICIARIOS
+2025-07-02 15:13:25,059 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_01_BENEFICIARIOS
+2025-07-02 15:13:25,065 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en Bienes_01_BENEFICIARIOS
+2025-07-02 15:13:25,222 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Bienes_01_BENEFICIARIOS: 226 registros
+2025-07-02 15:13:25,222 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - Bienes_01_BENEFICIARIOS
+            ==========================================
+            Registros fuente: 226
+            Registros insertados: 226
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-02 15:13:25,222 - services.sync_service - INFO - 🔄 Procesando: Bienes_02_CARTERAS.sql -> Bienes_02_CARTERAS
+2025-07-02 15:13:25,227 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_02_CARTERAS
+2025-07-02 15:13:25,721 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Bienes_02_CARTERAS: 229 registros
+2025-07-02 15:13:25,721 - services.sync_service - INFO - ✅ Bienes_02_CARTERAS: 229 registros sincronizados
+2025-07-02 15:13:25,721 - services.sync_service - INFO - 🔄 Procesando: Bienes_03_CONTRATOS.sql -> Bienes_03_CONTRATOS
+2025-07-02 15:13:25,726 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_03_CONTRATOS
+2025-07-02 15:13:25,730 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fechafirma > TO_DATE('12/06/2025', 'DD/MM/YYYY')
+2025-07-02 15:13:25,867 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_03_CONTRATOS
+2025-07-02 15:13:25,868 - services.sync_service - INFO - 🔄 Procesando: Bienes_04_PLAN DE PAGOS.sql -> Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:13:25,879 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:13:25,886 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fecha_creacion > TO_DATE('01/07/2025', 'DD/MM/YYYY')
+2025-07-02 15:13:26,083 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:13:26,085 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 455
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-02 15:13:26,086 - __main__ - INFO - ✅ Sincronización completada: 455 registros
+2025-07-02 15:13:26,092 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-02 15:15:51,607 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-02 15:15:51,608 - __main__ - INFO - Entorno: BIENES
+2025-07-02 15:15:51,608 - __main__ - INFO - Modo: sqlserver
+2025-07-02 15:15:51,608 - __main__ - INFO - Sincronización: incremental
+2025-07-02 15:15:51,609 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno bienes...
+2025-07-02 15:15:51,633 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-02 15:15:51,633 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: incremental
+2025-07-02 15:15:51,634 - services.sync_service - INFO - 🔄 Procesando: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-02 15:15:51,692 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_01_BENEFICIARIOS
+2025-07-02 15:15:51,790 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-02 15:15:51,802 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-02 15:15:51,802 - adapters.db_adapter - INFO - DSN creado: 10.15.7.45:1521/vivp
+2025-07-02 15:15:52,545 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-02 15:15:52,802 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_01_BENEFICIARIOS
+2025-07-02 15:15:52,816 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_01_BENEFICIARIOS
+2025-07-02 15:15:52,822 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_01_BENEFICIARIOS
+2025-07-02 15:15:52,835 - services.sync_service - INFO - 📊 Encontrados 226 hashes únicos existentes en Bienes_01_BENEFICIARIOS
+2025-07-02 15:15:52,866 - services.sync_service - INFO - 📊 Bienes_01_BENEFICIARIOS: No hay registros nuevos. 226 duplicados ignorados.
+2025-07-02 15:15:52,867 - services.sync_service - INFO - 🔄 Procesando: Bienes_02_CARTERAS.sql -> Bienes_02_CARTERAS
+2025-07-02 15:15:52,872 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_02_CARTERAS
+2025-07-02 15:15:53,229 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Bienes_02_CARTERAS: 229 registros
+2025-07-02 15:15:53,230 - services.sync_service - INFO - ✅ Bienes_02_CARTERAS: 229 registros sincronizados
+2025-07-02 15:15:53,230 - services.sync_service - INFO - 🔄 Procesando: Bienes_03_CONTRATOS.sql -> Bienes_03_CONTRATOS
+2025-07-02 15:15:53,234 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_03_CONTRATOS
+2025-07-02 15:15:53,238 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fechafirma > TO_DATE('12/06/2025', 'DD/MM/YYYY')
+2025-07-02 15:15:53,306 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_03_CONTRATOS
+2025-07-02 15:15:53,306 - services.sync_service - INFO - 🔄 Procesando: Bienes_04_PLAN DE PAGOS.sql -> Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:15:53,313 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:15:53,318 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fecha_creacion > TO_DATE('01/07/2025', 'DD/MM/YYYY')
+2025-07-02 15:15:53,407 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:15:53,408 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 229
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-02 15:15:53,408 - __main__ - INFO - ✅ Sincronización completada: 229 registros
+2025-07-02 15:15:53,414 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-02 15:23:57,723 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-02 15:23:57,723 - __main__ - INFO - Entorno: BIENES
+2025-07-02 15:23:57,723 - __main__ - INFO - Modo: sqlserver
+2025-07-02 15:23:57,724 - __main__ - INFO - Sincronización: incremental
+2025-07-02 15:23:57,725 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno bienes...
+2025-07-02 15:23:57,747 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-02 15:23:57,748 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: incremental
+2025-07-02 15:23:57,748 - services.sync_service - INFO - 🔄 Procesando: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-02 15:23:57,809 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_01_BENEFICIARIOS
+2025-07-02 15:23:57,910 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-02 15:23:57,927 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-02 15:23:57,927 - adapters.db_adapter - INFO - DSN creado: 10.15.7.45:1521/vivp
+2025-07-02 15:23:58,589 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-02 15:23:58,850 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_01_BENEFICIARIOS
+2025-07-02 15:23:58,873 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_01_BENEFICIARIOS
+2025-07-02 15:23:58,884 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_01_BENEFICIARIOS
+2025-07-02 15:23:58,893 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en Bienes_01_BENEFICIARIOS
+2025-07-02 15:23:59,053 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Bienes_01_BENEFICIARIOS: 226 registros
+2025-07-02 15:23:59,053 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - Bienes_01_BENEFICIARIOS
+            ==========================================
+            Registros fuente: 226
+            Registros insertados: 226
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-02 15:23:59,053 - services.sync_service - INFO - 🔄 Procesando: Bienes_02_CARTERAS.sql -> Bienes_02_CARTERAS
+2025-07-02 15:23:59,058 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_02_CARTERAS
+2025-07-02 15:23:59,437 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Bienes_02_CARTERAS: 229 registros
+2025-07-02 15:23:59,437 - services.sync_service - INFO - ✅ Bienes_02_CARTERAS: 229 registros sincronizados
+2025-07-02 15:23:59,437 - services.sync_service - INFO - 🔄 Procesando: Bienes_03_CONTRATOS.sql -> Bienes_03_CONTRATOS
+2025-07-02 15:23:59,443 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_03_CONTRATOS
+2025-07-02 15:23:59,446 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fechafirma > TO_DATE('12/06/2025', 'DD/MM/YYYY')
+2025-07-02 15:23:59,506 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_03_CONTRATOS
+2025-07-02 15:23:59,508 - services.sync_service - INFO - 🔄 Procesando: Bienes_04_PLAN DE PAGOS.sql -> Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:23:59,513 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:23:59,520 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fecha_creacion > TO_DATE('01/07/2025', 'DD/MM/YYYY')
+2025-07-02 15:23:59,583 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:23:59,584 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 455
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-02 15:23:59,584 - __main__ - INFO - ✅ Sincronización completada: 455 registros
+2025-07-02 15:23:59,587 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-02 15:26:53,499 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-02 15:26:53,499 - __main__ - INFO - Entorno: BIENES
+2025-07-02 15:26:53,500 - __main__ - INFO - Modo: sqlserver
+2025-07-02 15:26:53,500 - __main__ - INFO - Sincronización: incremental
+2025-07-02 15:26:53,500 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno bienes...
+2025-07-02 15:26:53,524 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-02 15:26:53,524 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: incremental
+2025-07-02 15:26:53,525 - services.sync_service - INFO - 🔄 Procesando: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-02 15:26:53,588 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_01_BENEFICIARIOS
+2025-07-02 15:26:53,694 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-02 15:26:53,708 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-02 15:26:53,708 - adapters.db_adapter - INFO - DSN creado: 10.15.7.45:1521/vivp
+2025-07-02 15:26:54,170 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-02 15:26:54,489 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_01_BENEFICIARIOS
+2025-07-02 15:26:54,510 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_01_BENEFICIARIOS
+2025-07-02 15:26:54,530 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_01_BENEFICIARIOS
+2025-07-02 15:26:54,537 - services.sync_service - INFO - 📊 Encontrados 225 hashes únicos existentes en Bienes_01_BENEFICIARIOS
+2025-07-02 15:26:54,620 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Bienes_01_BENEFICIARIOS: 1 registros
+2025-07-02 15:26:54,620 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - Bienes_01_BENEFICIARIOS
+            ==========================================
+            Registros fuente: 226
+            Registros insertados: 1
+            Duplicados ignorados: 225
+            ==========================================
+            
+2025-07-02 15:26:54,621 - services.sync_service - INFO - 🔄 Procesando: Bienes_02_CARTERAS.sql -> Bienes_02_CARTERAS
+2025-07-02 15:26:54,627 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_02_CARTERAS
+2025-07-02 15:26:54,984 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Bienes_02_CARTERAS: 229 registros
+2025-07-02 15:26:54,985 - services.sync_service - INFO - ✅ Bienes_02_CARTERAS: 229 registros sincronizados
+2025-07-02 15:26:54,985 - services.sync_service - INFO - 🔄 Procesando: Bienes_03_CONTRATOS.sql -> Bienes_03_CONTRATOS
+2025-07-02 15:26:54,991 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_03_CONTRATOS
+2025-07-02 15:26:54,994 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fechafirma > TO_DATE('12/06/2025', 'DD/MM/YYYY')
+2025-07-02 15:26:55,043 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_03_CONTRATOS
+2025-07-02 15:26:55,043 - services.sync_service - INFO - 🔄 Procesando: Bienes_04_PLAN DE PAGOS.sql -> Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:26:55,049 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:26:55,053 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fecha_creacion > TO_DATE('01/07/2025', 'DD/MM/YYYY')
+2025-07-02 15:26:55,124 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 15:26:55,125 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 230
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-02 15:26:55,125 - __main__ - INFO - ✅ Sincronización completada: 230 registros
+2025-07-02 15:26:55,130 - __main__ - INFO - === Proceso completado exitosamente ===
