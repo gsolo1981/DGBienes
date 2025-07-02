@@ -781,3 +781,574 @@
         
 2025-07-02 15:26:55,125 - __main__ - INFO - ✅ Sincronización completada: 230 registros
 2025-07-02 15:26:55,130 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-02 16:17:05,241 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-02 16:17:05,241 - __main__ - INFO - Entorno: BIENES
+2025-07-02 16:17:05,242 - __main__ - INFO - Modo: sqlserver
+2025-07-02 16:17:05,242 - __main__ - INFO - Sincronización: incremental
+2025-07-02 16:17:05,242 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno bienes...
+2025-07-02 16:17:05,267 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-02 16:17:05,267 - __main__ - ERROR - Error en sincronización SQL Server: 'SyncService' object has no attribute '_get_sync_config_by_environment'
+2025-07-02 16:17:05,267 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-02 16:19:59,902 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-02 16:19:59,903 - __main__ - INFO - Entorno: BIENES
+2025-07-02 16:19:59,904 - __main__ - INFO - Modo: sqlserver
+2025-07-02 16:19:59,904 - __main__ - INFO - Sincronización: incremental
+2025-07-02 16:19:59,904 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno bienes...
+2025-07-02 16:19:59,926 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-02 16:19:59,926 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: incremental
+2025-07-02 16:19:59,926 - services.sync_service - INFO - 🔄 Procesando: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-02 16:19:59,990 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_01_BENEFICIARIOS
+2025-07-02 16:20:00,107 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-02 16:20:00,122 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-02 16:20:00,124 - adapters.db_adapter - INFO - DSN creado: 10.15.7.45:1521/vivp
+2025-07-02 16:20:05,035 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-02 16:20:05,847 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_01_BENEFICIARIOS
+2025-07-02 16:20:05,866 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_01_BENEFICIARIOS
+2025-07-02 16:20:05,874 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_01_BENEFICIARIOS
+2025-07-02 16:20:05,880 - services.sync_service - INFO - 📊 Encontrados 226 hashes únicos existentes en Bienes_01_BENEFICIARIOS
+2025-07-02 16:20:05,913 - services.sync_service - INFO - 📊 Bienes_01_BENEFICIARIOS: No hay registros nuevos. 226 duplicados ignorados.
+2025-07-02 16:20:05,914 - services.sync_service - INFO - 🔄 Procesando: Bienes_02_CARTERAS.sql -> Bienes_02_CARTERAS
+2025-07-02 16:20:05,920 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_02_CARTERAS
+2025-07-02 16:20:06,845 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_02_CARTERAS
+2025-07-02 16:20:06,884 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_02_CARTERAS
+2025-07-02 16:20:06,968 - services.sync_service - INFO - 🔄 Actualizando hashes para 4122 registros existentes en Bienes_02_CARTERAS...
+2025-07-02 16:20:07,247 - services.sync_service - INFO - 🔄 Procesados 100 registros...
+2025-07-02 16:20:07,482 - services.sync_service - INFO - 🔄 Procesados 200 registros...
+2025-07-02 16:20:07,760 - services.sync_service - INFO - 🔄 Procesados 300 registros...
+2025-07-02 16:20:07,998 - services.sync_service - INFO - 🔄 Procesados 400 registros...
+2025-07-02 16:20:08,234 - services.sync_service - INFO - 🔄 Procesados 500 registros...
+2025-07-02 16:20:08,466 - services.sync_service - INFO - 🔄 Procesados 600 registros...
+2025-07-02 16:20:08,697 - services.sync_service - INFO - 🔄 Procesados 700 registros...
+2025-07-02 16:20:08,938 - services.sync_service - INFO - 🔄 Procesados 800 registros...
+2025-07-02 16:20:09,177 - services.sync_service - INFO - 🔄 Procesados 900 registros...
+2025-07-02 16:20:09,413 - services.sync_service - INFO - 🔄 Procesados 1000 registros...
+2025-07-02 16:20:09,653 - services.sync_service - INFO - 🔄 Procesados 1100 registros...
+2025-07-02 16:20:09,912 - services.sync_service - INFO - 🔄 Procesados 1200 registros...
+2025-07-02 16:20:10,169 - services.sync_service - INFO - 🔄 Procesados 1300 registros...
+2025-07-02 16:20:10,401 - services.sync_service - INFO - 🔄 Procesados 1400 registros...
+2025-07-02 16:20:10,634 - services.sync_service - INFO - 🔄 Procesados 1500 registros...
+2025-07-02 16:20:10,866 - services.sync_service - INFO - 🔄 Procesados 1600 registros...
+2025-07-02 16:20:11,101 - services.sync_service - INFO - 🔄 Procesados 1700 registros...
+2025-07-02 16:20:11,339 - services.sync_service - INFO - 🔄 Procesados 1800 registros...
+2025-07-02 16:20:11,573 - services.sync_service - INFO - 🔄 Procesados 1900 registros...
+2025-07-02 16:20:11,820 - services.sync_service - INFO - 🔄 Procesados 2000 registros...
+2025-07-02 16:20:12,081 - services.sync_service - INFO - 🔄 Procesados 2100 registros...
+2025-07-02 16:20:12,324 - services.sync_service - INFO - 🔄 Procesados 2200 registros...
+2025-07-02 16:20:12,563 - services.sync_service - INFO - 🔄 Procesados 2300 registros...
+2025-07-02 16:20:12,805 - services.sync_service - INFO - 🔄 Procesados 2400 registros...
+2025-07-02 16:20:13,044 - services.sync_service - INFO - 🔄 Procesados 2500 registros...
+2025-07-02 16:20:13,288 - services.sync_service - INFO - 🔄 Procesados 2600 registros...
+2025-07-02 16:20:13,537 - services.sync_service - INFO - 🔄 Procesados 2700 registros...
+2025-07-02 16:20:13,780 - services.sync_service - INFO - 🔄 Procesados 2800 registros...
+2025-07-02 16:20:14,039 - services.sync_service - INFO - 🔄 Procesados 2900 registros...
+2025-07-02 16:20:14,289 - services.sync_service - INFO - 🔄 Procesados 3000 registros...
+2025-07-02 16:20:14,524 - services.sync_service - INFO - 🔄 Procesados 3100 registros...
+2025-07-02 16:20:14,764 - services.sync_service - INFO - 🔄 Procesados 3200 registros...
+2025-07-02 16:20:14,999 - services.sync_service - INFO - 🔄 Procesados 3300 registros...
+2025-07-02 16:20:15,236 - services.sync_service - INFO - 🔄 Procesados 3400 registros...
+2025-07-02 16:20:15,470 - services.sync_service - INFO - 🔄 Procesados 3500 registros...
+2025-07-02 16:20:15,705 - services.sync_service - INFO - 🔄 Procesados 3600 registros...
+2025-07-02 16:20:15,943 - services.sync_service - INFO - 🔄 Procesados 3700 registros...
+2025-07-02 16:20:16,201 - services.sync_service - INFO - 🔄 Procesados 3800 registros...
+2025-07-02 16:20:16,433 - services.sync_service - INFO - 🔄 Procesados 3900 registros...
+2025-07-02 16:20:16,668 - services.sync_service - INFO - 🔄 Procesados 4000 registros...
+2025-07-02 16:20:16,924 - services.sync_service - INFO - 🔄 Procesados 4100 registros...
+2025-07-02 16:20:16,984 - services.sync_service - INFO - ✅ Actualizados 4122 hashes existentes en Bienes_02_CARTERAS
+2025-07-02 16:20:17,003 - services.sync_service - INFO - 📊 Encontrados 458 hashes únicos existentes en Bienes_02_CARTERAS
+2025-07-02 16:20:17,174 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Bienes_02_CARTERAS: 229 registros
+2025-07-02 16:20:17,175 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - Bienes_02_CARTERAS
+            ==========================================
+            Registros fuente: 229
+            Registros insertados: 229
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-02 16:20:17,175 - services.sync_service - INFO - 🔄 Procesando: Bienes_03_CONTRATOS.sql -> Bienes_03_CONTRATOS
+2025-07-02 16:20:17,181 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_03_CONTRATOS
+2025-07-02 16:20:17,186 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fechafirma > TO_DATE('12/06/2025', 'DD/MM/YYYY')
+2025-07-02 16:20:17,310 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_03_CONTRATOS
+2025-07-02 16:20:17,310 - services.sync_service - INFO - 🔄 Procesando: Bienes_04_PLAN DE PAGOS.sql -> Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:20:17,316 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:20:17,321 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fecha_creacion > TO_DATE('01/07/2025', 'DD/MM/YYYY')
+2025-07-02 16:20:17,518 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:20:17,519 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 229
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-02 16:20:17,520 - __main__ - INFO - ✅ Sincronización completada: 229 registros
+2025-07-02 16:20:17,527 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-02 16:20:53,919 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-02 16:20:53,920 - __main__ - INFO - Entorno: BIENES
+2025-07-02 16:20:53,920 - __main__ - INFO - Modo: sqlserver
+2025-07-02 16:20:53,920 - __main__ - INFO - Sincronización: incremental
+2025-07-02 16:20:53,921 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno bienes...
+2025-07-02 16:20:53,946 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-02 16:20:53,946 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: incremental
+2025-07-02 16:20:53,946 - services.sync_service - INFO - 🔄 Procesando: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-02 16:20:54,019 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_01_BENEFICIARIOS
+2025-07-02 16:20:54,128 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-02 16:20:54,142 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-02 16:20:54,143 - adapters.db_adapter - INFO - DSN creado: 10.15.7.45:1521/vivp
+2025-07-02 16:20:55,104 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-02 16:20:55,351 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_01_BENEFICIARIOS
+2025-07-02 16:20:55,368 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_01_BENEFICIARIOS
+2025-07-02 16:20:55,375 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_01_BENEFICIARIOS
+2025-07-02 16:20:55,381 - services.sync_service - INFO - 📊 Encontrados 226 hashes únicos existentes en Bienes_01_BENEFICIARIOS
+2025-07-02 16:20:55,412 - services.sync_service - INFO - 📊 Bienes_01_BENEFICIARIOS: No hay registros nuevos. 226 duplicados ignorados.
+2025-07-02 16:20:55,412 - services.sync_service - INFO - 🔄 Procesando: Bienes_02_CARTERAS.sql -> Bienes_02_CARTERAS
+2025-07-02 16:20:55,420 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_02_CARTERAS
+2025-07-02 16:20:55,625 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_02_CARTERAS
+2025-07-02 16:20:55,635 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_02_CARTERAS
+2025-07-02 16:20:55,643 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_02_CARTERAS
+2025-07-02 16:20:55,650 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en Bienes_02_CARTERAS
+2025-07-02 16:20:55,796 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Bienes_02_CARTERAS: 229 registros
+2025-07-02 16:20:55,796 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - Bienes_02_CARTERAS
+            ==========================================
+            Registros fuente: 229
+            Registros insertados: 229
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-02 16:20:55,797 - services.sync_service - INFO - 🔄 Procesando: Bienes_03_CONTRATOS.sql -> Bienes_03_CONTRATOS
+2025-07-02 16:20:55,802 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_03_CONTRATOS
+2025-07-02 16:20:55,805 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fechafirma > TO_DATE('12/06/2025', 'DD/MM/YYYY')
+2025-07-02 16:20:55,889 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_03_CONTRATOS
+2025-07-02 16:20:55,889 - services.sync_service - INFO - 🔄 Procesando: Bienes_04_PLAN DE PAGOS.sql -> Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:20:55,898 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:20:55,903 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fecha_creacion > TO_DATE('01/07/2025', 'DD/MM/YYYY')
+2025-07-02 16:20:56,091 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:20:56,091 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 229
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-02 16:20:56,091 - __main__ - INFO - ✅ Sincronización completada: 229 registros
+2025-07-02 16:20:56,095 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-02 16:21:20,358 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-02 16:21:20,358 - __main__ - INFO - Entorno: BIENES
+2025-07-02 16:21:20,358 - __main__ - INFO - Modo: sqlserver
+2025-07-02 16:21:20,358 - __main__ - INFO - Sincronización: incremental
+2025-07-02 16:21:20,359 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno bienes...
+2025-07-02 16:21:20,387 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-02 16:21:20,388 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: incremental
+2025-07-02 16:21:20,388 - services.sync_service - INFO - 🔄 Procesando: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-02 16:21:20,453 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_01_BENEFICIARIOS
+2025-07-02 16:21:20,562 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-02 16:21:20,577 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-02 16:21:20,577 - adapters.db_adapter - INFO - DSN creado: 10.15.7.45:1521/vivp
+2025-07-02 16:21:21,125 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-02 16:21:21,512 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_01_BENEFICIARIOS
+2025-07-02 16:21:21,523 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_01_BENEFICIARIOS
+2025-07-02 16:21:21,530 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_01_BENEFICIARIOS
+2025-07-02 16:21:21,536 - services.sync_service - INFO - 📊 Encontrados 226 hashes únicos existentes en Bienes_01_BENEFICIARIOS
+2025-07-02 16:21:21,572 - services.sync_service - INFO - 📊 Bienes_01_BENEFICIARIOS: No hay registros nuevos. 226 duplicados ignorados.
+2025-07-02 16:21:21,572 - services.sync_service - INFO - 🔄 Procesando: Bienes_02_CARTERAS.sql -> Bienes_02_CARTERAS
+2025-07-02 16:21:21,578 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_02_CARTERAS
+2025-07-02 16:21:22,122 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_02_CARTERAS
+2025-07-02 16:21:22,134 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_02_CARTERAS
+2025-07-02 16:21:22,153 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_02_CARTERAS
+2025-07-02 16:21:22,161 - services.sync_service - INFO - 📊 Encontrados 229 hashes únicos existentes en Bienes_02_CARTERAS
+2025-07-02 16:21:22,195 - services.sync_service - INFO - 📊 Bienes_02_CARTERAS: No hay registros nuevos. 229 duplicados ignorados.
+2025-07-02 16:21:22,195 - services.sync_service - INFO - 🔄 Procesando: Bienes_03_CONTRATOS.sql -> Bienes_03_CONTRATOS
+2025-07-02 16:21:22,202 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_03_CONTRATOS
+2025-07-02 16:21:22,206 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fechafirma > TO_DATE('12/06/2025', 'DD/MM/YYYY')
+2025-07-02 16:21:22,353 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_03_CONTRATOS
+2025-07-02 16:21:22,353 - services.sync_service - INFO - 🔄 Procesando: Bienes_04_PLAN DE PAGOS.sql -> Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:21:22,366 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:21:22,377 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fecha_creacion > TO_DATE('01/07/2025', 'DD/MM/YYYY')
+2025-07-02 16:21:22,483 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:21:22,484 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 0
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-02 16:21:22,485 - __main__ - INFO - ✅ Sincronización completada: 0 registros
+2025-07-02 16:21:22,489 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-02 16:23:59,239 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-02 16:23:59,239 - __main__ - INFO - Entorno: BIENES
+2025-07-02 16:23:59,239 - __main__ - INFO - Modo: sqlserver
+2025-07-02 16:23:59,240 - __main__ - INFO - Sincronización: incremental
+2025-07-02 16:23:59,240 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno bienes...
+2025-07-02 16:23:59,269 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-02 16:23:59,269 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: incremental
+2025-07-02 16:23:59,269 - services.sync_service - INFO - 🔄 Procesando: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-02 16:23:59,332 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_01_BENEFICIARIOS
+2025-07-02 16:23:59,439 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-02 16:23:59,454 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-02 16:23:59,454 - adapters.db_adapter - INFO - DSN creado: 10.15.7.45:1521/vivp
+2025-07-02 16:23:59,940 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-02 16:24:00,121 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_01_BENEFICIARIOS
+2025-07-02 16:24:00,133 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_01_BENEFICIARIOS
+2025-07-02 16:24:00,139 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_01_BENEFICIARIOS
+2025-07-02 16:24:00,143 - services.sync_service - INFO - 📊 Encontrados 226 hashes únicos existentes en Bienes_01_BENEFICIARIOS
+2025-07-02 16:24:00,177 - services.sync_service - INFO - 📊 Bienes_01_BENEFICIARIOS: No hay registros nuevos. 226 duplicados ignorados.
+2025-07-02 16:24:00,178 - services.sync_service - INFO - 🔄 Procesando: Bienes_02_CARTERAS.sql -> Bienes_02_CARTERAS
+2025-07-02 16:24:00,184 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_02_CARTERAS
+2025-07-02 16:24:00,370 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_02_CARTERAS
+2025-07-02 16:24:00,396 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_02_CARTERAS
+2025-07-02 16:24:00,405 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_02_CARTERAS
+2025-07-02 16:24:00,411 - services.sync_service - INFO - 📊 Encontrados 228 hashes únicos existentes en Bienes_02_CARTERAS
+2025-07-02 16:24:00,479 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Bienes_02_CARTERAS: 1 registros
+2025-07-02 16:24:00,479 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - Bienes_02_CARTERAS
+            ==========================================
+            Registros fuente: 229
+            Registros insertados: 1
+            Duplicados ignorados: 228
+            ==========================================
+            
+2025-07-02 16:24:00,480 - services.sync_service - INFO - 🔄 Procesando: Bienes_03_CONTRATOS.sql -> Bienes_03_CONTRATOS
+2025-07-02 16:24:00,484 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_03_CONTRATOS
+2025-07-02 16:24:00,488 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fechafirma > TO_DATE('12/06/2025', 'DD/MM/YYYY')
+2025-07-02 16:24:00,516 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_03_CONTRATOS
+2025-07-02 16:24:00,516 - services.sync_service - INFO - 🔄 Procesando: Bienes_04_PLAN DE PAGOS.sql -> Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:24:00,521 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:24:00,527 - services.sync_service - INFO - 📅 Filtro incremental aplicado: fecha_creacion > TO_DATE('01/07/2025', 'DD/MM/YYYY')
+2025-07-02 16:24:00,594 - services.sync_service - INFO - 📭 No hay datos nuevos para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:24:00,594 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 1
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-02 16:24:00,595 - __main__ - INFO - ✅ Sincronización completada: 1 registros
+2025-07-02 16:24:00,599 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-02 16:39:24,540 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-02 16:39:24,540 - __main__ - INFO - Entorno: BIENES
+2025-07-02 16:39:24,540 - __main__ - INFO - Modo: sqlserver
+2025-07-02 16:39:24,540 - __main__ - INFO - Sincronización: incremental
+2025-07-02 16:39:24,540 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno bienes...
+2025-07-02 16:39:24,566 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-02 16:39:24,566 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: incremental
+2025-07-02 16:39:24,567 - services.sync_service - INFO - 🔄 Procesando: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-02 16:39:24,630 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_01_BENEFICIARIOS
+2025-07-02 16:39:24,734 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-02 16:39:24,749 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-02 16:39:24,749 - adapters.db_adapter - INFO - DSN creado: 10.15.7.45:1521/vivp
+2025-07-02 16:39:25,255 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-02 16:39:25,555 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_01_BENEFICIARIOS
+2025-07-02 16:39:25,576 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_01_BENEFICIARIOS
+2025-07-02 16:39:25,586 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_01_BENEFICIARIOS
+2025-07-02 16:39:25,593 - services.sync_service - INFO - 📊 Encontrados 226 hashes únicos existentes en Bienes_01_BENEFICIARIOS
+2025-07-02 16:39:25,627 - services.sync_service - INFO - 📊 Bienes_01_BENEFICIARIOS: No hay registros nuevos. 226 duplicados ignorados.
+2025-07-02 16:39:25,627 - services.sync_service - INFO - 🔄 Procesando: Bienes_02_CARTERAS.sql -> Bienes_02_CARTERAS
+2025-07-02 16:39:25,633 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_02_CARTERAS
+2025-07-02 16:39:25,822 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_02_CARTERAS
+2025-07-02 16:39:25,840 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_02_CARTERAS
+2025-07-02 16:39:25,846 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_02_CARTERAS
+2025-07-02 16:39:25,851 - services.sync_service - INFO - 📊 Encontrados 229 hashes únicos existentes en Bienes_02_CARTERAS
+2025-07-02 16:39:25,882 - services.sync_service - INFO - 📊 Bienes_02_CARTERAS: No hay registros nuevos. 229 duplicados ignorados.
+2025-07-02 16:39:25,883 - services.sync_service - INFO - 🔄 Procesando: Bienes_03_CONTRATOS.sql -> Bienes_03_CONTRATOS
+2025-07-02 16:39:25,890 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_03_CONTRATOS
+2025-07-02 16:39:26,500 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_03_CONTRATOS
+2025-07-02 16:39:26,544 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_03_CONTRATOS
+2025-07-02 16:39:26,560 - services.sync_service - INFO - 🔄 Actualizando hashes para 404 registros existentes en Bienes_03_CONTRATOS...
+2025-07-02 16:39:26,810 - services.sync_service - INFO - 🔄 Procesados 100 registros...
+2025-07-02 16:39:27,044 - services.sync_service - INFO - 🔄 Procesados 200 registros...
+2025-07-02 16:39:27,279 - services.sync_service - INFO - 🔄 Procesados 300 registros...
+2025-07-02 16:39:27,534 - services.sync_service - INFO - 🔄 Procesados 400 registros...
+2025-07-02 16:39:27,552 - services.sync_service - INFO - ✅ Actualizados 404 hashes existentes en Bienes_03_CONTRATOS
+2025-07-02 16:39:27,561 - services.sync_service - INFO - 📊 Encontrados 404 hashes únicos existentes en Bienes_03_CONTRATOS
+2025-07-02 16:39:27,658 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Bienes_03_CONTRATOS: 1 registros
+2025-07-02 16:39:27,658 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - Bienes_03_CONTRATOS
+            ==========================================
+            Registros fuente: 404
+            Registros insertados: 1
+            Duplicados ignorados: 403
+            ==========================================
+            
+2025-07-02 16:39:27,658 - services.sync_service - INFO - 🔄 Procesando: Bienes_04_PLAN DE PAGOS.sql -> Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:39:27,663 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:39:30,865 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:39:30,903 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:39:31,056 - services.sync_service - INFO - 🔄 Actualizando hashes para 3320 registros existentes en Bienes_04_PLAN_DE_PAGOS...
+2025-07-02 16:39:31,317 - services.sync_service - INFO - 🔄 Procesados 100 registros...
+2025-07-02 16:39:31,573 - services.sync_service - INFO - 🔄 Procesados 200 registros...
+2025-07-02 16:39:31,846 - services.sync_service - INFO - 🔄 Procesados 300 registros...
+2025-07-02 16:39:32,088 - services.sync_service - INFO - 🔄 Procesados 400 registros...
+2025-07-02 16:39:32,333 - services.sync_service - INFO - 🔄 Procesados 500 registros...
+2025-07-02 16:39:32,573 - services.sync_service - INFO - 🔄 Procesados 600 registros...
+2025-07-02 16:39:32,811 - services.sync_service - INFO - 🔄 Procesados 700 registros...
+2025-07-02 16:39:33,056 - services.sync_service - INFO - 🔄 Procesados 800 registros...
+2025-07-02 16:39:33,296 - services.sync_service - INFO - 🔄 Procesados 900 registros...
+2025-07-02 16:39:33,536 - services.sync_service - INFO - 🔄 Procesados 1000 registros...
+2025-07-02 16:39:33,802 - services.sync_service - INFO - 🔄 Procesados 1100 registros...
+2025-07-02 16:39:34,065 - services.sync_service - INFO - 🔄 Procesados 1200 registros...
+2025-07-02 16:39:34,308 - services.sync_service - INFO - 🔄 Procesados 1300 registros...
+2025-07-02 16:39:34,547 - services.sync_service - INFO - 🔄 Procesados 1400 registros...
+2025-07-02 16:39:34,785 - services.sync_service - INFO - 🔄 Procesados 1500 registros...
+2025-07-02 16:39:35,027 - services.sync_service - INFO - 🔄 Procesados 1600 registros...
+2025-07-02 16:39:35,268 - services.sync_service - INFO - 🔄 Procesados 1700 registros...
+2025-07-02 16:39:35,505 - services.sync_service - INFO - 🔄 Procesados 1800 registros...
+2025-07-02 16:39:35,742 - services.sync_service - INFO - 🔄 Procesados 1900 registros...
+2025-07-02 16:39:35,995 - services.sync_service - INFO - 🔄 Procesados 2000 registros...
+2025-07-02 16:39:36,237 - services.sync_service - INFO - 🔄 Procesados 2100 registros...
+2025-07-02 16:39:36,482 - services.sync_service - INFO - 🔄 Procesados 2200 registros...
+2025-07-02 16:39:36,721 - services.sync_service - INFO - 🔄 Procesados 2300 registros...
+2025-07-02 16:39:36,962 - services.sync_service - INFO - 🔄 Procesados 2400 registros...
+2025-07-02 16:39:37,203 - services.sync_service - INFO - 🔄 Procesados 2500 registros...
+2025-07-02 16:39:37,451 - services.sync_service - INFO - 🔄 Procesados 2600 registros...
+2025-07-02 16:39:37,685 - services.sync_service - INFO - 🔄 Procesados 2700 registros...
+2025-07-02 16:39:37,920 - services.sync_service - INFO - 🔄 Procesados 2800 registros...
+2025-07-02 16:39:38,203 - services.sync_service - INFO - 🔄 Procesados 2900 registros...
+2025-07-02 16:39:38,444 - services.sync_service - INFO - 🔄 Procesados 3000 registros...
+2025-07-02 16:39:38,682 - services.sync_service - INFO - 🔄 Procesados 3100 registros...
+2025-07-02 16:39:38,921 - services.sync_service - INFO - 🔄 Procesados 3200 registros...
+2025-07-02 16:39:39,156 - services.sync_service - INFO - 🔄 Procesados 3300 registros...
+2025-07-02 16:39:39,213 - services.sync_service - INFO - ✅ Actualizados 3320 hashes existentes en Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:39:39,244 - services.sync_service - INFO - 📊 Encontrados 3320 hashes únicos existentes en Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:39:41,666 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Bienes_04_PLAN_DE_PAGOS: 4124 registros
+2025-07-02 16:39:41,666 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - Bienes_04_PLAN_DE_PAGOS
+            ==========================================
+            Registros fuente: 4124
+            Registros insertados: 4124
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-02 16:39:41,675 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 4,125
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-02 16:39:41,675 - __main__ - INFO - ✅ Sincronización completada: 4,125 registros
+2025-07-02 16:39:41,677 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-02 16:39:59,998 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-02 16:39:59,998 - __main__ - INFO - Entorno: BIENES
+2025-07-02 16:39:59,999 - __main__ - INFO - Modo: sqlserver
+2025-07-02 16:39:59,999 - __main__ - INFO - Sincronización: incremental
+2025-07-02 16:39:59,999 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno bienes...
+2025-07-02 16:40:00,026 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-02 16:40:00,027 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: incremental
+2025-07-02 16:40:00,027 - services.sync_service - INFO - 🔄 Procesando: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-02 16:40:00,089 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_01_BENEFICIARIOS
+2025-07-02 16:40:00,187 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-02 16:40:00,201 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-02 16:40:00,202 - adapters.db_adapter - INFO - DSN creado: 10.15.7.45:1521/vivp
+2025-07-02 16:40:01,614 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-02 16:40:02,112 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_01_BENEFICIARIOS
+2025-07-02 16:40:02,121 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_01_BENEFICIARIOS
+2025-07-02 16:40:02,127 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_01_BENEFICIARIOS
+2025-07-02 16:40:02,131 - services.sync_service - INFO - 📊 Encontrados 226 hashes únicos existentes en Bienes_01_BENEFICIARIOS
+2025-07-02 16:40:02,161 - services.sync_service - INFO - 📊 Bienes_01_BENEFICIARIOS: No hay registros nuevos. 226 duplicados ignorados.
+2025-07-02 16:40:02,162 - services.sync_service - INFO - 🔄 Procesando: Bienes_02_CARTERAS.sql -> Bienes_02_CARTERAS
+2025-07-02 16:40:02,167 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_02_CARTERAS
+2025-07-02 16:40:02,746 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_02_CARTERAS
+2025-07-02 16:40:02,765 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_02_CARTERAS
+2025-07-02 16:40:02,770 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_02_CARTERAS
+2025-07-02 16:40:02,775 - services.sync_service - INFO - 📊 Encontrados 229 hashes únicos existentes en Bienes_02_CARTERAS
+2025-07-02 16:40:02,810 - services.sync_service - INFO - 📊 Bienes_02_CARTERAS: No hay registros nuevos. 229 duplicados ignorados.
+2025-07-02 16:40:02,811 - services.sync_service - INFO - 🔄 Procesando: Bienes_03_CONTRATOS.sql -> Bienes_03_CONTRATOS
+2025-07-02 16:40:02,816 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_03_CONTRATOS
+2025-07-02 16:40:03,451 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_03_CONTRATOS
+2025-07-02 16:40:03,462 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_03_CONTRATOS
+2025-07-02 16:40:03,468 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_03_CONTRATOS
+2025-07-02 16:40:03,477 - services.sync_service - INFO - 📊 Encontrados 405 hashes únicos existentes en Bienes_03_CONTRATOS
+2025-07-02 16:40:03,544 - services.sync_service - INFO - 📊 Bienes_03_CONTRATOS: No hay registros nuevos. 404 duplicados ignorados.
+2025-07-02 16:40:03,545 - services.sync_service - INFO - 🔄 Procesando: Bienes_04_PLAN DE PAGOS.sql -> Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:40:03,550 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:40:09,135 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:40:09,154 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:40:09,179 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:40:09,239 - services.sync_service - INFO - 📊 Encontrados 7444 hashes únicos existentes en Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:40:10,023 - services.sync_service - INFO - 📊 Bienes_04_PLAN_DE_PAGOS: No hay registros nuevos. 4124 duplicados ignorados.
+2025-07-02 16:40:10,029 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 0
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-02 16:40:10,029 - __main__ - INFO - ✅ Sincronización completada: 0 registros
+2025-07-02 16:40:10,032 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-02 16:40:21,334 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-02 16:40:21,335 - __main__ - INFO - Entorno: BIENES
+2025-07-02 16:40:21,335 - __main__ - INFO - Modo: sqlserver
+2025-07-02 16:40:21,335 - __main__ - INFO - Sincronización: incremental
+2025-07-02 16:40:21,336 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno bienes...
+2025-07-02 16:40:21,362 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-02 16:40:21,362 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: incremental
+2025-07-02 16:40:21,362 - services.sync_service - INFO - 🔄 Procesando: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-02 16:40:21,434 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_01_BENEFICIARIOS
+2025-07-02 16:40:21,543 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-02 16:40:21,558 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-02 16:40:21,558 - adapters.db_adapter - INFO - DSN creado: 10.15.7.45:1521/vivp
+2025-07-02 16:40:23,091 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-02 16:40:23,336 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_01_BENEFICIARIOS
+2025-07-02 16:40:23,351 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_01_BENEFICIARIOS
+2025-07-02 16:40:23,360 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_01_BENEFICIARIOS
+2025-07-02 16:40:23,368 - services.sync_service - INFO - 📊 Encontrados 226 hashes únicos existentes en Bienes_01_BENEFICIARIOS
+2025-07-02 16:40:23,412 - services.sync_service - INFO - 📊 Bienes_01_BENEFICIARIOS: No hay registros nuevos. 226 duplicados ignorados.
+2025-07-02 16:40:23,412 - services.sync_service - INFO - 🔄 Procesando: Bienes_02_CARTERAS.sql -> Bienes_02_CARTERAS
+2025-07-02 16:40:23,420 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_02_CARTERAS
+2025-07-02 16:40:23,636 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_02_CARTERAS
+2025-07-02 16:40:23,645 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_02_CARTERAS
+2025-07-02 16:40:23,652 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_02_CARTERAS
+2025-07-02 16:40:23,657 - services.sync_service - INFO - 📊 Encontrados 229 hashes únicos existentes en Bienes_02_CARTERAS
+2025-07-02 16:40:23,707 - services.sync_service - INFO - 📊 Bienes_02_CARTERAS: No hay registros nuevos. 229 duplicados ignorados.
+2025-07-02 16:40:23,708 - services.sync_service - INFO - 🔄 Procesando: Bienes_03_CONTRATOS.sql -> Bienes_03_CONTRATOS
+2025-07-02 16:40:23,713 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_03_CONTRATOS
+2025-07-02 16:40:24,000 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_03_CONTRATOS
+2025-07-02 16:40:24,012 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_03_CONTRATOS
+2025-07-02 16:40:24,018 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_03_CONTRATOS
+2025-07-02 16:40:24,024 - services.sync_service - INFO - 📊 Encontrados 405 hashes únicos existentes en Bienes_03_CONTRATOS
+2025-07-02 16:40:24,083 - services.sync_service - INFO - 📊 Bienes_03_CONTRATOS: No hay registros nuevos. 404 duplicados ignorados.
+2025-07-02 16:40:24,083 - services.sync_service - INFO - 🔄 Procesando: Bienes_04_PLAN DE PAGOS.sql -> Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:40:24,090 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:40:26,090 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:40:26,099 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:40:26,106 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:40:26,176 - services.sync_service - INFO - 📊 Encontrados 7444 hashes únicos existentes en Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:40:26,940 - services.sync_service - INFO - 📊 Bienes_04_PLAN_DE_PAGOS: No hay registros nuevos. 4124 duplicados ignorados.
+2025-07-02 16:40:26,946 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 0
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-02 16:40:26,947 - __main__ - INFO - ✅ Sincronización completada: 0 registros
+2025-07-02 16:40:26,949 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-02 16:41:16,609 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-02 16:41:16,610 - __main__ - INFO - Entorno: BIENES
+2025-07-02 16:41:16,610 - __main__ - INFO - Modo: sqlserver
+2025-07-02 16:41:16,610 - __main__ - INFO - Sincronización: incremental
+2025-07-02 16:41:16,611 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno bienes...
+2025-07-02 16:41:16,638 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-02 16:41:16,638 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: incremental
+2025-07-02 16:41:16,638 - services.sync_service - INFO - 🔄 Procesando: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-02 16:41:16,699 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_01_BENEFICIARIOS
+2025-07-02 16:41:16,802 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-02 16:41:16,814 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-02 16:41:16,815 - adapters.db_adapter - INFO - DSN creado: 10.15.7.45:1521/vivp
+2025-07-02 16:41:17,970 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-02 16:41:18,401 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_01_BENEFICIARIOS
+2025-07-02 16:41:18,422 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_01_BENEFICIARIOS
+2025-07-02 16:41:18,432 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_01_BENEFICIARIOS
+2025-07-02 16:41:18,437 - services.sync_service - INFO - 📊 Encontrados 226 hashes únicos existentes en Bienes_01_BENEFICIARIOS
+2025-07-02 16:41:18,469 - services.sync_service - INFO - 📊 Bienes_01_BENEFICIARIOS: No hay registros nuevos. 226 duplicados ignorados.
+2025-07-02 16:41:18,469 - services.sync_service - INFO - 🔄 Procesando: Bienes_02_CARTERAS.sql -> Bienes_02_CARTERAS
+2025-07-02 16:41:18,476 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_02_CARTERAS
+2025-07-02 16:41:18,692 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_02_CARTERAS
+2025-07-02 16:41:18,707 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_02_CARTERAS
+2025-07-02 16:41:18,715 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_02_CARTERAS
+2025-07-02 16:41:18,719 - services.sync_service - INFO - 📊 Encontrados 229 hashes únicos existentes en Bienes_02_CARTERAS
+2025-07-02 16:41:18,755 - services.sync_service - INFO - 📊 Bienes_02_CARTERAS: No hay registros nuevos. 229 duplicados ignorados.
+2025-07-02 16:41:18,755 - services.sync_service - INFO - 🔄 Procesando: Bienes_03_CONTRATOS.sql -> Bienes_03_CONTRATOS
+2025-07-02 16:41:18,762 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_03_CONTRATOS
+2025-07-02 16:41:18,971 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_03_CONTRATOS
+2025-07-02 16:41:18,983 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_03_CONTRATOS
+2025-07-02 16:41:18,990 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_03_CONTRATOS
+2025-07-02 16:41:18,997 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en Bienes_03_CONTRATOS
+2025-07-02 16:41:19,243 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Bienes_03_CONTRATOS: 404 registros
+2025-07-02 16:41:19,243 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - Bienes_03_CONTRATOS
+            ==========================================
+            Registros fuente: 404
+            Registros insertados: 404
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-02 16:41:19,244 - services.sync_service - INFO - 🔄 Procesando: Bienes_04_PLAN DE PAGOS.sql -> Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:41:19,248 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:41:23,430 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:41:23,444 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:41:23,454 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:41:23,463 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:41:26,282 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Bienes_04_PLAN_DE_PAGOS: 4124 registros
+2025-07-02 16:41:26,282 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - Bienes_04_PLAN_DE_PAGOS
+            ==========================================
+            Registros fuente: 4124
+            Registros insertados: 4124
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-02 16:41:26,290 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 4,528
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-02 16:41:26,291 - __main__ - INFO - ✅ Sincronización completada: 4,528 registros
+2025-07-02 16:41:26,293 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-02 16:41:44,816 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-02 16:41:44,816 - __main__ - INFO - Entorno: BIENES
+2025-07-02 16:41:44,818 - __main__ - INFO - Modo: sqlserver
+2025-07-02 16:41:44,818 - __main__ - INFO - Sincronización: incremental
+2025-07-02 16:41:44,818 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno bienes...
+2025-07-02 16:41:44,840 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-02 16:41:44,842 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: incremental
+2025-07-02 16:41:44,842 - services.sync_service - INFO - 🔄 Procesando: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-02 16:41:44,902 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_01_BENEFICIARIOS
+2025-07-02 16:41:45,010 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-02 16:41:45,025 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-02 16:41:45,025 - adapters.db_adapter - INFO - DSN creado: 10.15.7.45:1521/vivp
+2025-07-02 16:41:46,514 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-02 16:41:46,968 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_01_BENEFICIARIOS
+2025-07-02 16:41:46,985 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_01_BENEFICIARIOS
+2025-07-02 16:41:46,993 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_01_BENEFICIARIOS
+2025-07-02 16:41:46,999 - services.sync_service - INFO - 📊 Encontrados 226 hashes únicos existentes en Bienes_01_BENEFICIARIOS
+2025-07-02 16:41:47,033 - services.sync_service - INFO - 📊 Bienes_01_BENEFICIARIOS: No hay registros nuevos. 226 duplicados ignorados.
+2025-07-02 16:41:47,034 - services.sync_service - INFO - 🔄 Procesando: Bienes_02_CARTERAS.sql -> Bienes_02_CARTERAS
+2025-07-02 16:41:47,040 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_02_CARTERAS
+2025-07-02 16:41:47,453 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_02_CARTERAS
+2025-07-02 16:41:47,461 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_02_CARTERAS
+2025-07-02 16:41:47,466 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_02_CARTERAS
+2025-07-02 16:41:47,472 - services.sync_service - INFO - 📊 Encontrados 229 hashes únicos existentes en Bienes_02_CARTERAS
+2025-07-02 16:41:47,505 - services.sync_service - INFO - 📊 Bienes_02_CARTERAS: No hay registros nuevos. 229 duplicados ignorados.
+2025-07-02 16:41:47,505 - services.sync_service - INFO - 🔄 Procesando: Bienes_03_CONTRATOS.sql -> Bienes_03_CONTRATOS
+2025-07-02 16:41:47,511 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_03_CONTRATOS
+2025-07-02 16:41:48,598 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_03_CONTRATOS
+2025-07-02 16:41:48,616 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_03_CONTRATOS
+2025-07-02 16:41:48,631 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_03_CONTRATOS
+2025-07-02 16:41:48,639 - services.sync_service - INFO - 📊 Encontrados 404 hashes únicos existentes en Bienes_03_CONTRATOS
+2025-07-02 16:41:48,695 - services.sync_service - INFO - 📊 Bienes_03_CONTRATOS: No hay registros nuevos. 404 duplicados ignorados.
+2025-07-02 16:41:48,696 - services.sync_service - INFO - 🔄 Procesando: Bienes_04_PLAN DE PAGOS.sql -> Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:41:48,703 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:41:53,180 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:41:53,198 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:41:53,216 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:41:53,269 - services.sync_service - INFO - 📊 Encontrados 4124 hashes únicos existentes en Bienes_04_PLAN_DE_PAGOS
+2025-07-02 16:41:54,090 - services.sync_service - INFO - 📊 Bienes_04_PLAN_DE_PAGOS: No hay registros nuevos. 4124 duplicados ignorados.
+2025-07-02 16:41:54,095 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 0
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-02 16:41:54,096 - __main__ - INFO - ✅ Sincronización completada: 0 registros
+2025-07-02 16:41:54,099 - __main__ - INFO - === Proceso completado exitosamente ===

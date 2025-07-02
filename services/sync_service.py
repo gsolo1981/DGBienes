@@ -42,16 +42,29 @@ class SyncService:
             return {
                 'Bienes_01_BENEFICIARIOS': {
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                'Bienes_02_CARTERAS': { 
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                'Bienes_03_CONTRATOS': {  
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                'Bienes_04_PLAN_DE_PAGOS': {  
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 }
             }
         elif app_env == 'concesiones':
             return {
                 'Concesiones_01_BENEFICIARIOS': {
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
+                },
+                'Concesiones_02_CARTERAS': {  # ← NUEVA TABLA AGREGADA
+                    'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 }
             }
         else:
             return {}
+
         
     def _get_sync_config_by_environment(self):
         """Retorna la configuración de mapeo según el entorno activo"""
@@ -107,17 +120,14 @@ class SyncService:
             self.logger.warning(f"Entorno no reconocido: {app_env}. Usando configuración por defecto.")
             return {}
         
+    
     def _get_date_columns_by_environment(self):
         """Retorna las columnas de fecha según el entorno activo"""
         app_env = settings.APP_ENV.lower()
         
-        if app_env == 'bienes':
+        if app_env == 'concesiones': 
             return {
-                'Bienes_03_CONTRATOS': 'fechafirma',
-                'Bienes_04_PLAN_DE_PAGOS': 'fecha_creacion'
-            }
-        elif app_env == 'concesiones': 
-            return {
+                # Concesiones_02_CARTERAS ya no usa fecha, usa hash
                 'Concesiones_03_CONTRATOS': 'fechafirma',
                 'Concesiones_04_PLAN_DE_PAGOS': 'fecha_creacion'
             }                   
@@ -151,6 +161,10 @@ class SyncService:
             }
         else:
             return {}
+
+
+
+
     
     def create_hash_column(self, table_name):
         """Crear columna row_hash si no existe"""
