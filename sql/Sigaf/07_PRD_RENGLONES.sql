@@ -19,7 +19,7 @@
     renprd.n_renglon_pliego,
     renprd.k_rdefinitiva,
     renprd.i_unitario,
-    renprd.k_rdefinitiva * renprd.i_unitario,
+    renprd.k_rdefinitiva * renprd.i_unitario as total_renglon,
     prd.fh_alta,
     prd.fh_autorizacion,
     prd.fh_firma
