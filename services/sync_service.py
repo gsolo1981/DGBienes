@@ -485,6 +485,70 @@ class SyncService:
         return df
     
     def _clean_dataframe_for_sqlserver(self, df):
+        """Limpieza robusta de DataFrame para SQL Server - VERSIÓN CORREGIDA"""
+        df_clean = df.copy()
+        
+        # Lista de columnas que sabemos que son numéricas y deben formatearse correctamente
+        numeric_currency_columns = ['total', 'importe', 'monto', 'valor', 'precio', 'costo']
+        
+        for col in df_clean.columns:
+            col_lower = col.lower()
+            
+            if df_clean[col].dtype == 'object':
+                # Verificar si la columna podría contener números
+                if any(keyword in col_lower for keyword in numeric_currency_columns):
+                    # Intentar convertir a numérico y luego formatear apropiadamente
+                    try:
+                        # Convertir a numérico, manejando errores
+                        numeric_series = pd.to_numeric(df_clean[col], errors='coerce')
+                        
+                        # Formatear números sin notación científica
+                        df_clean[col] = numeric_series.apply(
+                            lambda x: f"{x:.2f}" if pd.notna(x) else ""
+                        )
+                        
+                        self.logger.info(f"🔢 Columna '{col}' formateada como número decimal")
+                        
+                    except Exception as e:
+                        # Si falla, usar conversión string estándar
+                        self.logger.warning(f"⚠️ No se pudo convertir '{col}' a numérico: {e}")
+                        df_clean[col] = df_clean[col].fillna('')
+                        df_clean[col] = self._safe_string_conversion(df_clean[col])
+                else:
+                    # Para columnas de texto normales
+                    df_clean[col] = df_clean[col].fillna('')
+                    df_clean[col] = self._safe_string_conversion(df_clean[col])
+                    
+            elif 'datetime' in str(df_clean[col].dtype):
+                df_clean[col] = df_clean[col].fillna(pd.Timestamp('1900-01-01'))
+                
+            elif df_clean[col].dtype in ['int64', 'float64', 'int32', 'float32']:
+                # Para columnas numéricas, asegurar formato apropiado
+                if any(keyword in col_lower for keyword in numeric_currency_columns):
+                    # Formatear como decimal con 2 decimales
+                    df_clean[col] = df_clean[col].apply(
+                        lambda x: f"{x:.2f}" if pd.notna(x) else "0.00"
+                    )
+                else:
+                    # Mantener como numérico o convertir sin notación científica
+                    df_clean[col] = df_clean[col].fillna(0)
+                    
+            elif df_clean[col].dtype == 'bool':
+                df_clean[col] = df_clean[col].fillna(False)
+            else:
+                df_clean[col] = df_clean[col].fillna('')
+                df_clean[col] = self._safe_string_conversion(df_clean[col])
+        
+        # Verificación final de nulls
+        null_count = df_clean.isnull().sum().sum()
+        if null_count > 0:
+            self.logger.warning(f"⚠️ Encontrados {null_count} valores NULL después de limpieza")
+            df_clean = df_clean.fillna('')
+        
+        return df_clean
+
+
+    def _clean_dataframe_for_sqlserver_borrar(self, df):
         """Limpieza robusta de DataFrame para SQL Server"""
         df_clean = df.copy()
         
@@ -706,7 +770,71 @@ class SyncService:
                 status[table_name] = {'exists': False, 'error': str(e)}
         
         return status
-    
+
+    def _safe_string_conversion(self, series):
+        """Convierte serie a string evitando notación científica"""
+        try:
+            # Intentar detectar si son números en notación científica
+            def convert_value(val):
+                if pd.isna(val):
+                    return ""
+                
+                str_val = str(val)
+                
+                # Si contiene 'e+' o 'e-', es notación científica
+                if 'e+' in str_val.lower() or 'e-' in str_val.lower():
+                    try:
+                        # Convertir a float y luego formatear
+                        numeric_val = float(str_val)
+                        return f"{numeric_val:.2f}"
+                    except:
+                        return str_val
+                else:
+                    return str_val[:255]  # Truncar si es muy largo
+            
+            return series.apply(convert_value)
+            
+        except Exception as e:
+            self.logger.warning(f"Error en conversión segura: {e}")
+            # Fallback a conversión estándar
+            return series.astype(str).str[:255]
+
+
+    def verify_numeric_columns(self, df, table_name):
+        """Verifica y reporta columnas con posible notación científica"""
+        
+        scientific_notation_pattern = r'[\d.]+e[+-]\d+'
+        
+        for col in df.columns:
+            if df[col].dtype == 'object':  # Solo revisar columnas de texto
+                # Buscar patrones de notación científica
+                scientific_values = df[col].astype(str).str.contains(
+                    scientific_notation_pattern, 
+                    case=False, 
+                    na=False,
+                    regex=True
+                )
+                
+                if scientific_values.any():
+                    count = scientific_values.sum()
+                    sample_values = df[scientific_values][col].head(3).tolist()
+                    
+                    self.logger.warning(f"""
+                    ⚠️ NOTACIÓN CIENTÍFICA DETECTADA en {table_name}
+                    Columna: {col}
+                    Registros afectados: {count}
+                    Ejemplos: {sample_values}
+                    """)
+                    
+                    # Mostrar conversión sugerida
+                    try:
+                        first_scientific = df[scientific_values][col].iloc[0]
+                        converted = f"{float(first_scientific):.2f}"
+                        self.logger.info(f"💡 Conversión: {first_scientific} -> {converted}")
+                    except:
+                        pass
+
+
     def close(self):
         """Cierra todas las conexiones"""
         if self.oracle_session:
