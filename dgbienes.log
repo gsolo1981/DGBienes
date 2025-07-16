@@ -2603,3 +2603,2280 @@ GROUP BY dv.AA_OCOMPRA,dv.N_OCOMPRA,dv.AA_DEVENGADO,dv.T_DEVENGADO,dv.N_DEVENGAD
         
 2025-07-14 10:50:59,535 - __main__ - INFO - ✅ Sincronización completada: 9,583 registros
 2025-07-14 10:50:59,552 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-14 11:29:13,761 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-14 11:29:13,762 - __main__ - INFO - Entorno: SIGAF
+2025-07-14 11:29:13,762 - __main__ - INFO - Modo: sqlserver
+2025-07-14 11:29:13,763 - __main__ - INFO - Sincronización: full
+2025-07-14 11:29:13,763 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno sigaf...
+2025-07-14 11:29:13,783 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-14 11:29:13,783 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: full
+2025-07-14 11:29:13,784 - services.sync_service - INFO - 🔄 Procesando: 14_DRP_FACTURAS.sql -> [14_DRP_FACTURAS]
+2025-07-14 11:29:13,844 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [14_DRP_FACTURAS]
+2025-07-14 11:29:14,074 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-14 11:29:14,188 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-14 11:29:14,188 - adapters.db_adapter - INFO - DSN creado: 10.15.7.10:1521/PRODASI
+2025-07-14 11:29:15,009 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-14 11:30:08,242 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.14_DRP_FACTURAS: 9583 registros
+2025-07-14 11:30:08,242 - services.sync_service - INFO - ✅ [14_DRP_FACTURAS]: 9583 registros sincronizados
+2025-07-14 11:30:08,244 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 9,583
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-14 11:30:08,244 - __main__ - INFO - ✅ Sincronización completada: 9,583 registros
+2025-07-14 11:30:08,247 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-14 11:45:14,677 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-14 11:45:14,677 - __main__ - INFO - Entorno: SIGAF
+2025-07-14 11:45:14,677 - __main__ - INFO - Modo: sqlserver
+2025-07-14 11:45:14,678 - __main__ - INFO - Sincronización: full
+2025-07-14 11:45:14,678 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno sigaf...
+2025-07-14 11:45:14,696 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-14 11:45:14,698 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: full
+2025-07-14 11:45:14,698 - services.sync_service - INFO - 🔄 Procesando: 14_DRP_FACTURAS.sql -> [14_DRP_FACTURAS]
+2025-07-14 11:45:14,760 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [14_DRP_FACTURAS]
+2025-07-14 11:45:14,858 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-14 11:45:14,871 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-14 11:45:14,871 - adapters.db_adapter - INFO - DSN creado: 10.15.7.10:1521/PRODASI
+2025-07-14 11:45:16,115 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-14 11:45:48,639 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [14_DRP_FACTURAS]
+2025-07-14 11:45:48,677 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [14_DRP_FACTURAS]
+2025-07-14 11:45:49,071 - services.sync_service - INFO - 🔄 Actualizando hashes para 9583 registros existentes en [14_DRP_FACTURAS]...
+2025-07-14 11:45:49,414 - services.sync_service - INFO - 🔄 Procesados 100 registros...
+2025-07-14 11:45:49,715 - services.sync_service - INFO - 🔄 Procesados 200 registros...
+2025-07-14 11:45:49,995 - services.sync_service - INFO - 🔄 Procesados 300 registros...
+2025-07-14 11:45:50,279 - services.sync_service - INFO - 🔄 Procesados 400 registros...
+2025-07-14 11:45:50,538 - services.sync_service - INFO - 🔄 Procesados 500 registros...
+2025-07-14 11:45:50,809 - services.sync_service - INFO - 🔄 Procesados 600 registros...
+2025-07-14 11:45:51,093 - services.sync_service - INFO - 🔄 Procesados 700 registros...
+2025-07-14 11:45:51,360 - services.sync_service - INFO - 🔄 Procesados 800 registros...
+2025-07-14 11:45:51,630 - services.sync_service - INFO - 🔄 Procesados 900 registros...
+2025-07-14 11:45:51,943 - services.sync_service - INFO - 🔄 Procesados 1000 registros...
+2025-07-14 11:45:52,266 - services.sync_service - INFO - 🔄 Procesados 1100 registros...
+2025-07-14 11:45:52,594 - services.sync_service - INFO - 🔄 Procesados 1200 registros...
+2025-07-14 11:45:52,890 - services.sync_service - INFO - 🔄 Procesados 1300 registros...
+2025-07-14 11:45:53,195 - services.sync_service - INFO - 🔄 Procesados 1400 registros...
+2025-07-14 11:45:53,530 - services.sync_service - INFO - 🔄 Procesados 1500 registros...
+2025-07-14 11:45:53,838 - services.sync_service - INFO - 🔄 Procesados 1600 registros...
+2025-07-14 11:45:54,115 - services.sync_service - INFO - 🔄 Procesados 1700 registros...
+2025-07-14 11:45:54,405 - services.sync_service - INFO - 🔄 Procesados 1800 registros...
+2025-07-14 11:45:54,709 - services.sync_service - INFO - 🔄 Procesados 1900 registros...
+2025-07-14 11:45:55,063 - services.sync_service - INFO - 🔄 Procesados 2000 registros...
+2025-07-14 11:45:55,371 - services.sync_service - INFO - 🔄 Procesados 2100 registros...
+2025-07-14 11:45:55,675 - services.sync_service - INFO - 🔄 Procesados 2200 registros...
+2025-07-14 11:45:55,978 - services.sync_service - INFO - 🔄 Procesados 2300 registros...
+2025-07-14 11:45:56,271 - services.sync_service - INFO - 🔄 Procesados 2400 registros...
+2025-07-14 11:45:56,617 - services.sync_service - INFO - 🔄 Procesados 2500 registros...
+2025-07-14 11:45:56,898 - services.sync_service - INFO - 🔄 Procesados 2600 registros...
+2025-07-14 11:45:57,192 - services.sync_service - INFO - 🔄 Procesados 2700 registros...
+2025-07-14 11:45:57,486 - services.sync_service - INFO - 🔄 Procesados 2800 registros...
+2025-07-14 11:45:57,784 - services.sync_service - INFO - 🔄 Procesados 2900 registros...
+2025-07-14 11:45:58,105 - services.sync_service - INFO - 🔄 Procesados 3000 registros...
+2025-07-14 11:45:58,396 - services.sync_service - INFO - 🔄 Procesados 3100 registros...
+2025-07-14 11:45:58,711 - services.sync_service - INFO - 🔄 Procesados 3200 registros...
+2025-07-14 11:45:58,969 - services.sync_service - INFO - 🔄 Procesados 3300 registros...
+2025-07-14 11:45:59,245 - services.sync_service - INFO - 🔄 Procesados 3400 registros...
+2025-07-14 11:45:59,494 - services.sync_service - INFO - 🔄 Procesados 3500 registros...
+2025-07-14 11:45:59,745 - services.sync_service - INFO - 🔄 Procesados 3600 registros...
+2025-07-14 11:45:59,999 - services.sync_service - INFO - 🔄 Procesados 3700 registros...
+2025-07-14 11:46:00,253 - services.sync_service - INFO - 🔄 Procesados 3800 registros...
+2025-07-14 11:46:00,505 - services.sync_service - INFO - 🔄 Procesados 3900 registros...
+2025-07-14 11:46:00,780 - services.sync_service - INFO - 🔄 Procesados 4000 registros...
+2025-07-14 11:46:01,034 - services.sync_service - INFO - 🔄 Procesados 4100 registros...
+2025-07-14 11:46:01,312 - services.sync_service - INFO - 🔄 Procesados 4200 registros...
+2025-07-14 11:46:01,558 - services.sync_service - INFO - 🔄 Procesados 4300 registros...
+2025-07-14 11:46:01,809 - services.sync_service - INFO - 🔄 Procesados 4400 registros...
+2025-07-14 11:46:02,052 - services.sync_service - INFO - 🔄 Procesados 4500 registros...
+2025-07-14 11:46:02,358 - services.sync_service - INFO - 🔄 Procesados 4600 registros...
+2025-07-14 11:46:02,629 - services.sync_service - INFO - 🔄 Procesados 4700 registros...
+2025-07-14 11:46:02,938 - services.sync_service - INFO - 🔄 Procesados 4800 registros...
+2025-07-14 11:46:03,213 - services.sync_service - INFO - 🔄 Procesados 4900 registros...
+2025-07-14 11:46:03,499 - services.sync_service - INFO - 🔄 Procesados 5000 registros...
+2025-07-14 11:46:03,752 - services.sync_service - INFO - 🔄 Procesados 5100 registros...
+2025-07-14 11:46:04,015 - services.sync_service - INFO - 🔄 Procesados 5200 registros...
+2025-07-14 11:46:04,260 - services.sync_service - INFO - 🔄 Procesados 5300 registros...
+2025-07-14 11:46:04,510 - services.sync_service - INFO - 🔄 Procesados 5400 registros...
+2025-07-14 11:46:04,768 - services.sync_service - INFO - 🔄 Procesados 5500 registros...
+2025-07-14 11:46:05,061 - services.sync_service - INFO - 🔄 Procesados 5600 registros...
+2025-07-14 11:46:05,319 - services.sync_service - INFO - 🔄 Procesados 5700 registros...
+2025-07-14 11:46:05,567 - services.sync_service - INFO - 🔄 Procesados 5800 registros...
+2025-07-14 11:46:05,820 - services.sync_service - INFO - 🔄 Procesados 5900 registros...
+2025-07-14 11:46:06,070 - services.sync_service - INFO - 🔄 Procesados 6000 registros...
+2025-07-14 11:46:06,338 - services.sync_service - INFO - 🔄 Procesados 6100 registros...
+2025-07-14 11:46:06,606 - services.sync_service - INFO - 🔄 Procesados 6200 registros...
+2025-07-14 11:46:06,881 - services.sync_service - INFO - 🔄 Procesados 6300 registros...
+2025-07-14 11:46:07,211 - services.sync_service - INFO - 🔄 Procesados 6400 registros...
+2025-07-14 11:46:07,471 - services.sync_service - INFO - 🔄 Procesados 6500 registros...
+2025-07-14 11:46:07,728 - services.sync_service - INFO - 🔄 Procesados 6600 registros...
+2025-07-14 11:46:08,197 - services.sync_service - INFO - 🔄 Procesados 6700 registros...
+2025-07-14 11:46:08,523 - services.sync_service - INFO - 🔄 Procesados 6800 registros...
+2025-07-14 11:46:08,855 - services.sync_service - INFO - 🔄 Procesados 6900 registros...
+2025-07-14 11:46:09,205 - services.sync_service - INFO - 🔄 Procesados 7000 registros...
+2025-07-14 11:46:09,537 - services.sync_service - INFO - 🔄 Procesados 7100 registros...
+2025-07-14 11:46:09,863 - services.sync_service - INFO - 🔄 Procesados 7200 registros...
+2025-07-14 11:46:10,224 - services.sync_service - INFO - 🔄 Procesados 7300 registros...
+2025-07-14 11:46:10,622 - services.sync_service - INFO - 🔄 Procesados 7400 registros...
+2025-07-14 11:46:11,010 - services.sync_service - INFO - 🔄 Procesados 7500 registros...
+2025-07-14 11:46:11,428 - services.sync_service - INFO - 🔄 Procesados 7600 registros...
+2025-07-14 11:46:11,759 - services.sync_service - INFO - 🔄 Procesados 7700 registros...
+2025-07-14 11:46:12,160 - services.sync_service - INFO - 🔄 Procesados 7800 registros...
+2025-07-14 11:46:12,549 - services.sync_service - INFO - 🔄 Procesados 7900 registros...
+2025-07-14 11:46:13,011 - services.sync_service - INFO - 🔄 Procesados 8000 registros...
+2025-07-14 11:46:13,382 - services.sync_service - INFO - 🔄 Procesados 8100 registros...
+2025-07-14 11:46:13,711 - services.sync_service - INFO - 🔄 Procesados 8200 registros...
+2025-07-14 11:46:14,072 - services.sync_service - INFO - 🔄 Procesados 8300 registros...
+2025-07-14 11:46:14,476 - services.sync_service - INFO - 🔄 Procesados 8400 registros...
+2025-07-14 11:46:14,854 - services.sync_service - INFO - 🔄 Procesados 8500 registros...
+2025-07-14 11:46:15,137 - services.sync_service - INFO - 🔄 Procesados 8600 registros...
+2025-07-14 11:46:15,534 - services.sync_service - INFO - 🔄 Procesados 8700 registros...
+2025-07-14 11:46:15,900 - services.sync_service - INFO - 🔄 Procesados 8800 registros...
+2025-07-14 11:46:16,152 - services.sync_service - INFO - 🔄 Procesados 8900 registros...
+2025-07-14 11:46:16,456 - services.sync_service - INFO - 🔄 Procesados 9000 registros...
+2025-07-14 11:46:16,758 - services.sync_service - INFO - 🔄 Procesados 9100 registros...
+2025-07-14 11:46:17,003 - services.sync_service - INFO - 🔄 Procesados 9200 registros...
+2025-07-14 11:46:17,244 - services.sync_service - INFO - 🔄 Procesados 9300 registros...
+2025-07-14 11:46:17,495 - services.sync_service - INFO - 🔄 Procesados 9400 registros...
+2025-07-14 11:46:17,755 - services.sync_service - INFO - 🔄 Procesados 9500 registros...
+2025-07-14 11:46:17,974 - services.sync_service - INFO - ✅ Actualizados 9583 hashes existentes en [14_DRP_FACTURAS]
+2025-07-14 11:46:18,027 - services.sync_service - INFO - 📊 Encontrados 9583 hashes únicos existentes en [14_DRP_FACTURAS]
+2025-07-14 11:46:19,581 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.14_DRP_FACTURAS: 38 registros
+2025-07-14 11:46:19,582 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [14_DRP_FACTURAS]
+            ==========================================
+            Registros fuente: 9583
+            Registros insertados: 38
+            Duplicados ignorados: 9545
+            ==========================================
+            
+2025-07-14 11:46:19,587 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 38
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-14 11:46:19,587 - __main__ - INFO - ✅ Sincronización completada: 38 registros
+2025-07-14 11:46:19,589 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-14 11:51:50,774 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-14 11:51:50,774 - __main__ - INFO - Entorno: SIGAF
+2025-07-14 11:51:50,775 - __main__ - INFO - Modo: sqlserver
+2025-07-14 11:51:50,775 - __main__ - INFO - Sincronización: full
+2025-07-14 11:51:50,775 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno sigaf...
+2025-07-14 11:51:50,797 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-14 11:51:50,797 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: full
+2025-07-14 11:51:50,797 - services.sync_service - INFO - 🔄 Procesando: 14_DRP_FACTURAS.sql -> [14_DRP_FACTURAS]
+2025-07-14 11:51:50,858 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [14_DRP_FACTURAS]
+2025-07-14 11:51:50,964 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-14 11:51:50,979 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-14 11:51:50,979 - adapters.db_adapter - INFO - DSN creado: 10.15.7.10:1521/PRODASI
+2025-07-14 11:51:51,641 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-14 11:52:21,979 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [14_DRP_FACTURAS]
+2025-07-14 11:52:21,987 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [14_DRP_FACTURAS]
+2025-07-14 11:52:21,998 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [14_DRP_FACTURAS]
+2025-07-14 11:52:22,032 - services.sync_service - INFO - 📊 Encontrados 9621 hashes únicos existentes en [14_DRP_FACTURAS]
+2025-07-14 11:52:23,421 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.14_DRP_FACTURAS: 15 registros
+2025-07-14 11:52:23,421 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [14_DRP_FACTURAS]
+            ==========================================
+            Registros fuente: 9598
+            Registros insertados: 15
+            Duplicados ignorados: 9583
+            ==========================================
+            
+2025-07-14 11:52:23,426 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 15
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-14 11:52:23,426 - __main__ - INFO - ✅ Sincronización completada: 15 registros
+2025-07-14 11:52:23,428 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-14 12:09:27,701 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-14 12:09:27,702 - __main__ - INFO - Entorno: SIGAF
+2025-07-14 12:09:27,702 - __main__ - INFO - Modo: sqlserver
+2025-07-14 12:09:27,702 - __main__ - INFO - Sincronización: full
+2025-07-14 12:09:27,702 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno sigaf...
+2025-07-14 12:09:27,724 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-14 12:09:27,724 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: full
+2025-07-14 12:09:27,725 - services.sync_service - INFO - 🔄 Procesando: 01_RELACION_BAC_SIGAF.sql -> [01_RELACION_BAC_SIGAF]
+2025-07-14 12:09:28,160 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [01_RELACION_BAC_SIGAF]
+2025-07-14 12:09:28,295 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-14 12:09:28,310 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-14 12:09:28,310 - adapters.db_adapter - INFO - DSN creado: 10.15.7.10:1521/PRODASI
+2025-07-14 12:09:28,971 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-14 12:09:31,821 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.01_RELACION_BAC_SIGAF: 133 registros
+2025-07-14 12:09:31,823 - services.sync_service - INFO - ✅ [01_RELACION_BAC_SIGAF]: 133 registros sincronizados
+2025-07-14 12:09:31,824 - services.sync_service - INFO - 🔄 Procesando: 02_SPR_RENGLONES.sql -> [02_SPR_RENGLONES]
+2025-07-14 12:09:31,886 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [02_SPR_RENGLONES]
+2025-07-14 12:16:36,658 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.02_SPR_RENGLONES: 66732 registros
+2025-07-14 12:16:36,658 - services.sync_service - INFO - ✅ [02_SPR_RENGLONES]: 66732 registros sincronizados
+2025-07-14 12:16:36,670 - services.sync_service - INFO - 🔄 Procesando: 03_SPR_IMPUTACIONES.sql -> [03_SPR_IMPUTACIONES]
+2025-07-14 12:16:36,725 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [03_SPR_IMPUTACIONES]
+2025-07-14 12:17:12,849 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.03_SPR_IMPUTACIONES: 4932 registros
+2025-07-14 12:17:12,849 - services.sync_service - INFO - ✅ [03_SPR_IMPUTACIONES]: 4932 registros sincronizados
+2025-07-14 12:17:12,850 - services.sync_service - INFO - 🔄 Procesando: 04_RPR_SPR_PRD.sql -> [04_RPR_SPR_PRD]
+2025-07-14 12:17:12,901 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [04_RPR_SPR_PRD]
+2025-07-14 12:18:15,061 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.04_RPR_SPR_PRD: 11141 registros
+2025-07-14 12:18:15,061 - services.sync_service - INFO - ✅ [04_RPR_SPR_PRD]: 11141 registros sincronizados
+2025-07-14 12:18:15,065 - services.sync_service - INFO - 🔄 Procesando: 05_RPR_RENGLONES.sql -> [05_RPR_RENGLONES]
+2025-07-14 12:18:15,156 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [05_RPR_RENGLONES]
+2025-07-14 12:22:19,125 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.05_RPR_RENGLONES: 37957 registros
+2025-07-14 12:22:19,126 - services.sync_service - INFO - ✅ [05_RPR_RENGLONES]: 37957 registros sincronizados
+2025-07-14 12:22:19,140 - services.sync_service - INFO - 🔄 Procesando: 06_RPR_IMPUTACIONES.sql -> [06_RPR_IMPUTACIONES]
+2025-07-14 12:22:19,201 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [06_RPR_IMPUTACIONES]
+2025-07-14 12:23:50,735 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.06_RPR_IMPUTACIONES: 13037 registros
+2025-07-14 12:23:50,736 - services.sync_service - INFO - ✅ [06_RPR_IMPUTACIONES]: 13037 registros sincronizados
+2025-07-14 12:23:50,742 - services.sync_service - INFO - 🔄 Procesando: 08_PRD_IMPUTACIONES.sql -> [08_PRD_IMPUTACIONES]
+2025-07-14 12:23:50,808 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [08_PRD_IMPUTACIONES]
+2025-07-14 12:24:49,891 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.08_PRD_IMPUTACIONES: 9989 registros
+2025-07-14 12:24:49,893 - services.sync_service - INFO - ✅ [08_PRD_IMPUTACIONES]: 9989 registros sincronizados
+2025-07-14 12:24:49,895 - services.sync_service - INFO - 🔄 Procesando: 09_PRD_FACTURAS.sql -> [09_PRD_FACTURAS]
+2025-07-14 12:24:49,959 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [09_PRD_FACTURAS]
+2025-07-14 12:32:51,896 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.09_PRD_FACTURAS: 67524 registros
+2025-07-14 12:32:51,897 - services.sync_service - INFO - ✅ [09_PRD_FACTURAS]: 67524 registros sincronizados
+2025-07-14 12:32:51,911 - services.sync_service - INFO - 🔄 Procesando: 10_FACTURAS_OP_PAGOS.sql -> [10_FACTURAS_OP_PAGOS]
+2025-07-14 12:32:51,960 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [10_FACTURAS_OP_PAGOS]
+2025-07-14 12:45:12,352 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.10_FACTURAS_OP_PAGOS: 104608 registros
+2025-07-14 12:45:12,352 - services.sync_service - INFO - ✅ [10_FACTURAS_OP_PAGOS]: 104608 registros sincronizados
+2025-07-14 12:45:12,399 - services.sync_service - INFO - 🔄 Procesando: 11_RP.sql -> [11_RP]
+2025-07-14 12:45:12,440 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [11_RP]
+2025-07-14 12:48:35,200 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.11_RP: 37561 registros
+2025-07-14 12:48:35,201 - services.sync_service - INFO - ✅ [11_RP]: 37561 registros sincronizados
+2025-07-14 12:48:35,206 - services.sync_service - INFO - 🔄 Procesando: 13_DRP_IMPUTACIONES.sql -> [13_DRP_IMPUTACIONES]
+2025-07-14 12:48:35,246 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [13_DRP_IMPUTACIONES]
+2025-07-14 12:49:52,077 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.13_DRP_IMPUTACIONES: 10056 registros
+2025-07-14 12:49:52,078 - services.sync_service - INFO - ✅ [13_DRP_IMPUTACIONES]: 10056 registros sincronizados
+2025-07-14 12:49:52,080 - services.sync_service - INFO - 🔄 Procesando: 14_DRP_FACTURAS.sql -> [14_DRP_FACTURAS]
+2025-07-14 12:49:52,117 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [14_DRP_FACTURAS]
+2025-07-14 12:50:23,440 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [14_DRP_FACTURAS]
+2025-07-14 12:50:23,586 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [14_DRP_FACTURAS]
+2025-07-14 12:50:23,652 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [14_DRP_FACTURAS]
+2025-07-14 12:50:23,716 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [14_DRP_FACTURAS]
+2025-07-14 12:51:18,215 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.14_DRP_FACTURAS: 9627 registros
+2025-07-14 12:51:18,216 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [14_DRP_FACTURAS]
+            ==========================================
+            Registros fuente: 9627
+            Registros insertados: 9627
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 12:51:18,234 - services.sync_service - INFO - 🔄 Procesando: 15_DRP_FACTURAS_PAGOS.sql -> [15_DRP_FACTURAS_PAGOS]
+2025-07-14 12:51:18,267 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [15_DRP_FACTURAS_PAGOS]
+2025-07-14 12:52:55,874 - services.sync_service - INFO - 🔢 Columna 'importe_op' formateada como número decimal
+2025-07-14 12:52:55,891 - services.sync_service - INFO - 🔢 Columna 'importe_neto' formateada como número decimal
+2025-07-14 12:53:25,269 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.15_DRP_FACTURAS_PAGOS: 5008 registros
+2025-07-14 12:53:25,270 - services.sync_service - INFO - ✅ [15_DRP_FACTURAS_PAGOS]: 5008 registros sincronizados
+2025-07-14 12:53:25,272 - services.sync_service - INFO - 🔄 Procesando: 16_PRECIARIO.sql -> [16_PRECIARIO]
+2025-07-14 12:53:25,321 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [16_PRECIARIO]
+2025-07-14 12:53:39,285 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.16_PRECIARIO: 923 registros
+2025-07-14 12:53:39,286 - services.sync_service - INFO - ✅ [16_PRECIARIO]: 923 registros sincronizados
+2025-07-14 12:53:39,287 - services.sync_service - INFO - 🔄 Procesando: 17_PRECIARIO_IMPUTACIONES.sql -> [17_PRECIARIO_IMPUTACIONES]
+2025-07-14 12:53:39,351 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [17_PRECIARIO_IMPUTACIONES]
+2025-07-14 12:53:45,903 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.17_PRECIARIO_IMPUTACIONES: 841 registros
+2025-07-14 12:53:45,904 - services.sync_service - INFO - ✅ [17_PRECIARIO_IMPUTACIONES]: 841 registros sincronizados
+2025-07-14 12:53:45,904 - services.sync_service - INFO - 🔄 Procesando: 18_PRD_PRECIARIO.sql -> [18_PRD_PRECIARIO]
+2025-07-14 12:53:45,949 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [18_PRD_PRECIARIO]
+2025-07-14 12:53:51,600 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.18_PRD_PRECIARIO: 819 registros
+2025-07-14 12:53:51,601 - services.sync_service - INFO - ✅ [18_PRD_PRECIARIO]: 819 registros sincronizados
+2025-07-14 12:53:51,601 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 380,888
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-14 12:53:51,602 - __main__ - INFO - ✅ Sincronización completada: 380,888 registros
+2025-07-14 12:53:51,619 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-14 12:59:36,599 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-14 12:59:36,600 - __main__ - INFO - Entorno: SIGAF
+2025-07-14 12:59:36,600 - __main__ - INFO - Modo: sqlserver
+2025-07-14 12:59:36,600 - __main__ - INFO - Sincronización: full
+2025-07-14 12:59:36,600 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno sigaf...
+2025-07-14 12:59:36,622 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-14 12:59:36,623 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: full
+2025-07-14 12:59:36,623 - services.sync_service - INFO - 🔄 Procesando: 07_PRD_RENGLONES.sql -> [07_PRD_RENGLONES]
+2025-07-14 12:59:37,161 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [07_PRD_RENGLONES]
+2025-07-14 12:59:37,283 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-14 12:59:37,299 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-14 12:59:37,299 - adapters.db_adapter - INFO - DSN creado: 10.15.7.10:1521/PRODASI
+2025-07-14 12:59:38,124 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-14 14:02:01,252 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.07_PRD_RENGLONES: 537552 registros
+2025-07-14 14:02:01,253 - services.sync_service - INFO - ✅ [07_PRD_RENGLONES]: 537552 registros sincronizados
+2025-07-14 14:02:01,440 - services.sync_service - INFO - 🔄 Procesando: 12_DRP_RENGLONES.sql -> [12_DRP_RENGLONES]
+2025-07-14 14:02:01,479 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [12_DRP_RENGLONES]
+2025-07-14 14:21:12,739 - adapters.sqlserver_adapter - ERROR - Error insertando datos en 12_DRP_RENGLONES: Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2025-07-14 14:21:12,749 - services.sync_service - ERROR - ❌ Error sincronizando tabla [12_DRP_RENGLONES]: Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2025-07-14 14:21:12,751 - services.sync_service - ERROR - Error sincronizando 12_DRP_RENGLONES.sql: Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2025-07-14 14:21:12,755 - services.sync_service - INFO - 🔄 Procesando: 19_PRD_PRECIARIO_RENGLONES.sql -> [19_PRD_PRECIARIO_RENGLONES]
+2025-07-14 14:21:48,922 - adapters.sqlserver_adapter - ERROR - Error ejecutando consulta: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [64].  (64) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (64)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-14 14:21:48,923 - adapters.sqlserver_adapter - ERROR - Query: 
+        SELECT COUNT(*) as count
+        FROM INFORMATION_SCHEMA.TABLES 
+        WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = '19_PRD_PRECIARIO_RENGLONES'
+        
+2025-07-14 14:21:48,923 - adapters.sqlserver_adapter - ERROR - Error verificando existencia de tabla 19_PRD_PRECIARIO_RENGLONES: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [64].  (64) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (64)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-14 14:21:48,925 - services.sync_service - WARNING - ⏭️ OMITIDA: Tabla [19_PRD_PRECIARIO_RENGLONES] no existe en SQL Server.
+2025-07-14 14:21:48,925 - services.sync_service - INFO - 🔄 Procesando: 20_PRD_PRECIARIO_IMPUTACIONES.sql -> [20_PRD_PRECIARIO_IMPUTACIONES]
+2025-07-14 14:21:49,099 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [20_PRD_PRECIARIO_IMPUTACIONES]
+2025-07-14 14:21:49,101 - services.sync_service - ERROR - ❌ Error ejecutando consulta Oracle: (oracledb.exceptions.DatabaseError) DPY-4011: the database or network closed the connection
+DPI-1080: connection was closed by ORA-03135
+ORA-03135: connection lost contact
+Process ID: 152381
+Session ID: 2237 Serial number: 29263
+Help: https://docs.oracle.com/error-help/db/ora-03135/ؘ;pDp�D1
+[SQL: select 
+    oc.aa_ocompra,
+    oc.n_ocompra,
+    prd.aa_precepcion,
+    prd.t_precepcion,
+    prd.n_precepcion, 
+    oc.o_ente,
+    oc.t_ocompra_orig,
+    oc.aa_ocompra_orig,
+    oc.n_ocompra_orig,
+    prd.c_unid_ejec,    
+    prd.fh_autorizacion,
+    prd.f_desde,
+    prd.f_hasta,
+    ffi.c_numcred,
+    ffi.c_juris,
+    ffi.c_sjuris,
+    ffi.c_entidad,
+    ffi.c_inciso,
+    ffi.c_pprincipal,
+    ffi.c_pparcial,
+    ffi.c_ubica_geo,
+    ffi.i_total,
+    prd.e_formulario   
+from slu.torden_compra OC join slu.tparte_recepcion PRD on prd.aa_ocompra= oc.aa_ocompra and prd.n_ocompra=oc.n_ocompra and prd.t_ocompra= oc.t_ocompra
+JOIN slu.dorden_compra_ren REN  on ren.aa_ocompra= oc.aa_ocompra AND  ren.t_ocompra= oc.t_ocompra and ren.n_ocompra=oc.n_ocompra
+
+join slu.dparte_recepcion_ffi ffi on prd.n_precepcion = ffi.n_precepcion and prd.aa_precepcion = ffi.aa_precepcion 
+where oc.c_procedimiento=220 and ren.c_clase in (990010,560000,790000)and oc.t_ocompra_orig='OCA'
+
+group by
+    oc.aa_ocompra,
+    oc.n_ocompra,
+    prd.aa_precepcion,
+    prd.t_precepcion,
+    prd.n_precepcion, 
+    oc.o_ente,
+    oc.t_ocompra_orig,
+    oc.aa_ocompra_orig,
+    oc.n_ocompra_orig,
+    prd.c_unid_ejec,    
+    prd.fh_autorizacion,
+    prd.f_desde,
+    prd.f_hasta,
+    ffi.c_numcred,
+    ffi.c_juris,
+    ffi.c_sjuris,
+    ffi.c_entidad,
+    ffi.c_inciso,
+    ffi.c_pprincipal,
+    ffi.c_pparcial,
+    ffi.c_ubica_geo,
+    ffi.i_total,
+    prd.e_formulario ]
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-07-14 14:21:49,102 - services.sync_service - ERROR - Error sincronizando 20_PRD_PRECIARIO_IMPUTACIONES.sql: (oracledb.exceptions.DatabaseError) DPY-4011: the database or network closed the connection
+DPI-1080: connection was closed by ORA-03135
+ORA-03135: connection lost contact
+Process ID: 152381
+Session ID: 2237 Serial number: 29263
+Help: https://docs.oracle.com/error-help/db/ora-03135/ؘ;pDp�D1
+[SQL: select 
+    oc.aa_ocompra,
+    oc.n_ocompra,
+    prd.aa_precepcion,
+    prd.t_precepcion,
+    prd.n_precepcion, 
+    oc.o_ente,
+    oc.t_ocompra_orig,
+    oc.aa_ocompra_orig,
+    oc.n_ocompra_orig,
+    prd.c_unid_ejec,    
+    prd.fh_autorizacion,
+    prd.f_desde,
+    prd.f_hasta,
+    ffi.c_numcred,
+    ffi.c_juris,
+    ffi.c_sjuris,
+    ffi.c_entidad,
+    ffi.c_inciso,
+    ffi.c_pprincipal,
+    ffi.c_pparcial,
+    ffi.c_ubica_geo,
+    ffi.i_total,
+    prd.e_formulario   
+from slu.torden_compra OC join slu.tparte_recepcion PRD on prd.aa_ocompra= oc.aa_ocompra and prd.n_ocompra=oc.n_ocompra and prd.t_ocompra= oc.t_ocompra
+JOIN slu.dorden_compra_ren REN  on ren.aa_ocompra= oc.aa_ocompra AND  ren.t_ocompra= oc.t_ocompra and ren.n_ocompra=oc.n_ocompra
+
+join slu.dparte_recepcion_ffi ffi on prd.n_precepcion = ffi.n_precepcion and prd.aa_precepcion = ffi.aa_precepcion 
+where oc.c_procedimiento=220 and ren.c_clase in (990010,560000,790000)and oc.t_ocompra_orig='OCA'
+
+group by
+    oc.aa_ocompra,
+    oc.n_ocompra,
+    prd.aa_precepcion,
+    prd.t_precepcion,
+    prd.n_precepcion, 
+    oc.o_ente,
+    oc.t_ocompra_orig,
+    oc.aa_ocompra_orig,
+    oc.n_ocompra_orig,
+    prd.c_unid_ejec,    
+    prd.fh_autorizacion,
+    prd.f_desde,
+    prd.f_hasta,
+    ffi.c_numcred,
+    ffi.c_juris,
+    ffi.c_sjuris,
+    ffi.c_entidad,
+    ffi.c_inciso,
+    ffi.c_pprincipal,
+    ffi.c_pparcial,
+    ffi.c_ubica_geo,
+    ffi.i_total,
+    prd.e_formulario ]
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-07-14 14:21:49,103 - services.sync_service - INFO - 🔄 Procesando: 21_PRD_PRECIARIO_FACTURAS.sql -> [21_PRD_PRECIARIO_FACTURAS]
+2025-07-14 14:21:49,154 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [21_PRD_PRECIARIO_FACTURAS]
+2025-07-14 14:23:24,153 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.21_PRD_PRECIARIO_FACTURAS: 13412 registros
+2025-07-14 14:23:24,154 - services.sync_service - INFO - ✅ [21_PRD_PRECIARIO_FACTURAS]: 13412 registros sincronizados
+2025-07-14 14:23:24,154 - services.sync_service - INFO - 🔄 Procesando: 22_PAGOS_PRECIARIO.sql -> [22_PAGOS_PRECIARIO]
+2025-07-14 14:23:24,203 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [22_PAGOS_PRECIARIO]
+2025-07-14 14:23:36,797 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.22_PAGOS_PRECIARIO: 787 registros
+2025-07-14 14:23:36,797 - services.sync_service - INFO - ✅ [22_PAGOS_PRECIARIO]: 787 registros sincronizados
+2025-07-14 14:23:36,798 - services.sync_service - INFO - 🔄 Procesando: 23_UNIDADES_EJECUTORAS.sql -> [23_UNIDADES_EJECUTORAS]
+2025-07-14 14:23:36,845 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [23_UNIDADES_EJECUTORAS]
+2025-07-14 14:23:42,643 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.23_UNIDADES_EJECUTORAS: 1383 registros
+2025-07-14 14:23:42,644 - services.sync_service - INFO - ✅ [23_UNIDADES_EJECUTORAS]: 1383 registros sincronizados
+2025-07-14 14:23:42,644 - services.sync_service - INFO - 🔄 Procesando: 24_PERIODOS_FISCALES.sql -> [24_PERIODOS_FISCALES]
+2025-07-14 14:23:42,699 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [24_PERIODOS_FISCALES]
+2025-07-14 14:23:42,917 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.24_PERIODOS_FISCALES: 1 registros
+2025-07-14 14:23:42,917 - services.sync_service - INFO - ✅ [24_PERIODOS_FISCALES]: 1 registros sincronizados
+2025-07-14 14:23:42,918 - services.sync_service - INFO - 🔄 Procesando: 25_ENTES.sql -> [25_ENTES]
+2025-07-14 14:23:42,954 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [25_ENTES]
+2025-07-14 14:23:45,110 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.25_ENTES: 152 registros
+2025-07-14 14:23:45,110 - services.sync_service - INFO - ✅ [25_ENTES]: 152 registros sincronizados
+2025-07-14 14:23:45,111 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 553,287
+        Tablas omitidas: 1
+        Errores: 2
+        ==========================================
+        
+2025-07-14 14:23:45,111 - services.sync_service - INFO - 📋 Tablas omitidas (no existen en SQL Server):
+2025-07-14 14:23:45,111 - services.sync_service - INFO -   ⏭️ 19_PRD_PRECIARIO_RENGLONES.sql -> [19_PRD_PRECIARIO_RENGLONES]
+2025-07-14 14:23:45,111 - services.sync_service - WARNING - ⚠️ Errores encontrados:
+2025-07-14 14:23:45,111 - services.sync_service - WARNING -   ❌ Error sincronizando 12_DRP_RENGLONES.sql: Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2025-07-14 14:23:45,112 - services.sync_service - WARNING -   ❌ Error sincronizando 20_PRD_PRECIARIO_IMPUTACIONES.sql: (oracledb.exceptions.DatabaseError) DPY-4011: the database or network closed the connection
+DPI-1080: connection was closed by ORA-03135
+ORA-03135: connection lost contact
+Process ID: 152381
+Session ID: 2237 Serial number: 29263
+Help: https://docs.oracle.com/error-help/db/ora-03135/ؘ;pDp�D1
+[SQL: select 
+    oc.aa_ocompra,
+    oc.n_ocompra,
+    prd.aa_precepcion,
+    prd.t_precepcion,
+    prd.n_precepcion, 
+    oc.o_ente,
+    oc.t_ocompra_orig,
+    oc.aa_ocompra_orig,
+    oc.n_ocompra_orig,
+    prd.c_unid_ejec,    
+    prd.fh_autorizacion,
+    prd.f_desde,
+    prd.f_hasta,
+    ffi.c_numcred,
+    ffi.c_juris,
+    ffi.c_sjuris,
+    ffi.c_entidad,
+    ffi.c_inciso,
+    ffi.c_pprincipal,
+    ffi.c_pparcial,
+    ffi.c_ubica_geo,
+    ffi.i_total,
+    prd.e_formulario   
+from slu.torden_compra OC join slu.tparte_recepcion PRD on prd.aa_ocompra= oc.aa_ocompra and prd.n_ocompra=oc.n_ocompra and prd.t_ocompra= oc.t_ocompra
+JOIN slu.dorden_compra_ren REN  on ren.aa_ocompra= oc.aa_ocompra AND  ren.t_ocompra= oc.t_ocompra and ren.n_ocompra=oc.n_ocompra
+
+join slu.dparte_recepcion_ffi ffi on prd.n_precepcion = ffi.n_precepcion and prd.aa_precepcion = ffi.aa_precepcion 
+where oc.c_procedimiento=220 and ren.c_clase in (990010,560000,790000)and oc.t_ocompra_orig='OCA'
+
+group by
+    oc.aa_ocompra,
+    oc.n_ocompra,
+    prd.aa_precepcion,
+    prd.t_precepcion,
+    prd.n_precepcion, 
+    oc.o_ente,
+    oc.t_ocompra_orig,
+    oc.aa_ocompra_orig,
+    oc.n_ocompra_orig,
+    prd.c_unid_ejec,    
+    prd.fh_autorizacion,
+    prd.f_desde,
+    prd.f_hasta,
+    ffi.c_numcred,
+    ffi.c_juris,
+    ffi.c_sjuris,
+    ffi.c_entidad,
+    ffi.c_inciso,
+    ffi.c_pprincipal,
+    ffi.c_pparcial,
+    ffi.c_ubica_geo,
+    ffi.i_total,
+    prd.e_formulario ]
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-07-14 14:23:45,112 - __main__ - INFO - ✅ Sincronización completada: 553,287 registros
+2025-07-14 14:23:45,112 - __main__ - WARNING - ⚠️  Se encontraron 2 errores durante la sincronización
+2025-07-14 14:23:45,112 - __main__ - WARNING -   - Error sincronizando 12_DRP_RENGLONES.sql: Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2025-07-14 14:23:45,112 - __main__ - WARNING -   - Error sincronizando 20_PRD_PRECIARIO_IMPUTACIONES.sql: (oracledb.exceptions.DatabaseError) DPY-4011: the database or network closed the connection
+DPI-1080: connection was closed by ORA-03135
+ORA-03135: connection lost contact
+Process ID: 152381
+Session ID: 2237 Serial number: 29263
+Help: https://docs.oracle.com/error-help/db/ora-03135/ؘ;pDp�D1
+[SQL: select 
+    oc.aa_ocompra,
+    oc.n_ocompra,
+    prd.aa_precepcion,
+    prd.t_precepcion,
+    prd.n_precepcion, 
+    oc.o_ente,
+    oc.t_ocompra_orig,
+    oc.aa_ocompra_orig,
+    oc.n_ocompra_orig,
+    prd.c_unid_ejec,    
+    prd.fh_autorizacion,
+    prd.f_desde,
+    prd.f_hasta,
+    ffi.c_numcred,
+    ffi.c_juris,
+    ffi.c_sjuris,
+    ffi.c_entidad,
+    ffi.c_inciso,
+    ffi.c_pprincipal,
+    ffi.c_pparcial,
+    ffi.c_ubica_geo,
+    ffi.i_total,
+    prd.e_formulario   
+from slu.torden_compra OC join slu.tparte_recepcion PRD on prd.aa_ocompra= oc.aa_ocompra and prd.n_ocompra=oc.n_ocompra and prd.t_ocompra= oc.t_ocompra
+JOIN slu.dorden_compra_ren REN  on ren.aa_ocompra= oc.aa_ocompra AND  ren.t_ocompra= oc.t_ocompra and ren.n_ocompra=oc.n_ocompra
+
+join slu.dparte_recepcion_ffi ffi on prd.n_precepcion = ffi.n_precepcion and prd.aa_precepcion = ffi.aa_precepcion 
+where oc.c_procedimiento=220 and ren.c_clase in (990010,560000,790000)and oc.t_ocompra_orig='OCA'
+
+group by
+    oc.aa_ocompra,
+    oc.n_ocompra,
+    prd.aa_precepcion,
+    prd.t_precepcion,
+    prd.n_precepcion, 
+    oc.o_ente,
+    oc.t_ocompra_orig,
+    oc.aa_ocompra_orig,
+    oc.n_ocompra_orig,
+    prd.c_unid_ejec,    
+    prd.fh_autorizacion,
+    prd.f_desde,
+    prd.f_hasta,
+    ffi.c_numcred,
+    ffi.c_juris,
+    ffi.c_sjuris,
+    ffi.c_entidad,
+    ffi.c_inciso,
+    ffi.c_pprincipal,
+    ffi.c_pparcial,
+    ffi.c_ubica_geo,
+    ffi.i_total,
+    prd.e_formulario ]
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-07-14 14:23:45,132 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-14 14:32:54,965 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-14 14:32:54,965 - __main__ - INFO - Entorno: SIGAF
+2025-07-14 14:32:54,965 - __main__ - INFO - Modo: sqlserver
+2025-07-14 14:32:54,965 - __main__ - INFO - Sincronización: full
+2025-07-14 14:32:54,966 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno sigaf...
+2025-07-14 14:32:54,989 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-14 14:32:54,990 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: full
+2025-07-14 14:32:54,990 - services.sync_service - INFO - 🔄 Procesando: 12_DRP_RENGLONES.sql -> [12_DRP_RENGLONES]
+2025-07-14 14:32:55,421 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [12_DRP_RENGLONES]
+2025-07-14 14:32:55,534 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-14 14:32:55,550 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-14 14:32:55,550 - adapters.db_adapter - INFO - DSN creado: 10.15.7.10:1521/PRODASI
+2025-07-14 14:32:56,068 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-14 15:09:38,271 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.12_DRP_RENGLONES: 387820 registros
+2025-07-14 15:09:38,272 - services.sync_service - INFO - ✅ [12_DRP_RENGLONES]: 387820 registros sincronizados
+2025-07-14 15:09:38,357 - services.sync_service - INFO - 🔄 Procesando: 19_PRD_PRECIARIO_RENGLONES.sql -> [19_PRD_PRECIARIO_RENGLONES]
+2025-07-14 15:09:38,440 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [19_PRD_PRECIARIO_RENGLONES]
+2025-07-14 15:09:46,439 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.19_PRD_PRECIARIO_RENGLONES: 930 registros
+2025-07-14 15:09:46,440 - services.sync_service - INFO - ✅ [19_PRD_PRECIARIO_RENGLONES]: 930 registros sincronizados
+2025-07-14 15:09:46,441 - services.sync_service - INFO - 🔄 Procesando: 20_PRD_PRECIARIO_IMPUTACIONES.sql -> [20_PRD_PRECIARIO_IMPUTACIONES]
+2025-07-14 15:09:46,480 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [20_PRD_PRECIARIO_IMPUTACIONES]
+2025-07-14 15:09:52,175 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.20_PRD_PRECIARIO_IMPUTACIONES: 703 registros
+2025-07-14 15:09:52,175 - services.sync_service - INFO - ✅ [20_PRD_PRECIARIO_IMPUTACIONES]: 703 registros sincronizados
+2025-07-14 15:09:52,176 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 389,453
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-14 15:09:52,176 - __main__ - INFO - ✅ Sincronización completada: 389,453 registros
+2025-07-14 15:09:52,193 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-14 15:21:14,727 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-14 15:21:14,728 - __main__ - INFO - Entorno: SIGAF
+2025-07-14 15:21:14,728 - __main__ - INFO - Modo: sqlserver
+2025-07-14 15:21:14,728 - __main__ - INFO - Sincronización: full
+2025-07-14 15:21:14,728 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno sigaf...
+2025-07-14 15:21:14,753 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-14 15:21:14,753 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: full
+2025-07-14 15:21:14,754 - services.sync_service - INFO - 🔄 Procesando: 07_PRD_RENGLONES.sql -> [07_PRD_RENGLONES]
+2025-07-14 15:21:15,125 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [07_PRD_RENGLONES]
+2025-07-14 15:21:15,250 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-14 15:21:15,266 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-14 15:21:15,266 - adapters.db_adapter - INFO - DSN creado: 10.15.7.10:1521/PRODASI
+2025-07-14 15:21:15,708 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-14 16:06:51,650 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.07_PRD_RENGLONES: 537552 registros
+2025-07-14 16:06:51,654 - services.sync_service - INFO - ✅ [07_PRD_RENGLONES]: 537552 registros sincronizados
+2025-07-14 16:06:51,829 - services.sync_service - INFO - 🔄 Procesando: 10_FACTURAS_OP_PAGOS.sql -> [10_FACTURAS_OP_PAGOS]
+2025-07-14 16:06:51,879 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [10_FACTURAS_OP_PAGOS]
+2025-07-14 16:21:15,480 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.10_FACTURAS_OP_PAGOS: 104608 registros
+2025-07-14 16:21:15,480 - services.sync_service - INFO - ✅ [10_FACTURAS_OP_PAGOS]: 104608 registros sincronizados
+2025-07-14 16:21:15,522 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 642,160
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-14 16:21:15,522 - __main__ - INFO - ✅ Sincronización completada: 642,160 registros
+2025-07-14 16:21:15,539 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-14 16:59:45,584 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-14 16:59:45,584 - __main__ - INFO - Entorno: SIGAF
+2025-07-14 16:59:45,585 - __main__ - INFO - Modo: sqlserver
+2025-07-14 16:59:45,585 - __main__ - INFO - Sincronización: full
+2025-07-14 16:59:45,585 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno sigaf...
+2025-07-14 16:59:45,606 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-14 16:59:45,607 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: full
+2025-07-14 16:59:45,607 - services.sync_service - INFO - 🔄 Procesando: 01_RELACION_BAC_SIGAF.sql -> [01_RELACION_BAC_SIGAF]
+2025-07-14 16:59:45,665 - services.sync_service - INFO - 📅 Usando sincronización por FECHA para [01_RELACION_BAC_SIGAF]
+2025-07-14 16:59:45,804 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-14 16:59:45,821 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-14 16:59:45,822 - adapters.db_adapter - INFO - DSN creado: 10.15.7.10:1521/PRODASI
+2025-07-14 16:59:46,284 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-14 16:59:47,939 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.01_RELACION_BAC_SIGAF: 133 registros
+2025-07-14 16:59:47,939 - services.sync_service - INFO - ✅ [01_RELACION_BAC_SIGAF]: 133 registros sincronizados
+2025-07-14 16:59:47,939 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 133
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-14 16:59:47,940 - __main__ - INFO - ✅ Sincronización completada: 133 registros
+2025-07-14 16:59:47,942 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-14 17:03:50,903 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-14 17:03:50,903 - __main__ - INFO - Entorno: SIGAF
+2025-07-14 17:03:50,904 - __main__ - INFO - Modo: sqlserver
+2025-07-14 17:03:50,904 - __main__ - INFO - Sincronización: full
+2025-07-14 17:03:50,904 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno sigaf...
+2025-07-14 17:03:50,930 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-14 17:03:50,930 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: full
+2025-07-14 17:03:50,931 - services.sync_service - INFO - 🔄 Procesando: 01_RELACION_BAC_SIGAF.sql -> [01_RELACION_BAC_SIGAF]
+2025-07-14 17:03:50,990 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [01_RELACION_BAC_SIGAF]
+2025-07-14 17:03:51,101 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-14 17:03:51,115 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-14 17:03:51,116 - adapters.db_adapter - INFO - DSN creado: 10.15.7.10:1521/PRODASI
+2025-07-14 17:03:51,546 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-14 17:03:51,750 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [01_RELACION_BAC_SIGAF]
+2025-07-14 17:03:51,797 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [01_RELACION_BAC_SIGAF]
+2025-07-14 17:03:51,806 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [01_RELACION_BAC_SIGAF]
+2025-07-14 17:03:51,814 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [01_RELACION_BAC_SIGAF]
+2025-07-14 17:03:51,898 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.01_RELACION_BAC_SIGAF: 133 registros
+2025-07-14 17:03:51,898 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [01_RELACION_BAC_SIGAF]
+            ==========================================
+            Registros fuente: 133
+            Registros insertados: 133
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 17:03:51,899 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 133
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-14 17:03:51,899 - __main__ - INFO - ✅ Sincronización completada: 133 registros
+2025-07-14 17:03:51,901 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-14 17:03:59,304 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-14 17:03:59,304 - __main__ - INFO - Entorno: SIGAF
+2025-07-14 17:03:59,305 - __main__ - INFO - Modo: sqlserver
+2025-07-14 17:03:59,305 - __main__ - INFO - Sincronización: full
+2025-07-14 17:03:59,305 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno sigaf...
+2025-07-14 17:03:59,327 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-14 17:03:59,328 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: full
+2025-07-14 17:03:59,328 - services.sync_service - INFO - 🔄 Procesando: 01_RELACION_BAC_SIGAF.sql -> [01_RELACION_BAC_SIGAF]
+2025-07-14 17:03:59,387 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [01_RELACION_BAC_SIGAF]
+2025-07-14 17:03:59,486 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-14 17:03:59,500 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-14 17:03:59,500 - adapters.db_adapter - INFO - DSN creado: 10.15.7.10:1521/PRODASI
+2025-07-14 17:03:59,922 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-14 17:04:00,119 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [01_RELACION_BAC_SIGAF]
+2025-07-14 17:04:00,131 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [01_RELACION_BAC_SIGAF]
+2025-07-14 17:04:00,146 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [01_RELACION_BAC_SIGAF]
+2025-07-14 17:04:00,153 - services.sync_service - INFO - 📊 Encontrados 133 hashes únicos existentes en [01_RELACION_BAC_SIGAF]
+2025-07-14 17:04:00,166 - services.sync_service - INFO - 📊 [01_RELACION_BAC_SIGAF]: No hay registros nuevos. 133 duplicados ignorados.
+2025-07-14 17:04:00,167 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 0
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-14 17:04:00,167 - __main__ - INFO - ✅ Sincronización completada: 0 registros
+2025-07-14 17:04:00,168 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-14 17:07:16,395 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-14 17:07:16,395 - __main__ - INFO - Entorno: SIGAF
+2025-07-14 17:07:16,395 - __main__ - INFO - Modo: sqlserver
+2025-07-14 17:07:16,395 - __main__ - INFO - Sincronización: full
+2025-07-14 17:07:16,396 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno sigaf...
+2025-07-14 17:07:16,421 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-14 17:07:16,421 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: full
+2025-07-14 17:07:16,422 - services.sync_service - INFO - 🔄 Procesando: 03_SPR_IMPUTACIONES.sql -> [03_SPR_IMPUTACIONES]
+2025-07-14 17:07:16,481 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [03_SPR_IMPUTACIONES]
+2025-07-14 17:07:16,579 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-14 17:07:16,591 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-14 17:07:16,591 - adapters.db_adapter - INFO - DSN creado: 10.15.7.10:1521/PRODASI
+2025-07-14 17:07:17,284 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-14 17:07:20,758 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [03_SPR_IMPUTACIONES]
+2025-07-14 17:07:20,787 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [03_SPR_IMPUTACIONES]
+2025-07-14 17:07:20,905 - services.sync_service - INFO - 🔄 Actualizando hashes para 4922 registros existentes en [03_SPR_IMPUTACIONES]...
+2025-07-14 17:07:21,195 - services.sync_service - INFO - 🔄 Procesados 100 registros...
+2025-07-14 17:07:21,438 - services.sync_service - INFO - 🔄 Procesados 200 registros...
+2025-07-14 17:07:21,668 - services.sync_service - INFO - 🔄 Procesados 300 registros...
+2025-07-14 17:07:21,905 - services.sync_service - INFO - 🔄 Procesados 400 registros...
+2025-07-14 17:07:22,151 - services.sync_service - INFO - 🔄 Procesados 500 registros...
+2025-07-14 17:07:22,383 - services.sync_service - INFO - 🔄 Procesados 600 registros...
+2025-07-14 17:07:22,638 - services.sync_service - INFO - 🔄 Procesados 700 registros...
+2025-07-14 17:07:22,897 - services.sync_service - INFO - 🔄 Procesados 800 registros...
+2025-07-14 17:07:23,128 - services.sync_service - INFO - 🔄 Procesados 900 registros...
+2025-07-14 17:07:23,363 - services.sync_service - INFO - 🔄 Procesados 1000 registros...
+2025-07-14 17:07:23,598 - services.sync_service - INFO - 🔄 Procesados 1100 registros...
+2025-07-14 17:07:23,837 - services.sync_service - INFO - 🔄 Procesados 1200 registros...
+2025-07-14 17:07:24,065 - services.sync_service - INFO - 🔄 Procesados 1300 registros...
+2025-07-14 17:07:24,302 - services.sync_service - INFO - 🔄 Procesados 1400 registros...
+2025-07-14 17:07:24,535 - services.sync_service - INFO - 🔄 Procesados 1500 registros...
+2025-07-14 17:07:24,772 - services.sync_service - INFO - 🔄 Procesados 1600 registros...
+2025-07-14 17:07:25,029 - services.sync_service - INFO - 🔄 Procesados 1700 registros...
+2025-07-14 17:07:25,277 - services.sync_service - INFO - 🔄 Procesados 1800 registros...
+2025-07-14 17:07:25,549 - services.sync_service - INFO - 🔄 Procesados 1900 registros...
+2025-07-14 17:07:25,820 - services.sync_service - INFO - 🔄 Procesados 2000 registros...
+2025-07-14 17:07:26,085 - services.sync_service - INFO - 🔄 Procesados 2100 registros...
+2025-07-14 17:07:26,358 - services.sync_service - INFO - 🔄 Procesados 2200 registros...
+2025-07-14 17:07:26,631 - services.sync_service - INFO - 🔄 Procesados 2300 registros...
+2025-07-14 17:07:26,894 - services.sync_service - INFO - 🔄 Procesados 2400 registros...
+2025-07-14 17:07:27,185 - services.sync_service - INFO - 🔄 Procesados 2500 registros...
+2025-07-14 17:07:27,424 - services.sync_service - INFO - 🔄 Procesados 2600 registros...
+2025-07-14 17:07:27,665 - services.sync_service - INFO - 🔄 Procesados 2700 registros...
+2025-07-14 17:07:27,919 - services.sync_service - INFO - 🔄 Procesados 2800 registros...
+2025-07-14 17:07:28,167 - services.sync_service - INFO - 🔄 Procesados 2900 registros...
+2025-07-14 17:07:28,407 - services.sync_service - INFO - 🔄 Procesados 3000 registros...
+2025-07-14 17:07:28,646 - services.sync_service - INFO - 🔄 Procesados 3100 registros...
+2025-07-14 17:07:28,898 - services.sync_service - INFO - 🔄 Procesados 3200 registros...
+2025-07-14 17:07:29,152 - services.sync_service - INFO - 🔄 Procesados 3300 registros...
+2025-07-14 17:07:29,394 - services.sync_service - INFO - 🔄 Procesados 3400 registros...
+2025-07-14 17:07:29,626 - services.sync_service - INFO - 🔄 Procesados 3500 registros...
+2025-07-14 17:07:29,862 - services.sync_service - INFO - 🔄 Procesados 3600 registros...
+2025-07-14 17:07:30,093 - services.sync_service - INFO - 🔄 Procesados 3700 registros...
+2025-07-14 17:07:30,331 - services.sync_service - INFO - 🔄 Procesados 3800 registros...
+2025-07-14 17:07:30,562 - services.sync_service - INFO - 🔄 Procesados 3900 registros...
+2025-07-14 17:07:30,793 - services.sync_service - INFO - 🔄 Procesados 4000 registros...
+2025-07-14 17:07:31,027 - services.sync_service - INFO - 🔄 Procesados 4100 registros...
+2025-07-14 17:07:31,271 - services.sync_service - INFO - 🔄 Procesados 4200 registros...
+2025-07-14 17:07:31,507 - services.sync_service - INFO - 🔄 Procesados 4300 registros...
+2025-07-14 17:07:31,740 - services.sync_service - INFO - 🔄 Procesados 4400 registros...
+2025-07-14 17:07:31,973 - services.sync_service - INFO - 🔄 Procesados 4500 registros...
+2025-07-14 17:07:32,212 - services.sync_service - INFO - 🔄 Procesados 4600 registros...
+2025-07-14 17:07:32,450 - services.sync_service - INFO - 🔄 Procesados 4700 registros...
+2025-07-14 17:07:32,695 - services.sync_service - INFO - 🔄 Procesados 4800 registros...
+2025-07-14 17:07:32,923 - services.sync_service - INFO - 🔄 Procesados 4900 registros...
+2025-07-14 17:07:32,982 - services.sync_service - INFO - ✅ Actualizados 4922 hashes existentes en [03_SPR_IMPUTACIONES]
+2025-07-14 17:07:33,025 - services.sync_service - INFO - 📊 Encontrados 4922 hashes únicos existentes en [03_SPR_IMPUTACIONES]
+2025-07-14 17:07:35,262 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.03_SPR_IMPUTACIONES: 4932 registros
+2025-07-14 17:07:35,262 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [03_SPR_IMPUTACIONES]
+            ==========================================
+            Registros fuente: 4932
+            Registros insertados: 4932
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 17:07:35,266 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 4,932
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-14 17:07:35,266 - __main__ - INFO - ✅ Sincronización completada: 4,932 registros
+2025-07-14 17:07:35,268 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-14 17:08:24,263 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-14 17:08:24,263 - __main__ - INFO - Entorno: SIGAF
+2025-07-14 17:08:24,263 - __main__ - INFO - Modo: sqlserver
+2025-07-14 17:08:24,264 - __main__ - INFO - Sincronización: full
+2025-07-14 17:08:24,264 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno sigaf...
+2025-07-14 17:08:24,286 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-14 17:08:24,286 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: full
+2025-07-14 17:08:24,287 - services.sync_service - INFO - 🔄 Procesando: 03_SPR_IMPUTACIONES.sql -> [03_SPR_IMPUTACIONES]
+2025-07-14 17:08:24,347 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [03_SPR_IMPUTACIONES]
+2025-07-14 17:08:24,441 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-14 17:08:24,454 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-14 17:08:24,454 - adapters.db_adapter - INFO - DSN creado: 10.15.7.10:1521/PRODASI
+2025-07-14 17:08:24,855 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-14 17:08:28,602 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [03_SPR_IMPUTACIONES]
+2025-07-14 17:08:28,613 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [03_SPR_IMPUTACIONES]
+2025-07-14 17:08:28,641 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [03_SPR_IMPUTACIONES]
+2025-07-14 17:08:28,723 - services.sync_service - INFO - 📊 Encontrados 9854 hashes únicos existentes en [03_SPR_IMPUTACIONES]
+2025-07-14 17:08:29,503 - services.sync_service - INFO - 📊 [03_SPR_IMPUTACIONES]: No hay registros nuevos. 4932 duplicados ignorados.
+2025-07-14 17:08:29,506 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 0
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-14 17:08:29,506 - __main__ - INFO - ✅ Sincronización completada: 0 registros
+2025-07-14 17:08:29,510 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-14 17:09:01,616 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-14 17:09:01,617 - __main__ - INFO - Entorno: SIGAF
+2025-07-14 17:09:01,617 - __main__ - INFO - Modo: sqlserver
+2025-07-14 17:09:01,617 - __main__ - INFO - Sincronización: full
+2025-07-14 17:09:01,618 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno sigaf...
+2025-07-14 17:09:01,642 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-14 17:09:01,642 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: full
+2025-07-14 17:09:01,643 - services.sync_service - INFO - 🔄 Procesando: 03_SPR_IMPUTACIONES.sql -> [03_SPR_IMPUTACIONES]
+2025-07-14 17:09:01,704 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [03_SPR_IMPUTACIONES]
+2025-07-14 17:09:01,800 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-14 17:09:01,815 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-14 17:09:01,815 - adapters.db_adapter - INFO - DSN creado: 10.15.7.10:1521/PRODASI
+2025-07-14 17:09:02,226 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-14 17:09:04,535 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [03_SPR_IMPUTACIONES]
+2025-07-14 17:09:04,545 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [03_SPR_IMPUTACIONES]
+2025-07-14 17:09:04,552 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [03_SPR_IMPUTACIONES]
+2025-07-14 17:09:04,558 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [03_SPR_IMPUTACIONES]
+2025-07-14 17:09:06,870 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.03_SPR_IMPUTACIONES: 4932 registros
+2025-07-14 17:09:06,870 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [03_SPR_IMPUTACIONES]
+            ==========================================
+            Registros fuente: 4932
+            Registros insertados: 4932
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 17:09:06,874 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 4,932
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-14 17:09:06,874 - __main__ - INFO - ✅ Sincronización completada: 4,932 registros
+2025-07-14 17:09:06,876 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-14 17:09:14,399 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-14 17:09:14,400 - __main__ - INFO - Entorno: SIGAF
+2025-07-14 17:09:14,400 - __main__ - INFO - Modo: sqlserver
+2025-07-14 17:09:14,400 - __main__ - INFO - Sincronización: full
+2025-07-14 17:09:14,400 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno sigaf...
+2025-07-14 17:09:14,426 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-14 17:09:14,426 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: full
+2025-07-14 17:09:14,426 - services.sync_service - INFO - 🔄 Procesando: 03_SPR_IMPUTACIONES.sql -> [03_SPR_IMPUTACIONES]
+2025-07-14 17:09:14,483 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [03_SPR_IMPUTACIONES]
+2025-07-14 17:09:14,583 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-14 17:09:14,596 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-14 17:09:14,596 - adapters.db_adapter - INFO - DSN creado: 10.15.7.10:1521/PRODASI
+2025-07-14 17:09:15,020 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-14 17:09:17,246 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [03_SPR_IMPUTACIONES]
+2025-07-14 17:09:17,256 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [03_SPR_IMPUTACIONES]
+2025-07-14 17:09:17,276 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [03_SPR_IMPUTACIONES]
+2025-07-14 17:09:17,334 - services.sync_service - INFO - 📊 Encontrados 4932 hashes únicos existentes en [03_SPR_IMPUTACIONES]
+2025-07-14 17:09:18,002 - services.sync_service - INFO - 📊 [03_SPR_IMPUTACIONES]: No hay registros nuevos. 4932 duplicados ignorados.
+2025-07-14 17:09:18,008 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 0
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-14 17:09:18,009 - __main__ - INFO - ✅ Sincronización completada: 0 registros
+2025-07-14 17:09:18,014 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-14 17:10:12,462 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-14 17:10:12,462 - __main__ - INFO - Entorno: SIGAF
+2025-07-14 17:10:12,463 - __main__ - INFO - Modo: sqlserver
+2025-07-14 17:10:12,463 - __main__ - INFO - Sincronización: full
+2025-07-14 17:10:12,463 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno sigaf...
+2025-07-14 17:10:12,484 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-14 17:10:12,484 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: full
+2025-07-14 17:10:12,485 - services.sync_service - INFO - 🔄 Procesando: 16_PRECIARIO.sql -> [16_PRECIARIO]
+2025-07-14 17:10:12,545 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [16_PRECIARIO]
+2025-07-14 17:10:12,649 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-14 17:10:12,662 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-14 17:10:12,663 - adapters.db_adapter - INFO - DSN creado: 10.15.7.10:1521/PRODASI
+2025-07-14 17:10:13,075 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-14 17:10:13,671 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [16_PRECIARIO]
+2025-07-14 17:10:13,712 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [16_PRECIARIO]
+2025-07-14 17:10:13,753 - services.sync_service - INFO - 🔄 Actualizando hashes para 920 registros existentes en [16_PRECIARIO]...
+2025-07-14 17:10:14,005 - services.sync_service - INFO - 🔄 Procesados 100 registros...
+2025-07-14 17:10:14,242 - services.sync_service - INFO - 🔄 Procesados 200 registros...
+2025-07-14 17:10:14,471 - services.sync_service - INFO - 🔄 Procesados 300 registros...
+2025-07-14 17:10:14,700 - services.sync_service - INFO - 🔄 Procesados 400 registros...
+2025-07-14 17:10:14,938 - services.sync_service - INFO - 🔄 Procesados 500 registros...
+2025-07-14 17:10:15,170 - services.sync_service - INFO - 🔄 Procesados 600 registros...
+2025-07-14 17:10:15,400 - services.sync_service - INFO - 🔄 Procesados 700 registros...
+2025-07-14 17:10:15,635 - services.sync_service - INFO - 🔄 Procesados 800 registros...
+2025-07-14 17:10:15,864 - services.sync_service - INFO - 🔄 Procesados 900 registros...
+2025-07-14 17:10:15,920 - services.sync_service - INFO - ✅ Actualizados 920 hashes existentes en [16_PRECIARIO]
+2025-07-14 17:10:15,935 - services.sync_service - INFO - 📊 Encontrados 920 hashes únicos existentes en [16_PRECIARIO]
+2025-07-14 17:10:16,455 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.16_PRECIARIO: 924 registros
+2025-07-14 17:10:16,455 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [16_PRECIARIO]
+            ==========================================
+            Registros fuente: 924
+            Registros insertados: 924
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 17:10:16,457 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 924
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-14 17:10:16,457 - __main__ - INFO - ✅ Sincronización completada: 924 registros
+2025-07-14 17:10:16,459 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-14 17:10:25,319 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-14 17:10:25,320 - __main__ - INFO - Entorno: SIGAF
+2025-07-14 17:10:25,320 - __main__ - INFO - Modo: sqlserver
+2025-07-14 17:10:25,320 - __main__ - INFO - Sincronización: full
+2025-07-14 17:10:25,321 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno sigaf...
+2025-07-14 17:10:25,345 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-14 17:10:25,347 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: full
+2025-07-14 17:10:25,347 - services.sync_service - INFO - 🔄 Procesando: 16_PRECIARIO.sql -> [16_PRECIARIO]
+2025-07-14 17:10:25,406 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [16_PRECIARIO]
+2025-07-14 17:10:25,514 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-14 17:10:25,528 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-14 17:10:25,528 - adapters.db_adapter - INFO - DSN creado: 10.15.7.10:1521/PRODASI
+2025-07-14 17:10:25,969 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-14 17:10:26,748 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [16_PRECIARIO]
+2025-07-14 17:10:26,761 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [16_PRECIARIO]
+2025-07-14 17:10:26,778 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [16_PRECIARIO]
+2025-07-14 17:10:26,790 - services.sync_service - INFO - 📊 Encontrados 1844 hashes únicos existentes en [16_PRECIARIO]
+2025-07-14 17:10:26,902 - services.sync_service - INFO - 📊 [16_PRECIARIO]: No hay registros nuevos. 924 duplicados ignorados.
+2025-07-14 17:10:26,904 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 0
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-14 17:10:26,904 - __main__ - INFO - ✅ Sincronización completada: 0 registros
+2025-07-14 17:10:26,907 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-14 17:14:45,010 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-14 17:14:45,010 - __main__ - INFO - Entorno: SIGAF
+2025-07-14 17:14:45,010 - __main__ - INFO - Modo: sqlserver
+2025-07-14 17:14:45,011 - __main__ - INFO - Sincronización: full
+2025-07-14 17:14:45,011 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno sigaf...
+2025-07-14 17:14:45,035 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-14 17:14:45,036 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: full
+2025-07-14 17:14:45,037 - services.sync_service - INFO - 🔄 Procesando: 16_PRECIARIO.sql -> [16_PRECIARIO]
+2025-07-14 17:14:45,096 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [16_PRECIARIO]
+2025-07-14 17:14:45,198 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-14 17:14:45,214 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-14 17:14:45,214 - adapters.db_adapter - INFO - DSN creado: 10.15.7.10:1521/PRODASI
+2025-07-14 17:14:45,653 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-14 17:14:46,113 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [16_PRECIARIO]
+2025-07-14 17:14:46,125 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [16_PRECIARIO]
+2025-07-14 17:14:46,134 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [16_PRECIARIO]
+2025-07-14 17:14:46,141 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [16_PRECIARIO]
+2025-07-14 17:14:46,574 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.16_PRECIARIO: 924 registros
+2025-07-14 17:14:46,574 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [16_PRECIARIO]
+            ==========================================
+            Registros fuente: 924
+            Registros insertados: 924
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 17:14:46,575 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 924
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-14 17:14:46,575 - __main__ - INFO - ✅ Sincronización completada: 924 registros
+2025-07-14 17:14:46,578 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-14 17:14:57,646 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-14 17:14:57,647 - __main__ - INFO - Entorno: SIGAF
+2025-07-14 17:14:57,647 - __main__ - INFO - Modo: sqlserver
+2025-07-14 17:14:57,647 - __main__ - INFO - Sincronización: full
+2025-07-14 17:14:57,647 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno sigaf...
+2025-07-14 17:14:57,670 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-14 17:14:57,671 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: full
+2025-07-14 17:14:57,671 - services.sync_service - INFO - 🔄 Procesando: 16_PRECIARIO.sql -> [16_PRECIARIO]
+2025-07-14 17:14:57,731 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [16_PRECIARIO]
+2025-07-14 17:14:57,838 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-14 17:14:57,853 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-14 17:14:57,854 - adapters.db_adapter - INFO - DSN creado: 10.15.7.10:1521/PRODASI
+2025-07-14 17:14:58,339 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-14 17:14:58,753 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [16_PRECIARIO]
+2025-07-14 17:14:58,767 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [16_PRECIARIO]
+2025-07-14 17:14:58,785 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [16_PRECIARIO]
+2025-07-14 17:14:58,793 - services.sync_service - INFO - 📊 Encontrados 924 hashes únicos existentes en [16_PRECIARIO]
+2025-07-14 17:14:58,890 - services.sync_service - INFO - 📊 [16_PRECIARIO]: No hay registros nuevos. 924 duplicados ignorados.
+2025-07-14 17:14:58,891 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 0
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-14 17:14:58,891 - __main__ - INFO - ✅ Sincronización completada: 0 registros
+2025-07-14 17:14:58,896 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-14 17:15:07,532 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-14 17:15:07,533 - __main__ - INFO - Entorno: SIGAF
+2025-07-14 17:15:07,533 - __main__ - INFO - Modo: sqlserver
+2025-07-14 17:15:07,533 - __main__ - INFO - Sincronización: full
+2025-07-14 17:15:07,534 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno sigaf...
+2025-07-14 17:15:07,560 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-14 17:15:07,560 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: full
+2025-07-14 17:15:07,560 - services.sync_service - INFO - 🔄 Procesando: 16_PRECIARIO.sql -> [16_PRECIARIO]
+2025-07-14 17:15:07,620 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [16_PRECIARIO]
+2025-07-14 17:15:07,720 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-14 17:15:07,734 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-14 17:15:07,735 - adapters.db_adapter - INFO - DSN creado: 10.15.7.10:1521/PRODASI
+2025-07-14 17:15:08,138 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-14 17:15:08,551 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [16_PRECIARIO]
+2025-07-14 17:15:08,562 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [16_PRECIARIO]
+2025-07-14 17:15:08,570 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [16_PRECIARIO]
+2025-07-14 17:15:08,576 - services.sync_service - INFO - 📊 Encontrados 924 hashes únicos existentes en [16_PRECIARIO]
+2025-07-14 17:15:08,715 - services.sync_service - INFO - 📊 [16_PRECIARIO]: No hay registros nuevos. 924 duplicados ignorados.
+2025-07-14 17:15:08,716 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 0
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-14 17:15:08,716 - __main__ - INFO - ✅ Sincronización completada: 0 registros
+2025-07-14 17:15:08,721 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-14 17:33:04,092 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-14 17:33:04,092 - __main__ - INFO - Entorno: SIGAF
+2025-07-14 17:33:04,092 - __main__ - INFO - Modo: sqlserver
+2025-07-14 17:33:04,092 - __main__ - INFO - Sincronización: full
+2025-07-14 17:33:04,092 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno sigaf...
+2025-07-14 17:33:04,115 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-14 17:33:04,116 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: full
+2025-07-14 17:33:04,116 - services.sync_service - INFO - 🔄 Procesando: 01_RELACION_BAC_SIGAF.sql -> [01_RELACION_BAC_SIGAF]
+2025-07-14 17:33:04,500 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [01_RELACION_BAC_SIGAF]
+2025-07-14 17:33:04,620 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-14 17:33:04,636 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-14 17:33:04,638 - adapters.db_adapter - INFO - DSN creado: 10.15.7.10:1521/PRODASI
+2025-07-14 17:33:05,044 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-14 17:33:05,336 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [01_RELACION_BAC_SIGAF]
+2025-07-14 17:33:05,425 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [01_RELACION_BAC_SIGAF]
+2025-07-14 17:33:05,475 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [01_RELACION_BAC_SIGAF]
+2025-07-14 17:33:05,519 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [01_RELACION_BAC_SIGAF]
+2025-07-14 17:33:06,296 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.01_RELACION_BAC_SIGAF: 133 registros
+2025-07-14 17:33:06,298 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [01_RELACION_BAC_SIGAF]
+            ==========================================
+            Registros fuente: 133
+            Registros insertados: 133
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 17:33:06,299 - services.sync_service - INFO - 🔄 Procesando: 02_SPR_RENGLONES.sql -> [02_SPR_RENGLONES]
+2025-07-14 17:33:06,341 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [02_SPR_RENGLONES]
+2025-07-14 17:33:21,077 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [02_SPR_RENGLONES]
+2025-07-14 17:33:21,158 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [02_SPR_RENGLONES]
+2025-07-14 17:33:21,193 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [02_SPR_RENGLONES]
+2025-07-14 17:33:21,230 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [02_SPR_RENGLONES]
+2025-07-14 17:38:24,133 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.02_SPR_RENGLONES: 66737 registros
+2025-07-14 17:38:24,134 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [02_SPR_RENGLONES]
+            ==========================================
+            Registros fuente: 66737
+            Registros insertados: 66737
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 17:38:24,195 - services.sync_service - INFO - 🔄 Procesando: 03_SPR_IMPUTACIONES.sql -> [03_SPR_IMPUTACIONES]
+2025-07-14 17:38:24,231 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [03_SPR_IMPUTACIONES]
+2025-07-14 17:38:27,837 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [03_SPR_IMPUTACIONES]
+2025-07-14 17:38:27,924 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [03_SPR_IMPUTACIONES]
+2025-07-14 17:38:27,969 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [03_SPR_IMPUTACIONES]
+2025-07-14 17:38:28,008 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [03_SPR_IMPUTACIONES]
+2025-07-14 17:38:53,849 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.03_SPR_IMPUTACIONES: 4932 registros
+2025-07-14 17:38:53,850 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [03_SPR_IMPUTACIONES]
+            ==========================================
+            Registros fuente: 4932
+            Registros insertados: 4932
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 17:38:53,855 - services.sync_service - INFO - 🔄 Procesando: 04_RPR_SPR_PRD.sql -> [04_RPR_SPR_PRD]
+2025-07-14 17:38:53,890 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [04_RPR_SPR_PRD]
+2025-07-14 17:38:57,723 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [04_RPR_SPR_PRD]
+2025-07-14 17:38:57,806 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [04_RPR_SPR_PRD]
+2025-07-14 17:38:57,845 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [04_RPR_SPR_PRD]
+2025-07-14 17:38:57,885 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [04_RPR_SPR_PRD]
+2025-07-14 17:39:51,115 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.04_RPR_SPR_PRD: 11141 registros
+2025-07-14 17:39:51,115 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [04_RPR_SPR_PRD]
+            ==========================================
+            Registros fuente: 11141
+            Registros insertados: 11141
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 17:39:51,129 - services.sync_service - INFO - 🔄 Procesando: 05_RPR_RENGLONES.sql -> [05_RPR_RENGLONES]
+2025-07-14 17:39:51,165 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [05_RPR_RENGLONES]
+2025-07-14 17:40:04,328 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [05_RPR_RENGLONES]
+2025-07-14 17:40:04,410 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [05_RPR_RENGLONES]
+2025-07-14 17:40:04,446 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [05_RPR_RENGLONES]
+2025-07-14 17:40:04,482 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [05_RPR_RENGLONES]
+2025-07-14 17:42:57,101 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.05_RPR_RENGLONES: 37957 registros
+2025-07-14 17:42:57,102 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [05_RPR_RENGLONES]
+            ==========================================
+            Registros fuente: 37957
+            Registros insertados: 37957
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 17:42:57,137 - services.sync_service - INFO - 🔄 Procesando: 06_RPR_IMPUTACIONES.sql -> [06_RPR_IMPUTACIONES]
+2025-07-14 17:42:57,175 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [06_RPR_IMPUTACIONES]
+2025-07-14 17:43:01,247 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [06_RPR_IMPUTACIONES]
+2025-07-14 17:43:01,333 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [06_RPR_IMPUTACIONES]
+2025-07-14 17:43:01,378 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [06_RPR_IMPUTACIONES]
+2025-07-14 17:43:01,421 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [06_RPR_IMPUTACIONES]
+2025-07-14 17:44:03,672 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.06_RPR_IMPUTACIONES: 13037 registros
+2025-07-14 17:44:03,672 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [06_RPR_IMPUTACIONES]
+            ==========================================
+            Registros fuente: 13037
+            Registros insertados: 13037
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 17:44:03,684 - services.sync_service - INFO - 🔄 Procesando: 07_PRD_RENGLONES.sql -> [07_PRD_RENGLONES]
+2025-07-14 17:44:03,718 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [07_PRD_RENGLONES]
+2025-07-14 17:46:21,653 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [07_PRD_RENGLONES]
+2025-07-14 17:46:21,774 - services.sync_service - INFO - ✅ Columna row_hash agregada a [07_PRD_RENGLONES]
+2025-07-14 17:46:21,831 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [07_PRD_RENGLONES]
+2025-07-14 17:46:21,881 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [07_PRD_RENGLONES]
+2025-07-14 18:27:54,219 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.07_PRD_RENGLONES: 519123 registros
+2025-07-14 18:27:54,220 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [07_PRD_RENGLONES]
+            ==========================================
+            Registros fuente: 537681
+            Registros insertados: 519123
+            Duplicados ignorados: 18558
+            ==========================================
+            
+2025-07-14 18:27:55,121 - services.sync_service - INFO - 🔄 Procesando: 08_PRD_IMPUTACIONES.sql -> [08_PRD_IMPUTACIONES]
+2025-07-14 18:27:55,158 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [08_PRD_IMPUTACIONES]
+2025-07-14 18:27:59,930 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [08_PRD_IMPUTACIONES]
+2025-07-14 18:28:00,015 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [08_PRD_IMPUTACIONES]
+2025-07-14 18:28:00,055 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [08_PRD_IMPUTACIONES]
+2025-07-14 18:28:00,091 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [08_PRD_IMPUTACIONES]
+2025-07-14 18:28:47,487 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.08_PRD_IMPUTACIONES: 10016 registros
+2025-07-14 18:28:47,488 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [08_PRD_IMPUTACIONES]
+            ==========================================
+            Registros fuente: 10016
+            Registros insertados: 10016
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 18:28:47,500 - services.sync_service - INFO - 🔄 Procesando: 09_PRD_FACTURAS.sql -> [09_PRD_FACTURAS]
+2025-07-14 18:28:47,543 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [09_PRD_FACTURAS]
+2025-07-14 18:29:31,074 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [09_PRD_FACTURAS]
+2025-07-14 18:29:31,172 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [09_PRD_FACTURAS]
+2025-07-14 18:29:31,212 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [09_PRD_FACTURAS]
+2025-07-14 18:29:31,253 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [09_PRD_FACTURAS]
+2025-07-14 18:35:00,829 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.09_PRD_FACTURAS: 67530 registros
+2025-07-14 18:35:00,830 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [09_PRD_FACTURAS]
+            ==========================================
+            Registros fuente: 67530
+            Registros insertados: 67530
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 18:35:00,900 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 730,606
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-14 18:35:00,901 - __main__ - INFO - ✅ Sincronización completada: 730,606 registros
+2025-07-14 18:35:00,919 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-14 18:36:50,946 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-14 18:36:50,947 - __main__ - INFO - Entorno: SIGAF
+2025-07-14 18:36:50,948 - __main__ - INFO - Modo: sqlserver
+2025-07-14 18:36:50,948 - __main__ - INFO - Sincronización: full
+2025-07-14 18:36:50,948 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno sigaf...
+2025-07-14 18:36:50,972 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-14 18:36:50,973 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: full
+2025-07-14 18:36:50,974 - services.sync_service - INFO - 🔄 Procesando: 10_FACTURAS_OP_PAGOS.sql -> [10_FACTURAS_OP_PAGOS]
+2025-07-14 18:36:51,375 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [10_FACTURAS_OP_PAGOS]
+2025-07-14 18:36:51,568 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-14 18:36:51,587 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-14 18:36:51,587 - adapters.db_adapter - INFO - DSN creado: 10.15.7.10:1521/PRODASI
+2025-07-14 18:36:52,046 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-14 18:39:44,146 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [10_FACTURAS_OP_PAGOS]
+2025-07-14 18:39:44,239 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [10_FACTURAS_OP_PAGOS]
+2025-07-14 18:39:51,116 - services.sync_service - INFO - 🔄 Actualizando hashes para 104608 registros existentes en [10_FACTURAS_OP_PAGOS]...
+2025-07-14 18:39:55,276 - services.sync_service - INFO - 🔄 Procesados 100 registros...
+2025-07-14 18:39:58,849 - services.sync_service - INFO - 🔄 Procesados 200 registros...
+2025-07-14 18:40:02,430 - services.sync_service - INFO - 🔄 Procesados 300 registros...
+2025-07-14 18:40:05,940 - services.sync_service - INFO - 🔄 Procesados 400 registros...
+2025-07-14 18:40:09,428 - services.sync_service - INFO - 🔄 Procesados 500 registros...
+2025-07-14 18:40:13,040 - services.sync_service - INFO - 🔄 Procesados 600 registros...
+2025-07-14 18:40:16,624 - services.sync_service - INFO - 🔄 Procesados 700 registros...
+2025-07-14 18:40:20,260 - services.sync_service - INFO - 🔄 Procesados 800 registros...
+2025-07-14 18:40:24,104 - services.sync_service - INFO - 🔄 Procesados 900 registros...
+2025-07-14 18:40:27,911 - services.sync_service - INFO - 🔄 Procesados 1000 registros...
+2025-07-14 18:40:31,537 - services.sync_service - INFO - 🔄 Procesados 1100 registros...
+2025-07-14 18:40:35,296 - services.sync_service - INFO - 🔄 Procesados 1200 registros...
+2025-07-14 18:40:39,380 - services.sync_service - INFO - 🔄 Procesados 1300 registros...
+2025-07-14 18:40:43,915 - services.sync_service - INFO - 🔄 Procesados 1400 registros...
+2025-07-14 18:40:47,514 - services.sync_service - INFO - 🔄 Procesados 1500 registros...
+2025-07-14 18:40:51,123 - services.sync_service - INFO - 🔄 Procesados 1600 registros...
+2025-07-14 18:40:55,000 - services.sync_service - INFO - 🔄 Procesados 1700 registros...
+2025-07-14 18:40:58,684 - services.sync_service - INFO - 🔄 Procesados 1800 registros...
+2025-07-14 18:41:02,726 - services.sync_service - INFO - 🔄 Procesados 1900 registros...
+2025-07-14 18:41:06,317 - services.sync_service - INFO - 🔄 Procesados 2000 registros...
+2025-07-14 18:41:10,050 - services.sync_service - INFO - 🔄 Procesados 2100 registros...
+2025-07-14 18:41:14,100 - services.sync_service - INFO - 🔄 Procesados 2200 registros...
+2025-07-14 18:41:17,650 - services.sync_service - INFO - 🔄 Procesados 2300 registros...
+2025-07-14 18:41:21,626 - services.sync_service - INFO - 🔄 Procesados 2400 registros...
+2025-07-14 18:41:25,257 - services.sync_service - INFO - 🔄 Procesados 2500 registros...
+2025-07-14 18:41:28,841 - services.sync_service - INFO - 🔄 Procesados 2600 registros...
+2025-07-14 18:41:34,662 - services.sync_service - INFO - 🔄 Procesados 2700 registros...
+2025-07-14 18:41:38,370 - services.sync_service - INFO - 🔄 Procesados 2800 registros...
+2025-07-14 18:41:42,020 - services.sync_service - INFO - 🔄 Procesados 2900 registros...
+2025-07-14 18:41:45,691 - services.sync_service - INFO - 🔄 Procesados 3000 registros...
+2025-07-14 18:41:49,144 - services.sync_service - INFO - 🔄 Procesados 3100 registros...
+2025-07-14 18:41:52,653 - services.sync_service - INFO - 🔄 Procesados 3200 registros...
+2025-07-14 18:41:56,177 - services.sync_service - INFO - 🔄 Procesados 3300 registros...
+2025-07-14 18:42:00,090 - services.sync_service - INFO - 🔄 Procesados 3400 registros...
+2025-07-14 18:42:03,797 - services.sync_service - INFO - 🔄 Procesados 3500 registros...
+2025-07-14 18:42:07,323 - services.sync_service - INFO - 🔄 Procesados 3600 registros...
+2025-07-14 18:42:10,917 - services.sync_service - INFO - 🔄 Procesados 3700 registros...
+2025-07-14 18:42:14,510 - services.sync_service - INFO - 🔄 Procesados 3800 registros...
+2025-07-14 18:42:18,300 - services.sync_service - INFO - 🔄 Procesados 3900 registros...
+2025-07-14 18:42:21,777 - services.sync_service - INFO - 🔄 Procesados 4000 registros...
+2025-07-14 18:42:25,927 - services.sync_service - INFO - 🔄 Procesados 4100 registros...
+2025-07-14 18:42:29,527 - services.sync_service - INFO - 🔄 Procesados 4200 registros...
+2025-07-14 18:42:33,043 - services.sync_service - INFO - 🔄 Procesados 4300 registros...
+2025-07-14 18:42:36,631 - services.sync_service - INFO - 🔄 Procesados 4400 registros...
+2025-07-14 18:42:40,181 - services.sync_service - INFO - 🔄 Procesados 4500 registros...
+2025-07-14 18:42:43,773 - services.sync_service - INFO - 🔄 Procesados 4600 registros...
+2025-07-14 18:42:47,260 - services.sync_service - INFO - 🔄 Procesados 4700 registros...
+2025-07-14 18:42:50,920 - services.sync_service - INFO - 🔄 Procesados 4800 registros...
+2025-07-14 18:42:54,382 - services.sync_service - INFO - 🔄 Procesados 4900 registros...
+2025-07-14 18:42:57,908 - services.sync_service - INFO - 🔄 Procesados 5000 registros...
+2025-07-14 18:43:01,474 - services.sync_service - INFO - 🔄 Procesados 5100 registros...
+2025-07-14 18:43:04,994 - services.sync_service - INFO - 🔄 Procesados 5200 registros...
+2025-07-14 18:43:08,511 - services.sync_service - INFO - 🔄 Procesados 5300 registros...
+2025-07-14 18:43:12,357 - services.sync_service - INFO - 🔄 Procesados 5400 registros...
+2025-07-14 18:43:15,865 - services.sync_service - INFO - 🔄 Procesados 5500 registros...
+2025-07-14 18:43:19,414 - services.sync_service - INFO - 🔄 Procesados 5600 registros...
+2025-07-14 18:43:22,978 - services.sync_service - INFO - 🔄 Procesados 5700 registros...
+2025-07-14 18:43:26,445 - services.sync_service - INFO - 🔄 Procesados 5800 registros...
+2025-07-14 18:43:29,994 - services.sync_service - INFO - 🔄 Procesados 5900 registros...
+2025-07-14 18:43:33,589 - services.sync_service - INFO - 🔄 Procesados 6000 registros...
+2025-07-14 18:43:37,216 - services.sync_service - INFO - 🔄 Procesados 6100 registros...
+2025-07-14 18:43:40,715 - services.sync_service - INFO - 🔄 Procesados 6200 registros...
+2025-07-14 18:43:44,713 - services.sync_service - INFO - 🔄 Procesados 6300 registros...
+2025-07-14 18:43:48,218 - services.sync_service - INFO - 🔄 Procesados 6400 registros...
+2025-07-14 18:43:51,542 - services.sync_service - INFO - 🔄 Procesados 6500 registros...
+2025-07-14 18:43:54,906 - services.sync_service - INFO - 🔄 Procesados 6600 registros...
+2025-07-14 18:43:58,385 - services.sync_service - INFO - 🔄 Procesados 6700 registros...
+2025-07-14 18:44:01,924 - services.sync_service - INFO - 🔄 Procesados 6800 registros...
+2025-07-14 18:44:05,363 - services.sync_service - INFO - 🔄 Procesados 6900 registros...
+2025-07-14 18:44:08,873 - services.sync_service - INFO - 🔄 Procesados 7000 registros...
+2025-07-14 18:44:12,509 - services.sync_service - INFO - 🔄 Procesados 7100 registros...
+2025-07-14 18:44:15,845 - services.sync_service - INFO - 🔄 Procesados 7200 registros...
+2025-07-14 18:44:19,376 - services.sync_service - INFO - 🔄 Procesados 7300 registros...
+2025-07-14 18:44:22,922 - services.sync_service - INFO - 🔄 Procesados 7400 registros...
+2025-07-14 18:44:26,548 - services.sync_service - INFO - 🔄 Procesados 7500 registros...
+2025-07-14 18:44:30,093 - services.sync_service - INFO - 🔄 Procesados 7600 registros...
+2025-07-14 18:44:33,990 - services.sync_service - INFO - 🔄 Procesados 7700 registros...
+2025-07-14 18:44:37,631 - services.sync_service - INFO - 🔄 Procesados 7800 registros...
+2025-07-14 18:44:41,145 - services.sync_service - INFO - 🔄 Procesados 7900 registros...
+2025-07-14 18:44:44,618 - services.sync_service - INFO - 🔄 Procesados 8000 registros...
+2025-07-14 18:44:48,315 - services.sync_service - INFO - 🔄 Procesados 8100 registros...
+2025-07-14 18:44:52,044 - services.sync_service - INFO - 🔄 Procesados 8200 registros...
+2025-07-14 18:44:55,490 - services.sync_service - INFO - 🔄 Procesados 8300 registros...
+2025-07-14 18:44:59,047 - services.sync_service - INFO - 🔄 Procesados 8400 registros...
+2025-07-14 18:45:02,725 - services.sync_service - INFO - 🔄 Procesados 8500 registros...
+2025-07-14 18:45:06,304 - services.sync_service - INFO - 🔄 Procesados 8600 registros...
+2025-07-14 18:45:09,841 - services.sync_service - INFO - 🔄 Procesados 8700 registros...
+2025-07-14 18:45:13,705 - services.sync_service - INFO - 🔄 Procesados 8800 registros...
+2025-07-14 18:45:17,348 - services.sync_service - INFO - 🔄 Procesados 8900 registros...
+2025-07-14 18:45:20,830 - services.sync_service - INFO - 🔄 Procesados 9000 registros...
+2025-07-14 18:45:24,275 - services.sync_service - INFO - 🔄 Procesados 9100 registros...
+2025-07-14 18:45:27,907 - services.sync_service - INFO - 🔄 Procesados 9200 registros...
+2025-07-14 18:45:31,530 - services.sync_service - INFO - 🔄 Procesados 9300 registros...
+2025-07-14 18:45:35,029 - services.sync_service - INFO - 🔄 Procesados 9400 registros...
+2025-07-14 18:45:38,730 - services.sync_service - INFO - 🔄 Procesados 9500 registros...
+2025-07-14 18:45:42,153 - services.sync_service - INFO - 🔄 Procesados 9600 registros...
+2025-07-14 18:45:45,571 - services.sync_service - INFO - 🔄 Procesados 9700 registros...
+2025-07-14 18:45:49,378 - services.sync_service - INFO - 🔄 Procesados 9800 registros...
+2025-07-14 18:45:53,116 - services.sync_service - INFO - 🔄 Procesados 9900 registros...
+2025-07-14 18:45:56,498 - services.sync_service - INFO - 🔄 Procesados 10000 registros...
+2025-07-14 18:45:59,944 - services.sync_service - INFO - 🔄 Procesados 10100 registros...
+2025-07-14 18:46:03,462 - services.sync_service - INFO - 🔄 Procesados 10200 registros...
+2025-07-14 18:46:06,939 - services.sync_service - INFO - 🔄 Procesados 10300 registros...
+2025-07-14 18:46:10,478 - services.sync_service - INFO - 🔄 Procesados 10400 registros...
+2025-07-14 18:46:14,020 - services.sync_service - INFO - 🔄 Procesados 10500 registros...
+2025-07-14 18:46:17,773 - services.sync_service - INFO - 🔄 Procesados 10600 registros...
+2025-07-14 18:46:21,504 - services.sync_service - INFO - 🔄 Procesados 10700 registros...
+2025-07-14 18:46:25,073 - services.sync_service - INFO - 🔄 Procesados 10800 registros...
+2025-07-14 18:46:28,498 - services.sync_service - INFO - 🔄 Procesados 10900 registros...
+2025-07-14 18:46:32,004 - services.sync_service - INFO - 🔄 Procesados 11000 registros...
+2025-07-14 18:46:36,000 - services.sync_service - INFO - 🔄 Procesados 11100 registros...
+2025-07-14 18:46:39,519 - services.sync_service - INFO - 🔄 Procesados 11200 registros...
+2025-07-14 18:46:43,234 - services.sync_service - INFO - 🔄 Procesados 11300 registros...
+2025-07-14 18:46:46,663 - services.sync_service - INFO - 🔄 Procesados 11400 registros...
+2025-07-14 18:46:50,151 - services.sync_service - INFO - 🔄 Procesados 11500 registros...
+2025-07-14 18:46:53,656 - services.sync_service - INFO - 🔄 Procesados 11600 registros...
+2025-07-14 18:46:57,089 - services.sync_service - INFO - 🔄 Procesados 11700 registros...
+2025-07-14 18:47:00,509 - services.sync_service - INFO - 🔄 Procesados 11800 registros...
+2025-07-14 18:47:04,070 - services.sync_service - INFO - 🔄 Procesados 11900 registros...
+2025-07-14 18:47:07,765 - services.sync_service - INFO - 🔄 Procesados 12000 registros...
+2025-07-14 18:47:11,254 - services.sync_service - INFO - 🔄 Procesados 12100 registros...
+2025-07-14 18:47:14,848 - services.sync_service - INFO - 🔄 Procesados 12200 registros...
+2025-07-14 18:47:18,446 - services.sync_service - INFO - 🔄 Procesados 12300 registros...
+2025-07-14 18:47:23,129 - services.sync_service - INFO - 🔄 Procesados 12400 registros...
+2025-07-14 18:47:26,980 - services.sync_service - INFO - 🔄 Procesados 12500 registros...
+2025-07-14 18:47:30,327 - services.sync_service - INFO - 🔄 Procesados 12600 registros...
+2025-07-14 18:47:33,864 - services.sync_service - INFO - 🔄 Procesados 12700 registros...
+2025-07-14 18:47:37,440 - services.sync_service - INFO - 🔄 Procesados 12800 registros...
+2025-07-14 18:47:41,024 - services.sync_service - INFO - 🔄 Procesados 12900 registros...
+2025-07-14 18:47:44,578 - services.sync_service - INFO - 🔄 Procesados 13000 registros...
+2025-07-14 18:47:48,233 - services.sync_service - INFO - 🔄 Procesados 13100 registros...
+2025-07-14 18:47:51,748 - services.sync_service - INFO - 🔄 Procesados 13200 registros...
+2025-07-14 18:47:55,200 - services.sync_service - INFO - 🔄 Procesados 13300 registros...
+2025-07-14 18:47:58,673 - services.sync_service - INFO - 🔄 Procesados 13400 registros...
+2025-07-14 18:48:02,097 - services.sync_service - INFO - 🔄 Procesados 13500 registros...
+2025-07-14 18:48:06,052 - services.sync_service - INFO - 🔄 Procesados 13600 registros...
+2025-07-14 18:48:09,765 - services.sync_service - INFO - 🔄 Procesados 13700 registros...
+2025-07-14 18:48:13,346 - services.sync_service - INFO - 🔄 Procesados 13800 registros...
+2025-07-14 18:48:16,884 - services.sync_service - INFO - 🔄 Procesados 13900 registros...
+2025-07-14 18:48:20,476 - services.sync_service - INFO - 🔄 Procesados 14000 registros...
+2025-07-14 18:48:24,012 - services.sync_service - INFO - 🔄 Procesados 14100 registros...
+2025-07-14 18:48:27,445 - services.sync_service - INFO - 🔄 Procesados 14200 registros...
+2025-07-14 18:48:30,988 - services.sync_service - INFO - 🔄 Procesados 14300 registros...
+2025-07-14 18:48:34,586 - services.sync_service - INFO - 🔄 Procesados 14400 registros...
+2025-07-14 18:48:38,199 - services.sync_service - INFO - 🔄 Procesados 14500 registros...
+2025-07-14 18:48:41,795 - services.sync_service - INFO - 🔄 Procesados 14600 registros...
+2025-07-14 18:48:45,330 - services.sync_service - INFO - 🔄 Procesados 14700 registros...
+2025-07-14 18:48:49,139 - services.sync_service - INFO - 🔄 Procesados 14800 registros...
+2025-07-14 18:48:52,566 - services.sync_service - INFO - 🔄 Procesados 14900 registros...
+2025-07-14 18:48:56,075 - services.sync_service - INFO - 🔄 Procesados 15000 registros...
+2025-07-14 18:48:59,748 - services.sync_service - INFO - 🔄 Procesados 15100 registros...
+2025-07-14 18:49:03,529 - services.sync_service - INFO - 🔄 Procesados 15200 registros...
+2025-07-14 18:49:07,014 - services.sync_service - INFO - 🔄 Procesados 15300 registros...
+2025-07-14 18:49:10,580 - services.sync_service - INFO - 🔄 Procesados 15400 registros...
+2025-07-14 18:49:14,301 - services.sync_service - INFO - 🔄 Procesados 15500 registros...
+2025-07-14 18:49:18,057 - services.sync_service - INFO - 🔄 Procesados 15600 registros...
+2025-07-14 18:49:21,591 - services.sync_service - INFO - 🔄 Procesados 15700 registros...
+2025-07-14 18:49:25,539 - services.sync_service - INFO - 🔄 Procesados 15800 registros...
+2025-07-14 18:49:28,967 - services.sync_service - INFO - 🔄 Procesados 15900 registros...
+2025-07-14 18:49:32,502 - services.sync_service - INFO - 🔄 Procesados 16000 registros...
+2025-07-14 18:49:36,190 - services.sync_service - INFO - 🔄 Procesados 16100 registros...
+2025-07-14 18:49:39,747 - services.sync_service - INFO - 🔄 Procesados 16200 registros...
+2025-07-14 18:49:43,239 - services.sync_service - INFO - 🔄 Procesados 16300 registros...
+2025-07-14 18:49:46,807 - services.sync_service - INFO - 🔄 Procesados 16400 registros...
+2025-07-14 18:49:50,708 - services.sync_service - INFO - 🔄 Procesados 16500 registros...
+2025-07-14 18:49:54,118 - services.sync_service - INFO - 🔄 Procesados 16600 registros...
+2025-07-14 18:49:57,734 - services.sync_service - INFO - 🔄 Procesados 16700 registros...
+2025-07-14 18:50:01,526 - services.sync_service - INFO - 🔄 Procesados 16800 registros...
+2025-07-14 18:50:05,038 - services.sync_service - INFO - 🔄 Procesados 16900 registros...
+2025-07-14 18:50:08,414 - services.sync_service - INFO - 🔄 Procesados 17000 registros...
+2025-07-14 18:50:12,066 - services.sync_service - INFO - 🔄 Procesados 17100 registros...
+2025-07-14 18:50:16,010 - services.sync_service - INFO - 🔄 Procesados 17200 registros...
+2025-07-14 18:50:19,632 - services.sync_service - INFO - 🔄 Procesados 17300 registros...
+2025-07-14 18:50:23,119 - services.sync_service - INFO - 🔄 Procesados 17400 registros...
+2025-07-14 18:50:27,084 - services.sync_service - INFO - 🔄 Procesados 17500 registros...
+2025-07-14 18:50:30,646 - services.sync_service - INFO - 🔄 Procesados 17600 registros...
+2025-07-14 18:50:34,182 - services.sync_service - INFO - 🔄 Procesados 17700 registros...
+2025-07-14 18:50:38,229 - services.sync_service - INFO - 🔄 Procesados 17800 registros...
+2025-07-14 18:50:41,815 - services.sync_service - INFO - 🔄 Procesados 17900 registros...
+2025-07-14 18:50:45,371 - services.sync_service - INFO - 🔄 Procesados 18000 registros...
+2025-07-14 18:50:49,489 - services.sync_service - INFO - 🔄 Procesados 18100 registros...
+2025-07-14 18:50:53,376 - services.sync_service - INFO - 🔄 Procesados 18200 registros...
+2025-07-14 18:50:56,958 - services.sync_service - INFO - 🔄 Procesados 18300 registros...
+2025-07-14 18:51:01,006 - services.sync_service - INFO - 🔄 Procesados 18400 registros...
+2025-07-14 18:51:06,323 - services.sync_service - INFO - 🔄 Procesados 18500 registros...
+2025-07-14 18:51:10,042 - services.sync_service - INFO - 🔄 Procesados 18600 registros...
+2025-07-14 18:51:14,051 - services.sync_service - INFO - 🔄 Procesados 18700 registros...
+2025-07-14 18:51:17,672 - services.sync_service - INFO - 🔄 Procesados 18800 registros...
+2025-07-14 18:51:21,272 - services.sync_service - INFO - 🔄 Procesados 18900 registros...
+2025-07-14 18:51:25,061 - services.sync_service - INFO - 🔄 Procesados 19000 registros...
+2025-07-14 18:51:28,973 - services.sync_service - INFO - 🔄 Procesados 19100 registros...
+2025-07-14 18:51:32,864 - services.sync_service - INFO - 🔄 Procesados 19200 registros...
+2025-07-14 18:51:36,445 - services.sync_service - INFO - 🔄 Procesados 19300 registros...
+2025-07-14 18:51:40,192 - services.sync_service - INFO - 🔄 Procesados 19400 registros...
+2025-07-14 18:51:43,665 - services.sync_service - INFO - 🔄 Procesados 19500 registros...
+2025-07-14 18:52:50,351 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-14 18:52:50,351 - __main__ - INFO - Entorno: SIGAF
+2025-07-14 18:52:50,351 - __main__ - INFO - Modo: sqlserver
+2025-07-14 18:52:50,352 - __main__ - INFO - Sincronización: full
+2025-07-14 18:52:50,352 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno sigaf...
+2025-07-14 18:52:50,373 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-14 18:52:50,374 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: full
+2025-07-14 18:52:50,374 - services.sync_service - INFO - 🔄 Procesando: 10_FACTURAS_OP_PAGOS.sql -> [10_FACTURAS_OP_PAGOS]
+2025-07-14 18:52:50,727 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [10_FACTURAS_OP_PAGOS]
+2025-07-14 18:52:50,843 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-14 18:52:50,858 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-14 18:52:50,858 - adapters.db_adapter - INFO - DSN creado: 10.15.7.10:1521/PRODASI
+2025-07-14 18:52:51,244 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-14 19:38:30,717 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [10_FACTURAS_OP_PAGOS]
+2025-07-14 19:38:30,792 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [10_FACTURAS_OP_PAGOS]
+2025-07-14 19:38:30,835 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [10_FACTURAS_OP_PAGOS]
+2025-07-14 19:38:30,872 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [10_FACTURAS_OP_PAGOS]
+2025-07-14 19:47:50,860 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.10_FACTURAS_OP_PAGOS: 104608 registros
+2025-07-14 19:47:50,860 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [10_FACTURAS_OP_PAGOS]
+            ==========================================
+            Registros fuente: 104608
+            Registros insertados: 104608
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 19:47:51,061 - services.sync_service - INFO - 🔄 Procesando: 11_RP.sql -> [11_RP]
+2025-07-14 19:47:51,101 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [11_RP]
+2025-07-14 19:48:01,624 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [11_RP]
+2025-07-14 19:48:01,708 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [11_RP]
+2025-07-14 19:48:01,749 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [11_RP]
+2025-07-14 19:48:01,790 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [11_RP]
+2025-07-14 19:51:05,964 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.11_RP: 37623 registros
+2025-07-14 19:51:05,965 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [11_RP]
+            ==========================================
+            Registros fuente: 37623
+            Registros insertados: 37623
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 19:51:05,998 - services.sync_service - INFO - 🔄 Procesando: 12_DRP_RENGLONES.sql -> [12_DRP_RENGLONES]
+2025-07-14 19:51:06,038 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [12_DRP_RENGLONES]
+2025-07-14 19:54:42,053 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [12_DRP_RENGLONES]
+2025-07-14 19:54:42,198 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [12_DRP_RENGLONES]
+2025-07-14 19:54:42,242 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [12_DRP_RENGLONES]
+2025-07-14 19:54:42,277 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [12_DRP_RENGLONES]
+2025-07-14 20:33:03,243 - adapters.sqlserver_adapter - ERROR - Error insertando datos en 12_DRP_RENGLONES: Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2025-07-14 20:33:03,245 - services.sync_service - ERROR - ❌ Error en sincronización con hash para [12_DRP_RENGLONES]: Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2025-07-14 20:33:03,246 - services.sync_service - ERROR - Error sincronizando 12_DRP_RENGLONES.sql: Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2025-07-14 20:33:03,247 - services.sync_service - INFO - 🔄 Procesando: 13_DRP_IMPUTACIONES.sql -> [13_DRP_IMPUTACIONES]
+2025-07-14 20:33:29,486 - adapters.sqlserver_adapter - ERROR - Error ejecutando consulta: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [64].  (64) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (64)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-14 20:33:29,486 - adapters.sqlserver_adapter - ERROR - Query: 
+        SELECT COUNT(*) as count
+        FROM INFORMATION_SCHEMA.TABLES 
+        WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = '13_DRP_IMPUTACIONES'
+        
+2025-07-14 20:33:29,486 - adapters.sqlserver_adapter - ERROR - Error verificando existencia de tabla 13_DRP_IMPUTACIONES: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [64].  (64) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (64)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-14 20:33:29,486 - services.sync_service - WARNING - ⏭️ OMITIDA: Tabla [13_DRP_IMPUTACIONES] no existe en SQL Server.
+2025-07-14 20:33:29,486 - services.sync_service - INFO - 🔄 Procesando: 14_DRP_FACTURAS.sql -> [14_DRP_FACTURAS]
+2025-07-14 20:34:05,656 - adapters.sqlserver_adapter - ERROR - Error ejecutando consulta: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [64].  (64) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (64)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-14 20:34:05,657 - adapters.sqlserver_adapter - ERROR - Query: 
+        SELECT COUNT(*) as count
+        FROM INFORMATION_SCHEMA.TABLES 
+        WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = '14_DRP_FACTURAS'
+        
+2025-07-14 20:34:05,658 - adapters.sqlserver_adapter - ERROR - Error verificando existencia de tabla 14_DRP_FACTURAS: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [64].  (64) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (64)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-14 20:34:05,659 - services.sync_service - WARNING - ⏭️ OMITIDA: Tabla [14_DRP_FACTURAS] no existe en SQL Server.
+2025-07-14 20:34:05,660 - services.sync_service - INFO - 🔄 Procesando: 15_DRP_FACTURAS_PAGOS.sql -> [15_DRP_FACTURAS_PAGOS]
+2025-07-14 20:34:24,490 - adapters.sqlserver_adapter - ERROR - Error ejecutando consulta: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: Timeout error [258].  (258) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Unable to complete login process due to delay in login response (258)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-14 20:34:24,491 - adapters.sqlserver_adapter - ERROR - Query: 
+        SELECT COUNT(*) as count
+        FROM INFORMATION_SCHEMA.TABLES 
+        WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = '15_DRP_FACTURAS_PAGOS'
+        
+2025-07-14 20:34:24,492 - adapters.sqlserver_adapter - ERROR - Error verificando existencia de tabla 15_DRP_FACTURAS_PAGOS: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: Timeout error [258].  (258) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Unable to complete login process due to delay in login response (258)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-14 20:34:24,493 - services.sync_service - WARNING - ⏭️ OMITIDA: Tabla [15_DRP_FACTURAS_PAGOS] no existe en SQL Server.
+2025-07-14 20:34:24,494 - services.sync_service - INFO - 🔄 Procesando: 16_PRECIARIO.sql -> [16_PRECIARIO]
+2025-07-14 20:35:00,657 - adapters.sqlserver_adapter - ERROR - Error ejecutando consulta: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [64].  (64) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (64)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-14 20:35:00,659 - adapters.sqlserver_adapter - ERROR - Query: 
+        SELECT COUNT(*) as count
+        FROM INFORMATION_SCHEMA.TABLES 
+        WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = '16_PRECIARIO'
+        
+2025-07-14 20:35:00,659 - adapters.sqlserver_adapter - ERROR - Error verificando existencia de tabla 16_PRECIARIO: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [64].  (64) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (64)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-14 20:35:00,660 - services.sync_service - WARNING - ⏭️ OMITIDA: Tabla [16_PRECIARIO] no existe en SQL Server.
+2025-07-14 20:35:00,660 - services.sync_service - INFO - 🔄 Procesando: 17_PRECIARIO_IMPUTACIONES.sql -> [17_PRECIARIO_IMPUTACIONES]
+2025-07-14 20:35:15,775 - adapters.sqlserver_adapter - ERROR - Error ejecutando consulta: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [53].  (53) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (53)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-14 20:35:15,776 - adapters.sqlserver_adapter - ERROR - Query: 
+        SELECT COUNT(*) as count
+        FROM INFORMATION_SCHEMA.TABLES 
+        WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = '17_PRECIARIO_IMPUTACIONES'
+        
+2025-07-14 20:35:15,777 - adapters.sqlserver_adapter - ERROR - Error verificando existencia de tabla 17_PRECIARIO_IMPUTACIONES: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [53].  (53) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (53)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-14 20:35:15,778 - services.sync_service - WARNING - ⏭️ OMITIDA: Tabla [17_PRECIARIO_IMPUTACIONES] no existe en SQL Server.
+2025-07-14 20:35:15,778 - services.sync_service - INFO - 🔄 Procesando: 18_PRD_PRECIARIO.sql -> [18_PRD_PRECIARIO]
+2025-07-14 20:35:51,948 - adapters.sqlserver_adapter - ERROR - Error ejecutando consulta: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [64].  (64) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (64)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-14 20:35:51,949 - adapters.sqlserver_adapter - ERROR - Query: 
+        SELECT COUNT(*) as count
+        FROM INFORMATION_SCHEMA.TABLES 
+        WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = '18_PRD_PRECIARIO'
+        
+2025-07-14 20:35:51,949 - adapters.sqlserver_adapter - ERROR - Error verificando existencia de tabla 18_PRD_PRECIARIO: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [64].  (64) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (64)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-14 20:35:51,950 - services.sync_service - WARNING - ⏭️ OMITIDA: Tabla [18_PRD_PRECIARIO] no existe en SQL Server.
+2025-07-14 20:35:51,950 - services.sync_service - INFO - 🔄 Procesando: 19_PRD_PRECIARIO_RENGLONES.sql -> [19_PRD_PRECIARIO_RENGLONES]
+2025-07-14 20:35:53,154 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [19_PRD_PRECIARIO_RENGLONES]
+2025-07-14 20:35:53,160 - services.sync_service - ERROR - ❌ Error ejecutando consulta Oracle: (oracledb.exceptions.DatabaseError) DPY-4011: the database or network closed the connection
+DPI-1080: connection was closed by ORA-03135
+ORA-03135: connection lost contact
+Process ID: 357212
+Session ID: 1551 Serial number: 17369
+Help: https://docs.oracle.com/error-help/db/ora-03135/n
+[SQL: select
+    oc.aa_ocompra,
+    oc.t_ocompra,
+    oc.n_ocompra,
+    prd.aa_precepcion, 
+    prd.t_precepcion,
+    prd.n_precepcion,   
+    oc.o_ente,
+    oc.aa_ocompra_orig,
+    oc.t_ocompra_orig,
+    oc.n_ocompra_orig,
+    oc.c_unid_ejec,
+    prd.fh_autorizacion,
+    prd.f_desde,
+    prd.f_hasta,
+    ren.n_renglon_pliego,
+    ren.xl_descripcion,
+    ren.k_rdefinitiva,
+    ren.i_unitario,
+    ren.k_rdefinitiva*ren.i_unitario as "Total renglon",
+    prd.e_formulario
+from slu.torden_compra OC join slu.tparte_recepcion PRD on prd.aa_ocompra= oc.aa_ocompra and prd.n_ocompra=oc.n_ocompra and prd.t_ocompra= oc.t_ocompra
+join slu.dparte_recepcion_ren ren on prd.aa_precepcion=ren.aa_precepcion and prd.n_precepcion= ren.n_precepcion
+where oc.c_procedimiento=220
+and ren.c_clase in (990010,560000,790000)
+ --and  oc.aa_ocompra=2023
+--and    oc.t_ocompra='OCC'
+ --and    oc.n_ocompra=69538
+ --and oc.aa_ocompra_orig=2021
+--and oc.t_ocompra_orig='OCA'
+ --and oc.n_ocompra_orig=65638
+group by   
+    oc.aa_ocompra,
+    oc.t_ocompra,
+    oc.n_ocompra,
+    prd.aa_precepcion, 
+    prd.t_precepcion,
+    prd.n_precepcion,   
+    oc.o_ente,
+    oc.aa_ocompra_orig,
+    oc.t_ocompra_orig,
+    oc.n_ocompra_orig,
+    oc.c_unid_ejec,
+    prd.fh_autorizacion,
+    prd.f_desde,
+    prd.f_hasta,
+    ren.n_renglon_pliego,
+    ren.xl_descripcion,
+    ren.k_rdefinitiva,
+    ren.i_unitario,
+    prd.e_formulario]
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-07-14 20:35:53,160 - services.sync_service - ERROR - Error sincronizando 19_PRD_PRECIARIO_RENGLONES.sql: (oracledb.exceptions.DatabaseError) DPY-4011: the database or network closed the connection
+DPI-1080: connection was closed by ORA-03135
+ORA-03135: connection lost contact
+Process ID: 357212
+Session ID: 1551 Serial number: 17369
+Help: https://docs.oracle.com/error-help/db/ora-03135/n
+[SQL: select
+    oc.aa_ocompra,
+    oc.t_ocompra,
+    oc.n_ocompra,
+    prd.aa_precepcion, 
+    prd.t_precepcion,
+    prd.n_precepcion,   
+    oc.o_ente,
+    oc.aa_ocompra_orig,
+    oc.t_ocompra_orig,
+    oc.n_ocompra_orig,
+    oc.c_unid_ejec,
+    prd.fh_autorizacion,
+    prd.f_desde,
+    prd.f_hasta,
+    ren.n_renglon_pliego,
+    ren.xl_descripcion,
+    ren.k_rdefinitiva,
+    ren.i_unitario,
+    ren.k_rdefinitiva*ren.i_unitario as "Total renglon",
+    prd.e_formulario
+from slu.torden_compra OC join slu.tparte_recepcion PRD on prd.aa_ocompra= oc.aa_ocompra and prd.n_ocompra=oc.n_ocompra and prd.t_ocompra= oc.t_ocompra
+join slu.dparte_recepcion_ren ren on prd.aa_precepcion=ren.aa_precepcion and prd.n_precepcion= ren.n_precepcion
+where oc.c_procedimiento=220
+and ren.c_clase in (990010,560000,790000)
+ --and  oc.aa_ocompra=2023
+--and    oc.t_ocompra='OCC'
+ --and    oc.n_ocompra=69538
+ --and oc.aa_ocompra_orig=2021
+--and oc.t_ocompra_orig='OCA'
+ --and oc.n_ocompra_orig=65638
+group by   
+    oc.aa_ocompra,
+    oc.t_ocompra,
+    oc.n_ocompra,
+    prd.aa_precepcion, 
+    prd.t_precepcion,
+    prd.n_precepcion,   
+    oc.o_ente,
+    oc.aa_ocompra_orig,
+    oc.t_ocompra_orig,
+    oc.n_ocompra_orig,
+    oc.c_unid_ejec,
+    prd.fh_autorizacion,
+    prd.f_desde,
+    prd.f_hasta,
+    ren.n_renglon_pliego,
+    ren.xl_descripcion,
+    ren.k_rdefinitiva,
+    ren.i_unitario,
+    prd.e_formulario]
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-07-14 20:35:53,161 - services.sync_service - INFO - 🔄 Procesando: 20_PRD_PRECIARIO_IMPUTACIONES.sql -> [20_PRD_PRECIARIO_IMPUTACIONES]
+2025-07-14 20:35:53,291 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [20_PRD_PRECIARIO_IMPUTACIONES]
+2025-07-14 20:35:57,981 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [20_PRD_PRECIARIO_IMPUTACIONES]
+2025-07-14 20:35:58,805 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [20_PRD_PRECIARIO_IMPUTACIONES]
+2025-07-14 20:35:58,935 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [20_PRD_PRECIARIO_IMPUTACIONES]
+2025-07-14 20:35:59,415 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [20_PRD_PRECIARIO_IMPUTACIONES]
+2025-07-14 20:36:17,978 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.20_PRD_PRECIARIO_IMPUTACIONES: 704 registros
+2025-07-14 20:36:17,979 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [20_PRD_PRECIARIO_IMPUTACIONES]
+            ==========================================
+            Registros fuente: 704
+            Registros insertados: 704
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 20:36:17,982 - services.sync_service - INFO - 🔄 Procesando: 21_PRD_PRECIARIO_FACTURAS.sql -> [21_PRD_PRECIARIO_FACTURAS]
+2025-07-14 20:36:18,051 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [21_PRD_PRECIARIO_FACTURAS]
+2025-07-14 20:37:05,165 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [21_PRD_PRECIARIO_FACTURAS]
+2025-07-14 20:37:06,446 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [21_PRD_PRECIARIO_FACTURAS]
+2025-07-14 20:37:06,641 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [21_PRD_PRECIARIO_FACTURAS]
+2025-07-14 20:37:06,743 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [21_PRD_PRECIARIO_FACTURAS]
+2025-07-14 20:39:02,293 - adapters.sqlserver_adapter - ERROR - Error insertando datos en 21_PRD_PRECIARIO_FACTURAS: Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2025-07-14 20:39:02,294 - services.sync_service - ERROR - ❌ Error en sincronización con hash para [21_PRD_PRECIARIO_FACTURAS]: Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2025-07-14 20:39:02,295 - services.sync_service - ERROR - Error sincronizando 21_PRD_PRECIARIO_FACTURAS.sql: Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2025-07-14 20:39:02,296 - services.sync_service - INFO - 🔄 Procesando: 22_PAGOS_PRECIARIO.sql -> [22_PAGOS_PRECIARIO]
+2025-07-14 20:39:14,343 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [22_PAGOS_PRECIARIO]
+2025-07-14 20:39:30,934 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [22_PAGOS_PRECIARIO]
+2025-07-14 20:39:31,594 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [22_PAGOS_PRECIARIO]
+2025-07-14 20:39:32,148 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [22_PAGOS_PRECIARIO]
+2025-07-14 20:39:37,116 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [22_PAGOS_PRECIARIO]
+2025-07-14 20:41:36,126 - adapters.sqlserver_adapter - ERROR - Error insertando datos en 22_PAGOS_PRECIARIO: Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2025-07-14 20:41:36,133 - services.sync_service - ERROR - ❌ Error en sincronización con hash para [22_PAGOS_PRECIARIO]: Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2025-07-14 20:41:36,138 - services.sync_service - ERROR - Error sincronizando 22_PAGOS_PRECIARIO.sql: Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2025-07-14 20:41:36,145 - services.sync_service - INFO - 🔄 Procesando: 23_UNIDADES_EJECUTORAS.sql -> [23_UNIDADES_EJECUTORAS]
+2025-07-14 20:42:12,321 - adapters.sqlserver_adapter - ERROR - Error ejecutando consulta: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [64].  (64) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (64)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-14 20:42:12,321 - adapters.sqlserver_adapter - ERROR - Query: 
+        SELECT COUNT(*) as count
+        FROM INFORMATION_SCHEMA.TABLES 
+        WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = '23_UNIDADES_EJECUTORAS'
+        
+2025-07-14 20:42:12,322 - adapters.sqlserver_adapter - ERROR - Error verificando existencia de tabla 23_UNIDADES_EJECUTORAS: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [64].  (64) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (64)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-14 20:42:12,322 - services.sync_service - WARNING - ⏭️ OMITIDA: Tabla [23_UNIDADES_EJECUTORAS] no existe en SQL Server.
+2025-07-14 20:42:12,322 - services.sync_service - INFO - 🔄 Procesando: 25_ENTES.sql -> [25_ENTES]
+2025-07-14 20:42:48,471 - adapters.sqlserver_adapter - ERROR - Error ejecutando consulta: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [64].  (64) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (64)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-14 20:42:48,472 - adapters.sqlserver_adapter - ERROR - Query: 
+        SELECT COUNT(*) as count
+        FROM INFORMATION_SCHEMA.TABLES 
+        WHERE TABLE_SCHEMA = 'dbo' AND TABLE_NAME = '25_ENTES'
+        
+2025-07-14 20:42:48,472 - adapters.sqlserver_adapter - ERROR - Error verificando existencia de tabla 25_ENTES: (pyodbc.OperationalError) ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [64].  (64) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (64)')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-14 20:42:48,473 - services.sync_service - WARNING - ⏭️ OMITIDA: Tabla [25_ENTES] no existe en SQL Server.
+2025-07-14 20:42:48,473 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 142,935
+        Tablas omitidas: 8
+        Errores: 4
+        ==========================================
+        
+2025-07-14 20:42:48,474 - services.sync_service - INFO - 📋 Tablas omitidas (no existen en SQL Server):
+2025-07-14 20:42:48,474 - services.sync_service - INFO -   ⏭️ 13_DRP_IMPUTACIONES.sql -> [13_DRP_IMPUTACIONES]
+2025-07-14 20:42:48,475 - services.sync_service - INFO -   ⏭️ 14_DRP_FACTURAS.sql -> [14_DRP_FACTURAS]
+2025-07-14 20:42:48,475 - services.sync_service - INFO -   ⏭️ 15_DRP_FACTURAS_PAGOS.sql -> [15_DRP_FACTURAS_PAGOS]
+2025-07-14 20:42:48,476 - services.sync_service - INFO -   ⏭️ 16_PRECIARIO.sql -> [16_PRECIARIO]
+2025-07-14 20:42:48,476 - services.sync_service - INFO -   ⏭️ 17_PRECIARIO_IMPUTACIONES.sql -> [17_PRECIARIO_IMPUTACIONES]
+2025-07-14 20:42:48,476 - services.sync_service - INFO -   ⏭️ 18_PRD_PRECIARIO.sql -> [18_PRD_PRECIARIO]
+2025-07-14 20:42:48,478 - services.sync_service - INFO -   ⏭️ 23_UNIDADES_EJECUTORAS.sql -> [23_UNIDADES_EJECUTORAS]
+2025-07-14 20:42:48,478 - services.sync_service - INFO -   ⏭️ 25_ENTES.sql -> [25_ENTES]
+2025-07-14 20:42:48,479 - services.sync_service - WARNING - ⚠️ Errores encontrados:
+2025-07-14 20:42:48,479 - services.sync_service - WARNING -   ❌ Error sincronizando 12_DRP_RENGLONES.sql: Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2025-07-14 20:42:48,480 - services.sync_service - WARNING -   ❌ Error sincronizando 19_PRD_PRECIARIO_RENGLONES.sql: (oracledb.exceptions.DatabaseError) DPY-4011: the database or network closed the connection
+DPI-1080: connection was closed by ORA-03135
+ORA-03135: connection lost contact
+Process ID: 357212
+Session ID: 1551 Serial number: 17369
+Help: https://docs.oracle.com/error-help/db/ora-03135/n
+[SQL: select
+    oc.aa_ocompra,
+    oc.t_ocompra,
+    oc.n_ocompra,
+    prd.aa_precepcion, 
+    prd.t_precepcion,
+    prd.n_precepcion,   
+    oc.o_ente,
+    oc.aa_ocompra_orig,
+    oc.t_ocompra_orig,
+    oc.n_ocompra_orig,
+    oc.c_unid_ejec,
+    prd.fh_autorizacion,
+    prd.f_desde,
+    prd.f_hasta,
+    ren.n_renglon_pliego,
+    ren.xl_descripcion,
+    ren.k_rdefinitiva,
+    ren.i_unitario,
+    ren.k_rdefinitiva*ren.i_unitario as "Total renglon",
+    prd.e_formulario
+from slu.torden_compra OC join slu.tparte_recepcion PRD on prd.aa_ocompra= oc.aa_ocompra and prd.n_ocompra=oc.n_ocompra and prd.t_ocompra= oc.t_ocompra
+join slu.dparte_recepcion_ren ren on prd.aa_precepcion=ren.aa_precepcion and prd.n_precepcion= ren.n_precepcion
+where oc.c_procedimiento=220
+and ren.c_clase in (990010,560000,790000)
+ --and  oc.aa_ocompra=2023
+--and    oc.t_ocompra='OCC'
+ --and    oc.n_ocompra=69538
+ --and oc.aa_ocompra_orig=2021
+--and oc.t_ocompra_orig='OCA'
+ --and oc.n_ocompra_orig=65638
+group by   
+    oc.aa_ocompra,
+    oc.t_ocompra,
+    oc.n_ocompra,
+    prd.aa_precepcion, 
+    prd.t_precepcion,
+    prd.n_precepcion,   
+    oc.o_ente,
+    oc.aa_ocompra_orig,
+    oc.t_ocompra_orig,
+    oc.n_ocompra_orig,
+    oc.c_unid_ejec,
+    prd.fh_autorizacion,
+    prd.f_desde,
+    prd.f_hasta,
+    ren.n_renglon_pliego,
+    ren.xl_descripcion,
+    ren.k_rdefinitiva,
+    ren.i_unitario,
+    prd.e_formulario]
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-07-14 20:42:48,480 - services.sync_service - WARNING -   ❌ Error sincronizando 21_PRD_PRECIARIO_FACTURAS.sql: Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2025-07-14 20:42:48,481 - services.sync_service - WARNING -   ❌ Error sincronizando 22_PAGOS_PRECIARIO.sql: Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2025-07-14 20:42:48,481 - __main__ - INFO - ✅ Sincronización completada: 142,935 registros
+2025-07-14 20:42:48,482 - __main__ - WARNING - ⚠️  Se encontraron 4 errores durante la sincronización
+2025-07-14 20:42:48,483 - __main__ - WARNING -   - Error sincronizando 12_DRP_RENGLONES.sql: Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2025-07-14 20:42:48,483 - __main__ - WARNING -   - Error sincronizando 19_PRD_PRECIARIO_RENGLONES.sql: (oracledb.exceptions.DatabaseError) DPY-4011: the database or network closed the connection
+DPI-1080: connection was closed by ORA-03135
+ORA-03135: connection lost contact
+Process ID: 357212
+Session ID: 1551 Serial number: 17369
+Help: https://docs.oracle.com/error-help/db/ora-03135/n
+[SQL: select
+    oc.aa_ocompra,
+    oc.t_ocompra,
+    oc.n_ocompra,
+    prd.aa_precepcion, 
+    prd.t_precepcion,
+    prd.n_precepcion,   
+    oc.o_ente,
+    oc.aa_ocompra_orig,
+    oc.t_ocompra_orig,
+    oc.n_ocompra_orig,
+    oc.c_unid_ejec,
+    prd.fh_autorizacion,
+    prd.f_desde,
+    prd.f_hasta,
+    ren.n_renglon_pliego,
+    ren.xl_descripcion,
+    ren.k_rdefinitiva,
+    ren.i_unitario,
+    ren.k_rdefinitiva*ren.i_unitario as "Total renglon",
+    prd.e_formulario
+from slu.torden_compra OC join slu.tparte_recepcion PRD on prd.aa_ocompra= oc.aa_ocompra and prd.n_ocompra=oc.n_ocompra and prd.t_ocompra= oc.t_ocompra
+join slu.dparte_recepcion_ren ren on prd.aa_precepcion=ren.aa_precepcion and prd.n_precepcion= ren.n_precepcion
+where oc.c_procedimiento=220
+and ren.c_clase in (990010,560000,790000)
+ --and  oc.aa_ocompra=2023
+--and    oc.t_ocompra='OCC'
+ --and    oc.n_ocompra=69538
+ --and oc.aa_ocompra_orig=2021
+--and oc.t_ocompra_orig='OCA'
+ --and oc.n_ocompra_orig=65638
+group by   
+    oc.aa_ocompra,
+    oc.t_ocompra,
+    oc.n_ocompra,
+    prd.aa_precepcion, 
+    prd.t_precepcion,
+    prd.n_precepcion,   
+    oc.o_ente,
+    oc.aa_ocompra_orig,
+    oc.t_ocompra_orig,
+    oc.n_ocompra_orig,
+    oc.c_unid_ejec,
+    prd.fh_autorizacion,
+    prd.f_desde,
+    prd.f_hasta,
+    ren.n_renglon_pliego,
+    ren.xl_descripcion,
+    ren.k_rdefinitiva,
+    ren.i_unitario,
+    prd.e_formulario]
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-07-14 20:42:48,484 - __main__ - WARNING -   - Error sincronizando 21_PRD_PRECIARIO_FACTURAS.sql: Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2025-07-14 20:42:48,484 - __main__ - WARNING -   - Error sincronizando 22_PAGOS_PRECIARIO.sql: Can't reconnect until invalid transaction is rolled back.  Please rollback() fully before proceeding (Background on this error at: https://sqlalche.me/e/20/8s2b)
+2025-07-14 20:42:48,485 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-14 20:53:06,731 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-14 20:53:06,731 - __main__ - INFO - Entorno: SIGAF
+2025-07-14 20:53:06,731 - __main__ - INFO - Modo: sqlserver
+2025-07-14 20:53:06,731 - __main__ - INFO - Sincronización: full
+2025-07-14 20:53:06,731 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno sigaf...
+2025-07-14 20:53:06,757 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-14 20:53:06,757 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: full
+2025-07-14 20:53:06,758 - services.sync_service - INFO - 🔄 Procesando: 18_PRD_PRECIARIO.sql -> [18_PRD_PRECIARIO]
+2025-07-14 20:53:09,239 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [18_PRD_PRECIARIO]
+2025-07-14 20:53:09,381 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-14 20:53:09,396 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-14 20:53:09,396 - adapters.db_adapter - INFO - DSN creado: 10.15.7.10:1521/PRODASI
+2025-07-14 20:53:10,715 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-14 20:53:17,188 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [18_PRD_PRECIARIO]
+2025-07-14 20:53:17,578 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [18_PRD_PRECIARIO]
+2025-07-14 20:53:17,660 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [18_PRD_PRECIARIO]
+2025-07-14 20:53:17,722 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [18_PRD_PRECIARIO]
+2025-07-14 20:53:30,161 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.18_PRD_PRECIARIO: 820 registros
+2025-07-14 20:53:30,161 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [18_PRD_PRECIARIO]
+            ==========================================
+            Registros fuente: 820
+            Registros insertados: 820
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 20:53:30,162 - services.sync_service - INFO - 🔄 Procesando: 19_PRD_PRECIARIO_RENGLONES.sql -> [19_PRD_PRECIARIO_RENGLONES]
+2025-07-14 20:53:30,334 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [19_PRD_PRECIARIO_RENGLONES]
+2025-07-14 20:53:33,476 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [19_PRD_PRECIARIO_RENGLONES]
+2025-07-14 20:53:33,761 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [19_PRD_PRECIARIO_RENGLONES]
+2025-07-14 20:53:33,815 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [19_PRD_PRECIARIO_RENGLONES]
+2025-07-14 20:53:33,864 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [19_PRD_PRECIARIO_RENGLONES]
+2025-07-14 20:53:49,539 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.19_PRD_PRECIARIO_RENGLONES: 931 registros
+2025-07-14 20:53:49,539 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [19_PRD_PRECIARIO_RENGLONES]
+            ==========================================
+            Registros fuente: 931
+            Registros insertados: 931
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 20:53:49,541 - services.sync_service - INFO - 🔄 Procesando: 20_PRD_PRECIARIO_IMPUTACIONES.sql -> [20_PRD_PRECIARIO_IMPUTACIONES]
+2025-07-14 20:53:49,610 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [20_PRD_PRECIARIO_IMPUTACIONES]
+2025-07-14 20:53:51,738 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [20_PRD_PRECIARIO_IMPUTACIONES]
+2025-07-14 20:53:52,040 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [20_PRD_PRECIARIO_IMPUTACIONES]
+2025-07-14 20:53:53,020 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [20_PRD_PRECIARIO_IMPUTACIONES]
+2025-07-14 20:53:54,748 - services.sync_service - INFO - 📊 Encontrados 704 hashes únicos existentes en [20_PRD_PRECIARIO_IMPUTACIONES]
+2025-07-14 20:53:54,920 - services.sync_service - INFO - 📊 [20_PRD_PRECIARIO_IMPUTACIONES]: No hay registros nuevos. 704 duplicados ignorados.
+2025-07-14 20:53:54,921 - services.sync_service - INFO - 🔄 Procesando: 21_PRD_PRECIARIO_FACTURAS.sql -> [21_PRD_PRECIARIO_FACTURAS]
+2025-07-14 20:53:55,028 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [21_PRD_PRECIARIO_FACTURAS]
+2025-07-14 20:54:31,515 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [21_PRD_PRECIARIO_FACTURAS]
+2025-07-14 20:54:31,976 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [21_PRD_PRECIARIO_FACTURAS]
+2025-07-14 20:54:32,098 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [21_PRD_PRECIARIO_FACTURAS]
+2025-07-14 20:54:32,280 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [21_PRD_PRECIARIO_FACTURAS]
+2025-07-14 20:59:22,129 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.21_PRD_PRECIARIO_FACTURAS: 13412 registros
+2025-07-14 20:59:22,131 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [21_PRD_PRECIARIO_FACTURAS]
+            ==========================================
+            Registros fuente: 13412
+            Registros insertados: 13412
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 20:59:22,145 - services.sync_service - INFO - 🔄 Procesando: 22_PAGOS_PRECIARIO.sql -> [22_PAGOS_PRECIARIO]
+2025-07-14 20:59:22,239 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [22_PAGOS_PRECIARIO]
+2025-07-14 20:59:28,648 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [22_PAGOS_PRECIARIO]
+2025-07-14 20:59:28,793 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [22_PAGOS_PRECIARIO]
+2025-07-14 20:59:28,841 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [22_PAGOS_PRECIARIO]
+2025-07-14 20:59:28,898 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [22_PAGOS_PRECIARIO]
+2025-07-14 20:59:56,916 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.22_PAGOS_PRECIARIO: 787 registros
+2025-07-14 20:59:56,917 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [22_PAGOS_PRECIARIO]
+            ==========================================
+            Registros fuente: 787
+            Registros insertados: 787
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 20:59:56,922 - services.sync_service - INFO - 🔄 Procesando: 23_UNIDADES_EJECUTORAS.sql -> [23_UNIDADES_EJECUTORAS]
+2025-07-14 20:59:56,989 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [23_UNIDADES_EJECUTORAS]
+2025-07-14 20:59:58,261 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [23_UNIDADES_EJECUTORAS]
+2025-07-14 20:59:58,430 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [23_UNIDADES_EJECUTORAS]
+2025-07-14 20:59:58,551 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [23_UNIDADES_EJECUTORAS]
+2025-07-14 20:59:59,114 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [23_UNIDADES_EJECUTORAS]
+2025-07-14 21:00:22,166 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.23_UNIDADES_EJECUTORAS: 1383 registros
+2025-07-14 21:00:22,166 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [23_UNIDADES_EJECUTORAS]
+            ==========================================
+            Registros fuente: 1383
+            Registros insertados: 1383
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 21:00:22,167 - services.sync_service - INFO - 🔄 Procesando: 25_ENTES.sql -> [25_ENTES]
+2025-07-14 21:00:22,240 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [25_ENTES]
+2025-07-14 21:00:23,284 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [25_ENTES]
+2025-07-14 21:00:23,998 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [25_ENTES]
+2025-07-14 21:00:24,700 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [25_ENTES]
+2025-07-14 21:00:24,865 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [25_ENTES]
+2025-07-14 21:00:27,175 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.25_ENTES: 152 registros
+2025-07-14 21:00:27,175 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [25_ENTES]
+            ==========================================
+            Registros fuente: 152
+            Registros insertados: 152
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 21:00:27,176 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 17,485
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-14 21:00:27,176 - __main__ - INFO - ✅ Sincronización completada: 17,485 registros
+2025-07-14 21:00:27,326 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-14 21:16:13,760 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-14 21:16:13,760 - __main__ - INFO - Entorno: SIGAF
+2025-07-14 21:16:13,761 - __main__ - INFO - Modo: sqlserver
+2025-07-14 21:16:13,761 - __main__ - INFO - Sincronización: full
+2025-07-14 21:16:13,761 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno sigaf...
+2025-07-14 21:16:13,784 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-14 21:16:13,784 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: full
+2025-07-14 21:16:13,785 - services.sync_service - INFO - 🔄 Procesando: 12_DRP_RENGLONES.sql -> [12_DRP_RENGLONES]
+2025-07-14 21:16:18,438 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [12_DRP_RENGLONES]
+2025-07-14 21:16:18,586 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-14 21:16:18,602 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-14 21:16:18,602 - adapters.db_adapter - INFO - DSN creado: 10.15.7.10:1521/PRODASI
+2025-07-14 21:16:21,187 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-14 21:26:58,690 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [12_DRP_RENGLONES]
+2025-07-14 21:26:58,960 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [12_DRP_RENGLONES]
+2025-07-14 21:26:59,088 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [12_DRP_RENGLONES]
+2025-07-14 21:26:59,312 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [12_DRP_RENGLONES]
+2025-07-14 22:01:01,409 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.12_DRP_RENGLONES: 386975 registros
+2025-07-14 22:01:01,409 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [12_DRP_RENGLONES]
+            ==========================================
+            Registros fuente: 387820
+            Registros insertados: 386975
+            Duplicados ignorados: 845
+            ==========================================
+            
+2025-07-14 22:01:01,868 - services.sync_service - INFO - 🔄 Procesando: 13_DRP_IMPUTACIONES.sql -> [13_DRP_IMPUTACIONES]
+2025-07-14 22:01:01,915 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [13_DRP_IMPUTACIONES]
+2025-07-14 22:01:18,278 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [13_DRP_IMPUTACIONES]
+2025-07-14 22:01:18,423 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [13_DRP_IMPUTACIONES]
+2025-07-14 22:01:18,467 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [13_DRP_IMPUTACIONES]
+2025-07-14 22:01:18,513 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [13_DRP_IMPUTACIONES]
+2025-07-14 22:02:16,862 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.13_DRP_IMPUTACIONES: 10056 registros
+2025-07-14 22:02:16,863 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [13_DRP_IMPUTACIONES]
+            ==========================================
+            Registros fuente: 10056
+            Registros insertados: 10056
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 22:02:16,873 - services.sync_service - INFO - 🔄 Procesando: 14_DRP_FACTURAS.sql -> [14_DRP_FACTURAS]
+2025-07-14 22:02:16,919 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [14_DRP_FACTURAS]
+2025-07-14 22:03:24,333 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [14_DRP_FACTURAS]
+2025-07-14 22:03:24,453 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [14_DRP_FACTURAS]
+2025-07-14 22:03:24,510 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [14_DRP_FACTURAS]
+2025-07-14 22:03:24,554 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [14_DRP_FACTURAS]
+2025-07-14 22:04:24,805 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.14_DRP_FACTURAS: 9648 registros
+2025-07-14 22:04:24,806 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [14_DRP_FACTURAS]
+            ==========================================
+            Registros fuente: 9648
+            Registros insertados: 9648
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 22:04:24,828 - services.sync_service - INFO - 🔄 Procesando: 15_DRP_FACTURAS_PAGOS.sql -> [15_DRP_FACTURAS_PAGOS]
+2025-07-14 22:04:24,867 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [15_DRP_FACTURAS_PAGOS]
+2025-07-14 22:05:58,401 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [15_DRP_FACTURAS_PAGOS]
+2025-07-14 22:05:58,540 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [15_DRP_FACTURAS_PAGOS]
+2025-07-14 22:05:58,590 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [15_DRP_FACTURAS_PAGOS]
+2025-07-14 22:05:58,631 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [15_DRP_FACTURAS_PAGOS]
+2025-07-14 22:05:58,701 - services.sync_service - INFO - 🔢 Columna 'importe_op' formateada como número decimal
+2025-07-14 22:05:58,724 - services.sync_service - INFO - 🔢 Columna 'importe_neto' formateada como número decimal
+2025-07-14 22:06:37,160 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.15_DRP_FACTURAS_PAGOS: 5009 registros
+2025-07-14 22:06:37,160 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [15_DRP_FACTURAS_PAGOS]
+            ==========================================
+            Registros fuente: 5009
+            Registros insertados: 5009
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 22:06:37,168 - services.sync_service - INFO - 🔄 Procesando: 16_PRECIARIO.sql -> [16_PRECIARIO]
+2025-07-14 22:06:37,209 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [16_PRECIARIO]
+2025-07-14 22:06:38,307 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [16_PRECIARIO]
+2025-07-14 22:06:38,517 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [16_PRECIARIO]
+2025-07-14 22:06:38,566 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [16_PRECIARIO]
+2025-07-14 22:06:38,623 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [16_PRECIARIO]
+2025-07-14 22:06:45,416 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.16_PRECIARIO: 924 registros
+2025-07-14 22:06:45,418 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [16_PRECIARIO]
+            ==========================================
+            Registros fuente: 924
+            Registros insertados: 924
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 22:06:45,421 - services.sync_service - INFO - 🔄 Procesando: 17_PRECIARIO_IMPUTACIONES.sql -> [17_PRECIARIO_IMPUTACIONES]
+2025-07-14 22:06:45,464 - services.sync_service - INFO - 📊 Usando sincronización por HASH para [17_PRECIARIO_IMPUTACIONES]
+2025-07-14 22:06:48,045 - services.sync_service - INFO - 🔄 Sincronizando con HASH: [17_PRECIARIO_IMPUTACIONES]
+2025-07-14 22:06:48,400 - services.sync_service - INFO - ✅ Columna row_hash ya existe en [17_PRECIARIO_IMPUTACIONES]
+2025-07-14 22:06:48,480 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en [17_PRECIARIO_IMPUTACIONES]
+2025-07-14 22:06:48,569 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en [17_PRECIARIO_IMPUTACIONES]
+2025-07-14 22:06:55,440 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.17_PRECIARIO_IMPUTACIONES: 842 registros
+2025-07-14 22:06:55,441 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - [17_PRECIARIO_IMPUTACIONES]
+            ==========================================
+            Registros fuente: 842
+            Registros insertados: 842
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-14 22:06:55,444 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 413,454
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-14 22:06:55,446 - __main__ - INFO - ✅ Sincronización completada: 413,454 registros
+2025-07-14 22:06:55,473 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-15 11:14:10,683 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-15 11:14:10,683 - __main__ - INFO - Entorno: BIENES
+2025-07-15 11:14:10,683 - __main__ - INFO - Modo: sqlserver
+2025-07-15 11:14:10,684 - __main__ - INFO - Sincronización: full
+2025-07-15 11:14:10,684 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno bienes...
+2025-07-15 11:14:10,711 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-15 11:14:10,711 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: full
+2025-07-15 11:14:10,712 - services.sync_service - INFO - 🔄 Procesando: Bienes_01_BENEFICIARIOS.sql -> Bienes_01_BENEFICIARIOS
+2025-07-15 11:14:11,149 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_01_BENEFICIARIOS
+2025-07-15 11:14:11,942 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-15 11:14:12,378 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-15 11:14:12,378 - adapters.db_adapter - INFO - DSN creado: 10.15.7.45:1521/vivp
+2025-07-15 11:14:13,133 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-15 11:14:13,474 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_01_BENEFICIARIOS
+2025-07-15 11:14:13,590 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_01_BENEFICIARIOS
+2025-07-15 11:14:13,627 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_01_BENEFICIARIOS
+2025-07-15 11:14:13,710 - services.sync_service - INFO - 📊 Encontrados 226 hashes únicos existentes en Bienes_01_BENEFICIARIOS
+2025-07-15 11:14:13,771 - services.sync_service - INFO - 📊 Bienes_01_BENEFICIARIOS: No hay registros nuevos. 226 duplicados ignorados.
+2025-07-15 11:14:13,771 - services.sync_service - INFO - 🔄 Procesando: Bienes_02_CARTERAS.sql -> Bienes_02_CARTERAS
+2025-07-15 11:14:13,864 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_02_CARTERAS
+2025-07-15 11:14:14,172 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_02_CARTERAS
+2025-07-15 11:14:14,294 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_02_CARTERAS
+2025-07-15 11:14:14,339 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_02_CARTERAS
+2025-07-15 11:14:14,407 - services.sync_service - INFO - 📊 Encontrados 229 hashes únicos existentes en Bienes_02_CARTERAS
+2025-07-15 11:14:14,440 - services.sync_service - INFO - 🔢 Columna 'mtstotales' formateada como número decimal
+2025-07-15 11:14:14,493 - services.sync_service - INFO - 📊 Bienes_02_CARTERAS: No hay registros nuevos. 229 duplicados ignorados.
+2025-07-15 11:14:14,493 - services.sync_service - INFO - 🔄 Procesando: Bienes_03_CONTRATOS.sql -> Bienes_03_CONTRATOS
+2025-07-15 11:14:14,563 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_03_CONTRATOS
+2025-07-15 11:14:14,971 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_03_CONTRATOS
+2025-07-15 11:14:15,090 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_03_CONTRATOS
+2025-07-15 11:14:15,131 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_03_CONTRATOS
+2025-07-15 11:14:15,235 - services.sync_service - INFO - 📊 Encontrados 417 hashes únicos existentes en Bienes_03_CONTRATOS
+2025-07-15 11:14:15,617 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Bienes_03_CONTRATOS: 5 registros
+2025-07-15 11:14:15,618 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - Bienes_03_CONTRATOS
+            ==========================================
+            Registros fuente: 421
+            Registros insertados: 5
+            Duplicados ignorados: 416
+            ==========================================
+            
+2025-07-15 11:14:15,620 - services.sync_service - INFO - 🔄 Procesando: Bienes_04_PLAN DE PAGOS.sql -> Bienes_04_PLAN_DE_PAGOS
+2025-07-15 11:14:15,686 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Bienes_04_PLAN_DE_PAGOS
+2025-07-15 11:14:18,471 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Bienes_04_PLAN_DE_PAGOS
+2025-07-15 11:14:18,589 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Bienes_04_PLAN_DE_PAGOS
+2025-07-15 11:14:18,635 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Bienes_04_PLAN_DE_PAGOS
+2025-07-15 11:14:18,676 - services.sync_service - INFO - 📊 Encontrados 0 hashes únicos existentes en Bienes_04_PLAN_DE_PAGOS
+2025-07-15 11:14:42,993 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Bienes_04_PLAN_DE_PAGOS: 4161 registros
+2025-07-15 11:14:42,993 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - Bienes_04_PLAN_DE_PAGOS
+            ==========================================
+            Registros fuente: 4161
+            Registros insertados: 4161
+            Duplicados ignorados: 0
+            ==========================================
+            
+2025-07-15 11:14:43,001 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 4,166
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-15 11:14:43,002 - __main__ - INFO - ✅ Sincronización completada: 4,166 registros
+2025-07-15 11:14:43,019 - __main__ - INFO - === Proceso completado exitosamente ===
+2025-07-15 11:18:22,198 - __main__ - INFO - === DGBienes Multi-Schema Iniciado ===
+2025-07-15 11:18:22,199 - __main__ - INFO - Entorno: CONCESIONES
+2025-07-15 11:18:22,200 - __main__ - INFO - Modo: sqlserver
+2025-07-15 11:18:22,200 - __main__ - INFO - Sincronización: full
+2025-07-15 11:18:22,200 - __main__ - INFO - Iniciando sincronización a SQL Server para entorno concesiones...
+2025-07-15 11:18:22,232 - adapters.sqlserver_adapter - INFO - SQL Server adapter inicializado correctamente
+2025-07-15 11:18:22,233 - services.sync_service - INFO - 🚀 Iniciando sincronización en modo: full
+2025-07-15 11:18:22,234 - services.sync_service - INFO - 🔄 Procesando: Concesiones_01_BENEFICIARIOS.sql -> Concesiones_01_BENEFICIARIOS
+2025-07-15 11:18:22,702 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Concesiones_01_BENEFICIARIOS
+2025-07-15 11:18:22,821 - adapters.db_adapter - INFO - Configuración Oracle detectada. Inicializando adaptador...
+2025-07-15 11:18:22,836 - adapters.db_adapter - INFO - Oracle Client inicializado desde: C:\oracle\instantclient_23_7
+2025-07-15 11:18:22,838 - adapters.db_adapter - INFO - DSN creado: 10.15.7.45:1521/CONP
+2025-07-15 11:18:23,487 - adapters.db_adapter - INFO - ✅ Conexión Oracle exitosa: Oracle conectado
+2025-07-15 11:18:23,895 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Concesiones_01_BENEFICIARIOS
+2025-07-15 11:18:24,011 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Concesiones_01_BENEFICIARIOS
+2025-07-15 11:18:24,057 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Concesiones_01_BENEFICIARIOS
+2025-07-15 11:18:24,371 - services.sync_service - INFO - 📊 Encontrados 381 hashes únicos existentes en Concesiones_01_BENEFICIARIOS
+2025-07-15 11:18:24,442 - services.sync_service - INFO - 📊 Concesiones_01_BENEFICIARIOS: No hay registros nuevos. 381 duplicados ignorados.
+2025-07-15 11:18:24,443 - services.sync_service - INFO - 🔄 Procesando: Concesiones_02_CARTERAS.sql -> Concesiones_02_CARTERAS
+2025-07-15 11:18:24,514 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Concesiones_02_CARTERAS
+2025-07-15 11:18:25,196 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Concesiones_02_CARTERAS
+2025-07-15 11:18:25,322 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Concesiones_02_CARTERAS
+2025-07-15 11:18:25,363 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Concesiones_02_CARTERAS
+2025-07-15 11:18:25,501 - services.sync_service - INFO - 📊 Encontrados 654 hashes únicos existentes en Concesiones_02_CARTERAS
+2025-07-15 11:18:25,595 - services.sync_service - INFO - 📊 Concesiones_02_CARTERAS: No hay registros nuevos. 654 duplicados ignorados.
+2025-07-15 11:18:25,596 - services.sync_service - INFO - 🔄 Procesando: Concesiones_03_CONTRATOS.sql -> Concesiones_03_CONTRATOS
+2025-07-15 11:18:25,673 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Concesiones_03_CONTRATOS
+2025-07-15 11:18:26,142 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Concesiones_03_CONTRATOS
+2025-07-15 11:18:26,272 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Concesiones_03_CONTRATOS
+2025-07-15 11:18:26,318 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Concesiones_03_CONTRATOS
+2025-07-15 11:18:26,382 - services.sync_service - INFO - 📊 Encontrados 546 hashes únicos existentes en Concesiones_03_CONTRATOS
+2025-07-15 11:18:26,458 - services.sync_service - INFO - 📊 Concesiones_03_CONTRATOS: No hay registros nuevos. 546 duplicados ignorados.
+2025-07-15 11:18:26,458 - services.sync_service - INFO - 🔄 Procesando: Concesiones_04_PLAN DE PAGOS.sql -> Concesiones_04_PLAN_DE_PAGOS
+2025-07-15 11:18:26,528 - services.sync_service - INFO - 📊 Usando sincronización por HASH para Concesiones_04_PLAN_DE_PAGOS
+2025-07-15 11:18:34,299 - services.sync_service - INFO - 🔄 Sincronizando con HASH: Concesiones_04_PLAN_DE_PAGOS
+2025-07-15 11:18:34,412 - services.sync_service - INFO - ✅ Columna row_hash ya existe en Concesiones_04_PLAN_DE_PAGOS
+2025-07-15 11:18:34,462 - services.sync_service - INFO - ✅ Todos los registros existentes ya tienen hash en Concesiones_04_PLAN_DE_PAGOS
+2025-07-15 11:18:34,804 - services.sync_service - INFO - 📊 Encontrados 13157 hashes únicos existentes en Concesiones_04_PLAN_DE_PAGOS
+2025-07-15 11:18:37,420 - adapters.sqlserver_adapter - INFO - Datos insertados en dbo.Concesiones_04_PLAN_DE_PAGOS: 11 registros
+2025-07-15 11:18:37,420 - services.sync_service - INFO - 
+            ✅ SINCRONIZACIÓN COMPLETADA - Concesiones_04_PLAN_DE_PAGOS
+            ==========================================
+            Registros fuente: 12964
+            Registros insertados: 11
+            Duplicados ignorados: 12953
+            ==========================================
+            
+2025-07-15 11:18:37,445 - services.sync_service - INFO - 
+        ==========================================
+        🎉 SINCRONIZACIÓN COMPLETADA
+        ==========================================
+        Total registros sincronizados: 11
+        Tablas omitidas: 0
+        Errores: 0
+        ==========================================
+        
+2025-07-15 11:18:37,445 - __main__ - INFO - ✅ Sincronización completada: 11 registros
+2025-07-15 11:18:37,462 - __main__ - INFO - === Proceso completado exitosamente ===

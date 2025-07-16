@@ -34,8 +34,9 @@ class SyncService:
         
         return self.oracle_session
     
+
     def _get_hash_tables_by_environment(self):
-        """Retorna las tablas que usan hash para sincronización incremental"""
+        """Retorna las tablas que usan hash para sincronización incremental - CORREGIDO"""
         app_env = settings.APP_ENV.lower()
         
         if app_env == 'bienes':
@@ -69,90 +70,90 @@ class SyncService:
                 }
             }
         elif app_env == 'sigaf':
+            # 🔧 CORRECCIÓN: Usar nombres CON CORCHETES para que coincidan con sync_config
             return {
-                '01_RELACION_BAC_SIGAF': {
+                '[01_RELACION_BAC_SIGAF]': {
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 },
-                '02_SPR_RENGLONES': { 
+                '[02_SPR_RENGLONES]': { 
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 },
-                '03_SPR_IMPUTACIONES': { 
+                '[03_SPR_IMPUTACIONES]': { 
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 },
-                '04_RPR_SPR_PRD': { 
+                '[04_RPR_SPR_PRD]': { 
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 },
-                '05_RPR_RENGLONES': { 
+                '[05_RPR_RENGLONES]': { 
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 },
-                '06_RPR_IMPUTACIONES': { 
+                '[06_RPR_IMPUTACIONES]': { 
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 },
-                '07_PRD_RENGLONES': { 
+                '[07_PRD_RENGLONES]': { 
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 },
-                '08_PRD_IMPUTACIONES': { 
+                '[08_PRD_IMPUTACIONES]': { 
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 },
-                '09_PRD_FACTURAS': { 
+                '[09_PRD_FACTURAS]': { 
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 },
-                '10_FACTURAS_OP_PAGOS': { 
+                '[10_FACTURAS_OP_PAGOS]': { 
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 },
-                '11_RP': { 
+                '[11_RP]': { 
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 },
-                '12_DRP_RENGLONES': { 
+                '[12_DRP_RENGLONES]': { 
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 },
-                '13_DRP_IMPUTACIONES': { 
+                '[13_DRP_IMPUTACIONES]': { 
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 },
-                '14_DRP_FACTURAS': { 
+                '[14_DRP_FACTURAS]': { 
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 },
-                '15_DRP_FACTURAS_PAGOS': { 
+                '[15_DRP_FACTURAS_PAGOS]': { 
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 },
-                '16_PRECIARIO': { 
+                '[16_PRECIARIO]': { 
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 },
-                '17_PRECIARIO_IMPUTACIONES': { 
+                '[17_PRECIARIO_IMPUTACIONES]': { 
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 },
-                '18_PRD_PRECIARIO': { 
+                '[18_PRD_PRECIARIO]': { 
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 },
-                '19_PRD_PRECIARIO_RENGLONES': { 
+                '[19_PRD_PRECIARIO_RENGLONES]': { 
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 },
-                '20_PRD_PRECIARIO_IMPUTACIONES': { 
+                '[20_PRD_PRECIARIO_IMPUTACIONES]': { 
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 },
-                '21_PRD_PRECIARIO_FACTURAS': { 
+                '[21_PRD_PRECIARIO_FACTURAS]': { 
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 },
-                '22_PAGOS_PRECIARIO': { 
+                '[22_PAGOS_PRECIARIO]': { 
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 },
-                '23_UNIDADES_EJECUTORAS': { 
+                '[23_UNIDADES_EJECUTORAS]': { 
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 },
-                '24_PERIODOS_FISCALES': { 
+                '[24_PERIODOS_FISCALES]': { 
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 },
-                '25_ENTES': { 
+                '[25_ENTES]': { 
                     'exclude_fields': ['id', 'row_hash', 'fecha_registro']
                 }
-
             }
         else:
             return {}
 
-        
+
     def _get_sync_config_by_environment(self):
-        """Retorna la configuración de mapeo según el entorno activo"""
+        """Retorna la configuración de mapeo según el entorno activo - VERIFICADO"""
         app_env = settings.APP_ENV.lower()
         
         if app_env == 'bienes':
@@ -170,6 +171,7 @@ class SyncService:
                 'Concesiones_04_PLAN DE PAGOS.sql': 'Concesiones_04_PLAN_DE_PAGOS'
             }
         elif app_env == 'sigaf':
+            # 🔧 VERIFICADO: Nombres con corchetes coinciden con hash_tables
             return {
                 '01_RELACION_BAC_SIGAF.sql': '[01_RELACION_BAC_SIGAF]',
                 '02_SPR_RENGLONES.sql': '[02_SPR_RENGLONES]',
@@ -204,7 +206,7 @@ class SyncService:
         else:
             self.logger.warning(f"Entorno no reconocido: {app_env}. Usando configuración por defecto.")
             return {}
-        
+
     
     def _get_date_columns_by_environment(self):
         """Retorna las columnas de fecha según el entorno activo"""
