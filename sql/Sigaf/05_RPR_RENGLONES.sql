@@ -18,7 +18,8 @@ select
     ren.k_rdefinitiva,
     ren.i_unitario,
     ren.k_rdefinitiva * ren.i_unitario  as "Total renglon",
-    pr.e_rprovision
+    pr.e_rprovision,
+    ren.xl_descripcion
 from slu.drecepcion_provision_ren REN 
 join slu.trecepcion_provision PR on ren.aa_rprovision = pr.aa_rprovision and ren.t_rprovision=pr.t_rprovision and ren.n_rprovision = pr.n_rprovision
 join slu.torden_compra OC on pr.aa_ocompra= oc.aa_ocompra and pr.t_ocompra = oc.t_ocompra and pr.n_ocompra= oc.n_ocompra

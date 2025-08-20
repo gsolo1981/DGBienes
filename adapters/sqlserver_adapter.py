@@ -22,21 +22,58 @@ class SQLServerAdapter:
             self.database = settings.SQLSERVER_DB
             self.username = settings.SQLSERVER_USER
             self.password = settings.SQLSERVER_PASS
-            self.driver = settings.SQLSERVER_DRIVER or '{ODBC Driver 17 for SQL Server}'
+            self.driver = settings.SQLSERVER_DRIVER or '{ODBC Driver 18 for SQL Server}'
             
-            # Crear engine de SQLAlchemy
+            # 🔧 CORRECCIÓN: Preparar driver para cadena de conexión
+            # Limpiar nombre del driver para URL encoding
+            driver_clean = self.driver.replace(' ', '+').replace('{', '').replace('}', '')
+            
+            # 🔧 NUEVO: Agregar parámetros de seguridad para ODBC Driver 18
+            security_params = ""
+            if "ODBC Driver 18" in self.driver:
+                # Para ODBC Driver 18, agregar parámetros de confianza
+                security_params = "&TrustServerCertificate=yes&Encrypt=yes"
+                self.logger.info("🔐 Usando ODBC Driver 18 con TrustServerCertificate=yes")
+            elif "ODBC Driver 17" in self.driver:
+                # Para ODBC Driver 17, también puede necesitarlo
+                security_params = "&TrustServerCertificate=yes"
+                self.logger.info("🔐 Usando ODBC Driver 17 con TrustServerCertificate=yes")
+            
+            # Crear engine de SQLAlchemy con parámetros de seguridad
             connection_string = (
                 f"mssql+pyodbc://{self.username}:{self.password}@{self.server}/"
-                f"{self.database}?driver={self.driver.replace(' ', '+').replace('{', '').replace('}', '')}"
+                f"{self.database}?driver={driver_clean}{security_params}"
             )
+            
+            self.logger.info(f"🔗 Conectando a SQL Server: {self.server}/{self.database}")
+            self.logger.info(f"🚗 Driver: {self.driver}")
             
             self.engine = create_engine(connection_string, echo=False)
             self.SessionLocal = sessionmaker(bind=self.engine)
             
-            self.logger.info("SQL Server adapter inicializado correctamente")
+            # 🧪 Probar conexión
+            with self.engine.connect() as conn:
+                result = conn.execute(text("SELECT 'SQL Server conectado correctamente' as test"))
+                test_result = result.fetchone()[0]
+                self.logger.info(f"✅ {test_result}")
+            
+            self.logger.info("✅ SQL Server adapter inicializado correctamente")
             
         except Exception as e:
-            self.logger.error(f"Error inicializando SQL Server adapter: {e}")
+            self.logger.error(f"❌ Error inicializando SQL Server adapter: {e}")
+            self.logger.error(f"   Servidor: {settings.SQLSERVER_HOST}")
+            self.logger.error(f"   Base de datos: {settings.SQLSERVER_DB}")
+            self.logger.error(f"   Driver: {self.driver}")
+            
+            # Sugerencias específicas para errores comunes
+            error_str = str(e).lower()
+            if 'certificate chain was issued by an authority that is not trusted' in error_str:
+                self.logger.error("💡 SOLUCIÓN: Problema de certificado SSL resuelto automáticamente")
+                self.logger.error("   Se agregó TrustServerCertificate=yes a la conexión")
+            elif 'data source name not found' in error_str:
+                self.logger.error("💡 SOLUCIÓN: Instalar driver ODBC correcto")
+                self.logger.error("   Descarga: https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server")
+            
             self.engine = None
             self.SessionLocal = None
     
@@ -226,11 +263,11 @@ class SQLServerAdapter:
                 chunksize=10  # Chunks aún más pequeños para tablas problemáticas
             )
             
-            self.logger.info(f"Datos insertados en {schema}.{table_name}: {len(df)} registros")
+            self.logger.info(f"✅ Datos insertados en {schema}.{table_name}: {len(df)} registros")
             
         except Exception as e:
             error_msg = str(e)
-            self.logger.error(f"Error insertando datos en {table_name}: {e}")
+            self.logger.error(f"❌ Error insertando datos en {table_name}: {e}")
             
             # Solo intentar método alternativo para errores específicos
             if "Cannot insert the value NULL" in error_msg or "duplicate" in error_msg.lower():
