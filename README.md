@@ -282,7 +282,7 @@ python main.py --mode sqlserver --sync-mode incremental
 python main.py --mode both --sync-mode full
 
 # Tablas específicas
-python main.py --tables "Bienes_01_BENEFICIARIOS" --sync-mode incremental
+python main.py --tables "09_PRD_FACTURAS" --sync-mode incremental
 ```
 
 ### **🎯 Comandos por Entorno**
